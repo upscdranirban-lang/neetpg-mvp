@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel>
+  <title>NEET-PG Help Blog</title>
+  <link>https://neetpghelp.com/blog/</link>
+  <description>Plain-language explainers and data-driven round-ups on NEET-PG counselling.</description>
+  <lastBuildDate>Wed, 23 Sep 2026 00:00:00 +0000</lastBuildDate>
+  <item>
+    <title>NEET PG College Predictor: How It Works (and Why It Uses Real MCC Data)</title>
+    <link>https://neetpghelp.com/blog/neet-pg-college-predictor-how-it-works.html</link>
+    <guid>https://neetpghelp.com/blog/neet-pg-college-predictor-how-it-works.html</guid>
+    <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
+    <description>No black-box estimate model -- here&#x27;s exactly how the free college predictor turns a rank and category into a shortlist, and what its limits are.</description>
+  </item>
+  <item>
+    <title>NEET PG Branch Predictor: How to Shortlist a Specialty Using Real Closing Ranks</title>
+    <link>https://neetpghelp.com/blog/neet-pg-branch-predictor-guide.html</link>
+    <guid>https://neetpghelp.com/blog/neet-pg-branch-predictor-guide.html</guid>
+    <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
+    <description>Closing rank by specialty is the single most useful number for shortlisting a branch -- here&#x27;s how to actually use it.</description>
+  </item>
+  <item>
+    <title>AIQ vs State Quota in NEET PG Counselling: What Actually Differs</title>
+    <link>https://neetpghelp.com/blog/aiq-vs-state-quota-neet-pg.html</link>
+    <guid>https://neetpghelp.com/blog/aiq-vs-state-quota-neet-pg.html</guid>
+    <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
+    <description>Two different counselling processes, two different authorities, and ranks that don&#x27;t translate directly between them -- here&#x27;s the plain version.</description>
+  </item>
+  <item>
+    <title>How to Read a NEET PG Seat Matrix (Round 1, 2, 3 and Stray Explained)</title>
+    <link>https://neetpghelp.com/blog/how-to-read-neet-pg-seat-matrix.html</link>
+    <guid>https://neetpghelp.com/blog/how-to-read-neet-pg-seat-matrix.html</guid>
+    <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
+    <description>A seat matrix isn&#x27;t static -- it changes every round. Here&#x27;s how to actually read one, and what changes between versions mean.</description>
+  </item>
+  <item>
+    <title>NEET PG Category-Wise Cutoff Explained (Open, OBC, EWS, SC, ST)</title>
+    <link>https://neetpghelp.com/blog/neet-pg-category-wise-cutoff-explained.html</link>
+    <guid>https://neetpghelp.com/blog/neet-pg-category-wise-cutoff-explained.html</guid>
+    <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
+    <description>Why does the same specialty show wildly different closing ranks by category? Real 2025 MCC data for General Medicine makes it concrete.</description>
+  </item>
+  <item>
+    <title>PwD Reservation and NEET PG Closing Ranks: What the Data Actually Shows</title>
+    <link>https://neetpghelp.com/blog/pwd-reservation-neet-pg-closing-ranks.html</link>
+    <guid>https://neetpghelp.com/blog/pwd-reservation-neet-pg-closing-ranks.html</guid>
+    <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
+    <description>A real, quantified example of how PwD allotments -- if handled wrong -- can make a closing rank look 38x higher than it should.</description>
+  </item>
+  <item>
+    <title>A Free ZyNerd Alternative for NEET-PG Counselling Data</title>
+    <link>https://neetpghelp.com/blog/free-zynerd-alternative-neet-pg-counselling.html</link>
+    <guid>https://neetpghelp.com/blog/free-zynerd-alternative-neet-pg-counselling.html</guid>
+    <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
+    <description>ZyNerd&#x27;s NEET PG Pro package costs ₹6,000. Here&#x27;s what you can get for free instead, and where a paid tool still makes sense.</description>
+  </item>
+  <item>
+    <title>NEET-PG 2025: Round 3 vs. Stray Vacancy Round, By the Numbers</title>
+    <link>https://neetpghelp.com/blog/round-3-vs-stray-vacancy-round-2025.html</link>
+    <guid>https://neetpghelp.com/blog/round-3-vs-stray-vacancy-round-2025.html</guid>
+    <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+    <description>We ran the numbers directly from MCC&#x27;s own Round 3 and Stray Vacancy Round PDFs. Here&#x27;s how different the two rounds really were.</description>
+  </item>
+</channel></rss>
