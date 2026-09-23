@@ -13,6 +13,7 @@ from __future__ import annotations
 
 import json
 import subprocess
+import tempfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -83,7 +84,21 @@ def main() -> None:
             print(f"Issue already open for: {title}")
             continue
         body = _issue_body(entry)
-        result = _run_gh(["issue", "create", "--title", title, "--body", body])
+        # Pass the body via a temp file (--body-file), not as a raw CLI
+        # argument (--body). With hundreds of queued documents in one run,
+        # a long body can push the process's argv past the OS's argument
+        # length limit ("Argument list too long"), which crashed this
+        # script and, in turn, aborted the whole workflow before it
+        # reached the GitHub Pages deploy step further down.
+        try:
+            with tempfile.NamedTemporaryFile(
+                "w", suffix=".md", delete=False, encoding="utf-8"
+            ) as f:
+                f.write(body)
+                body_path = f.name
+            result = _run_gh(["issue", "create", "--title", title, "--body-file", body_path])
+        finally:
+            Path(body_path).unlink(missing_ok=True)
         if result is None:
             print(f"(gh CLI not found -- cannot open issue for: {title})")
         elif result.returncode == 0:

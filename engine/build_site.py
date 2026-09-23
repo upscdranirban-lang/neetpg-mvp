@@ -1010,11 +1010,29 @@ def main() -> None:
     # its own <!DOCTYPE>/<html>/<head>/<body> automatically. The real
     # deployment (GitHub Pages) has no such wrapper -- it serves whatever
     # file you give it -- so this writes the full standalone document there.
+    seo_description = (
+        "Free, live NEET-PG counselling tracker: MCC seat matrix, allotment "
+        "results and cutoffs across every round, updated automatically from "
+        "official sources. Independent, not affiliated with MCC or NBEMS."
+    )
     full_html = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>NEET-PG Help — Live MCC PG Counselling Tracker</title>
+<meta name="description" content="{seo_description}">
+<link rel="canonical" href="https://neetpghelp.com/">
+<meta name="robots" content="index, follow">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="NEET-PG Help">
+<meta property="og:title" content="NEET-PG Help — Live MCC PG Counselling Tracker">
+<meta property="og:description" content="{seo_description}">
+<meta property="og:url" content="https://neetpghelp.com/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="NEET-PG Help — Live MCC PG Counselling Tracker">
+<meta name="twitter:description" content="{seo_description}">
+<meta name="theme-color" content="#0b1220">
 </head>
 <body>
 {body_html}
