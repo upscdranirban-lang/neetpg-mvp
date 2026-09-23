@@ -461,7 +461,7 @@ TEMPLATE = r"""<title>NEET-PG Help</title>
       <svg id="theme-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></svg>
     </button>
   </div>
-  <p>Live MCC PG counselling tracker &middot; independent, not official</p>
+  <p>Free NEET PG College Predictor &amp; Branch Predictor &middot; live MCC counselling tracker &middot; independent, not official</p>
 </header>
 <div class="disclaimer-banner">
   Independent, free information service &mdash; not MCC, NBEMS or any government authority, and not officially affiliated with them. Verify against the official source link on every item.
@@ -1010,27 +1010,94 @@ def main() -> None:
     # its own <!DOCTYPE>/<html>/<head>/<body> automatically. The real
     # deployment (GitHub Pages) has no such wrapper -- it serves whatever
     # file you give it -- so this writes the full standalone document there.
+    seo_title = "NEET PG College Predictor & Branch Predictor 2026 — Free, Real MCC Data | NEET-PG Help"
     seo_description = (
-        "Free, live NEET-PG counselling tracker: MCC seat matrix, allotment "
-        "results and cutoffs across every round, updated automatically from "
-        "official sources. Independent, not affiliated with MCC or NBEMS."
+        "Free NEET PG college predictor and branch predictor built on real MCC "
+        "counselling data — seat matrix, allotment results and category-wise "
+        "cutoffs across every round. No signup, no paid plan. Independent, not "
+        "affiliated with MCC or NBEMS."
     )
+    json_ld = """<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebApplication",
+      "name": "NEET-PG Help College & Branch Predictor",
+      "url": "https://neetpghelp.com/",
+      "applicationCategory": "EducationApplication",
+      "operatingSystem": "Any (web-based)",
+      "description": "Free NEET PG college predictor and branch predictor that uses real MCC counselling allotment data (Round 1, 2, 3 and Stray Vacancy) to estimate which colleges and specialties a rank/category combination could realistically reach.",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "INR"
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "NEET-PG Help",
+        "url": "https://neetpghelp.com/",
+        "description": "Independent, free NEET-PG counselling information service. Not affiliated with MCC, NBEMS or any government authority."
+      }
+    },
+    {
+      "@type": "WebSite",
+      "name": "NEET-PG Help",
+      "url": "https://neetpghelp.com/",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://neetpghelp.com/?s={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is the NEET-PG Help college predictor free?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. The college predictor, branch predictor, cutoff explorer and seat matrix explorer are all free to use, with no signup and no paid tier."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where does the NEET-PG closing rank and cutoff data come from?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Directly from official Medical Counselling Committee (MCC) allotment result PDFs for Round 1, Round 2, Round 3 and the Stray Vacancy Round. Every dataset links back to its official source document."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is NEET-PG Help affiliated with MCC or NBEMS?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. NEET-PG Help is an independent, free information service and is not MCC, NBEMS or any government authority."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>"""
     full_html = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>NEET-PG Help — Live MCC PG Counselling Tracker</title>
+<title>{seo_title}</title>
 <meta name="description" content="{seo_description}">
 <link rel="canonical" href="https://neetpghelp.com/">
 <meta name="robots" content="index, follow">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="NEET-PG Help">
-<meta property="og:title" content="NEET-PG Help — Live MCC PG Counselling Tracker">
+<meta property="og:title" content="{seo_title}">
 <meta property="og:description" content="{seo_description}">
 <meta property="og:url" content="https://neetpghelp.com/">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="NEET-PG Help — Live MCC PG Counselling Tracker">
+<meta name="twitter:title" content="{seo_title}">
 <meta name="twitter:description" content="{seo_description}">
 <meta name="theme-color" content="#0b1220">
 <link rel="icon" href="/favicon.ico" sizes="any">
@@ -1039,6 +1106,7 @@ def main() -> None:
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png">
 <link rel="manifest" href="/site.webmanifest">
+{json_ld}
 </head>
 <body>
 {body_html}

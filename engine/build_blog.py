@@ -199,6 +199,30 @@ def list_cards_html() -> str:
     return "\n".join(cards)
 
 
+def _sitemap_xml() -> str:
+    """Regenerated from POSTS + the static pages every build, so the sitemap
+    can never go stale again the way the old hand-maintained file did."""
+    urls = [
+        ("https://neetpghelp.com/", "hourly", "1.0", None),
+        ("https://neetpghelp.com/blog/", "weekly", "0.7", None),
+    ]
+    for post in POSTS:
+        urls.append(
+            (f"https://neetpghelp.com/blog/{post.slug}.html", "monthly", "0.8", post.date)
+        )
+    lines = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
+    for loc, changefreq, priority, lastmod in urls:
+        lines.append("  <url>")
+        lines.append(f"    <loc>{loc}</loc>")
+        if lastmod:
+            lines.append(f"    <lastmod>{lastmod}</lastmod>")
+        lines.append(f"    <changefreq>{changefreq}</changefreq>")
+        lines.append(f"    <priority>{priority}</priority>")
+        lines.append("  </url>")
+    lines.append("</urlset>")
+    return "\n".join(lines) + "\n"
+
+
 def main() -> None:
     BLOG_DIR.mkdir(parents=True, exist_ok=True)
     for post in POSTS:
@@ -208,6 +232,10 @@ def main() -> None:
     index_path = BLOG_DIR / "index.html"
     index_path.write_text(_index_page_html(), encoding="utf-8")
     print(f"Wrote {index_path}")
+
+    sitemap_path = ROOT / "site" / "sitemap.xml"
+    sitemap_path.write_text(_sitemap_xml(), encoding="utf-8")
+    print(f"Wrote {sitemap_path}")
 
 
 if __name__ == "__main__":
