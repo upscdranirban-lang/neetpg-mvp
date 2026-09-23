@@ -20,14 +20,29 @@ OUTPUT_PATH = Path(__file__).resolve().parent.parent / "site" / "data.json"
 
 
 def export(conn) -> dict:
+    # Rank order used by both lists below: a document whose publication date
+    # we actually know (pub_date_confidence high/medium) always outranks one
+    # we don't, regardless of when either was retrieved. Without the
+    # confidence tier first, COALESCE(pub_date, retrieved_at) treats "we
+    # scraped this old 2020/2022/2023 MCC notice for the first time today"
+    # as equivalent to "MCC published this today" -- both get today's date --
+    # so a genuinely old document could jump to the very top of "latest"
+    # just because our monitor happened to discover it in today's run. That
+    # is the bug behind old PDFs (e.g. PG 2022/2023 stray-round results)
+    # showing up above real 2026 notices. Low confidence documents are never
+    # hidden or deleted (we keep full history per the project's versioning
+    # rule) -- they still appear in the full archive and in this list -- they
+    # are just never allowed to outrank a document whose real date we know.
+    RANK = "(CASE WHEN d.pub_date_confidence IS NOT NULL AND d.pub_date_confidence != 'low' THEN 1 ELSE 0 END) DESC"
+
     documents = [
         dict(row)
         for row in conn.execute(
-            """SELECT d.*, s.url as source_url, a.name as authority_name
+            f"""SELECT d.*, s.url as source_url, a.name as authority_name
                FROM documents d
                JOIN sources s ON s.source_id = d.source_id
                JOIN authorities a ON a.id = s.authority_id
-               ORDER BY COALESCE(d.pub_date, d.retrieved_at) DESC, d.id DESC"""
+               ORDER BY {RANK}, COALESCE(d.pub_date, d.retrieved_at) DESC, d.id DESC"""
         )
     ]
 
@@ -39,15 +54,17 @@ def export(conn) -> dict:
     # used to do) meant the "Latest updates" list was really ordered by
     # database insertion order, so an old MCC notice could appear above a
     # genuinely newer one. Sorting by the document's own date is what
-    # actually makes "latest" mean "most recently published by MCC."
+    # actually makes "latest" mean "most recently published by MCC." The
+    # confidence tier (see RANK above) additionally keeps documents with an
+    # unknown real date from ever outranking one we can actually date.
     changes = [
         dict(row)
         for row in conn.execute(
-            """SELECT c.*, d.title, d.doc_type, d.file_url, d.round_label, d.cycle_label,
+            f"""SELECT c.*, d.title, d.doc_type, d.file_url, d.round_label, d.cycle_label,
                       d.pub_date, d.pub_date_basis, d.pub_date_confidence
                FROM data_changes c
                JOIN documents d ON d.id = c.document_id
-               ORDER BY COALESCE(d.pub_date, d.retrieved_at) DESC, c.detected_at DESC, c.id DESC"""
+               ORDER BY {RANK}, COALESCE(d.pub_date, d.retrieved_at) DESC, c.detected_at DESC, c.id DESC"""
         )
     ]
 
