@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PwD Reservation and NEET PG Closing Ranks: What the Data Actually Shows | NEET-PG Help</title>
+<meta name="description" content="How PwD (Persons with Disability) reservation works in NEET PG counselling, and a real example of how wrongly folding PwD allotments into a base category inflated a closing rank from 6,050 to 229,954.">
+<link rel="canonical" href="https://neetpghelp.com/blog/pwd-reservation-neet-pg-closing-ranks.html">
+<meta property="og:title" content="PwD Reservation and NEET PG Closing Ranks: What the Data Actually Shows">
+<meta property="og:description" content="How PwD (Persons with Disability) reservation works in NEET PG counselling, and a real example of how wrongly folding PwD allotments into a base category inflated a closing rank from 6,050 to 229,954.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://neetpghelp.com/blog/pwd-reservation-neet-pg-closing-ranks.html">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,500&family=Public+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --paper: #f5f6fa; --surface: #ffffff; --surface-2: #eef0f7; --line: #dfe3ee;
+    --ink: #121a2b; --ink-muted: #5b637a; --ink-faint: #8991a8;
+    --brand: #16305a; --brand-fill: #16305a; --on-brand-fill: #fdfdff;
+    --accent: #a3742a; --accent-tint: #f6ecd8;
+    --font-display: "Newsreader", ui-serif, Georgia, serif;
+    --font-body: "Public Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    --font-mono: "IBM Plex Mono", ui-monospace, "SF Mono", monospace;
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper: #0a0e18; --surface: #121a2b; --surface-2: #182238; --line: #29334d;
+      --ink: #eef1f8; --ink-muted: #9aa3ba; --ink-faint: #6b7386;
+      --brand: #8fb3ea; --brand-fill: #24437a; --on-brand-fill: #f4f7fd;
+      --accent: #dcae63; --accent-tint: #2c2410;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --paper: #0a0e18; --surface: #121a2b; --surface-2: #182238; --line: #29334d;
+    --ink: #eef1f8; --ink-muted: #9aa3ba; --ink-faint: #6b7386;
+    --brand: #8fb3ea; --brand-fill: #24437a; --on-brand-fill: #f4f7fd;
+    --accent: #dcae63; --accent-tint: #2c2410;
+    color-scheme: dark;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: var(--font-body); background: var(--paper); color: var(--ink); -webkit-font-smoothing: antialiased; }
+  a { color: var(--brand); }
+  .top-link { display: block; padding: 16px; font-size: 13px; font-weight: 600; text-decoration: none; }
+  main { max-width: 640px; margin: 0 auto; padding: 4px 20px 48px; }
+  .eyebrow { font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent); font-weight: 700; }
+  h1 { font-family: var(--font-display); font-size: 28px; font-weight: 600; line-height: 1.25; margin: 8px 0 6px; text-wrap: balance; }
+  .post-date { font-size: 12.5px; color: var(--ink-faint); font-family: var(--font-mono); margin-bottom: 18px; }
+  .hero { background: var(--surface-2); border: 1px solid var(--line); border-radius: 16px; padding: 12px; margin-bottom: 22px; }
+  .hero svg { width: 100%; height: auto; display: block; }
+  article { font-size: 15.5px; line-height: 1.7; }
+  article h2 { font-family: var(--font-display); font-size: 19px; font-weight: 600; margin: 28px 0 8px; }
+  article p { margin: 0 0 14px; }
+  article ul { margin: 0 0 14px; padding-left: 20px; }
+  article li { margin-bottom: 6px; }
+  table { width: 100%; border-collapse: collapse; margin: 0 0 18px; font-size: 13.5px; }
+  th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); }
+  th { font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--ink-faint); }
+  td:not(:first-child), th:not(:first-child) { font-family: var(--font-mono); font-variant-numeric: tabular-nums; }
+  .disclosure { background: var(--accent-tint); border-radius: 12px; padding: 12px 14px; font-size: 12.5px; color: var(--ink-muted); margin: 26px 0 0; }
+  .site-footer { max-width: 640px; margin: 0 auto; padding: 18px 20px 32px; border-top: 1px solid var(--line); font-size: 11.5px; color: var(--ink-faint); line-height: 1.6; }
+  .site-footer a { color: var(--ink-faint); }
+  .card-list { list-style: none; padding: 0; margin: 0; }
+  .card-list li { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 15px 16px; margin-bottom: 10px; }
+  .card-list a { text-decoration: none; color: var(--ink); font-family: var(--font-display); font-size: 17px; font-weight: 600; }
+  .card-list .card-date { font-size: 11.5px; color: var(--ink-faint); font-family: var(--font-mono); margin: 2px 0 6px; }
+  .card-list .card-summary { font-size: 13.5px; color: var(--ink-muted); line-height: 1.55; }
+</style>
+
+</head>
+<body>
+<a class="top-link" href="../index.html">&larr; Back to NEET-PG Help</a>
+<main>
+  <div class="eyebrow">Blog</div>
+  <h1>PwD Reservation and NEET PG Closing Ranks: What the Data Actually Shows</h1>
+  <div class="post-date">2026-09-23</div>
+  <div class="hero">
+<svg viewBox="0 0 320 200" role="img" aria-label="Bar chart showing a closing rank of 229,954 when a PwD allotment is wrongly folded into a category, versus the correct 6,050 when it is excluded">
+  <rect x="0" y="0" width="320" height="200" fill="none"/>
+  <line x1="40" y1="164" x2="290" y2="164" stroke="var(--line)" stroke-width="1.5"/>
+  <g>
+    <rect x="70" y="30" width="70" height="134" rx="6" fill="var(--ink-faint)" opacity="0.55"/>
+    <text x="105" y="20" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="13" font-weight="700" fill="var(--ink)">229,954</text>
+    <text x="105" y="182" text-anchor="middle" font-family="Public Sans, sans-serif" font-size="10.5" font-weight="600" fill="var(--ink-muted)">PwD folded in</text>
+    <text x="105" y="195" text-anchor="middle" font-family="Public Sans, sans-serif" font-size="9" fill="var(--ink-faint)">(wrong)</text>
+  </g>
+  <g>
+    <rect x="190" y="160" width="70" height="4" rx="2" fill="var(--brand-fill)"/>
+    <text x="225" y="150" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="13" font-weight="700" fill="var(--ink)">6,050</text>
+    <text x="225" y="182" text-anchor="middle" font-family="Public Sans, sans-serif" font-size="10.5" font-weight="600" fill="var(--ink-muted)">PwD excluded</text>
+    <text x="225" y="195" text-anchor="middle" font-family="Public Sans, sans-serif" font-size="9" fill="var(--accent)">(correct)</text>
+  </g>
+</svg>
+</div>
+  <article>
+    
+<p>PwD (Persons with Disability) reservation in NEET-PG counselling is a
+<strong>horizontal reservation</strong>: unlike Open, OBC, EWS, SC and ST
+(which are vertical categories that seats are allotted directly against),
+PwD cuts <em>across</em> every vertical category. A candidate can be, for
+example, "OBC PwD" or "Open PwD" -- meaning they hold a PwD-reserved seat
+within the OBC or Open pool, under relaxed eligibility criteria that MCC
+applies for candidates with benchmark disabilities.</p>
+
+<h2>Why this matters for closing-rank data</h2>
+<p>Closing rank is conventionally defined as the <strong>worst (highest)
+rank actually allotted</strong> for a given institute + specialty +
+category. Because PwD eligibility is relaxed, a PwD candidate can be
+allotted a seat at a rank far higher (worse) than any non-PwD candidate in
+that same base category could achieve. If a PwD-tagged row simply gets
+folded into its base category by stripping the "PwD" label -- which is a
+completely reasonable-looking simplification -- that one row can badly
+distort the closing rank shown for everyone else in that category.</p>
+
+<h2>A real example from our own data</h2>
+<p>We found this exact problem while building our Predictor. At Pandit
+Bhagwat Dayal Sharma Post Graduate Institute of Medical Sciences, for
+Orthopaedics (MD/MS), OBC category, 2025 Round 3:</p>
+<table>
+  <thead><tr><th>Method</th><th>Closing rank shown</th></tr></thead>
+  <tbody>
+    <tr><td>PwD allotment folded into OBC (wrong)</td><td>229,954</td></tr>
+    <tr><td>PwD allotment excluded from OBC (correct)</td><td>6,050</td></tr>
+  </tbody>
+</table>
+<p>That's a <strong>38x difference</strong> -- an OBC candidate with a rank
+around 200,000 reading the wrong figure would have believed they had a real
+shot at that seat, when in fact only a PwD-eligible candidate could actually
+get it at that rank. This wasn't an isolated case: across the full 2025
+Round 3 dataset, this issue affected 114 out of 11,278 college+specialty+category
+cells, and 89 out of 9,330 cells in the 2024 dataset we checked.</p>
+
+<h2>How NEET-PG Help handles it now</h2>
+<p>Every closing-rank figure on this site -- across the Predictor, Cutoff
+Explorer and Seat Matrix -- now <strong>excludes PwD-reserved allotments from
+their base category's closing rank</strong> rather than folding them in. This
+doesn't delete any underlying PwD data; it simply stops a PwD row's much
+easier rank from being counted toward the base category's own cutoff, which
+is the statistically correct way to treat a horizontal reservation. A
+dedicated, standalone PwD-category view (showing PwD candidates their own
+actual closing ranks) is a planned addition, not yet live.</p>
+
+<h2>What this means if you're PwD-eligible</h2>
+<p>The base-category figures on this site (Open, OBC, EWS, SC, ST) do
+<strong>not</strong> currently show you a PwD-specific closing rank -- they
+show what a non-PwD candidate in that category could reach. If you hold PwD
+certification, treat these figures as a baseline for the general category
+pool, not your own eligibility window, until a dedicated PwD view is added.</p>
+
+  </article>
+  <p class="disclosure">NEET-PG Help is a free, independent information service. It is not MCC, NBEMS, or any government authority, and is not officially affiliated with them or with any other product or service mentioned above.</p>
+</main>
+
+<footer class="site-footer">
+  <a href="../index.html">NEET-PG Help</a> &middot; neetpghelp.com &middot;
+  independent &amp; free &middot; not affiliated with MCC or NBEMS
+</footer>
+
+</body>
+</html>
