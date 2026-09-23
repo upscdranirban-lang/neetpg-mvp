@@ -1,0 +1,25 @@
+Copyright (c) 2026 Anirban Star. All Rights Reserved.
+
+This repository and all of its contents (including but not limited to source
+code, data pipelines, parsers, validation logic, website markup, styles,
+scripts, and documentation) are the proprietary property of the copyright
+holder.
+
+NO LICENSE IS GRANTED to any person to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of this software or any portion
+of it, whether for commercial or non-commercial purposes, except as may be
+explicitly and separately agreed to in writing by the copyright holder.
+
+The source code is made visible in this public repository solely to enable
+deployment via GitHub Pages and GitHub Actions, and for transparency about
+how publicly published counselling data on the associated website
+(neetpghelp.com) is collected and processed. Visibility does not constitute
+an open-source license or permission to reuse.
+
+All data displayed on the associated website is derived from official
+public counselling authority sources (e.g. MCC, NBEMS, state counselling
+bodies) and is provided for informational purposes only. This project is
+an independent platform and is not affiliated with, endorsed by, or
+operated by MCC, NBEMS, or any government/counselling authority.
+
+For licensing inquiries, please contact the repository owner.
