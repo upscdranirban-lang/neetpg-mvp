@@ -1,0 +1,84 @@
+name: MCC monitor
+
+# Runs the whole pipeline (check MCC -> download any new result -> extract
+# -> validate -> publish or queue for review -> rebuild the site) on a
+# schedule, and lets you fire it manually with the "Run workflow" button
+# on GitHub (Actions tab) any time you don't want to wait for the clock.
+#
+# Every 6 hours is a reasonable starting cadence for a free GitHub account
+# (well inside the free minutes budget) -- tighten it during an active
+# counselling round if you want faster updates, from Settings > this file.
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch: {}
+
+# The job needs to push its own commits (the updated data + site files),
+# open an Issue when something lands in the review queue, and deploy the
+# rebuilt site to GitHub Pages -- all three use the repo's own built-in
+# token/permissions, no extra secret to create.
+permissions:
+  contents: write
+  issues: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: mcc-monitor
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run the monitor + extraction pipeline
+        run: python3 -m engine.run_scheduled
+
+      - name: Commit and push anything that changed
+        run: |
+          git config user.name "neetpghelp-bot"
+          git config user.email "actions@github.com"
+          git add data/ site/
+          if git diff --cached --quiet; then
+            echo "Nothing changed this run."
+          else
+            git commit -m "Automated update: $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
+
+      - name: Open an issue for anything queued for review
+        if: always()
+        run: python3 -m engine.report_review_queue
+        env:
+          GH_TOKEN: ${{ github.token }}
+
+      # Deploys the just-built site/ folder straight to GitHub Pages,
+      # independent of the git commit above (Pages is a separate hosting
+      # target, not "whatever's on a branch") -- this is what makes
+      # site/ ship correctly as-is, with no folder-name restriction the
+      # older "deploy from a branch" method has.
+      - name: Set up GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload the site as a Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
