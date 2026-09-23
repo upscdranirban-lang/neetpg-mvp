@@ -1,0 +1,16 @@
+{
+  "document": {
+    "id": 464,
+    "content_hash": "f6e5f069b97dd23e7047156245cc27c78614bab3f0bd4e7defba0ebaf59e9536",
+    "title": "Notice for Final Result and Schedule of Reporting",
+    "file_url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2022/12/2022121222.pdf",
+    "doc_type": "final_result",
+    "cycle_label": null,
+    "round_label": null
+  },
+  "reason": "unknown_layout",
+  "details": {
+    "note": "This document's table structure doesn't match the r1r2r3 or stray layouts this pipeline knows how to extract. A human needs to look at it and, if it's a new layout worth supporting, write a new extractor for it (see extract_stray_pdf.py for the simplest example to copy)."
+  },
+  "queued_at": "2026-09-23T11:16:13.315179+00:00"
+}

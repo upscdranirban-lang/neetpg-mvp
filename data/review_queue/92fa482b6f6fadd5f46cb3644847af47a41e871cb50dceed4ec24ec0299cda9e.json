@@ -1,0 +1,16 @@
+{
+  "document": {
+    "id": 196,
+    "content_hash": "92fa482b6f6fadd5f46cb3644847af47a41e871cb50dceed4ec24ec0299cda9e",
+    "title": "PROVISIONAL RESULT FOR ROUND-2 MD MS PG 2022",
+    "file_url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2023/06/2023060629.pdf",
+    "doc_type": "provisional_result",
+    "cycle_label": "PG Counselling 2022",
+    "round_label": "Round 2"
+  },
+  "reason": "unknown_layout",
+  "details": {
+    "note": "This document's table structure doesn't match the r1r2r3 or stray layouts this pipeline knows how to extract. A human needs to look at it and, if it's a new layout worth supporting, write a new extractor for it (see extract_stray_pdf.py for the simplest example to copy)."
+  },
+  "queued_at": "2026-09-23T11:00:47.101666+00:00"
+}

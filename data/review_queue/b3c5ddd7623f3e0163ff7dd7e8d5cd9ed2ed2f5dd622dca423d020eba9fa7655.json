@@ -1,0 +1,16 @@
+{
+  "document": {
+    "id": 217,
+    "content_hash": "b3c5ddd7623f3e0163ff7dd7e8d5cd9ed2ed2f5dd622dca423d020eba9fa7655",
+    "title": "NOTICE FOR PROVISIONAL RESULT OF PG 2022 STRAY VACANCY ROUND",
+    "file_url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2023/06/2023060634-1.pdf",
+    "doc_type": "provisional_result",
+    "cycle_label": "PG Counselling 2022",
+    "round_label": "Stray"
+  },
+  "reason": "unknown_layout",
+  "details": {
+    "note": "This document's table structure doesn't match the r1r2r3 or stray layouts this pipeline knows how to extract. A human needs to look at it and, if it's a new layout worth supporting, write a new extractor for it (see extract_stray_pdf.py for the simplest example to copy)."
+  },
+  "queued_at": "2026-09-23T11:04:01.652955+00:00"
+}

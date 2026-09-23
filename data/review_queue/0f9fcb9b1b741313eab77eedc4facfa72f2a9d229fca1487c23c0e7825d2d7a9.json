@@ -1,0 +1,16 @@
+{
+  "document": {
+    "id": 255,
+    "content_hash": "0f9fcb9b1b741313eab77eedc4facfa72f2a9d229fca1487c23c0e7825d2d7a9",
+    "title": "Final Allotment Result Round 2 PG 2021.",
+    "file_url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2022/06/2022062035.pdf",
+    "doc_type": "result",
+    "cycle_label": "PG Counselling 2021",
+    "round_label": "Round 2"
+  },
+  "reason": "unknown_layout",
+  "details": {
+    "note": "This document's table structure doesn't match the r1r2r3 or stray layouts this pipeline knows how to extract. A human needs to look at it and, if it's a new layout worth supporting, write a new extractor for it (see extract_stray_pdf.py for the simplest example to copy)."
+  },
+  "queued_at": "2026-09-23T11:05:43.127880+00:00"
+}

@@ -1,0 +1,16 @@
+{
+  "document": {
+    "id": 436,
+    "content_hash": "47c4e94073a96bf74fc0905cbc7a2422e48f8a9f4fe2f688d9c925dae36c01be",
+    "title": "Deemed Round 2 Final Result Medical",
+    "file_url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2022/12/2022121258.pdf",
+    "doc_type": "final_result",
+    "cycle_label": null,
+    "round_label": "Round 2"
+  },
+  "reason": "unknown_layout",
+  "details": {
+    "note": "This document's table structure doesn't match the r1r2r3 or stray layouts this pipeline knows how to extract. A human needs to look at it and, if it's a new layout worth supporting, write a new extractor for it (see extract_stray_pdf.py for the simplest example to copy)."
+  },
+  "queued_at": "2026-09-23T11:15:29.840311+00:00"
+}

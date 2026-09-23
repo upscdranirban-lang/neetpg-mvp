@@ -1,0 +1,16 @@
+{
+  "document": {
+    "id": 438,
+    "content_hash": "2c1e176183ec08116fe61b775d60f29d483d8f65634f8c7bf88b44e4af7f12c4",
+    "title": "AIQ Round 2 Final Result Dental",
+    "file_url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2022/12/2022121271.pdf",
+    "doc_type": "final_result",
+    "cycle_label": null,
+    "round_label": "Round 2"
+  },
+  "reason": "unknown_layout",
+  "details": {
+    "note": "This document's table structure doesn't match the r1r2r3 or stray layouts this pipeline knows how to extract. A human needs to look at it and, if it's a new layout worth supporting, write a new extractor for it (see extract_stray_pdf.py for the simplest example to copy)."
+  },
+  "queued_at": "2026-09-23T11:15:37.181052+00:00"
+}

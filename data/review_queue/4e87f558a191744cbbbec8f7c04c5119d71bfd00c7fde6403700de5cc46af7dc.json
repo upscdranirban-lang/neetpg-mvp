@@ -1,0 +1,16 @@
+{
+  "document": {
+    "id": 95,
+    "content_hash": "4e87f558a191744cbbbec8f7c04c5119d71bfd00c7fde6403700de5cc46af7dc",
+    "title": "Notice for provisional allotment result for PG Counselling Round 1",
+    "file_url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2024/11/2024111941.pdf",
+    "doc_type": "provisional_result",
+    "cycle_label": null,
+    "round_label": "Round 1"
+  },
+  "reason": "unknown_layout",
+  "details": {
+    "note": "This document's table structure doesn't match the r1r2r3 or stray layouts this pipeline knows how to extract. A human needs to look at it and, if it's a new layout worth supporting, write a new extractor for it (see extract_stray_pdf.py for the simplest example to copy)."
+  },
+  "queued_at": "2026-09-23T10:38:43.434122+00:00"
+}

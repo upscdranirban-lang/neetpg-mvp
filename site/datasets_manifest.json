@@ -9,8 +9,52 @@
       "source_file": "datasets/real2025stray.json"
     },
     {
+      "id": "auto2024r1",
+      "source_file": "datasets/auto2024r1.json"
+    },
+    {
       "id": "real2024",
       "source_file": "datasets/real2024.json"
+    },
+    {
+      "id": "auto2024r3",
+      "source_file": "datasets/auto2024r3.json"
+    },
+    {
+      "id": "auto2024stray",
+      "source_file": "datasets/auto2024stray.json"
+    },
+    {
+      "id": "auto2023r1",
+      "source_file": "datasets/auto2023r1.json"
+    },
+    {
+      "id": "auto2023stray",
+      "source_file": "datasets/auto2023stray.json"
+    },
+    {
+      "id": "auto2022r1",
+      "source_file": "datasets/auto2022r1.json"
+    },
+    {
+      "id": "auto2022unknown_round",
+      "source_file": "datasets/auto2022unknown_round.json"
+    },
+    {
+      "id": "auto2022stray",
+      "source_file": "datasets/auto2022stray.json"
+    },
+    {
+      "id": "auto2021unknown_round",
+      "source_file": "datasets/auto2021unknown_round.json"
+    },
+    {
+      "id": "auto2021stray",
+      "source_file": "datasets/auto2021stray.json"
+    },
+    {
+      "id": "autounknownstray",
+      "source_file": "datasets/autounknownstray.json"
     }
   ]
 }

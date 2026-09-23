@@ -1,0 +1,1118 @@
+sno,rank,quota,institute,course,alloted_category,candidate_category,remarks
+1,419,All India,"Lady Hardinge Medical College,Lady Hardinge Medical College, Delhi (NCT), 110001",M.D. (GENERAL MEDICINE),Open,GN,Allotted
+2,459,Delhi Universities,"Lady Hardinge Medical College,Lady Hardinge Medical College, Delhi (NCT), 110001",M.D. (GENERAL MEDICINE),Open,GN,Allotted
+3,3465,All India,"GOVT MEDICAL COLLEGE,THRISSUR,GOVT MEDICAL COLLEGE,THRISSUR, Kerala, 680596",M.D. (GENERAL MEDICINE),Open,OBC,Allotted
+4,4027,All India,"B.J.Government Medical College, Pune,B.J.Government Medical College, Pune, Maharashtra, 411001",M.D. (GENERAL MEDICINE),Open,GN,Allotted
+5,4145,All India,"PGIMER, DR. RML Hospital,Post Graduate Institute of Medical Education and Research, Dr. RML Hospital, B.K.S. Marg, New Delhi",M.D. (PAEDIATRICS),Open,GN,Allotted
+6,4276,All India,"STANLEY MEDICAL COLLEGE,STANLEY MEDICAL COLLEGE, Tamil Nadu, 600001",M.D. (GENERAL MEDICINE),Open,GN,Allotted
+7,4591,All India,"Vardhman Mahavir Medical College, , New Delhi,Vardhman Mahavir Medical College, , New Delhi, Delhi (NCT), 110029",M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology),Open,GN,Allotted
+8,5109,All India,"Rangaraya Medical College,Rangaraya Medical College Beside SP Office , Pithapuram Road, Kakinada, Andhra Pradesh, 533003",M.D. (RADIO-DIAGNOSIS),Open,GN,Allotted
+9,5249,All India,"Govt. Medical College, Bhavnagar,Near. S.T. Bus Stand,Jail Road, Bhavnagar-364001, Gujarat, 364001",M.D. (GENERAL MEDICINE),Open,GN,Allotted
+10,5460,DNB Quota,"KIMS Hospital,,#1-112/86,Survey No 5/EE, District-RangaReddyBeside Andhra BankSerilingampally Mandle Kondapur Hyd, Telangana, 500084",(NBEMS) RADIO-DIAGNOSIS,Open,GN,Allotted
+11,5538,DNB Quota,"Saifee Hospital, ,postbox no 3771, 15-17 Maharshi Karve Marg, Charni road, Mumbai, Maharashtra, 400004",(NBEMS) RADIO-DIAGNOSIS,Open,EWS,Allotted
+12,5595,All India,"Jorhat Medical College & Hospital,Jorhat Medical College & Hospital, Assam, 785001",M.D. (RADIO-DIAGNOSIS),Open,GN,Allotted
+13,5596,All India,"Government T D Medical College, Vandanm , Alappuzha,Government T D Medical College, Vandanm , Alappuzha, Kerala, 688005",M.D. (PAEDIATRICS),Open,OBC,Allotted
+14,5629,All India,"Grant Medical College, Maharashtra,Grant Medical College, Maharashtra, Maharashtra, 400008",M.D. (RADIO-DIAGNOSIS),OBC,OBC,Allotted
+15,5989,All India,"B.J.Government Medical College, Pune,B.J.Government Medical College, Pune, Maharashtra, 411001","M.D. (DERM.,VENE. and LEPROSY)/ (DERMATOLOGY)/(SKIN and VENEREAL DISEASES)/(VENEREOLOGY)",Open,GN,Allotted
+16,6637,All India,"INSTITUTE OF MEDICAL SCIENCES, BANARAS HINDU UNIVERSITY,INSTITUTE OF MEDICAL SCIENCES, BANARAS HINDU UNIVERSITY, Uttar Pradesh, 221005",M.S. (ORTHOPAEDICS),Open,GN,Allotted
+17,6642,DNB Quota,"Dr. B. Nanavati Hospital, Vivekanand Rd,Swami Vivekananda Rd, near LIC, LIC Colony, Suresh Colony, Vile Parle West, Mumbai, Maharashtra 4000, Maharashtra, 400056",(NBEMS) RADIO-DIAGNOSIS,Open,GN,Allotted
+18,6926,All India,"Mahatma Gandhi Institute of Medical Sciences, Wardha,Mahatma Gandhi Institute of Medical Sciences, Sevagram, Wardha, Maharashtra, 442102",M.D. (GENERAL MEDICINE),Open,GN,Allotted
+19,7400,All India,"Sawai Man Singh Medical College, JAIPUR,Sawai Man Singh Medical College, JAIPUR, Rajasthan, 302004",M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology),Open,GN,Allotted
+20,7870,DNB Quota,"Apollo Hospital International, ,Plot 1A, GIDC Estate, Bhat Gandhinagar, Gujarat, 382428",(NBEMS) RADIO-DIAGNOSIS,Open,GN,Allotted
+21,8171,All India,"Guru Gobind Singh Medical College,Guru Gobind Singh Medical College, Punjab, 151203","M.D. (DERM.,VENE. and LEPROSY)/ (DERMATOLOGY)/(SKIN and VENEREAL DISEASES)/(VENEREOLOGY)",Open,OBC,Allotted
+22,8228,All India,"Government medical college patiala.,Government medical college patiala., Punjab, 147001","M.D. (DERM.,VENE. and LEPROSY)/ (DERMATOLOGY)/(SKIN and VENEREAL DISEASES)/(VENEREOLOGY)",Open,GN,Allotted
+23,8575,All India,"Dr. Sampurnanand Medical College (SNMC), JODHPUR,Dr. Sampurnanand Medical College (SNMC), JODHPUR, Rajasthan, 342001",M.D. (PAEDIATRICS),Open,GN,Allotted
+24,8724,All India,"Pt. Jawahar Lal Nehru Memorial Medical College, RAIPUR,Pt. Jawahar Lal Nehru Memorial Medical College, RAIPUR, Chhattisgarh, 492001",M.D. (GENERAL MEDICINE),Open,GN,Allotted
+25,8933,All India,"Vardhman Mahavir Medical College, , New Delhi,Vardhman Mahavir Medical College, , New Delhi, Delhi (NCT), 110029",M.D. (ANAESTHESIOLOGY),Open,SC,Allotted
+26,9341,All India,"MAHARANI LAXMI BAI MEDICAL COLLEGE JHANSI,MAHARANI LAXMI BAI MEDICAL COLLEGE JHANSI, Uttar Pradesh, 284128",M.D. (PAEDIATRICS),Open,GN,Allotted
+27,9419,All India,"Government Medical College, Miraj,Government Medical College, Miraj, Maharashtra, 416410",M.D. (GENERAL MEDICINE),Open,GN,Allotted
+28,9542,All India,"Kakatiya Medical College,Kakatiya Medical College, Telangana, 506007",M.D. (PAEDIATRICS),Open,GN,Allotted
+29,10198,All India,"Osmania Medical Collge,Osmania Medical Collge, Telangana, 500095",M.D. (PAEDIATRICS),OBC,OBC,Allotted
+30,10244,All India,"S.V. Medical College, Tirupathi ,S.V. Medical College, Tirupathi, Andhra Pradesh, 517507",M.D. (PAEDIATRICS),Open,GN,Allotted
+31,10252,All India,"Government Medical College, Latur,Government Medical College, Old Railway station Near Marwadi Rajasthani High-School Latur, Maharashtra, 413512",M.D. (GENERAL MEDICINE),EWS,EWS,Allotted
+32,10304,All India,"MEDICAL COLLEGE, KOLKATA,MEDICAL COLLEGE, KOLKATA, West Bengal, 700073",M.D. (Tuberculosis and Respiratory diseases)/Pulmonary Medicine /M.D. (Respiratory Medicine),Open,GN,Allotted
+33,10630,All India,"JAWAHARLAL NEHRU MEDICAL COLLEGE, ALIGARH MUSLIM UNIVERSITY STATE UTTAR,JAWAHARLAL NEHRU MEDICAL COLLEGE, ALIGARH MUSLIM UNIVERSITY STATE UTTAR, Uttar Pradesh, 202002",M.D. (Tuberculosis and Respiratory diseases)/Pulmonary Medicine /M.D. (Respiratory Medicine),Open,GN,Allotted
+34,10671,All India,"SHIMOGA INSTITUTE OF MEDICAL SCIENCES,SHIMOGA INSTITUTE OF MEDICAL SCIENCES, Karnataka, 577201",M.D. (GENERAL MEDICINE),EWS,EWS,Allotted
+35,10706,All India,"Govt. Bundelkhand Medical College Sagar M.P.,Govt. Bundelkhand Medical College Sagar M.P., Madhya Pradesh, 470001",M.D. (PAEDIATRICS),Open,GN,Allotted
+36,10833,DNB Quota,"St. Stephen`s Hospital, ,Tis Hazari, Delhi (NCT), 110054",(NBEMS) GENERAL MEDICINE,Open,GN,Allotted
+37,11318,DNB Quota,"Dr. B. Nanavati Hospital, Vivekanand Rd,Swami Vivekananda Rd, near LIC, LIC Colony, Suresh Colony, Vile Parle West, Mumbai, Maharashtra 4000, Maharashtra, 400056",(NBEMS) GENERAL MEDICINE,Open,GN,Allotted
+38,11480,All India,"Rajah Muthiah Medical College,Govt. Medical College and Hospital, Cuddalore District Erstwhile Rajah Muthiah Medical College Annam, Tamil Nadu, 608002",M.D. (PAEDIATRICS),Open,GN,Allotted
+39,11630,All India,"Government Medical College, Nizamabad, Telangana State,Government Medical College, Nizamabad, Telangana State, Telangana, 503001",M.D. (PAEDIATRICS),Open,GN,Allotted
+40,11711,All India,"Seth Gordhandas Sunderdas Medical College, MUMBAI,Seth Gordhandas Sunderdas Medical College, Acharya Donde Marg Parel MUMBAI, Maharashtra, 400012",M.D. (PAEDIATRICS),OBC,OBC,Allotted
+41,11851,All India,"Kakatiya Medical College,Kakatiya Medical College, Telangana, 506007",M.D. (PAEDIATRICS),OBC,OBC,Allotted
+42,11928,All India,"Rangaraya Medical College,Rangaraya Medical College Beside SP Office , Pithapuram Road, Kakinada, Andhra Pradesh, 533003",M.D. (Tuberculosis and Respiratory diseases)/Pulmonary Medicine /M.D. (Respiratory Medicine),Open,OBC,Allotted
+43,12179,DNB Quota,"Shree Mahavir Health and Medical Relief Society Hospital, (Smt. R B Shah Mahavir Super Specialty Hospital and Shri B D Mehta Mahavir Heart Institute) ,SHREE MAHAVIR HEALTH CAMPUS, OPP JIVANBHARTI SCHOOL, NANPURA SURAT, Gujarat, 395001",(NBEMS) GENERAL MEDICINE,Open,OBC,Allotted
+44,12211,All India,"DARBHANGA MEDICAL COLLEGE,Sheetal Prasad Marg, Laheriasarai, Darbhanga, Bihar, Bihar, 846003",M.D. (GENERAL MEDICINE),OBC,OBC,Allotted
+45,12288,All India,"Burdwan Medical College, West Bengal,Burdwan Medical College, West Bengal, West Bengal, 713104",M.D. (RADIO-DIAGNOSIS),EWS,EWS,Allotted
+46,12379,All India,"ESI-POST GRADUATE INSTITUTE OF MEDICAL SCIENCES AND RESEARCH, BASAIDARAPUR, NEW DELHI,ESI-POST GRADUATE INSTITUTE OF MEDICAL SCIENCES AND RESEARCH, BASAIDARAPUR, NEW DELHI, Delhi (NCT), 110015",M.S. (ORTHOPAEDICS),Open,GN,Allotted
+47,12452,All India,"MYSORE MEDICAL COLLEGE AND RESEARCH INSTITUTE,MYSORE MEDICAL COLLEGE AND RESEARCH INSTITUTE, Karnataka, 570001",M.D. (Tuberculosis and Respiratory diseases)/Pulmonary Medicine /M.D. (Respiratory Medicine),Open,GN,Allotted
+48,12467,All India,"Indira Gandhi Medical College Shimla,Indira Gandhi Medical College Shimla, Himachal Pradesh, 171001",M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology),Open,GN,Allotted
+49,12484,All India,"B. J. MEDICAL COLLEGE,B.J. Medical College, New Civil Hospital Asarwa,Ahmedabad-380016,Gujarat,India, Gujarat, 380016",M.D. (PAEDIATRICS),OBC,OBC,Allotted
+50,12603,All India,"Dr Ram Manohar Lohia Institute of Medical Sciences, Lucknow,Dr Ram Manohar Lohia Institute of Medical Sciences, Lucknow, Uttar Pradesh, 226010",M.S. (ORTHOPAEDICS),Open,GN,Allotted
+51,12817,All India,"Sarojini Naidu Medical College, AGRA,Sarojini Naidu Medical College, AGRA, Uttar Pradesh, 282002",DIP. IN DERM. VENEREOLOGY and LEPROSY/DERMATOLOGY /VENEREOLOGY and DERMATOLOGY/LEPROSY/VENEREAL DISEASE and LEPROSY,Open,EWS,Allotted
+52,12871,All India,"ESI-POST GRADUATE INSTITUTE OF MEDICAL SCIENCES AND RESEARCH, BASAIDARAPUR, NEW DELHI,ESI-POST GRADUATE INSTITUTE OF MEDICAL SCIENCES AND RESEARCH, BASAIDARAPUR, NEW DELHI, Delhi (NCT), 110015",M.S. (ORTHOPAEDICS),OBC,OBC,Allotted
+53,13176,All India,"Dr. Sampurnanand Medical College (SNMC), JODHPUR,Dr. Sampurnanand Medical College (SNMC), JODHPUR, Rajasthan, 342001",M.S. (ORTHOPAEDICS),OBC,OBC,Allotted
+54,13307,All India,"SHYAM SHAH MEDICAL COLLEGE,deanmcrewa@rediffmail.com, Madhya Pradesh, 486001",M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology),Open,GN,Allotted
+55,13369,All India,"Government Medical College, Bettiah,Government Medical College Bettiah West Champaran Bihar, Bihar, 845438",M.D. (PAEDIATRICS),Open,GN,Allotted
+56,13386,All India,"KING GEORGES MEDICAL UNIVERSITY,KING GEORGES MEDICAL UNIVERSITY, Uttar Pradesh, 226003",M.D. (Tuberculosis and Respiratory diseases)/Pulmonary Medicine /M.D. (Respiratory Medicine),OBC,OBC,Allotted
+57,13417,All India,"IPGME&R and SSKM Hospital Kolkata,IPGME&R and SSKM Hospital Kolkata, West Bengal, 700020",M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology),Open,GN,Allotted
+58,13457,All India,"Gauhati Medical College, Guwahati,Gauhati Medical College, Guwahati, Assam, 781032",M.D. (Emergency and Critical Care)/M.D. (Emergency Medicine),Open,GN,Allotted
+59,13800,All India,"STANLEY MEDICAL COLLEGE,STANLEY MEDICAL COLLEGE, Tamil Nadu, 600001",M.D. (PAEDIATRICS),EWS,EWS,Allotted
+60,13808,All India,"SHIMOGA INSTITUTE OF MEDICAL SCIENCES,SHIMOGA INSTITUTE OF MEDICAL SCIENCES, Karnataka, 577201",M.D. (PAEDIATRICS),Open,GN,Allotted
+61,13824,All India,"Bangalore Medical College and Research Institute,Bangalore Medical College and Research Institute, Karnataka, 560002",M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology),EWS,EWS,Allotted
+62,13874,DNB Quota,"St. Stephen`s Hospital, ,Tis Hazari, Delhi (NCT), 110054",(NBEMS) PAEDIATRICS,Open,OBC,Allotted
+63,13900,All India,"Guru Gobind Singh Medical College,Guru Gobind Singh Medical College, Punjab, 151203",M.D. (PAEDIATRICS),OBC,OBC,Allotted
+64,13969,All India,"Guru Gobind Singh Medical College,Guru Gobind Singh Medical College, Punjab, 151203",M.D. (Tuberculosis and Respiratory diseases)/Pulmonary Medicine /M.D. (Respiratory Medicine),Open,GN,Allotted
+65,13978,DNB Quota,"South Western Railway,Room No 22 Central Hospital South Western Railway Gadag, road Hubballi, Karnataka, 580020",(NBEMS) GENERAL MEDICINE,OBC,OBC,Allotted
+66,14023,All India,"Pandit Dindayal Upadhyay Medical College, RAJKOT,Pandit Dindayal Upadhyay Medical College, RAJKOT, Gujarat, 360001",M.S. (ORTHOPAEDICS),Open,OBC,Allotted
+67,14103,All India,"Vardhman Mahavir Medical College, , New Delhi,Vardhman Mahavir Medical College, , New Delhi, Delhi (NCT), 110029",M.S. (OPHTHALMOLOGY),Open,OBC,Allotted
+68,14171,All India,"Central Institute of Psychiatry, Ranchi,Central Institute of Psychiatry, Ranchi, Jharkhand, 834006",M.D. (PSYCHIATRY),Open,GN,Allotted
+69,14225,All India,"Government Medical College, Nizamabad, Telangana State,Government Medical College, Nizamabad, Telangana State, Telangana, 503001",M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology),Open,GN,Allotted
+70,14346,All India,"Pandit Bhagwat Dayal Sharma Post Graduate Institute of Medical Sciences, Rohtak,Pandit Bhagwat Dayal Sharma Post Graduate Institute of Medical Sciences, Rohtak, Haryana, 124001",M.D. (PAEDIATRICS),EWS,EWS,Allotted
+71,14387,DNB Quota,"Fortis Memorial Research Institute, ,Fortis memorial research institute, Sector 44, Opposite Huda City Centre Metro station, Gurgaon, Haryana, 122002",(NBEMS) GENERAL MEDICINE,Open,GN,Allotted
+72,14431,All India,"VIJANAGARA INSTITUTE OF MEDICAL SCIENCES BALLARI,VIJANAGARA INSTITUTE OF MEDICAL SCIENCES BALLARI, Karnataka, 583104",M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology),Open,GN,Allotted
+73,14440,All India,"GANDHI MEDICAL COLLEGE,GANDHI MEDICAL COLLEGE, Telangana, 500003","M.D. (DERM.,VENE. and LEPROSY)/ (DERMATOLOGY)/(SKIN and VENEREAL DISEASES)/(VENEREOLOGY)",SC,SC,Allotted
+74,14540,DNB Quota,"Continental Hospital, ,Continental Hospitals Pvt Ltd., Plot No.3, Road No.2, IT & Financial District, Nanakramguda, Gachibo, Telangana, 500032",(NBEMS) GENERAL MEDICINE,Open,GN,Allotted
+75,14712,All India,"Govt. Bundelkhand Medical College Sagar M.P.,Govt. Bundelkhand Medical College Sagar M.P., Madhya Pradesh, 470001",M.S. (ORTHOPAEDICS),OBC,OBC,Allotted
+76,14717,DNB Quota,"Apollo Hospital,Mr. J RamChandra Pr no 3-5-836, to 838 , Near Old MLA quarters, Hyderguda, Hyderabad, Telangana, 500029",(NBEMS) GENERAL MEDICINE,Open,GN,Allotted
+77,14747,All India,"Dr.V.M.Govt.Medical College,Solapur, Maharasthtra,Infron of district court civil chowk Dr.V.M.Govt.Medical College,Solapur, Maharasthtra, Maharashtra, 413003",M.D. (RADIO-DIAGNOSIS),SC,SC,Allotted
+78,14909,All India,"Dr. Rajendra Prasad Government Medical College, Tanda,Dr. Rajendra Prasad Government Medical College, Tanda, Himachal Pradesh, 176002",M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology),Open,GN,Allotted
+79,15077,All India,"Government Medical College, Miraj,Government Medical College, Miraj, Maharashtra, 416410",M.S. (GENERAL SURGERY),Open,GN,Allotted
+80,15084,DNB Quota,"K.E.M. Hospital, ,489, SARDAR MOODLIAR ROAD, RASTA PETH, PUNE 411011, Maharashtra, 411011",(NBEMS) Obstetrics and Gynaecology,Open,GN,Allotted
+81,15142,DNB Quota,"Dr. R N Cooper Municipal General Hospital, (Associated with H B T (Hinduhridayasamrat Balasaheb Thackeray) medical College) ,HBTMC AND DR.R.N.COOPER HOSPITAL U 15 BHAKTI VEDANTA ROAD JVPD SCHEME VILE PARLE WEST MUMBAI, Maharashtra, 400056",(NBEMS) GENERAL MEDICINE,EWS,EWS,Allotted
+82,15168,All India,"Grant Medical College, Maharashtra,Grant Medical College, Maharashtra, Maharashtra, 400008",M.S. (OPHTHALMOLOGY),Open,GN,Allotted
+83,15187,DNB Quota,"Jehangir Hospital, ,32 Sasoon Road Pune, Maharashtra, 411001",(NBEMS) GENERAL MEDICINE,Open,GN,Allotted
+84,15225,All India,"Mahatma Gandhi Memorial Medical College, Jamshedpur,Mahatma Gandhi Memorial Medical College, Jamshedpur, Jharkhand, 831020",DIP.IN MEDICAL RADIO-DIAGNOSIS,Open,EWS,Allotted
+85,15271,All India,"Tirunelveli Medical College,Tirunelveli Medical College, Tamil Nadu, 627011",M.S. (GENERAL SURGERY),Open,OBC,Allotted
+86,15279,All India,"MEDICAL COLLEGE, KOLKATA,MEDICAL COLLEGE, KOLKATA, West Bengal, 700073",M.S. (GENERAL SURGERY),OBC,OBC,Allotted
+87,15330,All India,"KING GEORGES MEDICAL UNIVERSITY,KING GEORGES MEDICAL UNIVERSITY, Uttar Pradesh, 226003",M.S. (OPHTHALMOLOGY),Open,GN,Allotted
+88,15503,All India,"CHENGALPATTU MEDICAL COLLEGE, CHENGALPATTU,CHENGALPATTU MEDICAL COLLEGE, CHENGALPATTU, Tamil Nadu, 603001",M.S. (ORTHOPAEDICS),Open,GN,Allotted
+89,15581,DNB Quota,"Little Flower Hospital and Research Centre,,Post Box 23, Angamaly, Ernakulam, Kerala, Kerala, 683572",(NBEMS) PAEDIATRICS,Open,GN,Allotted
+90,15688,All India,"Shri Vasantrao Naik Govt Medical College Yavatmal,Shri Vasantrao Naik Govt Medical College Yavatmal, Maharashtra, 445001",M.D. (Tuberculosis and Respiratory diseases)/Pulmonary Medicine /M.D. (Respiratory Medicine),Open,GN,Allotted
+91,15977,All India,"S.V. Medical College, Tirupathi ,S.V. Medical College, Tirupathi, Andhra Pradesh, 517507",M.S. (GENERAL SURGERY),OBC,OBC,Allotted
+92,15999,All India,"Srirama Chandra Bhanja Medical College, CUTTACK,Srirama Chandra Bhanja Medical College, CUTTACK, Odisha, 753007",M.S. (OPHTHALMOLOGY),Open,GN,Allotted
+93,16043,DNB Quota,"GMERS Medical College and General Hospital , ,Hadiyol-Gadhoda Road, Near- Government Polytechnic, Hiimmatnagar, Gujarat, 383001",(NBEMS) GENERAL MEDICINE,Open,EWS,Allotted
+94,16086,DNB Quota,"Alexis Multispecialty Hospital,232, Mankapur Square, Koradi road, NAGPUR, Maharashtra, 440030",(NBEMS-DIPLOMA) RADIO-DIAGNOSIS,Open,GN,Allotted
+95,16115,All India,"Maulana Azad Medical College,Maulana Azad Medical College, Delhi (NCT), 110002",M.S. (ORTHOPAEDICS),EWS,EWS,Allotted
+96,16121,All India,"Mahatma Gandhi Memorial Medical College, Jamshedpur,Mahatma Gandhi Memorial Medical College, Jamshedpur, Jharkhand, 831020",M.S. (ORTHOPAEDICS),OBC,OBC,Allotted
+97,16131,All India,"MADRAS MEDICAL COLLEGE,EVR PERIYAR SALAI, CHENNAI-03, Tamil Nadu, 600003",M.S. (E.N.T.),Open,GN,Allotted
+98,16144,DNB Quota,"Wockhardt Hospital, ,1877, Dr. Anand Rao Nair Marg, Mumbai Central, Maharashtra, 400011",(NBEMS) GENERAL MEDICINE,Open,GN,Allotted
+99,16157,All India,"HASSAN INSTITUTE OF MEDICAL SCIENCES, HASSAN,HASSAN INSTITUTE OF MEDICAL SCIENCES, HASSAN, Karnataka, 573201",M.S. (GENERAL SURGERY),EWS,EWS,Allotted
+100,16193,All India,"Government Medical College, Latur,Government Medical College, Old Railway station Near Marwadi Rajasthani High-School Latur, Maharashtra, 413512",M.S. (GENERAL SURGERY),Open,GN,Allotted
+101,16328,DNB Quota,"Shri Lal Bahadur Shastri Government Medical College and Hospital , ,VPO- Bhangrotu, MC- Ner Chowk, District- Mandi, Himachal Pradesh, 175021",(NBEMS) GENERAL MEDICINE,Open,GN,Allotted
+102,16350,All India,"B. J. MEDICAL COLLEGE,B.J. Medical College, New Civil Hospital Asarwa,Ahmedabad-380016,Gujarat,India, Gujarat, 380016",M.S. (GENERAL SURGERY),EWS,EWS,Allotted
+103,16409,DNB Quota,"Rampurhat Govt. Medical College and Hospital, ,RAMPURHAT GOVERNMENT MEDICAL COLLEGE AND HOSPITAL, P.O. RAMPURHAT, P.S. RAMPURHAT, DIST. BIRBHUM, WB, West Bengal, 731224",(NBEMS) GENERAL MEDICINE,Open,GN,Allotted
+104,16550,DNB Quota,"Dr. B L Kapur Memorial Hospital,Pusa Road New Delhi, Delhi (NCT), 110005",(NBEMS) Obstetrics and Gynaecology,Open,GN,Allotted
+105,16569,All India,"NALANDA MEDICAL COLLEGE,PATNA,NALANDA MEDICAL COLLEGE,PATNA, Bihar, 800026",M.S. (GENERAL SURGERY),OBC,OBC,Allotted
+106,16630,DNB Quota,"Fortis Hospital,,B-22, Sector 62, Noida, Uttar Pradesh, Uttar Pradesh, 201301",(NBEMS) GENERAL MEDICINE,Open,GN,Allotted
+107,16637,DNB Quota,"Tirumala Hospital, ,PSR COMPLEX, NEAR RTC COMPLEX, VIZIANAGARAM, Andhra Pradesh, 535003",(NBEMS) GENERAL MEDICINE,Open,GN,Allotted
+108,16644,All India,"Mahatma Gandhi Memorial Medical College, Jamshedpur,Mahatma Gandhi Memorial Medical College, Jamshedpur, Jharkhand, 831020",M.S. (GENERAL SURGERY),Open,GN,Allotted
+109,16710,DNB Quota,"Rampurhat Govt. Medical College and Hospital, ,RAMPURHAT GOVERNMENT MEDICAL COLLEGE AND HOSPITAL, P.O. RAMPURHAT, P.S. RAMPURHAT, DIST. BIRBHUM, WB, West Bengal, 731224",(NBEMS) Obstetrics and Gynaecology,Open,GN,Allotted
+110,16792,DNB Quota,"K.G. Hospital and PG Medical Institute ,,No:5, Arts College Road, Coimbatore - 641018, Tamil Nadu, 641018",(NBEMS-DIPLOMA) RADIO-DIAGNOSIS,Open,GN,Allotted
+111,16817,All India,"JAWAHARLAL NEHRU MEDICAL COLLEGE, ALIGARH MUSLIM UNIVERSITY STATE UTTAR,JAWAHARLAL NEHRU MEDICAL COLLEGE, ALIGARH MUSLIM UNIVERSITY STATE UTTAR, Uttar Pradesh, 202002",M.S. (GENERAL SURGERY),EWS,EWS,Allotted
+112,16859,All India,"Guru Gobind Singh Medical College,Guru Gobind Singh Medical College, Punjab, 151203",M.S. (GENERAL SURGERY),OBC,OBC,Allotted
+113,16908,DNB Quota,"CITY HOSPITAL, Moglaha, ,City Super Speciality Hospital Pvt. Ltd., Moglaha, Medical College Road, Gorakhpur, Uttar Pradesh 27, Uttar Pradesh, 273013",(NBEMS) GENERAL MEDICINE,Open,GN,Allotted
+114,17030,All India,"Burdwan Medical College, West Bengal,Burdwan Medical College, West Bengal, West Bengal, 713104",M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology),OBC,OBC,Allotted
+115,17194,DNB Quota,"Dr. L H Hiranandani Hospital, ,HILL SIDE AVENUE, HIRANANDANI GARDENS, POWAI-400076, Maharashtra, 400076",(NBEMS) PAEDIATRICS,Open,OBC,Allotted
+116,17287,All India,"Tezpur Medical College,Tezpur Medical College, Assam, 784010",M.S. (GENERAL SURGERY),Open,GN,Allotted
+117,17303,All India,"Sardar Patel Medical College, Bikaner,Sardar Patel Medical College, Bikaner, Rajasthan, 334003",M.S. (OPHTHALMOLOGY),Open,GN,Allotted
+118,17321,DNB Quota,"Sanjay Gandhi Memorial Hospital, , ,Sanjay Gandhi Memorial Hospital S-Block, Near Bus Terminal, Mangolpuri, North West, Delhi - 110083, Delhi (NCT), 110083",(NBEMS) Obstetrics and Gynaecology,OBC,OBC,Allotted
+119,17350,DNB Quota,"Rural Development Trust Hospital, ,Kadiri Road,Bathalapalli, Anantapur District Andhra Pradesh, Andhra Pradesh, 515661",(NBEMS) PAEDIATRICS,Open,OBC,Allotted
+120,17537,DNB Quota,"Christian Institute of Health Sciences and Research, ,4th Mile, Central Jail Road, Dimapur, Nagaland, 797115",(NBEMS) GENERAL MEDICINE,Open,GN,Allotted
+121,17651,DNB Quota,"J.L.N. Main Hospital and Research Centre, ,Bhilai Steel Plant Sector-9, Bhilai, C.G., Chhattisgarh, 490009",(NBEMS) GENERAL MEDICINE,OBC,OBC,Allotted
+122,17711,All India,"Mahatma Gandhi Institute of Medical Sciences, Wardha,Mahatma Gandhi Institute of Medical Sciences, Sevagram, Wardha, Maharashtra, 442102",M.D. (PSYCHIATRY),Open,GN,Allotted
+123,17826,DNB Quota,"Dr. Baba Saheb Ambedkar Hospital, ,SEC 6 ROHINI DELHI, Delhi (NCT), 110085",(NBEMS) Obstetrics and Gynaecology,OBC,OBC,Allotted
+124,17870,All India,"Government Medical College, Surat,Government Medical College, Majuragate, Surat., Gujarat, 395001",M.S. (OPHTHALMOLOGY),Open,GN,Allotted
+125,17878,DNB Quota,"Ispat General Hospital,,Ispat General Hospital Rourkela Steel Plant SAIL Rourkela 769005, Odisha, 769005",(NBEMS) GENERAL MEDICINE,OBC,OBC,Allotted
+126,17935,All India,"JAWAHAR LAL NEHRU MEDICAL COLLEGE, AJMER,NEAR PATEL STADIUM, AJMER, Rajasthan, 305001",M.S. (OPHTHALMOLOGY),OBC,OBC,Allotted
+127,17947,All India,"Rajah Muthiah Medical College,Govt. Medical College and Hospital, Cuddalore District Erstwhile Rajah Muthiah Medical College Annam, Tamil Nadu, 608002",M.S. (GENERAL SURGERY),OBC,OBC,Allotted
+128,17966,DNB Quota,"Dr. Babasaheb Ambedkar Central Railway Hospital, ,Bharatratna Dr. Babasaheb Ambedkar Memorial Hospital, Central Railway, Dr. Babasaheb Ambedkar Road,, Maharashtra, 400027",(NBEMS) Obstetrics and Gynaecology,OBC,OBC,Allotted
+129,17974,All India,"Calcutta School Of Tropical Medicine,Calcutta School Of Tropical Medicine, West Bengal, 700073",M.D. (TROPICAL MEDICINE),Open,GN,Allotted
+130,18062,DNB Quota,"Durgapur Steel Plant Hospital, ,J M Sengupta Road, B Zone, Durgapur, Dist- Paschim Bardhaman, West Bengal, 713205",(NBEMS) PAEDIATRICS,OBC,OBC,Allotted
+131,18112,DNB Quota,"Rajiv Gandhi Medical College and Chhatrapati Shivaji Maharaj Hospital, ,RAJIV GANDHI MEDICAL COLLEGE,THANE BELAPUR ROAD, KALWA, THANE, Maharashtra, 400605",(NBEMS) PAEDIATRICS,OBC,OBC,Allotted
+132,18155,All India,"Midnapore Medical College and Hospital,Midnapore Medical College and Hospital, West Bengal, 721101",M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology),OBC,OBC,Allotted
+133,18212,DNB Quota,"Manipal Hospital, ,#98, Rustom Bagh, HAL Airport Road, Bengaluru, Karnataka, 560017",(NBEMS) Obstetrics and Gynaecology,Open,GN,Allotted
+134,18368,DNB Quota,"Government Hospital,,Government Hospital Gandhi Nagar Jammu, Jammu And Kashmir, 180004",(NBEMS) GENERAL MEDICINE,Open,GN,Allotted
+135,18406,DNB Quota,"Sri Ramakrishna Hospital, ,395, Sarojini Naidu Road, Sidhapudur, Coimbatore - 641 044, Tamil Nadu, 641044",(NBEMS-DIPLOMA) PAEDIATRICS,Open,OBC,Allotted
+136,18477,All India,"GADAG INSTITUTE OF MEDICAL SCIENCES GADAG,Gadag Institute of Medical Sciences Mallasamudra Gadag-582103, Karnataka, 582103",M.S. (GENERAL SURGERY),OBC,OBC,Allotted
+137,18487,DNB Quota,"Apollo Hospital, Parsik Hill Road, ,APOLLO HOSPITAL PARSIK HILL ROAD ROAD NO 13 SECTOR 23 CBD BELAPUR NAVI MUMBAI, Maharashtra, 400614",(NBEMS) Obstetrics and Gynaecology,Open,OBC,Allotted
+138,18499,All India,"GOA MEDICAL COLLEGE,GOA MEDICAL COLLEGE, Goa, 403202",M.D. (PSYCHIATRY),OBC,OBC,Allotted
+139,18561,DNB Quota,"Bhavsinhji and Maharani Rupaliba General Hospital, ,Near S. T. Bus Stand, Opp. Bhutnath Temple, Hospital Road, Porbandar, Gujarat, 360575",(NBEMS-DIPLOMA) RADIO-DIAGNOSIS,Open,OBC,Allotted
+140,18583,DNB Quota,"Malabar Institute of Medical Sciences, ,Govindapuram P.O., Mini Bypass Road, Kozhikode, Kerala, 673016",(NBEMS) Obstetrics and Gynaecology,Open,OBC,Allotted
+141,18647,All India,"Baba Raghav Das Medical College,Baba Raghav Das Medical College, Uttar Pradesh, 273013",M.D. (PSYCHIATRY),Open,GN,Allotted
+142,18733,DNB Quota,"Narayana Hrudayalaya Hospital, (NH-Narayana Health City, Bangalore) ,#258 Bommasandra, Bangalore, Karnataka, 560099",(NBEMS) Obstetrics and Gynaecology,Open,GN,Allotted
+143,18771,Delhi Universities,"Lady Hardinge Medical College,Lady Hardinge Medical College, Delhi (NCT), 110001",M.D. (PSYCHIATRY),Open,GN,Allotted
+144,18935,All India,"Assam Medical College,Assam Medical College, Assam, 786002",M.S. (GENERAL SURGERY),OBC,OBC,Allotted
+145,19000,All India,"Govt. Medical College, Bhavnagar,Near. S.T. Bus Stand,Jail Road, Bhavnagar-364001, Gujarat, 364001",M.D. (PSYCHIATRY),Open,GN,Allotted
+146,19190,DNB Quota,"Tata Motors Hospital, ,KHARANGAJHAR, TELCO COLONY JAMSHEDPUR, Jharkhand, 831003",(NBEMS) GENERAL SURGERY,Open,GN,Allotted
+147,19249,DNB Quota,"K.J. Somaiya Medical College,,SOMAIYA AYURVIHAR , EASTERN EXPRESS HIGHWAY, SION, MUMBAI 400022, Maharashtra, 400022",(NBEMS) GENERAL SURGERY,Open,EWS,Allotted
+148,19420,All India,"Guru Gobind Singh Medical College,Guru Gobind Singh Medical College, Punjab, 151203",M.S. (E.N.T.),Open,GN,Allotted
+149,19437,DNB Quota,"Dr. Bidaris Ashwini Hospital,,ASHWINI INSTITUTE OF CHILD HEALTH & RESEARCH CENTER BLDE ROAD VIJAYAPURA BIJAPUR, Karnataka, 586103",(NBEMS) PAEDIATRICS,Open,OBC,Allotted
+150,19579,DNB Quota,"Shri Lal Bahadur Shastri Government Medical College and Hospital , ,VPO- Bhangrotu, MC- Ner Chowk, District- Mandi, Himachal Pradesh, 175021",(NBEMS) PAEDIATRICS,Open,OBC,Allotted
+151,19601,All India,"JAWAHARLAL NEHRU MEDICAL COLLEGE, ALIGARH MUSLIM UNIVERSITY STATE UTTAR,JAWAHARLAL NEHRU MEDICAL COLLEGE, ALIGARH MUSLIM UNIVERSITY STATE UTTAR, Uttar Pradesh, 202002",M.S. (OPHTHALMOLOGY),OBC,OBC,Allotted
+152,19621,All India,"Fakhruddin Ali Ahmed Medical College,Fakhruddin Ali Ahmed Medical College, Assam, 781301",M.D. (RADIO-DIAGNOSIS),SC,SC,Allotted
+153,19630,All India,"Chamarajanagar Institute of Medical Sciences, Karnataka,CHAMARAJANAGAR INSTITUTE OF MEDICAL SCIENCES, SY. NO 124, YEDAPURA VILLAGE KASABA HOBLI, CHAMARAJANA, Karnataka, 571313",M.S. (GENERAL SURGERY),EWS,EWS,Allotted
+154,19787,DNB Quota,"Mydhili Hospital, ,ICS Road Gudur SPSR Nellore District, Andhra Pradesh, 524101",(NBEMS) Obstetrics and Gynaecology,Open,OBC,Allotted
+155,19939,All India,"MYSORE MEDICAL COLLEGE AND RESEARCH INSTITUTE,MYSORE MEDICAL COLLEGE AND RESEARCH INSTITUTE, Karnataka, 570001",M.S. (OPHTHALMOLOGY),Open,GN,Allotted
+156,20012,All India,"Dharwad Institute of Mental Health and Neurosciences (DIMHANS),Dharwad Institute of Mental Health and Neurosciences, Belagavi Road, Dharwad, Karnataka, 580008",M.D. (PSYCHIATRY),Open,OBC,Allotted
+157,20204,DNB Quota,"Asansol District Hospital, ,S. B. GORAI ROAD, P.O.- ASANSOL, DIST.- PASCHIM BARDHAMAN, West Bengal, 713301",(NBEMS) GENERAL MEDICINE,EWS,EWS,Allotted
+158,20261,All India,"Grant Medical College, Maharashtra,Grant Medical College, Maharashtra, Maharashtra, 400008",M.D. (ANAESTHESIOLOGY),Open,GN,Allotted
+159,20293,DNB Quota,"General Hospital, ,SECTOR-6, PANCHKULA, HARYANA-134108, Haryana, 134108",(NBEMS) ORTHOPAEDICS,Open,OBC,Allotted
+160,20471,All India,"JAWAHARLAL NEHRU MEDICAL COLLEGE, ALIGARH MUSLIM UNIVERSITY STATE UTTAR,JAWAHARLAL NEHRU MEDICAL COLLEGE, ALIGARH MUSLIM UNIVERSITY STATE UTTAR, Uttar Pradesh, 202002",M.D. (ANAESTHESIOLOGY),OBC,OBC,Allotted
+161,20673,All India,"Regional Institute of Ophthalmology,Regional Institute of Ophthalmology, Eye Hospital Civil Lines Sitapur, Uttar Pradesh, 261001",M.S. (OPHTHALMOLOGY),Open,GN,Allotted
+162,20721,All India,"Moti Lal Nehru Medical College,Moti Lal Nehru Medical College, Uttar Pradesh, 211001",M.S. (OPHTHALMOLOGY),OBC,OBC,Allotted
+163,20767,DNB Quota,"Yashoda Super Speciality Hospital, ,Nalgonda X Roads, Malakpet, Hyderabad, Telangana, 500036",(NBEMS) Emergency Medicine,Open,GN,Allotted
+164,20872,DNB Quota,"Ruby General Hospital, ,576 Anandapur, Kasba Golpark, E. M. Bypass, Kolkata 700107, West Bengal, 700107",(NBEMS) GENERAL SURGERY,Open,EWS,Allotted
+165,20952,All India,"GANDHI MEDICAL COLLEGE,GANDHI MEDICAL COLLEGE, Telangana, 500003",M.D. (ANAESTHESIOLOGY),Open,GN,Allotted
+166,20962,All India,"Tirunelveli Medical College,Tirunelveli Medical College, Tamil Nadu, 627011",M.S. (OPHTHALMOLOGY),Open,OBC,Allotted
+167,20999,All India,"MADURAI MEDICAL COLLEGE,MADURAI MEDICAL COLLEGE, Tamil Nadu, 625020",M.S. (OPHTHALMOLOGY),Open,GN,Allotted
+168,21017,All India,"Rajah Muthiah Medical College,Govt. Medical College and Hospital, Cuddalore District Erstwhile Rajah Muthiah Medical College Annam, Tamil Nadu, 608002",M.S. (ORTHOPAEDICS),EWS,EWS,Allotted
+169,21114,All India,"Dr. Sampurnanand Medical College (SNMC), JODHPUR,Dr. Sampurnanand Medical College (SNMC), JODHPUR, Rajasthan, 342001",M.D. (PSYCHIATRY),OBC,OBC,Allotted
+170,21192,All India,"GOVT. MEDICAL COLLEGE, AMRITSAR,GOVT. MEDICAL COLLEGE,CIRCULAR ROAD, AMRITSAR, Punjab, 143001",M.S. (E.N.T.),Open,OBC,Allotted
+171,21275,DNB Quota,"Santokbha Durlabhji Memorial Hospital Cum Medical Research Institute, ,dnb.sdmh@gmail.com, Rajasthan, 302015",(NBEMS) ORTHOPAEDICS,Open,GN,Allotted
+172,21308,DNB Quota,"Kalpana Chawla Govt Medical College, ,Model Town, Karnal, Haryana, 132001",(NBEMS) GENERAL SURGERY,OBC,OBC,Allotted
+173,21325,All India,"B. J. MEDICAL COLLEGE,B.J. Medical College, New Civil Hospital Asarwa,Ahmedabad-380016,Gujarat,India, Gujarat, 380016",M.D. (ANAESTHESIOLOGY),Open,GN,Allotted
+174,21379,All India,"Dr.V.M.Govt.Medical College,Solapur, Maharasthtra,Infron of district court civil chowk Dr.V.M.Govt.Medical College,Solapur, Maharasthtra, Maharashtra, 413003",M.S. (OPHTHALMOLOGY),Open,GN,Allotted
+175,21457,All India,"TATA MEMORIAL CENTRE, MUMBAI,TATA MEMORIAL CENTRE, MUMBAI, Maharashtra, 400012",M.D. IN TRANSFUSION MEDICINE/ IMMUNO- HAEMATOLOGY and BLOOD TRANSFUSION,Open,GN,Allotted
+176,21489,All India,"Govt. Medical College, Bhavnagar,Near. S.T. Bus Stand,Jail Road, Bhavnagar-364001, Gujarat, 364001",M.S. (OPHTHALMOLOGY),OBC,OBC,Allotted
+177,21502,All India,"Government Medical College, Miraj,Government Medical College, Miraj, Maharashtra, 416410",M.S. (OPHTHALMOLOGY),Open,GN,Allotted
+178,21617,All India,"Regional Institute of Medical Sciences, Imphal,Regional Institute of Medical Sciences, Imphal, Lamphelpat, Manipur, 795004",M.S. (E.N.T.),Open,GN,Allotted
+179,21643,DNB Quota,"Jaipur Golden Hospital, ,2 INSTITUTIONAL AREA, SECTOR-3, ROHINI, Delhi (NCT), 110085",(NBEMS) GENERAL SURGERY,Open,GN,Allotted
+180,21693,DNB Quota,"Shri Lal Bahadur Shastri Government Medical College and Hospital , ,VPO- Bhangrotu, MC- Ner Chowk, District- Mandi, Himachal Pradesh, 175021",(NBEMS) GENERAL SURGERY,Open,GN,Allotted
+181,21797,All India,"Government Medical College, Latur,Government Medical College, Old Railway station Near Marwadi Rajasthani High-School Latur, Maharashtra, 413512",M.S. (OPHTHALMOLOGY),Open,GN,Allotted
+182,21800,DNB Quota,"Kovai Medical Centre, ,Kovai Medical Center and Hospital, 99, Avanashi Road, Coimbatore - 641014, Tamil Nadu, 641014",(NBEMS) ORTHOPAEDICS,Open,OBC,Allotted
+183,21903,DNB Quota,"Fortis Hospital,, ,730, Em By pass Road, Anandapur, Kolkata, West Bengal, 700107",(NBEMS) Emergency Medicine,Open,GN,Allotted
+184,22044,All India,"Srirama Chandra Bhanja Medical College, CUTTACK,Srirama Chandra Bhanja Medical College, CUTTACK, Odisha, 753007",M.D. (ANAESTHESIOLOGY),Open,GN,Allotted
+185,22175,DNB Quota,"The Gujarat Research and Medical Institute (Rajasthan Hospitals), ,Camp Road, Shahibaug, Ahmedabad, Gujarat, 380004",(NBEMS) GENERAL SURGERY,Open,EWS,Allotted
+186,22360,DNB Quota,"Dr. Babasaheb Ambedkar Central Railway Hospital, ,Bharatratna Dr. Babasaheb Ambedkar Memorial Hospital, Central Railway, Dr. Babasaheb Ambedkar Road,, Maharashtra, 400027",(NBEMS-DIPLOMA) Obstetrics and Gynaecology,Open,GN,Allotted
+187,22362,DNB Quota,"District Hospital, ,District Hospital, B.H.Road, Tumakuru-572101, Karnataka, 572101",(NBEMS) Obstetrics and Gynaecology,EWS,EWS,Allotted
+188,22386,All India,"SHYAM SHAH MEDICAL COLLEGE,deanmcrewa@rediffmail.com, Madhya Pradesh, 486001",M.S. (OPHTHALMOLOGY),OBC,OBC,Allotted
+189,22418,All India,"GAJRA RAJA MEDICAL COLLEGE GWALIOR,GAJRA RAJA MEDICAL COLLEGE GWALIOR, Madhya Pradesh, 474009",M.S. (OPHTHALMOLOGY),OBC,OBC,Allotted
+190,22466,DNB Quota,"Dr. L H Hiranandani Hospital, ,HILL SIDE AVENUE, HIRANANDANI GARDENS, POWAI-400076, Maharashtra, 400076",(NBEMS) GENERAL SURGERY,Open,OBC,Allotted
+191,22542,DNB Quota,"ESI Hospital, ,IG ESI HOSPITAL JHILMIL DELHI - 95, Delhi (NCT), 110095",(NBEMS-DIPLOMA) PAEDIATRICS,Open,GN,Allotted
+192,22560,All India,"Thiruvarur Govt.Medical College,Thiruvarur Govt.Medical College, Tamil Nadu, 610004",M.D. (ANAESTHESIOLOGY),OBC,OBC,Allotted
+193,22633,All India,"Government Medical College Kozhikode,Government Medical College Kozhikode, Kerala, 673008",M.D. (GENERAL MEDICINE),SC,SC,Allotted
+194,22662,DNB Quota,"Associated Hospital Government Medical College, ,Government Medical College Chack Sajjan Kathua, Jammu And Kashmir, 184101",(NBEMS) PAEDIATRICS,OBC,OBC,Allotted
+195,22806,DNB Quota,"Dr. Radhakrishnan Govt. Medical College , ,Dr. Radhakrishnan Govt. Medical College Hamirpur HP, Himachal Pradesh, 177001",(NBEMS) GENERAL SURGERY,EWS,EWS,Allotted
+196,22862,All India,"MYSORE MEDICAL COLLEGE AND RESEARCH INSTITUTE,MYSORE MEDICAL COLLEGE AND RESEARCH INSTITUTE, Karnataka, 570001",M.D. (ANAESTHESIOLOGY),OBC,OBC,Allotted
+197,22951,DNB Quota,"Little Flower Hospital and Research Centre,,Post Box 23, Angamaly, Ernakulam, Kerala, Kerala, 683572",(NBEMS) ORTHOPAEDICS,Open,OBC,Allotted
+198,23156,All India,"Rangaraya Medical College,Rangaraya Medical College Beside SP Office , Pithapuram Road, Kakinada, Andhra Pradesh, 533003",M.D. (ANAESTHESIOLOGY),OBC,OBC,Allotted
+199,23171,All India,"Pimpri Chichwad Municipal Corporation Postgraduate Institute Y.C.M.Hospital Pimpri,Pune 18,Pimpri Chichwad Municipal Corporation Postgraduate Institute Y.C.M.Hospital Pimpri,Pune 18, Maharashtra, 411018",M.D. (ANAESTHESIOLOGY),OBC,OBC,Allotted
+200,23338,DNB Quota,"District Hospital, ,OPPOSITE MARALU SIDDESHWARA TEMPLE MG ROAD CROSS CHIKKABALLAPUR, Karnataka, 562101",(NBEMS) PAEDIATRICS,OBC,OBC,Allotted
+201,23601,All India,"Dr. Rajendra Prasad Government Medical College, Tanda,Dr. Rajendra Prasad Government Medical College, Tanda, Himachal Pradesh, 176002",M.D. (ANAESTHESIOLOGY),Open,GN,Allotted
+202,23624,All India,"Osmania Medical Collge,Osmania Medical Collge, Telangana, 500095",M.D. (Radiotherapy/ Radiation Oncology),Open,EWS,Allotted
+203,23636,All India,"DARBHANGA MEDICAL COLLEGE,Sheetal Prasad Marg, Laheriasarai, Darbhanga, Bihar, Bihar, 846003",M.S. (OPHTHALMOLOGY),OBC,OBC,Allotted
+204,23651,DNB Quota,"Venkateshwar Hospital, ,Sector- 18 A, Dwarka, New Delhi, Delhi (NCT), 110075",(NBEMS) GENERAL SURGERY,Open,GN,Allotted
+205,23685,DNB Quota,"Shri Vinoba Bhave Civil Hospital,,S R Delkar Marg, Saily Road, Silvassa, Dadra And Nagar Haveli, 396230",(NBEMS) GENERAL SURGERY,Open,OBC,Allotted
+206,23754,All India,"Sri Bhausaheb Hire Government Medical College,Sri Bhausaheb Hire Government Medical College, Maharashtra, 424311",M.D. (ANAESTHESIOLOGY),Open,GN,Allotted
+207,23768,All India,"Pt. Jawahar Lal Nehru Memorial Medical College, RAIPUR,Pt. Jawahar Lal Nehru Memorial Medical College, RAIPUR, Chhattisgarh, 492001",M.D. (Radiotherapy/ Radiation Oncology),Open,GN,Allotted
+208,23859,All India,"North Bengal Medical College,North Bengal Medical College, West Bengal, 734012",M.D. (ANAESTHESIOLOGY),Open,GN,Allotted
+209,23888,All India,"NETAJI SUBHASH CHANDRA BOSE MEDICAL COLLEGE, JABALPUR ,NETAJI SUBHASH CHANDRA BOSE MEDICAL COLLEGE, NAGPUR ROAD JABALPUR, Madhya Pradesh, 482003",M.S. (OPHTHALMOLOGY),OBC,OBC,Allotted
+210,23906,DNB Quota,"Chirayu Hospital, ,HATHOJ, KALWAR ROAD, JAIPUR, Rajasthan, 302012",(NBEMS) ORTHOPAEDICS,Open,OBC,Allotted
+211,23913,All India,"NETAJI SUBHASH CHANDRA BOSE MEDICAL COLLEGE, JABALPUR ,NETAJI SUBHASH CHANDRA BOSE MEDICAL COLLEGE, NAGPUR ROAD JABALPUR, Madhya Pradesh, 482003",M.D. (ANAESTHESIOLOGY),OBC,OBC,Allotted
+212,23929,DNB Quota,"Aravind Eye Hospital and Postgraduate Institute of Ophthalmology, ,371, Periyakulam Road, Theni, Tamil Nadu, 625531",(NBEMS) OPHTHALMOLOGY,Open,GN,Allotted
+213,23937,DNB Quota,"District Hospital, ,District hospital chitradurga, B D road beside DHO office Chitradurga, Karnataka, 577501",(NBEMS) Obstetrics and Gynaecology,OBC,OBC,Allotted
+214,23951,All India,"Sri Venkateswara Institute of Medical Sciences (SVIMS), A State University estd. by Govt. of A.P.,Sri Venkateswara Institute of Medical Sciences, SVIMS, Alipiri Road, Tirupati, Andhra Pradesh, 517507",M.D. (ANAESTHESIOLOGY),OBC,OBC,Allotted
+215,23955,All India,"Sanjay Gandhi Postgarduate Institute of Medical Sciences,Sanjay Gandhi Postgarduate Institute of Medical Sciences, Uttar Pradesh, 226014",M.D. (ANAESTHESIOLOGY),OBC,OBC,Allotted
+216,23980,DNB Quota,"Apollo Hospital, ,LOTUS TOWER, G S ROAD, GUWAHATI, Assam, 781005",(NBEMS) Emergency Medicine,Open,GN,Allotted
+217,23992,DNB Quota,"KMC Hospital and Research Centre, ,KMC Hospital and Research Centre 187, Baghpat Road, Meerut, Uttar Pradesh, 250002",(NBEMS) GENERAL SURGERY,Open,OBC,Allotted
+218,24057,All India,"Assam Medical College,Assam Medical College, Assam, 786002",M.D. (ANAESTHESIOLOGY),Open,GN,Allotted
+219,24096,All India,"Regional Institute of Ophthalmology,Regional Institute of Ophthalmology, Eye Hospital Civil Lines Sitapur, Uttar Pradesh, 261001",M.S. (OPHTHALMOLOGY),OBC,OBC,Allotted
+220,24106,DNB Quota,"Vivekananda Polyclinic and Institute of Medical Sciences, ,Vivekananda Polyclinic and Institute of Medical Sciences, Vivekananda Puram, Lucknow, Uttar Pradesh, 226007",(NBEMS) Emergency Medicine,Open,GN,Allotted
+221,24109,DNB Quota,"Porwal Hospital, ,bakliwalravi@gmail.com, Rajasthan, 311001",(NBEMS) ORTHOPAEDICS,Open,OBC,Allotted
+222,24130,All India,"GADAG INSTITUTE OF MEDICAL SCIENCES GADAG,Gadag Institute of Medical Sciences Mallasamudra Gadag-582103, Karnataka, 582103",M.S. (OPHTHALMOLOGY),Open,GN,Allotted
+223,24131,DNB Quota,"Continental Hospital, ,Continental Hospitals Pvt Ltd., Plot No.3, Road No.2, IT & Financial District, Nanakramguda, Gachibo, Telangana, 500032",(NBEMS) ORTHOPAEDICS,Open,OBC,Allotted
+224,24140,All India,"Mahatma Gandhi Institute of Medical Sciences, Wardha,Mahatma Gandhi Institute of Medical Sciences, Sevagram, Wardha, Maharashtra, 442102",M.S. (E.N.T.),OBC,OBC,Allotted
+225,24158,DNB Quota,"Sikkim-Manipal Institute of Medical Sciences, ,5TH MILE , TADONG , GANGTOK, Sikkim, 737102",(NBEMS) GENERAL SURGERY,Open,GN,Allotted
+226,24268,DNB Quota,"Swami Dayanand Hospital, ,Dilshad Garden, Shahdara, Delhi, Delhi (NCT), 110095",(NBEMS-DIPLOMA) Obstetrics and Gynaecology,Open,GN,Allotted
+227,24308,DNB Quota,"Vasant Prabha Surgical Hospital, ,Vasant Prabha Hospital, Nr bus depot vadnagar, District- Mehsana, Gujarat, 384355",(NBEMS) GENERAL SURGERY,Open,OBC,Allotted
+228,24363,DNB Quota,"S. K. S. Hospital, ,NO.23,SKS Hospital Road, Alagapuram,Salem, Tamil Nadu, 636004",(NBEMS) ORTHOPAEDICS,Open,OBC,Allotted
+229,24395,All India,"KING GEORGES MEDICAL UNIVERSITY,KING GEORGES MEDICAL UNIVERSITY, Uttar Pradesh, 226003",M.D. (ANAESTHESIOLOGY),OBC,OBC,Allotted
+230,24397,All India,"Bankura Sammilani Medical College,Bankura Sammilani Medical College, West Bengal, 722102",M.D. (ANAESTHESIOLOGY),Open,GN,Allotted
+231,24478,DNB Quota,"Lilavati Hospital and Research Centre, ,Lilavati Hospital And Research Centre A-791, Bandra Reclamation, Bandra - West, Mumbai, Maharashtra, 400050",(NBEMS) Paediatric Surgery (Direct 6 Years Course),Open,GN,Allotted
+232,24543,All India,"Siddhartha Medical College, Vijayawada,Siddhartha Medical College, Vijayawada, Andhra Pradesh, 520008",M.D. (ANAESTHESIOLOGY),OBC,OBC,Allotted
+233,24547,DNB Quota,"Narayana Hrudayalaya Hospital, (NH-Narayana Health City, Bangalore) ,#258 Bommasandra, Bangalore, Karnataka, 560099",(NBEMS) Paediatric Surgery (Direct 6 Years Course),Open,OBC,Allotted
+234,24560,All India,"Government Medical College Kota,Government Medical College Kota, Rajasthan, 324005",M.D. (ANAESTHESIOLOGY),Open,GN,Allotted
+235,24626,All India,"Dr.V.M.Govt.Medical College,Solapur, Maharasthtra,Infron of district court civil chowk Dr.V.M.Govt.Medical College,Solapur, Maharasthtra, Maharashtra, 413003",M.S. (E.N.T.),OBC,OBC,Allotted
+236,24696,All India,"PATNA MEDICAL COLLEGE, PATNA,PATNA MEDICAL COLLEGE, PATNA, Bihar, 800004",M.D. (ANAESTHESIOLOGY),Open,GN,Allotted
+237,24701,All India,"Gandhi Medical College, Bhopal,Gandhi Medical College, Bhopal, Madhya Pradesh, 462001",M.D. (ANAESTHESIOLOGY),OBC,OBC,Allotted
+238,24736,All India,"GADAG INSTITUTE OF MEDICAL SCIENCES GADAG,Gadag Institute of Medical Sciences Mallasamudra Gadag-582103, Karnataka, 582103",M.S. (OPHTHALMOLOGY),OBC,OBC,Allotted
+239,24743,DNB Quota,"Andhra Hospital (Vijayawada), ,CVR Complex, Governorpet, Vijayawada-520002, Krishna District, Andhra Pradesh, 520002",(NBEMS) GENERAL SURGERY,Open,OBC,Allotted
+240,24799,All India,"VSS INSTITUTE OF MEDICAL SCIENCES AND RESEARCH,BURLA,VSS INSTITUTE OF MEDICAL SCIENCES AND RESEARCH,BURLA, Odisha, 768017",M.D. (ANAESTHESIOLOGY),OBC,OBC,Allotted
+241,24803,All India,"MANDYA INSTITUTE OF MEDICAL SCIENCES,MANDYA INSTITUTE OF MEDICAL SCIENCES MANDYA, Karnataka, 571401",M.S. (OPHTHALMOLOGY),Open,GN,Allotted
+242,24842,All India,"Regional Institute of Medical Sciences, Imphal,Regional Institute of Medical Sciences, Imphal, Lamphelpat, Manipur, 795004",M.D. (PSYCHIATRY),EWS,EWS,Allotted
+243,24904,All India,"Grant Medical College, Maharashtra,Grant Medical College, Maharashtra, Maharashtra, 400008",M.S. (E.N.T.),OBC,OBC,Allotted
+244,24916,All India,"Kakatiya Medical College,Kakatiya Medical College, Telangana, 506007",M.S. (E.N.T.),Open,GN,Allotted
+245,24932,All India,"Jawaharlal Institute of Medical Sciences, Manipur,Jawaharlal Nehru Institute of Medical Sciences, Porompat, Imphal -East, Manipur-795005, Manipur, 795005",M.S. (OPHTHALMOLOGY),Open,GN,Allotted
+246,24988,All India,"Bangalore Medical College and Research Institute,Bangalore Medical College and Research Institute, Karnataka, 560002",M.D. (Radiotherapy/ Radiation Oncology),OBC,OBC,Allotted
+247,25011,All India,"CALCUTTA NATIONAL MEDICAL COLLEGE,CALCUTTA NATIONAL MEDICAL COLLEGE, West Bengal, 700014",M.S. (OPHTHALMOLOGY),OBC,OBC,Allotted
+248,25105,All India,"Mahatma Gandhi Institute of Medical Sciences, Wardha,Mahatma Gandhi Institute of Medical Sciences, Sevagram, Wardha, Maharashtra, 442102",M.D. (ANAESTHESIOLOGY),OBC,OBC,Allotted
+249,25126,DNB Quota,"Dr. Kamakshi Memorial Hospital, (Dr. Kamakshi Institute of Medical Sciences and Research) ,No.1,Radial Road , Pallikaranai, Chennai, Tamil Nadu, 600100",(NBEMS) FAMILY MEDICINE,Open,OBC,Allotted
+250,25176,All India,"GOVT. MEDICAL COLLEGE, THIRUVANANTHAPURAM,GOVT. MEDICAL COLLEGE, THIRUVANANTHAPURAM, Kerala, 695011",M.D. (PATHOLOGY),Open,OBC,Allotted
+251,25215,DNB Quota,"Vasant Prabha Surgical Hospital, ,Vasant Prabha Hospital, Nr bus depot vadnagar, District- Mehsana, Gujarat, 384355",(NBEMS) GENERAL SURGERY,Open,GN,Allotted
+252,25267,All India,"JHALAWAR MEDICAL COLLEGE,JHALAWAR MEDICAL COLLEGE, JHALAWAR, Rajasthan, 326001",M.D. (ANAESTHESIOLOGY),Open,OBC,Allotted
+253,25281,DNB Quota,"National Institute Of Ophthalmology, ,1187.30 ShivajiNagar, off Ghole Road, Pune, Maharashtra, 411005",(NBEMS) OPHTHALMOLOGY,Open,GN,Allotted
+254,25411,DNB Quota,"Virinchi Hospital,,Door No.6-3-2,6-3-3,6-3-3,1, Virinchi Circle, Road No 1, Banjara Hills, Telangana, 500034",(NBEMS) ANAESTHESIOLOGY,Open,GN,Allotted
+255,25419,All India,"Indira Gandhi Medical College Shimla,Indira Gandhi Medical College Shimla, Himachal Pradesh, 171001",M.D. (ANAESTHESIOLOGY),OBC,OBC,Allotted
+256,25485,DNB Quota,"Ranchi Institute of Nuero - Psychiatry and Allied Sciences,,RANCHI INSTITUTE of NEURO-PSYCHIATRY and ALLIED SCIENCES, KANKE, RANCHI, Jharkhand, 834006",(NBEMS) PSYCHIATRY,OBC,OBC,Allotted
+257,25588,DNB Quota,"Shija Hospitals and Research Institute, ,SHIJA HOSPITALS AND RESEARCH INSTITUTE, LANGOL, LAMPHELPAT, IMPHAL WEST, MANIPUR 795004, Manipur, 795004",(NBEMS) Plastic & Reconstructive Surgery (Direct 6 Years Course),Open,GN,Allotted
+258,25641,DNB Quota,"Kainos Super ,Kainos Super Speciality Hospital, Kheri Sadh Bypass, Delhi Road, Rohtak, Haryana, 124021",(NBEMS-DIPLOMA) PAEDIATRICS,Open,GN,Allotted
+259,25653,All India,"Sawai Man Singh Medical College, JAIPUR,Sawai Man Singh Medical College, JAIPUR, Rajasthan, 302004",M.D. (Radiotherapy/ Radiation Oncology),OBC,OBC,Allotted
+260,25728,DNB Quota,"Delhi Heart and Lung Institute, ,3-MM-II PANCHKUIAN RAOD NEW DELHI, Delhi (NCT), 110055",(NBEMS) Cardio Vascular & Thoracic Surgery (Direct 6 Years Course),Open,OBC,Allotted
+261,25843,DNB Quota,"St. Philomena`s Hospital, ,No.4, Campbell Road, Viveknagar P.O. Bangalore - 560047, Karnataka, 560047",(NBEMS) ANAESTHESIOLOGY,Open,OBC,Allotted
+262,25877,DNB Quota,"Dr. B L Kapur Memorial Hospital,Pusa Road New Delhi, Delhi (NCT), 110005",(NBEMS) Cardio Vascular & Thoracic Surgery (Direct 6 Years Course),Open,GN,Allotted
+263,25918,DNB Quota,"Bhagat Phool Singh Govt. Medical College for Women,KHANPUR KALAN SONEPAT, Haryana, 131305",(NBEMS-DIPLOMA) Obstetrics and Gynaecology,OBC,OBC,Allotted
+264,25972,All India,"INSTITUTE OF MEDICAL SCIENCES, BANARAS HINDU UNIVERSITY,INSTITUTE OF MEDICAL SCIENCES, BANARAS HINDU UNIVERSITY, Uttar Pradesh, 221005",M.D. (PATHOLOGY),OBC,OBC,Allotted
+265,25981,DNB Quota,"Government Medical College and Associated Hospital, ,Government Medical College and Associated Hospital, Kheora, Rajouri, Jammu and Kashmir-185131, Jammu And Kashmir, 185131",(NBEMS) ORTHOPAEDICS,EWS,EWS,Allotted
+266,26036,DNB Quota,"Apollo Hospital, Health City, ,Apollo Hospitals, Health City, Chinagadhili, Visakhapatnam, Andhra Pradesh, 530040",(NBEMS) ANAESTHESIOLOGY,Open,OBC,Allotted
+267,26097,DNB Quota,"Kanchi Kamakoti Childs Trust Hospital, ,12 A, NAGESWARA ROAD, NUNGAMBAKKAM, CHENNAI., Tamil Nadu, 600034",(NBEMS) Paediatric Surgery (Direct 6 Years Course),Open,OBC,Allotted
+268,26122,DNB Quota,"Tirumala Hospital, ,PSR COMPLEX, NEAR RTC COMPLEX, VIZIANAGARAM, Andhra Pradesh, 535003",(NBEMS) ORTHOPAEDICS,Open,OBC,Allotted
+269,26142,All India,"Government Medical College Kozhikode,Government Medical College Kozhikode, Kerala, 673008",M.D. (PATHOLOGY),OBC,OBC,Allotted
+270,26189,All India,"M. P. SHAH GOVERNMENT MEDICAL COLLEGE,M. P. SHAH GOVERNMENT MEDICAL COLLEGE, Gujarat, 361008",M.D. (PSYCHIATRY),EWS,EWS,Allotted
+271,26198,All India,"Indira Gandhi Medical College Shimla,Indira Gandhi Medical College Shimla, Himachal Pradesh, 171001",M.D. (ANAESTHESIOLOGY),OBC,OBC,Allotted
+272,26204,DNB Quota,"Max Super Specialty Hospital,,FC 50, Max Wali Rd, C and D Block, Shalimar Place Site, Shalimar Bagh, New Delhi, Delhi 110088, Delhi (NCT), 110088",(NBEMS) ANAESTHESIOLOGY,Open,GN,Allotted
+273,26367,DNB Quota,"Medicover Hospitals, (Formerly MaxCure Hospital) ,hitech city Madhapur Hyderabad, Telangana, 500081",(NBEMS) ANAESTHESIOLOGY,Open,GN,Allotted
+274,26390,All India,"B.J.Government Medical College, Pune,B.J.Government Medical College, Pune, Maharashtra, 411001",M.D. (PATHOLOGY),Open,GN,Allotted
+275,26443,All India,"VIJANAGARA INSTITUTE OF MEDICAL SCIENCES BALLARI,VIJANAGARA INSTITUTE OF MEDICAL SCIENCES BALLARI, Karnataka, 583104",M.S. (OPHTHALMOLOGY),OBC,OBC,Allotted
+276,26538,DNB Quota,"Fortis Escorts Heart Institute, ,Fortis Escorts Heart Institute and Research Centre, Okhla Road, Delhi (NCT), 110025",(NBEMS) Cardio Vascular & Thoracic Surgery (Direct 6 Years Course),Open,OBC,Allotted
+277,26561,DNB Quota,"Rabindranath Tagore International Institute of Cardiac Sciences, ,PREMISES NO. 1489 124 MUKUNDAPUR E M BYPASS KOLKATA-700099, West Bengal, 700099",(NBEMS) ANAESTHESIOLOGY,Open,GN,Allotted
+278,26602,DNB Quota,"Mahatme Eye Bank and Eye Hospital, ,2163-C, Chintaman Nagar, Near Rajiv Nagar, Somalwada,, Maharashtra, 440025",(NBEMS) OPHTHALMOLOGY,Open,GN,Allotted
+279,26640,DNB Quota,"M.I.O.T. Hospital, ,4 112 MOUNT POONAMALLEE ROAD MANAPAKKAM CHENNAI 600089, Tamil Nadu, 600089",(NBEMS) Cardio Vascular & Thoracic Surgery (Direct 6 Years Course),Open,GN,Allotted
+280,26641,DNB Quota,"Batra Hospital and Medical Research Centre, ,1, Tughlakabad institutional Area, Mehrauli Badarpur Road, New Delhi, Delhi (NCT), 110062",(NBEMS) ANAESTHESIOLOGY,Open,GN,Allotted
+281,26867,All India,"Guru Gobind Singh Medical College,Guru Gobind Singh Medical College, Punjab, 151203",M.D. (Radiotherapy/ Radiation Oncology),Open,GN,Allotted
+282,26876,All India,"Pandit Bhagwat Dayal Sharma Post Graduate Institute of Medical Sciences, Rohtak,Pandit Bhagwat Dayal Sharma Post Graduate Institute of Medical Sciences, Rohtak, Haryana, 124001",M.D. (ANAESTHESIOLOGY),EWS,EWS,Allotted
+283,26932,All India,"Gauhati Medical College, Guwahati,Gauhati Medical College, Guwahati, Assam, 781032",M.S. (OPHTHALMOLOGY),OBC,OBC,Allotted
+284,26981,DNB Quota,"Ispat General Hospital,,Ispat General Hospital Rourkela Steel Plant SAIL Rourkela 769005, Odisha, 769005",(NBEMS) OPHTHALMOLOGY,Open,GN,Allotted
+285,27014,All India,"MEDICAL COLLEGE, KOLKATA,MEDICAL COLLEGE, KOLKATA, West Bengal, 700073",M.S. (OPHTHALMOLOGY),EWS,EWS,Allotted
+286,27093,All India,"MADRAS MEDICAL COLLEGE,EVR PERIYAR SALAI, CHENNAI-03, Tamil Nadu, 600003",DIPLOMA IN DIABETOLOGY,Open,OBC,Allotted
+287,27097,DNB Quota,"SAL Hospital and Medical Institute,,drharsha@salhospital.com, Gujarat, 380054",(NBEMS) ANAESTHESIOLOGY,Open,OBC,Allotted
+288,27151,DNB Quota,"Tata Motors Hospital, ,KHARANGAJHAR, TELCO COLONY JAMSHEDPUR, Jharkhand, 831003",(NBEMS) ANAESTHESIOLOGY,Open,GN,Allotted
+289,27190,DNB Quota,"Sadhu Vaswani Missions ,7-9 Lane No 1 Koregaon Park Pune 411001, Maharashtra, 411001",(NBEMS) RADIATION ONCOLOGY,Open,GN,Allotted
+290,27210,DNB Quota,"Sri Sathya Sai Institute of Higher Medical Sciences, ,PRASANTHIGRAM , PUTTAPARTHI ANANTAPUR, Andhra Pradesh, 515134",(NBEMS) OPHTHALMOLOGY,Open,GN,Allotted
+291,27263,DNB Quota,"Sahyadri Narayana Multispecialty Hospital, Harakere,,NT ROAD, HARAKERE , SHIMOGA, Karnataka, 577202",(NBEMS) ANAESTHESIOLOGY,Open,GN,Allotted
+292,27337,DNB Quota,"Choithram Hospital and Research Centre,Manika Bagh Road Indore, Madhya Pradesh, 452014",(NBEMS) ANAESTHESIOLOGY,Open,GN,Allotted
+293,27348,DNB Quota,"Ispat General Hospital,,Ispat General Hospital Rourkela Steel Plant SAIL Rourkela 769005, Odisha, 769005",(NBEMS) ANAESTHESIOLOGY,OBC,OBC,Allotted
+294,27430,DNB Quota,"Caritas Hospital, ,Thellakom P.O, Kerala, 686630",(NBEMS) RADIATION ONCOLOGY,Open,GN,Allotted
+295,27473,DNB Quota,"J.L.N. Main Hospital and Research Centre, ,Bhilai Steel Plant Sector-9, Bhilai, C.G., Chhattisgarh, 490009",(NBEMS) OPHTHALMOLOGY,Open,GN,Allotted
+296,27619,All India,"Bangalore Medical College and Research Institute,Bangalore Medical College and Research Institute, Karnataka, 560002",M.D. (PATHOLOGY),Open,OBC,Allotted
+297,27657,All India,"Seth Gordhandas Sunderdas Medical College, MUMBAI,Seth Gordhandas Sunderdas Medical College, Acharya Donde Marg Parel MUMBAI, Maharashtra, 400012",M.D. (ANAESTHESIOLOGY),EWS,EWS,Allotted
+298,27690,DNB Quota,"Sarakshi Netralaya, ,PLOT NO 19 RAJIV NAGAR WARDHA ROAD NAGPUR, Maharashtra, 440025",(NBEMS) OPHTHALMOLOGY,Open,GN,Allotted
+299,27819,DNB Quota,"Anand Hospital and Eye Centre, ,21 BHARAT MATA LANE JAMNA LAL BAJAJ MARG C SCHEME JAIPUR EXT. SER. AT 406 SURESH MARG NEAR BAGADIA B, Rajasthan, 302001",(NBEMS) OPHTHALMOLOGY,Open,GN,Allotted
+300,27893,DNB Quota,"Deen Dayal Upadhyay Hospital, ,DDU HOSPITAL, SHAHEED MANGAL PANDEY MARG, NANAK PURA, HARI NAGAR, NEW DELHI, DELHI-110064, Delhi (NCT), 110064",(NBEMS) ANAESTHESIOLOGY,EWS,EWS,Allotted
+301,27964,DNB Quota,"District Hospital, ,District Hospital Next to Sainik School second gate Athani Road, Vijayapura Karnataka 586103, Karnataka, 586103",(NBEMS-DIPLOMA) PAEDIATRICS,Open,GN,Allotted
+302,28026,All India,"Murshidabad Medical College and Hospital,Station Road, Berhampore, Murshidabad, West Bengal, 742101",M.D. (ANAESTHESIOLOGY),OBC,OBC,Allotted
+303,28042,DNB Quota,"Jamnabai General Hospital, ,Mandvi-Panigate Road, Mandvi, Opp. SBI Main Branch, Vadodara., Gujarat, 390017",(NBEMS) ANAESTHESIOLOGY,Open,GN,Allotted
+304,28154,DNB Quota,"Kerala Institute of Medical Sciences, ,PB NO.1, ANAYARA PO, TRIVANDRUM, Kerala, 695024",(NBEMS) RADIATION ONCOLOGY,Open,GN,Allotted
+305,28156,DNB Quota,"Hospital for Mental Health, ,Near Jeevan Bharti School,Karelibaug,Vadodara, Gujarat, 390018",(NBEMS) PSYCHIATRY,OBC,OBC,Allotted
+306,28196,DNB Quota,"GMERS Medical College and Hospital, ,GMERS MEDICAL COLLEGE, NEAR GUJARAT HIGH COURT, S.G HIGH WAY, SOLA, AHMEDABAD, Gujarat, 380060",(NBEMS-DIPLOMA) RADIO-DIAGNOSIS,SC,SC,Allotted
+307,28274,All India,"DARBHANGA MEDICAL COLLEGE,Sheetal Prasad Marg, Laheriasarai, Darbhanga, Bihar, Bihar, 846003",M.D. (ANAESTHESIOLOGY),OBC,OBC,Allotted
+308,28279,DNB Quota,"Dr. Kothari`s Eye Hospital,,Patel Circle, Udaipur, Rajasthan, 313001",(NBEMS) OPHTHALMOLOGY,Open,GN,Allotted
+309,28312,All India,"Mahatma Gandhi Memorial Medical College, Jamshedpur,Mahatma Gandhi Memorial Medical College, Jamshedpur, Jharkhand, 831020",M.D. (ANAESTHESIOLOGY),OBC,OBC,Allotted
+310,28314,All India,"Assam Medical College,Assam Medical College, Assam, 786002",DIPLOMA IN CHILD HEALTH/ PAEDIATRICS,Open,GN,Allotted
+311,28346,DNB Quota,"Amar Hospital, ,#8, Bank Colony, Income Tax Office Road, Patiala, Punjab, 147001",(NBEMS) ANAESTHESIOLOGY,Open,GN,Allotted
+312,28519,DNB Quota,"Eternal Heart Care Centre and Research Institute, ,3A, Jagatpura Road, Near Jawahar Circle, Malviya Nagar, Jaipur, Rajasthan, 302017",(NBEMS) ANAESTHESIOLOGY,Open,OBC,Allotted
+313,28544,DNB Quota,"Suraj Eye Institute, ,559, New Colony, Maharashtra, 440001",(NBEMS) OPHTHALMOLOGY,Open,GN,Allotted
+314,28689,DNB Quota,"Government Medical College and Associated Hospital,,JANGLAT MANDI ANANTNAG, JAMMU AND KASHMIR 192101, Jammu And Kashmir, 192101",(NBEMS) ANAESTHESIOLOGY,Open,GN,Allotted
+315,28780,All India,"JAWAHARLAL NEHRU MEDICAL COLLEGE, ALIGARH MUSLIM UNIVERSITY STATE UTTAR,JAWAHARLAL NEHRU MEDICAL COLLEGE, ALIGARH MUSLIM UNIVERSITY STATE UTTAR, Uttar Pradesh, 202002",M.S. (E.N.T.),EWS,EWS,Allotted
+316,28941,DNB Quota,"Visakha Eye Hospital , ,Managed By Visakha Nethra Jyothi Pvt Ltd 8-1-64 Pedda Waltari Visakhapatnam, Andhra Pradesh, 530017",(NBEMS) OPHTHALMOLOGY,Open,OBC,Allotted
+317,28945,All India,"NIL RATAN SIRCAR MEDICAL COLLEGE,NIL RATAN SIRCAR MEDICAL COLLEGE, 138 AJC BOSE ROAD, KOLKATA-700014., West Bengal, 700014",M.D. (ANAESTHESIOLOGY),OBC,OBC,Allotted
+318,28988,DNB Quota,"Advanced Medical Research Institute (AMRI) Hospital,,AMRI Hospitals, Bhubaneswar Plot no-1, Besides Satya Sai Enclave, Khandagiri, Bhubaneswar, Odisha, 751030",(NBEMS-DIPLOMA) PAEDIATRICS,Open,EWS,Allotted
+319,29123,All India,"Grant Medical College, Maharashtra,Grant Medical College, Maharashtra, Maharashtra, 400008",M.D. (PAEDIATRICS),SC,SC,Allotted
+320,29166,DNB Quota,"Balrampur Hospital, ,Gola Ganj, lucknow, Uttar Pradesh, 226018",(NBEMS) ANAESTHESIOLOGY,Open,GN,Allotted
+321,29207,DNB Quota,"KIMS Saveera Hospital,#1-1348 OPPOSITE SAKSHI OFFICE,RUDRAMPET,ANANTAPURAM-515004, Andhra Pradesh, 515004",(NBEMS) ANAESTHESIOLOGY,Open,GN,Allotted
+322,29220,DNB Quota,"Dr. Virendra Laser, Phaco Surgery Center - Eye Hospital ,,Vision Tower, Gandhi Nagar, Tonk Road , Near Toyota Motor Showroom, jaipur, Rajasthan, 302015",(NBEMS) OPHTHALMOLOGY,Open,GN,Allotted
+323,29286,DNB Quota,"Bhagat Phool Singh Govt. Medical College for Women,KHANPUR KALAN SONEPAT, Haryana, 131305",(NBEMS-DIPLOMA) PAEDIATRICS,OBC,OBC,Allotted
+324,29350,DNB Quota,"District Hospital, ,DISTRICT HOSPITAL NEAR SANGAM CIRCLE DR RAJ KUMAR ROAD BALLARI-583101 KARNATAKA, Karnataka, 583101",(NBEMS) ANAESTHESIOLOGY,OBC,OBC,Allotted
+325,29373,All India,"TOPIWALA NATIONAL MEDICAL COLLEGE,TOPIWALA NATIONAL MEDICAL COLLEGE, Maharashtra, 400008",M.D. (PATHOLOGY),Open,GN,Allotted
+326,29533,DNB Quota,"Shija Hospitals and Research Institute, ,SHIJA HOSPITALS AND RESEARCH INSTITUTE, LANGOL, LAMPHELPAT, IMPHAL WEST, MANIPUR 795004, Manipur, 795004",(NBEMS) ANAESTHESIOLOGY,Open,GN,Allotted
+327,29591,All India,"MEDICAL COLLEGE, KOLKATA,MEDICAL COLLEGE, KOLKATA, West Bengal, 700073",M.D. IN TRANSFUSION MEDICINE/ IMMUNO- HAEMATOLOGY and BLOOD TRANSFUSION,Open,GN,Allotted
+328,29703,DNB Quota,"Sir Ganga Ram Hospital, ,Rajinder Nagar, New Delhi, Delhi (NCT), 110060",(NBEMS) Palliative Medicine,Open,GN,Allotted
+329,29871,DNB Quota,"JLN Government Hospital,,NH 89 BIKANER ROAD, NAGAUR, Rajasthan, 341001",(NBEMS-DIPLOMA) Obstetrics and Gynaecology,Open,EWS,Allotted
+330,29884,DNB Quota,"General Hospital , ,GENERAL HOSPITAL MORBI, GANDHI CHOKE NEAR TOWN HALL MORBI, Gujarat, 363641",(NBEMS-DIPLOMA) PAEDIATRICS,Open,GN,Allotted
+331,30068,DNB Quota,"District Hospital, ,District Hospital, Near KEB, PB Road, Haveri, Karnataka, 581110",(NBEMS-DIPLOMA) Obstetrics and Gynaecology,OBC,OBC,Allotted
+332,30075,DNB Quota,"District Hospital, ,District Hospital, Near KEB, PB Road, Haveri, Karnataka, 581110",(NBEMS-DIPLOMA) Obstetrics and Gynaecology,OBC,OBC,Allotted
+333,30089,All India,"MADRAS MEDICAL COLLEGE,EVR PERIYAR SALAI, CHENNAI-03, Tamil Nadu, 600003",M.D. (ANAESTHESIOLOGY),EWS,EWS,Allotted
+334,30167,All India,"VSS INSTITUTE OF MEDICAL SCIENCES AND RESEARCH,BURLA,VSS INSTITUTE OF MEDICAL SCIENCES AND RESEARCH,BURLA, Odisha, 768017",M.D. (ANAESTHESIOLOGY),EWS,EWS,Allotted
+335,30319,All India,"Gauhati Medical College, Guwahati,Gauhati Medical College, Guwahati, Assam, 781032",M.D. (Radiotherapy/ Radiation Oncology),OBC,OBC,Allotted
+336,30348,All India,"Bangalore Medical College and Research Institute,Bangalore Medical College and Research Institute, Karnataka, 560002",M.D. IN TRANSFUSION MEDICINE/ IMMUNO- HAEMATOLOGY and BLOOD TRANSFUSION,Open,OBC,Allotted
+337,30369,All India,"Tirunelveli Medical College,Tirunelveli Medical College, Tamil Nadu, 627011",M.D. (ANAESTHESIOLOGY),EWS,EWS,Allotted
+338,30371,DNB Quota,"Max Super Specialty Hospital, ,1,2, Press Enclave Road, Saket, New Delhi, Delhi (NCT), 110017",(NBEMS) Palliative Medicine,Open,GN,Allotted
+339,30416,DNB Quota,"District Hospital, ,OPPOSITE MARALU SIDDESHWARA TEMPLE MG ROAD CROSS CHIKKABALLAPUR, Karnataka, 562101",(NBEMS-DIPLOMA) PAEDIATRICS,OBC,OBC,Allotted
+340,30446,DNB Quota,"NEOTIA GETWEL HEALTHCARE CENTRE, ,Uttorayon, Behind City Centre, Matigara, Siliguri, West Bengal, 734010",(NBEMS-DIPLOMA) PAEDIATRICS,Open,GN,Allotted
+341,30542,DNB Quota,"GMERS Medical College and General Hospital , ,Hadiyol-Gadhoda Road, Near- Government Polytechnic, Hiimmatnagar, Gujarat, 383001",(NBEMS-DIPLOMA) RADIO-DIAGNOSIS,SC,SC,Allotted
+342,30707,DNB Quota,"General Hospital - Sub District Hospital, Gujarat,Opp Nagar Palika Deesa banaskantha, Gujarat, 385535",(NBEMS-DIPLOMA) PAEDIATRICS,EWS,EWS,Allotted
+343,30909,DNB Quota,"K C General Hospital, ,No. 89, 5th Cross, Malleshwaram, Bangalore, Karnataka, 560003",(NBEMS-DIPLOMA) Obstetrics and Gynaecology,EWS,EWS,Allotted
+344,30965,DNB Quota,"PRS Hospital,,PRS HOSPITAL PVT LTD KILLIPALAM THIRUVANATHAPURAM KERALA. <academics@prshospital.com>, Kerala, 695002",(NBEMS-DIPLOMA) ANAESTHESIOLOGY,Open,OBC,Allotted
+345,30974,DNB Quota,"General Hospital, ,General Hospital Pavagada Tumakuru District Karnataka 561202, Karnataka, 561202",(NBEMS-DIPLOMA) PAEDIATRICS,OBC,OBC,Allotted
+346,31015,All India,"Vardhman Mahavir Medical College, , New Delhi,Vardhman Mahavir Medical College, , New Delhi, Delhi (NCT), 110029",M.D. (PAEDIATRICS),ST,ST,Allotted
+347,31103,DNB Quota,"General Hospital, ,OLD SABJI MANDI HINDUAN GATE KARAULI, Rajasthan, 322241",(NBEMS-DIPLOMA) PAEDIATRICS,OBC,OBC,Allotted
+348,31172,All India,"LOKMANYA TILAK MEDICAL COLLEGE MUMBAI,LOKMANYA TILAK MEDICAL COLLEGE MUMBAI, Maharashtra, 400022",M.S. (ORTHOPAEDICS),SC,SC,Allotted
+349,31334,All India,"Government Medical College, Surat,Government Medical College, Majuragate, Surat., Gujarat, 395001",M.D. (PATHOLOGY),Open,GN,Allotted
+350,31376,DNB Quota,"Sadar Hospital, ,Sadar Hospital, Belisarai, Motihari, East Champaran, Bihar, Under Government of Bihar, Bihar, 845401",(NBEMS-DIPLOMA) PAEDIATRICS,Open,GN,Allotted
+351,31398,DNB Quota,"Govt. District Hospital, Rajasthan,Ajmer Road Kekri District Ajmer, Rajasthan, 305404",(NBEMS-DIPLOMA) PAEDIATRICS,Open,EWS,Allotted
+352,31442,DNB Quota,"SBLS Civil Hospital, ,NEAR JYOTI CHOWK JAIL ROAD JALANDHAR, Punjab, 144001",(NBEMS) ANAESTHESIOLOGY,EWS,EWS,Allotted
+353,31444,DNB Quota,"Government District General Hospital, ,Government District General Hospital, Noonepalle, Nandyal - 518502, Andhra Pradesh, 518502",(NBEMS) FAMILY MEDICINE,EWS,EWS,Allotted
+354,31537,DNB Quota,"District Hospital, ,District hospital chitradurga, B D road beside DHO office Chitradurga, Karnataka, 577501",(NBEMS-DIPLOMA) PAEDIATRICS,Open,OBC,Allotted
+355,31755,DNB Quota,"Malabar Cancer Centre, ,Moozhikkara PO, Thalassery, Kannur, Kerala, 670103",(NBEMS) PATHOLOGY,OBC,OBC,Allotted
+356,31756,All India,"Osmania Medical Collge,Osmania Medical Collge, Telangana, 500095",DIPLOMA IN OPHTHALMOLOGY/DOMS,OBC,OBC,Allotted
+357,31812,DNB Quota,"Life line Super Specialty Hospital, ,14th Mile, Melood P.O Adoor , Pathanamthitta Dist, Kerala, 691554",(NBEMS-DIPLOMA) ANAESTHESIOLOGY,Open,OBC,Allotted
+358,31876,DNB Quota,"Lalbagh Sub Division Hospital, West Bengal,Golapbagh, PO-Murshidabad, PS- Murshidabad, Dist.-Murshidabad, West Bengal, 742149",(NBEMS-DIPLOMA) PAEDIATRICS,EWS,EWS,Allotted
+359,31884,All India,"NIZAMS INSTITUTE OF MEDICAL SCIENCES,NIZAMS INSTITUTE OF MEDICAL SCIENCES PANJAGUTTA HYDERABAD, Telangana, 500082",M.D. (Hospital Administration),Open,GN,Allotted
+360,31951,DNB Quota,"Government Medical College and Bangur Hospital, Nh62 Sumerpur Road Village Ramasiya Pali Rajasthan , Rajasthan-306401,Government Medical College and Bangur Hospital Nh62 Sumerpur Road Village Ramasiya Pali Rajasthan Ra, Rajasthan, 306401",(NBEMS-DIPLOMA) Tuberculosis and CHEST DISEASES,Open,OBC,Allotted
+361,32145,DNB Quota,"Gabberia State General Hospital, ,gabberiasgh@gmail.com, West Bengal, 711322",(NBEMS-DIPLOMA) Obstetrics and Gynaecology,EWS,EWS,Allotted
+362,32177,DNB Quota,"District Hospital, ,Old City Road Dholpur, Rajasthan, 328001",(NBEMS-DIPLOMA) PAEDIATRICS,OBC,OBC,Allotted
+363,32279,DNB Quota,"MAXCARE Hospital, ,6-1-236, Near Kuda Office Line Sai Nagar, Opposite Ashoka Hotel, Hanamkonda, Telangana 506001, Telangana, 506001",(NBEMS-DIPLOMA) Tuberculosis and CHEST DISEASES,Open,GN,Allotted
+364,32363,DNB Quota,"Tej Bahadur Sapru Hospital, ,Stanley Road opp Erny memorial school Beli Goan Prayagraj up pin- 211002, Uttar Pradesh, 211002",(NBEMS-DIPLOMA) PAEDIATRICS,OBC,OBC,Allotted
+365,32370,DNB Quota,"Ahalia Diabetes Hospital , Kerala,Ahalia Campus Kozhippara Post, Kerala, 678557",(NBEMS-DIPLOMA) ANAESTHESIOLOGY,Open,OBC,Allotted
+366,32623,All India,"Seth Gordhandas Sunderdas Medical College, MUMBAI,Seth Gordhandas Sunderdas Medical College, Acharya Donde Marg Parel MUMBAI, Maharashtra, 400012",M.D. (PATHOLOGY),OBC,OBC,Allotted
+367,32631,DNB Quota,"Govt. DB General District Hospital, ,Govt. D.B. General District Hospital, Naya Bass, Churu, Rajasthan, 331001",(NBEMS-DIPLOMA) Tuberculosis and CHEST DISEASES,Open,EWS,Allotted
+368,32730,All India,"Ganesh Shankar Vidyarthi Memorial Medical College,Ganesh Shankar Vidyarthi Memorial Medical College, Uttar Pradesh, 208002",M.D. (PATHOLOGY),Open,OBC,Allotted
+369,32795,DNB Quota,"Government Multi Specialty Hospital, ,Director Health and Family Welfare Govt. Multi Speciality Hospital Sector 16 Chandigarh, Chandigarh, 160016",(NBEMS-DIPLOMA) Otorhinolaryngology (E.N.T.),Open,GN,Allotted
+370,32849,DNB Quota,"NAIHATI STATE GENERAL HOSPITAL , West Bengal,NAIHATI NORTH 24 PARGANAS, West Bengal, 743165",(NBEMS-DIPLOMA) Tuberculosis and CHEST DISEASES,OBC,OBC,Allotted
+371,32946,All India,"JAWAHARLAL NEHRU MEDICAL COLLEGE, ALIGARH MUSLIM UNIVERSITY STATE UTTAR,JAWAHARLAL NEHRU MEDICAL COLLEGE, ALIGARH MUSLIM UNIVERSITY STATE UTTAR, Uttar Pradesh, 202002",DIPLOMA IN OPHTHALMOLOGY/DOMS,OBC,OBC,Allotted
+372,33092,All India,"NETAJI SUBHAS NATIONAL INSTITUTE OF SPORTS, PATIALA,NETAJI SUBHAS NATIONAL INSTITUTE OF SPORTS, OLD MOTIBAGH, PATIALA, Punjab, 147001",DIP. IN SPORTS MEDICINE,OBC,OBC,Allotted
+373,33197,DNB Quota,"Associated Hospital Government Medical College, ,Kanth Bagh Baramulla, Jammu And Kashmir, 193103",(NBEMS-DIPLOMA) PAEDIATRICS,OBC,OBC,Allotted
+374,33219,All India,"Sawai Man Singh Medical College, JAIPUR,Sawai Man Singh Medical College, JAIPUR, Rajasthan, 302004",M.D. (PATHOLOGY),Open,GN,Allotted
+375,33300,DNB Quota,"General Hospital , ,GENERAL HOSPITAL MORBI, GANDHI CHOKE NEAR TOWN HALL MORBI, Gujarat, 363641",(NBEMS-DIPLOMA) ANAESTHESIOLOGY,Open,GN,Allotted
+376,33379,All India,"Moti Lal Nehru Medical College,Moti Lal Nehru Medical College, Uttar Pradesh, 211001",M.D. (PATHOLOGY),Open,EWS,Allotted
+377,33468,All India,"VSS INSTITUTE OF MEDICAL SCIENCES AND RESEARCH,BURLA,VSS INSTITUTE OF MEDICAL SCIENCES AND RESEARCH,BURLA, Odisha, 768017",M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE,Open,GN,Allotted
+378,33532,DNB Quota,"Mahatma Gandhi Hospital, Bhilwara Swami Ram Charan Marg, Bhopal Ganj, Bhilwara, Rajasthan Rajasthan , Rajasthan-311001,Mahatma Gandhi Hospital, Bhilwara Swami Ram Charan Marg, Bhopal Ganj, Bhilwara, Rajasthan Rajasthan , Rajasthan, 311001",(NBEMS-DIPLOMA) PAEDIATRICS,OBC,OBC,Allotted
+379,33702,DNB Quota,"SSG government district hospital, ,Udaipur road, Senthi, Chittorgarh, Rajasthan, Rajasthan, 312001",(NBEMS-DIPLOMA) Tuberculosis and CHEST DISEASES,OBC,OBC,Allotted
+380,33804,DNB Quota,"Aster CMI Hospital, ,43/2 New Airport Road, NH-7, Kodigehalli, Sahakara Nagar, Hebbal, Bengaluru, Karnataka, 560092",(NBEMS) Palliative Medicine,Open,GN,Allotted
+381,34213,DNB Quota,"Sir Ganga Ram Hospital, ,Rajinder Nagar, New Delhi, Delhi (NCT), 110060",(NBEMS) Hospital Administration,Open,GN,Allotted
+382,34229,All India,"GOVT. MEDICAL COLLEGE AND HOSPITAL, CHANDIGARH,GOVT. MEDICAL COLLEGE AND HOSPITAL, CHANDIGARH, Chandigarh, 160030",M.D. IN TRANSFUSION MEDICINE/ IMMUNO- HAEMATOLOGY and BLOOD TRANSFUSION,Open,OBC,Allotted
+383,34352,DNB Quota,"K.G. Hospital and PG Medical Institute ,,No:5, Arts College Road, Coimbatore - 641018, Tamil Nadu, 641018",(NBEMS-DIPLOMA) OPHTHALMOLOGY,Open,OBC,Allotted
+384,34559,DNB Quota,"Apollo Hospital, ,NO. 21, OFF GREAMS LANE, GREAMS ROAD, CHENNAI, Tamil Nadu, 600006",(NBEMS) PATHOLOGY,Open,GN,Allotted
+385,34596,All India,"CALCUTTA NATIONAL MEDICAL COLLEGE,CALCUTTA NATIONAL MEDICAL COLLEGE, West Bengal, 700014",DIPLOMA IN ANAESTHESIOLOGY,Open,OBC,Allotted
+386,34682,All India,"Rajendra Institute of Medical Sciences, Ranchi,Rajendra Institute of Medical Sciences, Ranchi, Jharkhand, 834009",M.D. (PATHOLOGY),Open,GN,Allotted
+387,34696,All India,"Pimpri Chichwad Municipal Corporation Postgraduate Institute Y.C.M.Hospital Pimpri,Pune 18,Pimpri Chichwad Municipal Corporation Postgraduate Institute Y.C.M.Hospital Pimpri,Pune 18, Maharashtra, 411018",M.D. (PATHOLOGY),Open,OBC,Allotted
+388,34716,All India,"INSTITUTE OF MEDICAL SCIENCES, BANARAS HINDU UNIVERSITY,INSTITUTE OF MEDICAL SCIENCES, BANARAS HINDU UNIVERSITY, Uttar Pradesh, 221005",M.S. (E.N.T.),SC,SC,Allotted
+389,34859,All India,"Guru Gobind Singh Medical College,Guru Gobind Singh Medical College, Punjab, 151203",M.D. (Tuberculosis and Respiratory diseases)/Pulmonary Medicine /M.D. (Respiratory Medicine),SC,SC,Allotted
+390,34927,All India,"Seth Gordhandas Sunderdas Medical College, MUMBAI,Seth Gordhandas Sunderdas Medical College, Acharya Donde Marg Parel MUMBAI, Maharashtra, 400012",M.D. IN TRANSFUSION MEDICINE/ IMMUNO- HAEMATOLOGY and BLOOD TRANSFUSION,Open,GN,Allotted
+391,35153,DNB Quota,"MGM Health Care Private Limited, Tamil Nadu,New No 72, Old No 54, Nelson Manickam Road, Aminjikarai, Chennai – 600029 Tamilnadu State, Tamil Nadu, 600029",(NBEMS-DIPLOMA) ANAESTHESIOLOGY,Open,GN,Allotted
+392,35191,All India,"GOVT. MEDICAL COLLEGE, AMRITSAR,GOVT. MEDICAL COLLEGE,CIRCULAR ROAD, AMRITSAR, Punjab, 143001",M.D. (PATHOLOGY),Open,GN,Allotted
+393,35263,DNB Quota,"Northern Railway Central Hospital,, ,Basant Lane New Delhi, Delhi (NCT), 110055",(NBEMS) Obstetrics and Gynaecology,SC,SC,Allotted
+394,35300,All India,"Government Medical College, Aurangabad,Government Medical College, Aurangabad, Maharashtra, 431001",M.D. (PATHOLOGY),Open,GN,Allotted
+395,35515,All India,"KING GEORGES MEDICAL UNIVERSITY,KING GEORGES MEDICAL UNIVERSITY, Uttar Pradesh, 226003",M.D. (Hospital Administration),OBC,OBC,Allotted
+396,35520,DNB Quota,"Noble Hospital, ,Magarpatta City Road, Hadpsar, Pune, Maharashtra, 411028",(NBEMS-DIPLOMA) FAMILY MEDICINE,Open,EWS,Allotted
+397,35760,All India,"Govt. Medical College, Bhavnagar,Near. S.T. Bus Stand,Jail Road, Bhavnagar-364001, Gujarat, 364001",M.D. (PATHOLOGY),OBC,OBC,Allotted
+398,35829,All India,"Vardhman Mahavir Medical College, , New Delhi,Vardhman Mahavir Medical College, , New Delhi, Delhi (NCT), 110029",M.S. (E.N.T.),SC,SC,Allotted
+399,35845,All India,"Mahatma Gandhi Institute of Medical Sciences, Wardha,Mahatma Gandhi Institute of Medical Sciences, Sevagram, Wardha, Maharashtra, 442102",M.S. (OPHTHALMOLOGY),SC,SC,Allotted
+400,35911,All India,"GOVT. MEDICAL COLLEGE, AMRITSAR,GOVT. MEDICAL COLLEGE,CIRCULAR ROAD, AMRITSAR, Punjab, 143001",M.D. (PATHOLOGY),Open,GN,Allotted
+401,35919,All India,"MEDICAL COLLEGE, KOLKATA,MEDICAL COLLEGE, KOLKATA, West Bengal, 700073",DIPLOMA IN OTO-RHINO-LARYNGOLOGY,OBC,OBC,Allotted
+402,36023,All India,"GAJRA RAJA MEDICAL COLLEGE GWALIOR,GAJRA RAJA MEDICAL COLLEGE GWALIOR, Madhya Pradesh, 474009",M.D. (PATHOLOGY),Open,GN,Allotted
+403,36110,All India,"M. P. SHAH GOVERNMENT MEDICAL COLLEGE,M. P. SHAH GOVERNMENT MEDICAL COLLEGE, Gujarat, 361008",M.D. IN TRANSFUSION MEDICINE/ IMMUNO- HAEMATOLOGY and BLOOD TRANSFUSION,Open,GN,Allotted
+404,36112,All India,"Indira Gandhi Medical College Shimla,Indira Gandhi Medical College Shimla, Himachal Pradesh, 171001",M.S. (ORTHOPAEDICS),SC,SC,Allotted
+405,36148,DNB Quota,"GMERS Medical College and General Hospital , ,Hadiyol-Gadhoda Road, Near- Government Polytechnic, Hiimmatnagar, Gujarat, 383001",(NBEMS) PATHOLOGY,Open,GN,Allotted
+406,36286,All India,"Government Medical College, Latur,Government Medical College, Old Railway station Near Marwadi Rajasthani High-School Latur, Maharashtra, 413512",M.D. (PATHOLOGY),Open,OBC,Allotted
+407,36296,DNB Quota,"Cottage Hospital , Gujarat,Cottage hospital station road Upleta, Gujarat, 360490",(NBEMS-DIPLOMA) OPHTHALMOLOGY,Open,EWS,Allotted
+408,36411,DNB Quota,"Kauvery Hospital,9-50, Trichy Main Road, Seelanaickenpatti, Salem, Tamil Nadu, 636201",(NBEMS-DIPLOMA) ANAESTHESIOLOGY,Open,OBC,Allotted
+409,36440,All India,"CALCUTTA NATIONAL MEDICAL COLLEGE,CALCUTTA NATIONAL MEDICAL COLLEGE, West Bengal, 700014",M.D. (PATHOLOGY),OBC,OBC,Allotted
+410,36485,DNB Quota,"Vijaya Hospital, ,New No 434, Old No 180, NSK Salai, Vadapalani, Chennai - 600026, Tamil Nadu, 600026",(NBEMS-DIPLOMA) OPHTHALMOLOGY,Open,OBC,Allotted
+411,36555,DNB Quota,"Sir Ganga Ram Hospital, ,Rajinder Nagar, New Delhi, Delhi (NCT), 110060",(NBEMS) Hospital Administration,Open,OBC,Allotted
+412,36782,All India,"B. J. MEDICAL COLLEGE,B.J. Medical College, New Civil Hospital Asarwa,Ahmedabad-380016,Gujarat,India, Gujarat, 380016",M.S. (GENERAL SURGERY),SC,SC,Allotted
+413,36795,All India,"Jorhat Medical College & Hospital,Jorhat Medical College & Hospital, Assam, 785001",M.D. (PAEDIATRICS),SC,SC,Allotted
+414,36864,All India,"GOVT MEDICAL COLLEGE,THRISSUR,GOVT MEDICAL COLLEGE,THRISSUR, Kerala, 680596",M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology),SC,SC,Allotted
+415,36906,DNB Quota,"Government Medical College, ,LATHAMS BUNGALOW ROAD, RAMANATHAPURAM., Tamil Nadu, 623501",(NBEMS) GENERAL MEDICINE,SC,SC,Allotted
+416,36964,All India,"Burdwan Medical College, West Bengal,Burdwan Medical College, West Bengal, West Bengal, 713104",DIPLOMA IN OPHTHALMOLOGY/DOMS,Open,OBC,Allotted
+417,36987,All India,"GOVT MEDICAL COLLEGE,THRISSUR,GOVT MEDICAL COLLEGE,THRISSUR, Kerala, 680596",M.D. (MICROBIOLOGY),Open,GN,Allotted
+418,37086,All India,"Government Medical College Kota,Government Medical College Kota, Rajasthan, 324005",M.D. (PATHOLOGY),Open,GN,Allotted
+419,37153,All India,"Rangaraya Medical College,Rangaraya Medical College Beside SP Office , Pithapuram Road, Kakinada, Andhra Pradesh, 533003",M.D. (PATHOLOGY),Open,GN,Allotted
+420,37202,All India,"Sardar Patel Medical College, Bikaner,Sardar Patel Medical College, Bikaner, Rajasthan, 334003",M.S. (GENERAL SURGERY),SC,SC,Allotted
+421,37238,All India,"VIJANAGARA INSTITUTE OF MEDICAL SCIENCES BALLARI,VIJANAGARA INSTITUTE OF MEDICAL SCIENCES BALLARI, Karnataka, 583104",M.D. (PATHOLOGY),Open,OBC,Allotted
+422,37263,All India,"BELAGAVI INSTITUTE OF MEDICAL SCIENCES, BELAGAVI,BELAGAVI INSTITUTE OF MEDICAL SCIENCES, BELAGAVI, Karnataka, 590001",M.D. (PATHOLOGY),Open,GN,Allotted
+423,37386,DNB Quota,"Govt. Medical College and Hospital,,,Government Medical College Hospital Chandigarh, Chandigarh, 160030",(NBEMS) Hospital Administration,Open,OBC,Allotted
+424,37481,DNB Quota,"VCSG Govt Institute of Medical Science and Research and HNB Base Teaching Hospital , ,Srikot Ganganali Srinagar Garhwal Uttarakhand, Uttarakhand, 246174",(NBEMS-DIPLOMA) ANAESTHESIOLOGY,Open,EWS,Allotted
+425,37540,All India,"NETAJI SUBHASH CHANDRA BOSE MEDICAL COLLEGE, JABALPUR ,NETAJI SUBHASH CHANDRA BOSE MEDICAL COLLEGE, NAGPUR ROAD JABALPUR, Madhya Pradesh, 482003",M.D. (PATHOLOGY),Open,GN,Allotted
+426,37841,All India,"Sawai Man Singh Medical College, JAIPUR,Sawai Man Singh Medical College, JAIPUR, Rajasthan, 302004",M.D. IN TRANSFUSION MEDICINE/ IMMUNO- HAEMATOLOGY and BLOOD TRANSFUSION,Open,GN,Allotted
+427,38007,All India,"Agartala Government Medical College,Agartala Government Medical College, Tripura, 799006",M.D. (PAEDIATRICS),SC,SC,Allotted
+428,38050,All India,"Guru Gobind Singh Medical College,Guru Gobind Singh Medical College, Punjab, 151203",M.D. (PATHOLOGY),Open,GN,Allotted
+429,38117,All India,"Government Medical College, Surat,Government Medical College, Majuragate, Surat., Gujarat, 395001",DIPLOMA IN CLINICAL PATHOLOGY,Open,GN,Allotted
+430,38158,All India,"SWAMI RAMANAND TEERTH RURAL GOVERNMENT MEDICAL COLLEGE AMBAJOGAI,SWAMI RAMANAND TEERTH RURAL GOVERNMENT MEDICAL COLLEGE AMBAJOGAI, Maharashtra, 431517",M.D. (PATHOLOGY),Open,OBC,Allotted
+431,38346,All India,"ANUGRAH NARAYAN MAGADH MEDICAL COLLEGE,ANUGRAH NARAYAN MAGADH MEDICAL COLLEGE, Bihar, 823001",M.S. (GENERAL SURGERY),SC,SC,Allotted
+432,38478,All India,"Mahatma Gandhi Memorial Medical College, Indore,Mahatma Gandhi Memorial Medical College, Indore, Madhya Pradesh, 452001",M.D. (PATHOLOGY),OBC,OBC,Allotted
+433,38780,DNB Quota,"J.L.N. Main Hospital and Research Centre, ,Bhilai Steel Plant Sector-9, Bhilai, C.G., Chhattisgarh, 490009",(NBEMS) PATHOLOGY,Open,GN,Allotted
+434,38824,DNB Quota,"Venkateshwar Hospital, ,Sector- 18 A, Dwarka, New Delhi, Delhi (NCT), 110075",(NBEMS) PATHOLOGY,Open,GN,Allotted
+435,39011,All India,"Karwar Institute of Medical Sciences, Karnataka,MG Road, Karnataka, 581301",M.D. (PATHOLOGY),Open,OBC,Allotted
+436,39036,DNB Quota,"Tata Medical Center, ,14 MAJOR ARTERIAL ROAD EW NEWTOWN RAJARHAT KOLKATA 700160, West Bengal, 700160",(NBEMS) IMMUNO-HAEMATOLOGY AND BLOOD TRANSFUSION,Open,GN,Allotted
+437,39324,All India,"Ravindra Nath Tagore Medical College, Udaipur,Ravindra Nath Tagore Medical College, Udaipur, Rajasthan, 313001",M.D. IN TRANSFUSION MEDICINE/ IMMUNO- HAEMATOLOGY and BLOOD TRANSFUSION,Open,GN,Allotted
+438,39344,All India,"Government Medical College, Aurangabad,Government Medical College, Aurangabad, Maharashtra, 431001",M.D. (PATHOLOGY),EWS,EWS,Allotted
+439,39446,DNB Quota,"Delhi Hospital And Nursing Home, Haryana,METRO PILLAR NO. 812 NEAR SHYAMJI COMPLEX BAHADURGARH DIST JHAJJAR-124507, Haryana, 124507",(NBEMS-DIPLOMA) ANAESTHESIOLOGY,Open,EWS,Allotted
+440,39654,All India,"Rajah Muthiah Medical College,Govt. Medical College and Hospital, Cuddalore District Erstwhile Rajah Muthiah Medical College Annam, Tamil Nadu, 608002",M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE,Open,OBC,Allotted
+441,39753,All India,"Mahatma Gandhi Memorial Medical College, Indore,Mahatma Gandhi Memorial Medical College, Indore, Madhya Pradesh, 452001",M.D. IN TRANSFUSION MEDICINE/ IMMUNO- HAEMATOLOGY and BLOOD TRANSFUSION,OBC,OBC,Allotted
+442,39916,All India,"Sardar Patel Medical College, Bikaner,Sardar Patel Medical College, Bikaner, Rajasthan, 334003",M.D. IN TRANSFUSION MEDICINE/ IMMUNO- HAEMATOLOGY and BLOOD TRANSFUSION,OBC,OBC,Allotted
+443,39992,All India,"Sawai Man Singh Medical College, JAIPUR,Sawai Man Singh Medical College, JAIPUR, Rajasthan, 302004",M.D. IN TRANSFUSION MEDICINE/ IMMUNO- HAEMATOLOGY and BLOOD TRANSFUSION,OBC,OBC,Allotted
+444,40117,All India,"Chamarajanagar Institute of Medical Sciences, Karnataka,CHAMARAJANAGAR INSTITUTE OF MEDICAL SCIENCES, SY. NO 124, YEDAPURA VILLAGE KASABA HOBLI, CHAMARAJANA, Karnataka, 571313",M.D. (PATHOLOGY),Open,GN,Allotted
+445,40150,Delhi Universities,"Institute of Nuclear Medicine & Allied Sciences,Institute of Nuclear Medicine & Allied Sciences, Delhi (NCT), 110054",DIP IN RADIATION MEDICINE,Open,SC,Allotted
+446,40212,DNB Quota,"Bhavsinhji and Maharani Rupaliba General Hospital, ,Near S. T. Bus Stand, Opp. Bhutnath Temple, Hospital Road, Porbandar, Gujarat, 360575",(NBEMS-DIPLOMA) ANAESTHESIOLOGY,EWS,EWS,Allotted
+447,40293,DNB Quota,"Government Medical College and Associated Group of Hospitals, Government Medical College, Dungarpur and Associated Group of Hospitals Shri Haridev Joshi Hospital,,Government Medical College and Associated Group of Hospitals, Government Medical College, Dungarpur, Rajasthan, 314001",(NBEMS-DIPLOMA) ANAESTHESIOLOGY,Open,OBC,Allotted
+448,40296,DNB Quota,"NEOTIA GETWEL HEALTHCARE CENTRE, ,Uttorayon, Behind City Centre, Matigara, Siliguri, West Bengal, 734010",(NBEMS-DIPLOMA) ANAESTHESIOLOGY,Open,GN,Allotted
+449,40319,DNB Quota,"Ruby Hall Clinic, ,GRANT MEDICAL FOUNDATION, 40 SASSOON ROAD, PUNE 411001, Maharashtra, 411001",(NBEMS) PATHOLOGY,Open,EWS,Allotted
+450,40345,DNB Quota,"Narayana Multispecialty Hospital, ,mala.airun.dr@narayanahealth.org hemlata.sharma@narayanahealth.org, Rajasthan, 302033",(NBEMS-DIPLOMA) ANAESTHESIOLOGY,Open,GN,Allotted
+451,40353,DNB Quota,"Government Head Quarters Hospital, ,Nellikuppam Mail Road, Cuddalore, Tamil Nadu, 607001",(NBEMS-DIPLOMA) OPHTHALMOLOGY,Open,GN,Allotted
+452,40432,DNB Quota,"Regency Hospital,,A-2, Sarvodaya Nagar, Kanpur, Uttar Pradesh, 208005",(NBEMS) PATHOLOGY,Open,GN,Allotted
+453,40509,DNB Quota,"Dr. B L Kapur Memorial Hospital,Pusa Road New Delhi, Delhi (NCT), 110005",(NBEMS) IMMUNO-HAEMATOLOGY AND BLOOD TRANSFUSION,Open,GN,Allotted
+454,40512,All India,"Sarojini Naidu Medical College, AGRA,Sarojini Naidu Medical College, AGRA, Uttar Pradesh, 282002",M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE,Open,GN,Allotted
+455,40773,All India,"Government Medical College, Mahabubnagar,Government Medical College, Yedira, Mahabubnagar, Telangana state, Telangana, 509002",M.D. (PATHOLOGY),OBC,OBC,Allotted
+456,40872,DNB Quota,"Mahathma Eye Hospital, ,No. 6, Seshapuram, Tennur, Tiruchirappalli - 620017, Tamilnadu, Tamil Nadu, 620017",(NBEMS-DIPLOMA) OPHTHALMOLOGY,Open,OBC,Allotted
+457,40913,All India,"Sawai Man Singh Medical College, JAIPUR,Sawai Man Singh Medical College, JAIPUR, Rajasthan, 302004",M.D. (PSYCHIATRY),SC,SC,Allotted
+458,41008,DNB Quota,"Siddh Multi Specialty Hospital,SIDDH MULTISPECIALTY HOSPITAL HARTHALA INDUSTRIAL ESTATE KANTH ROAD MORADABAD, Uttar Pradesh, 244001",(NBEMS-DIPLOMA) ANAESTHESIOLOGY,Open,GN,Allotted
+459,41090,All India,"JAWAHAR LAL NEHRU MEDICAL COLLEGE, AJMER,NEAR PATEL STADIUM, AJMER, Rajasthan, 305001",M.D. (PSYCHIATRY),SC,SC,Allotted
+460,41183,All India,"Bangalore Medical College and Research Institute,Bangalore Medical College and Research Institute, Karnataka, 560002",M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE,OBC,OBC,Allotted
+461,41444,DNB Quota,"Gunam Super Speciality Hospital,No 35, Tank Street, Opp To Govt Hospital, Denkanikottai Road, Hosur, Krishnagiri Dist., Tamil Nadu, 635109",(NBEMS-DIPLOMA) Otorhinolaryngology (E.N.T.),Open,OBC,Allotted
+462,41481,All India,"Dr. Rajendra Prasad Government Medical College, Tanda,Dr. Rajendra Prasad Government Medical College, Tanda, Himachal Pradesh, 176002",M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE,Open,OBC,Allotted
+463,41794,All India,"MAHARANI LAXMI BAI MEDICAL COLLEGE JHANSI,MAHARANI LAXMI BAI MEDICAL COLLEGE JHANSI, Uttar Pradesh, 284128",M.S. (OPHTHALMOLOGY),SC,SC,Allotted
+464,41851,DNB Quota,"Govt. BDK hospital, govt. ,OPPOSITE ROADWAYS BUS STAND MAAN NAGAR JHUNJHUNU RAJASTHAN, Rajasthan, 333001",(NBEMS-DIPLOMA) ANAESTHESIOLOGY,Open,GN,Allotted
+465,42086,DNB Quota,"Ispat General Hospital,,Ispat General Hospital Rourkela Steel Plant SAIL Rourkela 769005, Odisha, 769005",(NBEMS) PATHOLOGY,Open,GN,Allotted
+466,42127,All India,"Regional Institute of Ophthalmology,Regional Institute of Ophthalmology, Eye Hospital Civil Lines Sitapur, Uttar Pradesh, 261001",M.S. (OPHTHALMOLOGY),SC,SC,Allotted
+467,42129,DNB Quota,"Kerudi Hospital and Research Centre, Karnataka,opp axis bank extension area bagalkot, Karnataka, 587101",(NBEMS-DIPLOMA) ANAESTHESIOLOGY,Open,GN,Allotted
+468,42283,DNB Quota,"Govt. DB General District Hospital, ,Govt. D.B. General District Hospital, Naya Bass, Churu, Rajasthan, 331001",(NBEMS-DIPLOMA) OPHTHALMOLOGY,Open,OBC,Allotted
+469,42353,DNB Quota,"Government General Hospital, ,GOVERNMENT GENERAL HOSPITAL, ALANPUR LINK ROAD SAWAI MADHOPUR 322001, Rajasthan, 322001",(NBEMS-DIPLOMA) Otorhinolaryngology (E.N.T.),Open,GN,Allotted
+470,42490,All India,"B. J. MEDICAL COLLEGE,B.J. Medical College, New Civil Hospital Asarwa,Ahmedabad-380016,Gujarat,India, Gujarat, 380016",M.S. (OPHTHALMOLOGY),SC,SC,Allotted
+471,42515,DNB Quota,"Government Head Quarters Hospital, ,Nellikuppam Mail Road, Cuddalore, Tamil Nadu, 607001",(NBEMS-DIPLOMA) ANAESTHESIOLOGY,Open,GN,Allotted
+472,42609,All India,"GOVT. MEDICAL COLLEGE, AMRITSAR,GOVT. MEDICAL COLLEGE,CIRCULAR ROAD, AMRITSAR, Punjab, 143001",M.D. (PATHOLOGY),EWS,EWS,Allotted
+473,42637,DNB Quota,"NEOTIA GETWEL HEALTHCARE CENTRE, ,Uttorayon, Behind City Centre, Matigara, Siliguri, West Bengal, 734010",(NBEMS-DIPLOMA) ANAESTHESIOLOGY,Open,GN,Allotted
+474,42734,DNB Quota,"Paras HMRI Hospital, ,Paras HMRI Hospital NH 30 Bailey Road Raja Bazaar Patna 800014 Bihar, Bihar, 800014",(NBEMS) PATHOLOGY,Open,OBC,Allotted
+475,42823,DNB Quota,"Dr. B L Kapur Memorial Hospital,Pusa Road New Delhi, Delhi (NCT), 110005",(NBEMS) IMMUNO-HAEMATOLOGY AND BLOOD TRANSFUSION,Open,GN,Allotted
+476,42853,All India,"ANUGRAH NARAYAN MAGADH MEDICAL COLLEGE,ANUGRAH NARAYAN MAGADH MEDICAL COLLEGE, Bihar, 823001",M.D. (PATHOLOGY),OBC,OBC,Allotted
+477,42874,DNB Quota,"GMERS Medical College and General Hospital , ,Hadiyol-Gadhoda Road, Near- Government Polytechnic, Hiimmatnagar, Gujarat, 383001",(NBEMS) GENERAL SURGERY,SC,SC,Allotted
+478,42975,All India,"Vardhman Mahavir Medical College, , New Delhi,Vardhman Mahavir Medical College, , New Delhi, Delhi (NCT), 110029",M.D. (PATHOLOGY),SC,SC,Allotted
+479,42996,DNB Quota,"District Hospital, ,District Hospital, Near KEB, PB Road, Haveri, Karnataka, 581110",(NBEMS-DIPLOMA) ANAESTHESIOLOGY,Open,GN,Allotted
+480,43023,DNB Quota,"Shija Hospitals and Research Institute, ,SHIJA HOSPITALS AND RESEARCH INSTITUTE, LANGOL, LAMPHELPAT, IMPHAL WEST, MANIPUR 795004, Manipur, 795004",(NBEMS-DIPLOMA) Otorhinolaryngology (E.N.T.),Open,GN,Allotted
+481,43024,DNB Quota,"Vidyasagar State General Hospital,,4 BRAHMA SAMAJ ROAD, BEHALA, KOLKATA - 700034, West Bengal, 700034",(NBEMS-DIPLOMA) OPHTHALMOLOGY,Open,GN,Allotted
+482,43025,DNB Quota,"Taluk General Hospital, ,Taluk General Hospital Kadur Nh 206 Kadur , Chikmagalur District Karnataka 577548, Karnataka, 577548",(NBEMS-DIPLOMA) ANAESTHESIOLOGY,Open,OBC,Allotted
+483,43060,All India,"Seth Gordhandas Sunderdas Medical College, MUMBAI,Seth Gordhandas Sunderdas Medical College, Acharya Donde Marg Parel MUMBAI, Maharashtra, 400012",M.D. (MICROBIOLOGY),Open,GN,Allotted
+484,43064,DNB Quota,"Bhavsinhji and Maharani Rupaliba General Hospital, ,Near S. T. Bus Stand, Opp. Bhutnath Temple, Hospital Road, Porbandar, Gujarat, 360575",(NBEMS-DIPLOMA) ANAESTHESIOLOGY,OBC,OBC,Allotted
+485,43157,All India,"KURNOOL MEDICAL COLLEGE,KURNOOL MEDICAL COLLEGE, Andhra Pradesh, 518002",M.D. (ANAESTHESIOLOGY),SC,SC,Allotted
+486,43265,DNB Quota,"General Hospital Shikaripura,mohshikaripur, Karnataka, 577427",(NBEMS-DIPLOMA) ANAESTHESIOLOGY,OBC,OBC,Allotted
+487,43347,All India,"Osmania Medical Collge,Osmania Medical Collge, Telangana, 500095",M.D. (ANAESTHESIOLOGY),SC,SC,Allotted
+488,43356,All India,"Mahatma Gandhi Memorial Medical College, Jamshedpur,Mahatma Gandhi Memorial Medical College, Jamshedpur, Jharkhand, 831020",M.D. (PATHOLOGY),OBC,OBC,Allotted
+489,43399,DNB Quota,"Associated Hospital Government Medical College, ,Kanth Bagh Baramulla, Jammu And Kashmir, 193103",(NBEMS-DIPLOMA) ANAESTHESIOLOGY,OBC,OBC,Allotted
+490,43446,All India,"Maulana Azad Medical College,Maulana Azad Medical College, Delhi (NCT), 110002",MD/MS (Anatomy),Open,OBC,Allotted
+491,43582,DNB Quota,"Yashvedh Healthcare Services, Andhra Pradesh,Gaigolupadu Junction Kakinada, Andhra Pradesh, 533005",(NBEMS-DIPLOMA) OPHTHALMOLOGY,Open,GN,Allotted
+492,43669,DNB Quota,"Rajiv Gandhi Government General Hospital, Principal Medical Officer General hospital, ,Rajiv Gandhi Government General Hospital, near bijli ghar circle, alwar, Rajasthan, 301001",(NBEMS-DIPLOMA) OPHTHALMOLOGY,Open,GN,Allotted
+493,43739,All India,"GOVT MEDICAL COLLEGE KOTTAYAM,GOVT MEDICAL COLLEGE KOTTAYAM, Kerala, 686008",M.D. (FORENSIC MEDICINE),Open,GN,Allotted
+494,43918,DNB Quota,"Associated Hospital Government Medical College, ,Kanth Bagh Baramulla, Jammu And Kashmir, 193103",(NBEMS-DIPLOMA) OPHTHALMOLOGY,Open,GN,Allotted
+495,44015,DNB Quota,"Government Medical College and Associated Hospital,,JANGLAT MANDI ANANTNAG, JAMMU AND KASHMIR 192101, Jammu And Kashmir, 192101",(NBEMS) GENERAL SURGERY,SC,SC,Allotted
+496,44042,All India,"PATNA MEDICAL COLLEGE, PATNA,PATNA MEDICAL COLLEGE, PATNA, Bihar, 800004",DIP. IN PHY. MEDICINE and REHAB.,Open,GN,Allotted
+497,44050,DNB Quota,"Civil Hospital, ,Civil Hospital Bahardurgarh, Delhi-Rohtak Road, District- Jhajjar,, Haryana, 124507",(NBEMS-DIPLOMA) OPHTHALMOLOGY,OBC,OBC,Allotted
+498,44134,All India,"MADRAS MEDICAL COLLEGE,EVR PERIYAR SALAI, CHENNAI-03, Tamil Nadu, 600003",M.D. (FORENSIC MEDICINE),Open,OBC,Allotted
+499,44144,DNB Quota,"General Hospital Shikaripura,mohshikaripur, Karnataka, 577427",(NBEMS-DIPLOMA) ANAESTHESIOLOGY,OBC,OBC,Allotted
+500,44242,DNB Quota,"Government Medical College and Associated Group of Hospitals, Government Medical College, Dungarpur and Associated Group of Hospitals Shri Haridev Joshi Hospital,,Government Medical College and Associated Group of Hospitals, Government Medical College, Dungarpur, Rajasthan, 314001",(NBEMS-DIPLOMA) ANAESTHESIOLOGY,OBC,OBC,Allotted
+501,44302,All India,"Government Medical College, Surat,Government Medical College, Majuragate, Surat., Gujarat, 395001",M.D. (ANAESTHESIOLOGY),SC,SC,Allotted
+502,44531,DNB Quota,"Indira Gandhi Govt. General Hospital and PG Institute, No. 1, ,No.1, Victor Simonel street, Puducherry -1., Puducherry, 605001",(NBEMS) GENERAL SURGERY,SC,SC,Allotted
+503,44594,DNB Quota,"General Hospital,,General Hospital Arakalagud Road, Dr. B. R Ambedkar Circle, Holenarasipura Taluk, Hassan District, , Karnataka, 573211",(NBEMS-DIPLOMA) ANAESTHESIOLOGY,OBC,OBC,Allotted
+504,44679,DNB Quota,"VCSG Govt Institute of Medical Science and Research and HNB Base Teaching Hospital , ,Srikot Ganganali Srinagar Garhwal Uttarakhand, Uttarakhand, 246174",(NBEMS-DIPLOMA) OPHTHALMOLOGY,Open,GN,Allotted
+505,44748,DNB Quota,"Shri Balaji Action Medical Institute,,FC34 A4 PASCHIM VIHAR NEW DELHI, Delhi (NCT), 110063",(NBEMS) IMMUNO-HAEMATOLOGY AND BLOOD TRANSFUSION,Open,GN,Allotted
+506,44846,All India,"GOA MEDICAL COLLEGE,GOA MEDICAL COLLEGE, Goa, 403202",M.S. (E.N.T.),SC,SC,Allotted
+507,44853,DNB Quota,"Government Medical College and Bangur Hospital, Nh62 Sumerpur Road Village Ramasiya Pali Rajasthan , Rajasthan-306401,Government Medical College and Bangur Hospital Nh62 Sumerpur Road Village Ramasiya Pali Rajasthan Ra, Rajasthan, 306401",(NBEMS-DIPLOMA) Otorhinolaryngology (E.N.T.),EWS,EWS,Allotted
+508,44903,DNB Quota,"BOLPUR SUB DIVISION HOSPITAL , ,bolpursdhospital@yahoo.com, West Bengal, 731204",(NBEMS-DIPLOMA) OPHTHALMOLOGY,OBC,OBC,Allotted
+509,45222,All India,"KURNOOL MEDICAL COLLEGE,KURNOOL MEDICAL COLLEGE, Andhra Pradesh, 518002",M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE,Open,GN,Allotted
+510,45252,All India,"RAICHUR INSTITUTE OF MEDICAL SCIENCES,RAICHUR INSTITUTE OF MEDICAL SCIENCES, Karnataka, 584102",M.D. (PATHOLOGY),OBC,OBC,Allotted
+511,45427,All India,"CALCUTTA NATIONAL MEDICAL COLLEGE,CALCUTTA NATIONAL MEDICAL COLLEGE, West Bengal, 700014",M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE,Open,GN,Allotted
+512,45470,All India,"Government Medical College Kozhikode,Government Medical College Kozhikode, Kerala, 673008",M.D. (FORENSIC MEDICINE),OBC,OBC,Allotted
+513,45568,DNB Quota,"Govt Amrit Kaur Hospital, ,PRINCIPAL MEDICAL OFFICER GOVT. AMRIT KAUR HOSPITAL BEAWAR, Rajasthan, 305901",(NBEMS-DIPLOMA) Otorhinolaryngology (E.N.T.),Open,GN,Allotted
+514,45691,DNB Quota,"Govt. DB General District Hospital, ,Govt. D.B. General District Hospital, Naya Bass, Churu, Rajasthan, 331001",(NBEMS-DIPLOMA) ANAESTHESIOLOGY,OBC,OBC,Allotted
+515,45760,DNB Quota,"Govt. Medical College, ,Govt. Medical College, B-5 Medical Enclave, Maheshpura Bakshi Nagar, Jammu, Jammu And Kashmir, 180001",(NBEMS) Hospital Administration,Open,EWS,Allotted
+516,45807,DNB Quota,"Government Medical College, ,Administrative Department, Government Medical College, Karan Nagar, Srinagar, Jammu And Kashmir, 190010",(NBEMS) IMMUNO-HAEMATOLOGY AND BLOOD TRANSFUSION,OBC,OBC,Allotted
+517,45828,DNB Quota,"GMERS Medical College and General Hospital , ,Hadiyol-Gadhoda Road, Near- Government Polytechnic, Hiimmatnagar, Gujarat, 383001",(NBEMS) PATHOLOGY,OBC,OBC,Allotted
+518,45903,DNB Quota,"Siliguri District Hospital,,Kachari Road, Siliguri, Dist- Darjeeling, West Bengal, West Bengal, 734001",(NBEMS-DIPLOMA) ANAESTHESIOLOGY,OBC,OBC,Allotted
+519,45918,DNB Quota,"Punjab Institute of Medical Scineces ,Punjab Institute of Medical Sciences Garha Road Jalandhar, Punjab, 144006",(NBEMS) IMMUNO-HAEMATOLOGY AND BLOOD TRANSFUSION,Open,OBC,Allotted
+520,46085,All India,"KURNOOL MEDICAL COLLEGE,KURNOOL MEDICAL COLLEGE, Andhra Pradesh, 518002",M.S. (OPHTHALMOLOGY),SC,SC,Allotted
+521,46137,All India,"Bangalore Medical College and Research Institute,Bangalore Medical College and Research Institute, Karnataka, 560002",M.D. (ANAESTHESIOLOGY),SC,SC,Allotted
+522,46153,All India,"JAWAHARLAL NEHRU MEDICAL COLLEGE, BHAGALPUR,JAWAHARLAL NEHRU MEDICAL COLLEGE, BHAGALPUR, Bihar, 812001",M.D. (PATHOLOGY),OBC,OBC,Allotted
+523,46290,All India,"All India Institute of Hygiene and Public Health,110, C. R Avenue, Kolkata, West Bengal, 700073",M.P.H. (EPIDEMIOLOGY),Open,GN,Allotted
+524,46397,All India,"MEDICAL COLLEGE, KOLKATA,MEDICAL COLLEGE, KOLKATA, West Bengal, 700073",M.D. (PATHOLOGY),OBC,OBC,Allotted
+525,46622,All India,"GOVT. MEDICAL COLLEGE, THIRUVANANTHAPURAM,GOVT. MEDICAL COLLEGE, THIRUVANANTHAPURAM, Kerala, 695011",M.D. (FORENSIC MEDICINE),OBC,OBC,Allotted
+526,46815,All India,"North Bengal Medical College,North Bengal Medical College, West Bengal, 734012",M.D. (PATHOLOGY),OBC,OBC,Allotted
+527,46825,DNB Quota,"Punjab Institute of Medical Scineces ,Punjab Institute of Medical Sciences Garha Road Jalandhar, Punjab, 144006",(NBEMS) IMMUNO-HAEMATOLOGY AND BLOOD TRANSFUSION,Open,GN,Allotted
+528,46957,DNB Quota,"General Hospital, ,General Hospital Mehsana, Opp S T Bus Station, Raj Mahel Road, Gujarat, 384001",(NBEMS) PATHOLOGY,OBC,OBC,Allotted
+529,47073,DNB Quota,"Amandeep Hospital, Punjab,Dalhousie Road, Mamoon, Pathankot, Punjab, 145001",(NBEMS-DIPLOMA) FAMILY MEDICINE,Open,GN,Allotted
+530,47248,DNB Quota,"Rajiv Gandhi Government General Hospital, Principal Medical Officer General hospital, ,Rajiv Gandhi Government General Hospital, near bijli ghar circle, alwar, Rajasthan, 301001",(NBEMS-DIPLOMA) Otorhinolaryngology (E.N.T.),OBC,OBC,Allotted
+531,47386,All India,"Pandit Bhagwat Dayal Sharma Post Graduate Institute of Medical Sciences, Rohtak,Pandit Bhagwat Dayal Sharma Post Graduate Institute of Medical Sciences, Rohtak, Haryana, 124001",M.D. (ANAESTHESIOLOGY),SC,SC,Allotted
+532,47522,All India,"College of Medicine & Sagore Dutta Hospital,College of Medicine & Sagore Dutta Hospital, West Bengal, 700058",M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE,Open,GN,Allotted
+533,47572,All India,"Government Medical College, Miraj,Government Medical College, Miraj, Maharashtra, 416410",M.D. (ANAESTHESIOLOGY),SC,SC,Allotted
+534,47644,All India,"KING GEORGES MEDICAL UNIVERSITY,KING GEORGES MEDICAL UNIVERSITY, Uttar Pradesh, 226003",M.D. (ANAESTHESIOLOGY),SC,SC,Allotted
+535,47651,DNB Quota,"Associated Hospital Government Medical College, ,Kanth Bagh Baramulla, Jammu And Kashmir, 193103",(NBEMS-DIPLOMA) Otorhinolaryngology (E.N.T.),OBC,OBC,Allotted
+536,47675,DNB Quota,"Aralaguppe Mallegowda District Hospital,,AZAD PARK CHIKKAMAGALURU, Karnataka, 577101",(NBEMS-DIPLOMA) ANAESTHESIOLOGY,EWS,EWS,Allotted
+537,47923,All India,"Ganesh Shankar Vidyarthi Memorial Medical College,Ganesh Shankar Vidyarthi Memorial Medical College, Uttar Pradesh, 208002",M.D. (ANAESTHESIOLOGY),SC,SC,Allotted
+538,48044,DNB Quota,"Ursala Horsman Memorial Hospital, ,Bada Chauraha, Civil Lines,Kanpur Nagar, Uttar Pradesh, 208001",(NBEMS) Emergency Medicine,SC,SC,Allotted
+539,48380,All India,"Ravindra Nath Tagore Medical College, Udaipur,Ravindra Nath Tagore Medical College, Udaipur, Rajasthan, 313001",M.D. (ANAESTHESIOLOGY),SC,SC,Allotted
+540,48430,DNB Quota,"Associated Hospital Government Medical College, ,Kanth Bagh Baramulla, Jammu And Kashmir, 193103",(NBEMS-DIPLOMA) FAMILY MEDICINE,Open,GN,Allotted
+541,48561,All India,"ESI-POST GRADUATE INSTITUTE OF MEDICAL SCIENCES AND RESEARCH, BASAIDARAPUR, NEW DELHI,ESI-POST GRADUATE INSTITUTE OF MEDICAL SCIENCES AND RESEARCH, BASAIDARAPUR, NEW DELHI, Delhi (NCT), 110015",M.D. (MICROBIOLOGY),Open,GN,Allotted
+542,48734,All India,"Agartala Government Medical College,Agartala Government Medical College, Tripura, 799006",M.D. (PATHOLOGY),OBC,OBC,Allotted
+543,48989,All India,"Government Medical College Kota,Government Medical College Kota, Rajasthan, 324005",M.D. (ANAESTHESIOLOGY),SC,SC,Allotted
+544,49025,All India,"GADAG INSTITUTE OF MEDICAL SCIENCES GADAG,Gadag Institute of Medical Sciences Mallasamudra Gadag-582103, Karnataka, 582103",M.D. (ANAESTHESIOLOGY),SC,SC,Allotted
+545,49026,DNB Quota,"Arambagh Sub Divisional/ Super Speciality Hospital, ,Arambagh, Hooghly , Pin - 712601, West Bengal, 712601",(NBEMS-DIPLOMA) ANAESTHESIOLOGY,EWS,EWS,Allotted
+546,49165,All India,"Employees' State Insurance Corporation Medical College & Hospital, Gulbarga,ESIC MEDICAL COLLEGE SEDAM ROAD GULBARGA, Karnataka, 585106",M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE,Open,OBC,Allotted
+547,49226,All India,"PATNA MEDICAL COLLEGE, PATNA,PATNA MEDICAL COLLEGE, PATNA, Bihar, 800004",M.D. (PATHOLOGY),EWS,EWS,Allotted
+548,49410,All India,"JAWAHAR LAL NEHRU MEDICAL COLLEGE, AJMER,NEAR PATEL STADIUM, AJMER, Rajasthan, 305001",M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE,Open,GN,Allotted
+549,49470,All India,"Silchar Medical College, Silchar,Silchar Medical College, Silchar P.O. Silchar Medical College, Silchar",M.S. (E.N.T.),SC,SC,Allotted
+550,49553,All India,"PATNA MEDICAL COLLEGE, PATNA,PATNA MEDICAL COLLEGE, PATNA, Bihar, 800004",M.D. (PATHOLOGY),EWS,EWS,Allotted
+551,49705,All India,"GOVT. MEDICAL COLLEGE AND HOSPITAL, CHANDIGARH,GOVT. MEDICAL COLLEGE AND HOSPITAL, CHANDIGARH, Chandigarh, 160030",M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE,OBC,OBC,Allotted
+552,49736,All India,"Shaheed Hasan Khan Mewati Government Medical College,Shaheed Hasan Khan Mewati Government Medical College, Haryana, 122107",M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE,Open,GN,Allotted
+553,49915,All India,"JAWAHARLAL NEHRU MEDICAL COLLEGE, ALIGARH MUSLIM UNIVERSITY STATE UTTAR,JAWAHARLAL NEHRU MEDICAL COLLEGE, ALIGARH MUSLIM UNIVERSITY STATE UTTAR, Uttar Pradesh, 202002",M.D. (FORENSIC MEDICINE),Open,GN,Allotted
+554,50043,DNB Quota,"Chittaranjan National Cancer Institute, 37- ,37, S.P. Mukherjee Road, Kolkata, West Bengal, 700026",(NBEMS) PATHOLOGY,OBC,OBC,Allotted
+555,50114,All India,"SHIMOGA INSTITUTE OF MEDICAL SCIENCES,SHIMOGA INSTITUTE OF MEDICAL SCIENCES, Karnataka, 577201",M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE,Open,OBC,Allotted
+556,50141,DNB Quota,"St. Stephen`s Hospital, ,Tis Hazari, Delhi (NCT), 110054",(NBEMS) COMMUNITY MEDICINE,Open,OBC,Allotted
+557,50179,DNB Quota,"J.L.N. Main Hospital and Research Centre, ,Bhilai Steel Plant Sector-9, Bhilai, C.G., Chhattisgarh, 490009",(NBEMS) PATHOLOGY,OBC,OBC,Allotted
+558,50201,DNB Quota,"Sir Ganga Ram Hospital, ,Rajinder Nagar, New Delhi, Delhi (NCT), 110060",(NBEMS) MICROBIOLOGY,Open,GN,Allotted
+559,50233,DNB Quota,"Government Medical College, ,Gunera Wazidpur, Ujhani Road, Badaun, Uttar Pradesh, 243601",(NBEMS-DIPLOMA) PAEDIATRICS,SC,SC,Allotted
+560,50278,DNB Quota,"Associated Hospital Government Medical College, ,Kanth Bagh Baramulla, Jammu And Kashmir, 193103",(NBEMS-DIPLOMA) FAMILY MEDICINE,Open,GN,Allotted
+561,50467,DNB Quota,"Associated Hospital Government Medical College, ,Kanth Bagh Baramulla, Jammu And Kashmir, 193103",(NBEMS-DIPLOMA) ANAESTHESIOLOGY,EWS,EWS,Allotted
+562,50581,All India,"Lady Hardinge Medical College,Lady Hardinge Medical College, Delhi (NCT), 110001",M.D. (PHYSIOLOGY),Open,GN,Allotted
+563,50747,DNB Quota,"K C General Hospital, ,No. 89, 5th Cross, Malleshwaram, Bangalore, Karnataka, 560003",(NBEMS-DIPLOMA) OPHTHALMOLOGY,EWS,EWS,Allotted
+564,51039,DNB Quota,"Nizam`s Institute of Medical Sciences, ,NIZAMS INSTITUTE OF MEDICAL SCIENCES PANJAGUTTA HYDERABAD, Telangana, 500082",(NBEMS) IMMUNO-HAEMATOLOGY AND BLOOD TRANSFUSION,EWS,EWS,Allotted
+565,51099,DNB Quota,"District Hospital, ,Old City Road Dholpur, Rajasthan, 328001",(NBEMS-DIPLOMA) FAMILY MEDICINE,Open,GN,Allotted
+566,51190,All India,"All India Institute of Hygiene and Public Health,110, C. R Avenue, Kolkata, West Bengal, 700073",M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE,OBC,OBC,Allotted
+567,51248,All India,"JAWAHARLAL NEHRU MEDICAL COLLEGE, ALIGARH MUSLIM UNIVERSITY STATE UTTAR,JAWAHARLAL NEHRU MEDICAL COLLEGE, ALIGARH MUSLIM UNIVERSITY STATE UTTAR, Uttar Pradesh, 202002",M.D. (MICROBIOLOGY),Open,GN,Allotted
+568,51573,DNB Quota,"Swami Dayanand Hospital, ,Dilshad Garden, Shahdara, Delhi, Delhi (NCT), 110095",(NBEMS) ANAESTHESIOLOGY,SC,SC,Allotted
+569,51962,DNB Quota,"Kalpana Chawla Govt Medical College, ,Model Town, Karnal, Haryana, 132001",(NBEMS) ANAESTHESIOLOGY,SC,SC,Allotted
+570,51985,All India,"Lady Hardinge Medical College,Lady Hardinge Medical College, Delhi (NCT), 110001",M.D. (MICROBIOLOGY),OBC,OBC,Allotted
+571,52664,DNB Quota,"Shri Lal Bahadur Shastri Government Medical College and Hospital , ,VPO- Bhangrotu, MC- Ner Chowk, District- Mandi, Himachal Pradesh, 175021",(NBEMS) ANAESTHESIOLOGY,SC,SC,Allotted
+572,52778,All India,"University College of Medical Sciences,University College of Medical Sciences, Delhi (NCT), 110095",M.D. (MICROBIOLOGY),OBC,OBC,Allotted
+573,52809,All India,"Government medical college patiala.,Government medical college patiala., Punjab, 147001",M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE,OBC,OBC,Allotted
+574,52856,DNB Quota,"Government Head Quarters Hospital, ,Nellikuppam Mail Road, Cuddalore, Tamil Nadu, 607001",(NBEMS-DIPLOMA) FAMILY MEDICINE,Open,OBC,Allotted
+575,53003,All India,"GADAG INSTITUTE OF MEDICAL SCIENCES GADAG,Gadag Institute of Medical Sciences Mallasamudra Gadag-582103, Karnataka, 582103",M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE,Open,OBC,Allotted
+576,53085,All India,"GOVT. MEDICAL COLLEGE, AMRITSAR,GOVT. MEDICAL COLLEGE,CIRCULAR ROAD, AMRITSAR, Punjab, 143001",DIPLOMA IN ANAESTHESIOLOGY,SC,SC,Allotted
+577,53128,All India,"LOKMANYA TILAK MEDICAL COLLEGE MUMBAI,LOKMANYA TILAK MEDICAL COLLEGE MUMBAI, Maharashtra, 400022",M.D. (PATHOLOGY),SC,SC,Allotted
+578,53403,All India,"NETAJI SUBHASH CHANDRA BOSE MEDICAL COLLEGE, JABALPUR ,NETAJI SUBHASH CHANDRA BOSE MEDICAL COLLEGE, NAGPUR ROAD JABALPUR, Madhya Pradesh, 482003",M.D. (Radiotherapy/ Radiation Oncology),SC,SC,Allotted
+579,53420,All India,"Sawai Man Singh Medical College, JAIPUR,Sawai Man Singh Medical College, JAIPUR, Rajasthan, 302004",M.D. IN TRANSFUSION MEDICINE/ IMMUNO- HAEMATOLOGY and BLOOD TRANSFUSION,SC,SC,Allotted
+580,53569,All India,"Kakatiya Medical College,Kakatiya Medical College, Telangana, 506007",M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology),ST,ST,Allotted
+581,53586,DNB Quota,"General Hospital, ,OLD SABJI MANDI HINDUAN GATE KARAULI, Rajasthan, 322241",(NBEMS-DIPLOMA) FAMILY MEDICINE,Open,GN,Allotted
+582,53593,All India,"LOKMANYA TILAK MEDICAL COLLEGE MUMBAI,LOKMANYA TILAK MEDICAL COLLEGE MUMBAI, Maharashtra, 400022",DIPLOMA IN PUBLIC HEALTH,Open,OBC,Allotted
+583,53600,All India,"Andhra Medical College,Andhra Medical College, Andhra Pradesh, 530002",DIPLOMA IN CLINICAL PATHOLOGY,OBC,OBC,Allotted
+584,53640,All India,"Assam Medical College,Assam Medical College, Assam, 786002",M.D. (PATHOLOGY),EWS,EWS,Allotted
+585,53801,DNB Quota,"J.L.N. Main Hospital and Research Centre, ,Bhilai Steel Plant Sector-9, Bhilai, C.G., Chhattisgarh, 490009",(NBEMS) ANAESTHESIOLOGY,SC,SC,Allotted
+586,53803,All India,"Pt. Jawahar Lal Nehru Memorial Medical College, RAIPUR,Pt. Jawahar Lal Nehru Memorial Medical College, RAIPUR, Chhattisgarh, 492001",M.D. (Radiotherapy/ Radiation Oncology),SC,SC,Allotted
+587,53921,DNB Quota,"Government Hospital, ,principal.mc.barmer@rajasthan.gov.in, Rajasthan, 344001",(NBEMS-DIPLOMA) FAMILY MEDICINE,Open,GN,Allotted
+588,54027,DNB Quota,"Government Medical College, ,LATHAMS BUNGALOW ROAD, RAMANATHAPURAM., Tamil Nadu, 623501",(NBEMS-DIPLOMA) FAMILY MEDICINE,Open,GN,Allotted
+589,54072,All India,"Agartala Government Medical College,Agartala Government Medical College, Tripura, 799006",M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE,Open,GN,Allotted
+590,54120,All India,"Government Medical College Kozhikode,Government Medical College Kozhikode, Kerala, 673008",M.D. (PHYSIOLOGY),Open,GN,Allotted
+591,54172,DNB Quota,"Government Head Quarters Hospital, ,NO 1 RAMAMOORTHY ROAD VIRUDHUNAGAR, Tamil Nadu, 626001",(NBEMS-DIPLOMA) FAMILY MEDICINE,Open,OBC,Allotted
+592,54257,All India,"Pandit Dindayal Upadhyay Medical College, RAJKOT,Pandit Dindayal Upadhyay Medical College, RAJKOT, Gujarat, 360001",M.D. (PHARMACOLOGY),Open,OBC,Allotted
+593,54312,DNB Quota,"Breach Candy Hospital, ,60-A, Bhulabhai Desai Road, Mumbai- 400 026., Maharashtra, 400026",(NBEMS) MICROBIOLOGY,Open,GN,Allotted
+594,54323,All India,"Dr. Rajendra Prasad Government Medical College, Tanda,Dr. Rajendra Prasad Government Medical College, Tanda, Himachal Pradesh, 176002",M.D. (FORENSIC MEDICINE),Open,GN,Allotted
+595,54490,All India,"Jorhat Medical College & Hospital,Jorhat Medical College & Hospital, Assam, 785001",M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE,Open,OBC,Allotted
+596,54811,Delhi Universities,"Lady Hardinge Medical College,Lady Hardinge Medical College, Delhi (NCT), 110001",M.D. (PATHOLOGY),OBC,OBC,Allotted
+597,54829,DNB Quota,"General Hospital, ,General Hospital Pavagada Tumakuru District Karnataka 561202, Karnataka, 561202",(NBEMS-DIPLOMA) PAEDIATRICS,SC,SC,Allotted
+598,55158,All India,"Gulbarga Institute Of Medical Sciences, Kalaburagi,VEERESH NAGAR SEDAM ROAD KALABURAGI, Karnataka, 585105",M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE,Open,GN,Allotted
+599,55346,All India,"LATE SHRI LAKHI RAM AGRAWAL MEMORIAL GOVT.MEDICAL COLLEGE,LATE SHRI LAKHI RAM AGRAWAL MEMORIAL GOVT.MEDICAL COLLEGE, Chhattisgarh, 496001",M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE,Open,GN,Allotted
+600,55353,DNB Quota,"Government Medical College, ,LATHAMS BUNGALOW ROAD, RAMANATHAPURAM., Tamil Nadu, 623501",(NBEMS-DIPLOMA) FAMILY MEDICINE,OBC,OBC,Allotted
+601,55367,DNB Quota,"General Hospital, ,SECTOR-6, PANCHKULA, HARYANA-134108, Haryana, 134108",(NBEMS-DIPLOMA) PAEDIATRICS,SC,SC,Allotted
+602,55566,Delhi Universities,"Lady Hardinge Medical College,Lady Hardinge Medical College, Delhi (NCT), 110001",M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE,Open,GN,Allotted
+603,55665,All India,"Pandit Dindayal Upadhyay Medical College, RAJKOT,Pandit Dindayal Upadhyay Medical College, RAJKOT, Gujarat, 360001",M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE,OBC,OBC,Allotted
+604,55696,All India,"GOVT. MEDICAL COLLEGE, THIRUVANANTHAPURAM,GOVT. MEDICAL COLLEGE, THIRUVANANTHAPURAM, Kerala, 695011",M.D. IN TRANSFUSION MEDICINE/ IMMUNO- HAEMATOLOGY and BLOOD TRANSFUSION,SC,SC,Allotted
+605,56066,All India,"GOVT. MEDICAL COLLEGE AND HOSPITAL, CHANDIGARH,GOVT. MEDICAL COLLEGE AND HOSPITAL, CHANDIGARH, Chandigarh, 160030",M.D. (MICROBIOLOGY),Open,OBC,Allotted
+606,56735,All India,"CHENGALPATTU MEDICAL COLLEGE, CHENGALPATTU,CHENGALPATTU MEDICAL COLLEGE, CHENGALPATTU, Tamil Nadu, 603001",M.D. (BIOCHEMISTRY),Open,OBC,Allotted
+607,56788,DNB Quota,"GMERS Medical College and General Hospital, ,GMERS Medical College and General hospital,Old TB Campus, gotri road, Vadodara, Gujarat, 390021",(NBEMS) GENERAL MEDICINE,ST,ST,Allotted
+608,56922,DNB Quota,"Bhima Bhoi Medical College and Hospital, Balangir,At-Laltikra Po-Rajendra College, Balangir, Odisha, 767002",(NBEMS-DIPLOMA) FAMILY MEDICINE,OBC,OBC,Allotted
+609,56965,DNB Quota,"IGM Hospital , ,IGM Chowmuhani, Agartala, Tripura West, Tripura, 799001",(NBEMS-DIPLOMA) FAMILY MEDICINE,OBC,OBC,Allotted
+610,56970,DNB Quota,"District Hospital, ,DISTRICT HOSPITAL NEAR SANGAM CIRCLE DR RAJ KUMAR ROAD BALLARI-583101 KARNATAKA, Karnataka, 583101",(NBEMS-DIPLOMA) FAMILY MEDICINE,OBC,OBC,Allotted
+611,56983,All India,"LATE SHRI LAKHI RAM AGRAWAL MEMORIAL GOVT.MEDICAL COLLEGE,LATE SHRI LAKHI RAM AGRAWAL MEMORIAL GOVT.MEDICAL COLLEGE, Chhattisgarh, 496001",M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE,Open,GN,Allotted
+612,57380,All India,"Osmania Medical Collge,Osmania Medical Collge, Telangana, 500095",M.D. (PATHOLOGY),SC,SC,Allotted
+613,58072,DNB Quota,"District Hospital, ,Old City Road Dholpur, Rajasthan, 328001",(NBEMS-DIPLOMA) FAMILY MEDICINE,OBC,OBC,Allotted
+614,58221,DNB Quota,"General Hospital, ,OLD SABJI MANDI HINDUAN GATE KARAULI, Rajasthan, 322241",(NBEMS-DIPLOMA) FAMILY MEDICINE,OBC,OBC,Allotted
+615,58525,DNB Quota,"District Hospital, Dharwad,Killa Road, Dharwad, Karnataka-580008",(NBEMS-DIPLOMA) FAMILY MEDICINE,OBC,OBC,Allotted
+616,58595,DNB Quota,"Government Medical College, ,LATHAMS BUNGALOW ROAD, RAMANATHAPURAM., Tamil Nadu, 623501",(NBEMS-DIPLOMA) FAMILY MEDICINE,OBC,OBC,Allotted
+617,58678,All India,"Dr.V.M.Govt.Medical College,Solapur, Maharasthtra,Infron of district court civil chowk Dr.V.M.Govt.Medical College,Solapur, Maharasthtra, Maharashtra, 413003",M.D. (PATHOLOGY),SC,SC,Allotted
+618,58733,All India,"Ravindra Nath Tagore Medical College, Udaipur,Ravindra Nath Tagore Medical College, Udaipur, Rajasthan, 313001",M.D. (FORENSIC MEDICINE),Open,GN,Allotted
+619,58740,DNB Quota,"Government Medical College, ,LATHAMS BUNGALOW ROAD, RAMANATHAPURAM., Tamil Nadu, 623501",(NBEMS-DIPLOMA) FAMILY MEDICINE,OBC,OBC,Allotted
+620,58836,DNB Quota,"Government Medical College, ,LATHAMS BUNGALOW ROAD, RAMANATHAPURAM., Tamil Nadu, 623501",(NBEMS-DIPLOMA) FAMILY MEDICINE,OBC,OBC,Allotted
+621,58929,DNB Quota,"Government Hospital, ,principal.mc.barmer@rajasthan.gov.in, Rajasthan, 344001",(NBEMS-DIPLOMA) FAMILY MEDICINE,OBC,OBC,Allotted
+622,58994,DNB Quota,"Government Medical College and Associated Group of Hospitals, Government Medical College, Dungarpur and Associated Group of Hospitals Shri Haridev Joshi Hospital,,Government Medical College and Associated Group of Hospitals, Government Medical College, Dungarpur, Rajasthan, 314001",(NBEMS-DIPLOMA) FAMILY MEDICINE,OBC,OBC,Allotted
+623,59171,All India,"Maharaja Krushna Chandra Gajapati Medical College , Brahmapur,Maharaja Krushna Chandra Gajapati Medical College , Brahmapur, Odisha, 760004",M.D. (FORENSIC MEDICINE),Open,GN,Allotted
+624,59248,All India,"MAHARANI LAXMI BAI MEDICAL COLLEGE JHANSI,MAHARANI LAXMI BAI MEDICAL COLLEGE JHANSI, Uttar Pradesh, 284128",M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE,OBC,OBC,Allotted
+625,59475,DNB Quota,"Government Medical College and Bangur Hospital, Nh62 Sumerpur Road Village Ramasiya Pali Rajasthan , Rajasthan-306401,Government Medical College and Bangur Hospital Nh62 Sumerpur Road Village Ramasiya Pali Rajasthan Ra, Rajasthan, 306401",(NBEMS-DIPLOMA) FAMILY MEDICINE,OBC,OBC,Allotted
+626,59855,All India,"Calcutta School Of Tropical Medicine,Calcutta School Of Tropical Medicine, West Bengal, 700073",DIPLOMA IN CLINICAL PATHOLOGY,OBC,OBC,Allotted
+627,59862,All India,"Mahatma Gandhi Institute of Medical Sciences, Wardha,Mahatma Gandhi Institute of Medical Sciences, Sevagram, Wardha, Maharashtra, 442102",M.D. (PHARMACOLOGY),Open,GN,Allotted
+628,60059,All India,"Fakhruddin Ali Ahmed Medical College,Fakhruddin Ali Ahmed Medical College, Assam, 781301",M.D. (MICROBIOLOGY),Open,GN,Allotted
+629,60077,All India,"Kakatiya Medical College,Kakatiya Medical College, Telangana, 506007",DIPLOMA IN PUBLIC HEALTH,Open,OBC,Allotted
+630,60105,DNB Quota,"Government Medical College and Associated Group of Hospitals, Government Medical College, Dungarpur and Associated Group of Hospitals Shri Haridev Joshi Hospital,,Government Medical College and Associated Group of Hospitals, Government Medical College, Dungarpur, Rajasthan, 314001",(NBEMS-DIPLOMA) FAMILY MEDICINE,OBC,OBC,Allotted
+631,60137,DNB Quota,"MNJ Institute of Oncology and Cancer ,MNJ Institute of Oncology and Regional Cancer Center, Red Hills, Hyderabad, Telangana, Telangana, 500004",(NBEMS) Palliative Medicine,SC,SC,Allotted
+632,60376,All India,"MALDA MEDICAL COLLEGE,MALDA MEDICAL COLLEGE, West Bengal, 732101",M.D. (PAEDIATRICS),ST,ST,Allotted
+633,60385,All India,"Government Medical College Kozhikode,Government Medical College Kozhikode, Kerala, 673008",M.D. (PHYSIOLOGY),Open,OBC,Allotted
+634,60482,DNB Quota,"MGM Govt District Hospital, ,MGM Govt District Hospital,Hanumangarh town, Rajasthan, 335513",(NBEMS-DIPLOMA) PAEDIATRICS,SC,SC,Allotted
+635,60666,All India,"Sawai Man Singh Medical College, JAIPUR,Sawai Man Singh Medical College, JAIPUR, Rajasthan, 302004",M.S. (ORTHOPAEDICS),ST,ST,Allotted
+636,60683,All India,"Bankura Sammilani Medical College,Bankura Sammilani Medical College, West Bengal, 722102",M.D. (PATHOLOGY),SC,SC,Allotted
+637,60724,All India,"Pt. Jawahar Lal Nehru Memorial Medical College, RAIPUR,Pt. Jawahar Lal Nehru Memorial Medical College, RAIPUR, Chhattisgarh, 492001",M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE,Open,GN,Allotted
+638,60750,All India,"Government Medical College, Miraj,Government Medical College, Miraj, Maharashtra, 416410",M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE,OBC,OBC,Allotted
+639,61005,DNB Quota,"Durgapur Steel Plant Hospital, ,J M Sengupta Road, B Zone, Durgapur, Dist- Paschim Bardhaman, West Bengal, 713205",(NBEMS-DIPLOMA) Otorhinolaryngology (E.N.T.),SC,SC,Allotted
+640,61054,DNB Quota,"District Hospital , DARJEELING, West Bengal,20, BAZAAR CART ROAD, DARJEELING, West Bengal, 734101",(NBEMS-DIPLOMA) Obstetrics and Gynaecology,SC,SC,Allotted
+641,61109,All India,"University College of Medical Sciences,University College of Medical Sciences, Delhi (NCT), 110095",M.D. (PHYSIOLOGY),Open,GN,Allotted
+642,61154,DNB Quota,"Government General Hospital, ,GOVERNMENT GENERAL HOSPITAL, ALANPUR LINK ROAD SAWAI MADHOPUR 322001, Rajasthan, 322001",(NBEMS-DIPLOMA) Tuberculosis and CHEST DISEASES,SC,SC,Allotted
+643,61207,All India,"Kidwai Memorial Institute of Oncolgy,Kidwai Memorial Institute of Oncolgy, Karnataka, 560029",M.D. (PATHOLOGY),SC,SC,Allotted
+644,61463,All India,"Regional Institute of Medical Sciences, Imphal,Regional Institute of Medical Sciences, Imphal, Lamphelpat, Manipur, 795004",DIPLOMA IN CLINICAL PATHOLOGY,OBC,OBC,Allotted
+645,61585,All India,"All India Institute of Hygiene and Public Health,110, C. R Avenue, Kolkata, West Bengal, 700073",M.P.H. (EPIDEMIOLOGY),OBC,OBC,Allotted
+646,61829,All India,"Calcutta School Of Tropical Medicine,Calcutta School Of Tropical Medicine, West Bengal, 700073",M.D. (MICROBIOLOGY),OBC,OBC,Allotted
+647,61890,All India,"Pandit Dindayal Upadhyay Medical College, RAJKOT,Pandit Dindayal Upadhyay Medical College, RAJKOT, Gujarat, 360001",M.S. (GENERAL SURGERY),ST,ST,Allotted
+648,62240,All India,"MADRAS MEDICAL COLLEGE,EVR PERIYAR SALAI, CHENNAI-03, Tamil Nadu, 600003",M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE,SC,SC,Allotted
+649,62317,All India,"Shaheed Hasan Khan Mewati Government Medical College,Shaheed Hasan Khan Mewati Government Medical College, Haryana, 122107",M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE,OBC,OBC,Allotted
+650,62418,All India,"STANLEY MEDICAL COLLEGE,STANLEY MEDICAL COLLEGE, Tamil Nadu, 600001",M.D. (FORENSIC MEDICINE),Open,OBC,Allotted
+651,62602,All India,"Government Medical College Kozhikode,Government Medical College Kozhikode, Kerala, 673008",M.D. (PATHOLOGY),SC,SC,Allotted
+652,62844,DNB Quota,"Purba Medinipur District Hospital, ,PO - TAMLUK, PS - TAMLUK, DIST - PURBA MEDINIPUR, West Bengal, 721636",(NBEMS-DIPLOMA) PAEDIATRICS,SC,SC,Allotted
+653,62852,All India,"Kakatiya Medical College,Kakatiya Medical College, Telangana, 506007",M.D. (PATHOLOGY),SC,SC,Allotted
+654,63043,DNB Quota,"Associated Hospital Government Medical College, ,Kanth Bagh Baramulla, Jammu And Kashmir, 193103",(NBEMS-DIPLOMA) PAEDIATRICS,SC,SC,Allotted
+655,63174,DNB Quota,"SDH Nathdwara, ,shree goverdhan chikitsalay nathdwara, Rajasthan, 313301",(NBEMS-DIPLOMA) PAEDIATRICS,SC,SC,Allotted
+656,63584,All India,"SWAMI RAMANAND TEERTH RURAL GOVERNMENT MEDICAL COLLEGE AMBAJOGAI,SWAMI RAMANAND TEERTH RURAL GOVERNMENT MEDICAL COLLEGE AMBAJOGAI, Maharashtra, 431517",M.D. (PATHOLOGY),SC,SC,Allotted
+657,63671,All India,"CHENGALPATTU MEDICAL COLLEGE, CHENGALPATTU,CHENGALPATTU MEDICAL COLLEGE, CHENGALPATTU, Tamil Nadu, 603001",M.D. (Obst. and Gynae)/MS (Obstetrics and Gynaecology),ST,ST,Allotted
+658,63734,All India,"GOA MEDICAL COLLEGE,GOA MEDICAL COLLEGE, Goa, 403202",M.D. (FORENSIC MEDICINE),Open,OBC,Allotted
+659,63759,DNB Quota,"Aralaguppe Mallegowda District Hospital,,AZAD PARK CHIKKAMAGALURU, Karnataka, 577101",(NBEMS-DIPLOMA) ANAESTHESIOLOGY,SC,SC,Allotted
+660,63944,All India,"TOPIWALA NATIONAL MEDICAL COLLEGE,TOPIWALA NATIONAL MEDICAL COLLEGE, Maharashtra, 400008",M.D. (FORENSIC MEDICINE),OBC,OBC,Allotted
+661,64136,All India,"HBT Medical College and Dr RN Cooper Municipal General Hospital Juhu,HBT Medical College and Dr R N Cooper Municipal General Hospital Mumbai, Maharashtra, 400056",M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE,OBC,OBC,Allotted
+662,64316,All India,"University College of Medical Sciences,University College of Medical Sciences, Delhi (NCT), 110095",M.D. (PHARMACOLOGY),EWS,EWS,Allotted
+663,64368,All India,"The National Institute of Health and Family Welfare,The National Institute of Health and Family Welfare, Delhi (NCT), 110067",DIPLOMA IN HEALTH ADMINISTRATION,OBC,OBC,Allotted
+664,64425,All India,"North Eastern Indira Gandhi Regional Institute of Health & Medical Sciences, Shillong,Mawdiangdiang, Shillong, Meghalaya 793018",M.D. (BIOCHEMISTRY),Open,OBC,Allotted
+665,64871,DNB Quota,"District Hospital, Dharwad,Killa Road, Dharwad, Karnataka-580008",(NBEMS-DIPLOMA) OPHTHALMOLOGY,SC,SC,Allotted
+666,64917,All India,"Tezpur Medical College,Tezpur Medical College, Assam, 784010",M.D. (PATHOLOGY),SC,SC,Allotted
+667,64959,All India,"Chamarajanagar Institute of Medical Sciences, Karnataka,CHAMARAJANAGAR INSTITUTE OF MEDICAL SCIENCES, SY. NO 124, YEDAPURA VILLAGE KASABA HOBLI, CHAMARAJANA, Karnataka, 571313",M.D. (COMMUNITY HEALTH and ADMN.),SC,SC,Allotted
+668,65411,All India,"Government Medical College, Latur,Government Medical College, Old Railway station Near Marwadi Rajasthani High-School Latur, Maharashtra, 413512",M.S. (GENERAL SURGERY),ST,ST,Allotted
+669,65884,DNB Quota,"Government Medical College, ,LATHAMS BUNGALOW ROAD, RAMANATHAPURAM., Tamil Nadu, 623501",(NBEMS-DIPLOMA) FAMILY MEDICINE,EWS,EWS,Allotted
+670,66014,All India,"Bangalore Medical College and Research Institute,Bangalore Medical College and Research Institute, Karnataka, 560002",M.D. (FORENSIC MEDICINE),Open,GN,Allotted
+671,66097,All India,"Dr.V.M.Govt.Medical College,Solapur, Maharasthtra,Infron of district court civil chowk Dr.V.M.Govt.Medical College,Solapur, Maharasthtra, Maharashtra, 413003",M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE,OBC,OBC,Allotted
+672,66290,All India,"Bankura Sammilani Medical College,Bankura Sammilani Medical College, West Bengal, 722102",M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE,OBC,OBC,Allotted
+673,66521,All India,"Government Medical College Kozhikode,Government Medical College Kozhikode, Kerala, 673008",M.D. (FORENSIC MEDICINE),SC,SC,Allotted
+674,66699,DNB Quota,"Associated Hospital Government Medical College, ,Kanth Bagh Baramulla, Jammu And Kashmir, 193103",(NBEMS) COMMUNITY MEDICINE,OBC,OBC,Allotted
+675,66804,All India,"Government Medical College Kota,Government Medical College Kota, Rajasthan, 324005",M.D. (PATHOLOGY),SC,SC,Allotted
+676,66888,All India,"GOVT. MEDICAL COLLEGE AND HOSPITAL, CHANDIGARH,GOVT. MEDICAL COLLEGE AND HOSPITAL, CHANDIGARH, Chandigarh, 160030",M.D. (BIOCHEMISTRY),Open,GN,Allotted
+677,66950,All India,"DARBHANGA MEDICAL COLLEGE,Sheetal Prasad Marg, Laheriasarai, Darbhanga, Bihar, Bihar, 846003",M.D. (MICROBIOLOGY),Open,OBC,Allotted
+678,67044,DNB Quota,"Jagjivan Ram Railway Hospital,,Maratha Mandir Marg, Mumbai Central, Mumbai, Maharashtra, 400008",(NBEMS) PAEDIATRICS,ST,ST,Allotted
+679,67495,All India,"Sardar Patel Medical College, Bikaner,Sardar Patel Medical College, Bikaner, Rajasthan, 334003",M.D. (PATHOLOGY),SC,SC,Allotted
+680,67555,All India,"JAWAHARLAL NEHRU MEDICAL COLLEGE, ALIGARH MUSLIM UNIVERSITY STATE UTTAR,JAWAHARLAL NEHRU MEDICAL COLLEGE, ALIGARH MUSLIM UNIVERSITY STATE UTTAR, Uttar Pradesh, 202002",M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE,SC,SC,Allotted
+681,67861,DNB Quota,"Government Multi Specialty Hospital, ,Director Health and Family Welfare Govt. Multi Speciality Hospital Sector 16 Chandigarh, Chandigarh, 160016",(NBEMS) PATHOLOGY,SC,SC,Allotted
+682,68017,Delhi Universities,"University College of Medical Sciences,University College of Medical Sciences, Delhi (NCT), 110095",M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE,Open,OBC,Allotted
+683,68128,All India,"ESIC Medical College & Hospital, Faridabad,NH3 NIT FARIDABAD, Haryana, 121001",M.D. (BIOCHEMISTRY),OBC,OBC,Allotted
+684,68175,All India,"Silchar Medical College, Silchar,Silchar Medical College, Silchar P.O. Silchar Medical College, Silchar",M.D. (PATHOLOGY),SC,SC,Allotted
+685,68357,All India,"Agartala Government Medical College,Agartala Government Medical College, Tripura, 799006",MD/MS (Anatomy),Open,EWS,Allotted
+686,68475,DNB Quota,"National Institute of Tuberculosis and Respiratory Diseases, (Formerly Known as L.R.S. Instt. of T.B. and Allied Scs),,National Institute of Tuberculosis and Respiratory Diseases (Formerly Known as L.R.S. Instt. of T.B., Delhi (NCT), 110030",(NBEMS) MICROBIOLOGY,Open,GN,Allotted
+687,68601,DNB Quota,"Autonomous State Medical college Society and S.N.M District Hospital, ,DAULATTAPUR JALESAR ROAD NARKHI FIROZABAD, Uttar Pradesh, 283203",(NBEMS-DIPLOMA) OPHTHALMOLOGY,SC,SC,Allotted
+688,68794,DNB Quota,"VCSG Govt Institute of Medical Science and Research and HNB Base Teaching Hospital , ,Srikot Ganganali Srinagar Garhwal Uttarakhand, Uttarakhand, 246174",(NBEMS-DIPLOMA) OPHTHALMOLOGY,SC,SC,Allotted
+689,69645,All India,"R G KAR MEDICAL COLLEGE, West Bengal,R G KAR MEDICAL COLLEGE, West Bengal, West Bengal, 700004",M.D. (BIOCHEMISTRY),Open,GN,Allotted
+690,69658,All India,"Guru Gobind Singh Medical College,Guru Gobind Singh Medical College, Punjab, 151203",M.S. (GENERAL SURGERY),ST,ST,Allotted
+691,69833,DNB Quota,"ESIC Model Hospital and Occupational Disease Centre,,ESIC MODEL HOSPITAL AND ODC NANDA NAGAR INDORE, Madhya Pradesh, 452011",(NBEMS) GENERAL MEDICINE,ST,ST,Allotted
+692,70164,DNB Quota,"Govt. District Civil Hospital, ,DIS GOVT HOSPITAL, SRI GANGANAGAR, Rajasthan, 335001",(NBEMS-DIPLOMA) OPHTHALMOLOGY,SC,SC,Allotted
+693,70313,All India,"HBT Medical College and Dr RN Cooper Municipal General Hospital Juhu,HBT Medical College and Dr R N Cooper Municipal General Hospital Mumbai, Maharashtra, 400056",M.D. (PHARMACOLOGY),Open,GN,Allotted
+694,70320,All India,"Moti Lal Nehru Medical College,Moti Lal Nehru Medical College, Uttar Pradesh, 211001",M.D. (FORENSIC MEDICINE),Open,GN,Allotted
+695,70446,All India,"GOA MEDICAL COLLEGE,GOA MEDICAL COLLEGE, Goa, 403202",M.D. (FORENSIC MEDICINE),Open,OBC,Allotted
+696,70482,DNB Quota,"Mahatma Gandhi Hospital, Bhilwara Swami Ram Charan Marg, Bhopal Ganj, Bhilwara, Rajasthan Rajasthan , Rajasthan-311001,Mahatma Gandhi Hospital, Bhilwara Swami Ram Charan Marg, Bhopal Ganj, Bhilwara, Rajasthan Rajasthan , Rajasthan, 311001",(NBEMS-DIPLOMA) OPHTHALMOLOGY,SC,SC,Allotted
+697,70619,All India,"RUHS COLLEGE OF MEDICAL SCIENCES,RUHS COLLEGE OF MEDICAL SCIENCES, Rajasthan, 302033",M.D. (PATHOLOGY),SC,SC,Allotted
+698,70620,All India,"Pt. Jawahar Lal Nehru Memorial Medical College, RAIPUR,Pt. Jawahar Lal Nehru Memorial Medical College, RAIPUR, Chhattisgarh, 492001",M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE,OBC,OBC,Allotted
+699,71115,All India,"CHHATTISGARH INSTITUTE OF MEDICAL SCIENCES,CHHATTISGARH INSTITUTE OF MEDICAL SCIENCES, Chhattisgarh, 495001",M.D. (MICROBIOLOGY),Open,GN,Allotted
+700,71177,All India,"CHENGALPATTU MEDICAL COLLEGE, CHENGALPATTU,CHENGALPATTU MEDICAL COLLEGE, CHENGALPATTU, Tamil Nadu, 603001",M.D. (PHARMACOLOGY),SC,SC,Allotted
+701,71288,All India,"GOVT. MEDICAL COLLEGE, AMRITSAR,GOVT. MEDICAL COLLEGE,CIRCULAR ROAD, AMRITSAR, Punjab, 143001",DIPLOMA IN CHILD HEALTH/ PAEDIATRICS,ST,ST,Allotted
+702,71354,All India,"Gandhi Medical College, Bhopal,Gandhi Medical College, Bhopal, Madhya Pradesh, 462001",M.D. (PHARMACOLOGY),Open,GN,Allotted
+703,71358,All India,"GOVT MEDICAL COLLEGE,THRISSUR,GOVT MEDICAL COLLEGE,THRISSUR, Kerala, 680596",M.D. (ANAESTHESIOLOGY),ST,ST,Allotted
+704,71573,All India,"Andhra Medical College,Andhra Medical College, Andhra Pradesh, 530002",M.D. (MICROBIOLOGY),Open,GN,Allotted
+705,71639,All India,"Osmania Medical Collge,Osmania Medical Collge, Telangana, 500095",M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE,SC,SC,Allotted
+706,71673,All India,"INDIRA GANDHI GOVT.MEDICAL COLLEGE NAGPUR,INDIRA GANDHI GOVT.MEDICAL COLLEGE NAGPUR, Maharashtra, 440018",M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE,OBC,OBC,Allotted
+707,71695,All India,"Mahatma Gandhi Institute of Medical Sciences, Wardha,Mahatma Gandhi Institute of Medical Sciences, Sevagram, Wardha, Maharashtra, 442102",M.S. (OPHTHALMOLOGY),ST,ST,Allotted
+708,71763,All India,"B. J. MEDICAL COLLEGE,B.J. Medical College, New Civil Hospital Asarwa,Ahmedabad-380016,Gujarat,India, Gujarat, 380016",M.D. (FORENSIC MEDICINE),Open,GN,Allotted
+709,72001,All India,"College of Medicine and JNM Hospital, WBUHS,Block A, Post Office Kalyani, Near Silpanchal Station, Block A2, District Nadia, West Bengal, West Bengal, 741235",M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE,OBC,OBC,Allotted
+710,72195,All India,"IPGME&R and SSKM Hospital Kolkata,IPGME&R and SSKM Hospital Kolkata, West Bengal, 700020",M.D. (PHYSIOLOGY),Open,GN,Allotted
+711,72253,All India,"Dr. Sampurnanand Medical College (SNMC), JODHPUR,Dr. Sampurnanand Medical College (SNMC), JODHPUR, Rajasthan, 342001",M.D. (PHARMACOLOGY),Open,GN,Allotted
+712,72266,IP University Quota,"Vardhman Mahavir Medical College, , New Delhi,Vardhman Mahavir Medical College, , New Delhi, Delhi (NCT), 110029",M.D. (ANAESTHESIOLOGY),OBC,OBC,Allotted
+713,72703,All India,"Govt. Medical College Akola,Govt. Medical College Akola, Maharashtra, 444001",M.D. (PHARMACOLOGY),Open,GN,Allotted
+714,72734,All India,"Rajendra Institute of Medical Sciences, Ranchi,Rajendra Institute of Medical Sciences, Ranchi, Jharkhand, 834009",M.D. (PHARMACOLOGY),Open,GN,Allotted
+715,72735,DNB Quota,"Government Medical College and Bangur Hospital, Nh62 Sumerpur Road Village Ramasiya Pali Rajasthan , Rajasthan-306401,Government Medical College and Bangur Hospital Nh62 Sumerpur Road Village Ramasiya Pali Rajasthan Ra, Rajasthan, 306401",(NBEMS-DIPLOMA) FAMILY MEDICINE,SC,SC,Allotted
+716,73192,All India,"Pt. Jawahar Lal Nehru Memorial Medical College, RAIPUR,Pt. Jawahar Lal Nehru Memorial Medical College, RAIPUR, Chhattisgarh, 492001",M.D. (Tuberculosis and Respiratory diseases)/Pulmonary Medicine /M.D. (Respiratory Medicine),ST,ST,Allotted
+717,73280,DNB Quota,"National Institute of Tuberculosis and Respiratory Diseases, (Formerly Known as L.R.S. Instt. of T.B. and Allied Scs),,National Institute of Tuberculosis and Respiratory Diseases (Formerly Known as L.R.S. Instt. of T.B., Delhi (NCT), 110030",(NBEMS) MICROBIOLOGY,OBC,OBC,Allotted
+718,73389,All India,"Agartala Government Medical College,Agartala Government Medical College, Tripura, 799006",M.D. (PHARMACOLOGY),Open,GN,Allotted
+719,73454,DNB Quota,"Siliguri District Hospital,,Kachari Road, Siliguri, Dist- Darjeeling, West Bengal, West Bengal, 734001",(NBEMS-DIPLOMA) OPHTHALMOLOGY,SC,SC,Allotted
+720,73569,All India,"JAWAHAR LAL NEHRU MEDICAL COLLEGE, AJMER,NEAR PATEL STADIUM, AJMER, Rajasthan, 305001",M.D. (MICROBIOLOGY),Open,GN,Allotted
+721,73677,All India,"Shri Vasantrao Naik Govt Medical College Yavatmal,Shri Vasantrao Naik Govt Medical College Yavatmal, Maharashtra, 445001",M.S. (E.N.T.),ST,ST,Allotted
+722,73696,All India,"PATNA MEDICAL COLLEGE, PATNA,PATNA MEDICAL COLLEGE, PATNA, Bihar, 800004",M.D. (BIOCHEMISTRY),Open,GN,Allotted
+723,73893,All India,"GAJRA RAJA MEDICAL COLLEGE GWALIOR,GAJRA RAJA MEDICAL COLLEGE GWALIOR, Madhya Pradesh, 474009",M.D. (MICROBIOLOGY),Open,GN,Allotted
+724,73951,All India,"Midnapore Medical College and Hospital,Midnapore Medical College and Hospital, West Bengal, 721101",M.S. (GENERAL SURGERY),ST,ST,Allotted
+725,74022,All India,"DR. SHANKARRAO CHAVAN GOVERNMENT MEDICAL COLLEGE, NANDED,DR. SHANKARRAO CHAVAN GOVERNMENT MEDICAL COLLEGE, VISHNUPURI, NANDED, Maharashtra, 431606",M.D. (MICROBIOLOGY),Open,GN,Allotted
+726,74163,All India,"Gandhi Medical College, Bhopal,Gandhi Medical College, Bhopal, Madhya Pradesh, 462001",M.D. (MICROBIOLOGY),Open,GN,Allotted
+727,74221,All India,"Andhra Medical College,Andhra Medical College, Andhra Pradesh, 530002",M.D. (MICROBIOLOGY),OBC,OBC,Allotted
+728,74376,All India,"EMPLOYEES STATE INSURANCE CORPORATION MEDICAL COLLEGE AND PGIMSR,EMPLOYEES STATE INSURANCE CORPORATION MEDICAL COLLEGE AND PGIMSR, Karnataka, 560010",M.D. (BIOCHEMISTRY),Open,OBC,Allotted
+729,74381,DNB Quota,"District Hospital, ,District Hospital, B.H.Road, Tumakuru-572101, Karnataka, 572101",(NBEMS) OPHTHALMOLOGY,ST,ST,Allotted
+730,74496,All India,"VIJANAGARA INSTITUTE OF MEDICAL SCIENCES BALLARI,VIJANAGARA INSTITUTE OF MEDICAL SCIENCES BALLARI, Karnataka, 583104",M.D. (MICROBIOLOGY),Open,OBC,Allotted
+731,74588,All India,"BIDAR INSTITUTE OF MEDICAL SCIENCES, BIDAR,BIDAR INSTITUTE OF MEDICAL SCIENCES, BIDAR, Karnataka, 585401",M.D. (FORENSIC MEDICINE),Open,OBC,Allotted
+732,74778,All India,"Osmania Medical Collge,Osmania Medical Collge, Telangana, 500095",M.S. (OPHTHALMOLOGY),ST,ST,Allotted
+733,74781,All India,"Government Kilpauk Medical College,Government Kilpauk Medical College, Tamil Nadu, 600010",MD/MS (Anatomy),OBC,OBC,Allotted
+734,74867,All India,"Grant Medical College, Maharashtra,Grant Medical College, Maharashtra, Maharashtra, 400008",M.D. (MICROBIOLOGY),OBC,OBC,Allotted
+735,74891,All India,"LOKMANYA TILAK MEDICAL COLLEGE MUMBAI,LOKMANYA TILAK MEDICAL COLLEGE MUMBAI, Maharashtra, 400022",M.D. (MICROBIOLOGY),Open,GN,Allotted
+736,75265,All India,"GMC Bharat Ratna Late Shri Atal Bihari Vajpayee Memorial Medical College, Chhattisgarh ,DEAN OFFICE, BHARAT RATNA LATE SHRI ATAL BIHARI VAJPAYEE MEMORIAL MEDICAL COLLEGE, PENDRI, RAJNANDG, Chhattisgarh, 491441",M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE,OBC,OBC,Allotted
+737,75422,All India,"MADRAS MEDICAL COLLEGE,EVR PERIYAR SALAI, CHENNAI-03, Tamil Nadu, 600003",M.D. (ANAESTHESIOLOGY),ST,ST,Allotted
+738,75450,All India,"Government Medical College Kota,Government Medical College Kota, Rajasthan, 324005",M.D. (FORENSIC MEDICINE),Open,GN,Allotted
+739,75464,All India,"Agartala Government Medical College,Agartala Government Medical College, Tripura, 799006",M.D. (PHARMACOLOGY),Open,GN,Allotted
+740,75786,All India,"B.J.Government Medical College, Pune,B.J.Government Medical College, Pune, Maharashtra, 411001",M.D. (BIOCHEMISTRY),Open,GN,Allotted
+741,75832,All India,"KING GEORGES MEDICAL UNIVERSITY,KING GEORGES MEDICAL UNIVERSITY, Uttar Pradesh, 226003",M.D. (PHYSIOLOGY),Open,GN,Allotted
+742,76020,All India,"Rangaraya Medical College,Rangaraya Medical College Beside SP Office , Pithapuram Road, Kakinada, Andhra Pradesh, 533003",M.D. (PHARMACOLOGY),Open,GN,Allotted
+743,76105,All India,"Rani Durgavati Medical College, Banda ,Rani Durgavati Medical College Naraini Road Banda, Uttar Pradesh, 210001",M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE,OBC,OBC,Allotted
+744,76207,All India,"Govt. Medical College, Baroda,Govt. Medical College, Baroda, Gujarat, 390001",M.D. (BIOCHEMISTRY),Open,GN,Allotted
+745,76355,DNB Quota,"District Hospital, ,District Hospital, Near KEB, PB Road, Haveri, Karnataka, 581110",(NBEMS-DIPLOMA) FAMILY MEDICINE,SC,SC,Allotted
+746,76697,DNB Quota,"Associated Hospital Government Medical College, ,Kanth Bagh Baramulla, Jammu And Kashmir, 193103",(NBEMS) GENERAL MEDICINE,ST,ST,Allotted
+747,76757,All India,"Government Medical College, Nagpur,Government Medical College, Nagpur, Maharashtra, 440003",M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE,SC,SC,Allotted
+748,76913,All India,"JAWAHARLAL NEHRU MEDICAL COLLEGE, BHAGALPUR,JAWAHARLAL NEHRU MEDICAL COLLEGE, BHAGALPUR, Bihar, 812001",M.S. (OPHTHALMOLOGY),ST,ST,Allotted
+749,77085,All India,"Shri Vasantrao Naik Govt Medical College Yavatmal,Shri Vasantrao Naik Govt Medical College Yavatmal, Maharashtra, 445001",M.D. (PHARMACOLOGY),Open,GN,Allotted
+750,77237,All India,"Ganesh Shankar Vidyarthi Memorial Medical College,Ganesh Shankar Vidyarthi Memorial Medical College, Uttar Pradesh, 208002",M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE,SC,SC,Allotted
+751,77328,All India,"Shri Vasantrao Naik Govt Medical College Yavatmal,Shri Vasantrao Naik Govt Medical College Yavatmal, Maharashtra, 445001",M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE,OBC,OBC,Allotted
+752,77438,All India,"GOVT. MEDICAL COLLEGE, THIRUVANANTHAPURAM,GOVT. MEDICAL COLLEGE, THIRUVANANTHAPURAM, Kerala, 695011",M.D. (Radiotherapy/ Radiation Oncology),ST,ST,Allotted
+753,77468,IP University Quota,"Vardhman Mahavir Medical College, , New Delhi,Vardhman Mahavir Medical College, , New Delhi, Delhi (NCT), 110029",M.D. (ANAESTHESIOLOGY),OBC,OBC,Allotted
+754,77613,All India,"Government medical college patiala.,Government medical college patiala., Punjab, 147001",M.D. (PHARMACOLOGY),Open,GN,Allotted
+755,77737,All India,"Assam Medical College,Assam Medical College, Assam, 786002",M.D. (FORENSIC MEDICINE),Open,GN,Allotted
+756,77918,All India,"Pt. Jawahar Lal Nehru Memorial Medical College, RAIPUR,Pt. Jawahar Lal Nehru Memorial Medical College, RAIPUR, Chhattisgarh, 492001",M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE,OBC,OBC,Allotted
+757,78004,All India,"Ganesh Shankar Vidyarthi Memorial Medical College,Ganesh Shankar Vidyarthi Memorial Medical College, Uttar Pradesh, 208002",M.D. (PHARMACOLOGY),Open,GN,Allotted
+758,78024,DNB Quota,"Veerangana Awanti Bai Women Hospital, ,sic.vabwhlko@gmail.com, Uttar Pradesh, 226018",(NBEMS-DIPLOMA) Obstetrics and Gynaecology,ST,ST,Allotted
+759,78048,All India,"KING GEORGES MEDICAL UNIVERSITY,KING GEORGES MEDICAL UNIVERSITY, Uttar Pradesh, 226003",M.D. (FORENSIC MEDICINE),SC,SC,Allotted
+760,78086,All India,"Government Medical College, Nizamabad, Telangana State,Government Medical College, Nizamabad, Telangana State, Telangana, 503001",M.D. (ANAESTHESIOLOGY),ST,ST,Allotted
+761,78342,All India,"GAJRA RAJA MEDICAL COLLEGE GWALIOR,GAJRA RAJA MEDICAL COLLEGE GWALIOR, Madhya Pradesh, 474009",M.D. (ANAESTHESIOLOGY),ST,ST,Allotted
+762,78493,All India,"Lady Hardinge Medical College,Lady Hardinge Medical College, Delhi (NCT), 110001",M.D. (BIOCHEMISTRY),OBC,OBC,Allotted
+763,78535,All India,"MADURAI MEDICAL COLLEGE,MADURAI MEDICAL COLLEGE, Tamil Nadu, 625020",M.D. (PHYSIOLOGY),OBC,OBC,Allotted
+764,78552,All India,"Pandit Bhagwat Dayal Sharma Post Graduate Institute of Medical Sciences, Rohtak,Pandit Bhagwat Dayal Sharma Post Graduate Institute of Medical Sciences, Rohtak, Haryana, 124001",M.D. (ANAESTHESIOLOGY),ST,ST,Allotted
+765,78767,All India,"RAICHUR INSTITUTE OF MEDICAL SCIENCES,RAICHUR INSTITUTE OF MEDICAL SCIENCES, Karnataka, 584102",M.S. (OPHTHALMOLOGY),ST,ST,Allotted
+766,78780,All India,"Tezpur Medical College,Tezpur Medical College, Assam, 784010",M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE,OBC,OBC,Allotted
+767,78986,All India,"DR. SHANKARRAO CHAVAN GOVERNMENT MEDICAL COLLEGE, NANDED,DR. SHANKARRAO CHAVAN GOVERNMENT MEDICAL COLLEGE, VISHNUPURI, NANDED, Maharashtra, 431606",M.D. (MICROBIOLOGY),Open,GN,Allotted
+768,79215,All India,"JAWAHARLAL NEHRU MEDICAL COLLEGE, ALIGARH MUSLIM UNIVERSITY STATE UTTAR,JAWAHARLAL NEHRU MEDICAL COLLEGE, ALIGARH MUSLIM UNIVERSITY STATE UTTAR, Uttar Pradesh, 202002",MD/MS (Anatomy),Open,GN,Allotted
+769,79319,All India,"MEDICAL COLLEGE, KOLKATA,MEDICAL COLLEGE, KOLKATA, West Bengal, 700073",M.D. (FORENSIC MEDICINE),Open,OBC,Allotted
+770,79440,All India,"Kodagu Institute of Medical Sciences, Karnataka,Kodagu Institute of Medical Sciences Madikeri Kodagu, Karnataka, 571201",M.D. (MICROBIOLOGY),Open,OBC,Allotted
+771,79566,All India,"GOVT MEDICAL COLLEGE, ANANTAPURAMU,GOVT MEDICAL COLLEGE, ANANTAPURAMU, Andhra Pradesh, 515001",M.D. (FORENSIC MEDICINE),Open,GN,Allotted
+772,79717,All India,"Regional Institute of Ophthalmology,Regional Institute of Ophthalmology, Eye Hospital Civil Lines Sitapur, Uttar Pradesh, 261001",M.S. (OPHTHALMOLOGY),ST,ST,Allotted
+773,79761,All India,"GOVT MEDICAL COLLEGE,THRISSUR,GOVT MEDICAL COLLEGE,THRISSUR, Kerala, 680596",M.D. (PSYCHIATRY),ST,ST,Allotted
+774,79821,All India,"Rajah Muthiah Medical College,Govt. Medical College and Hospital, Cuddalore District Erstwhile Rajah Muthiah Medical College Annam, Tamil Nadu, 608002",M.D. (BIOCHEMISTRY),Open,GN,Allotted
+775,80022,All India,"COIMBATORE MEDICAL COLLEGE,COIMBATORE MEDICAL COLLEGE, Tamil Nadu, 641014",M.D. (PSYCHIATRY),ST,ST,Allotted
+776,80059,All India,"Govt. Doon Medical College, Dehradun,Govt. Doon Medical College Dehrakhas, Patel Nagar Dehradun 248001, Uttarakhand, 248001",M.D. (MICROBIOLOGY),Open,GN,Allotted
+777,80325,All India,"NALANDA MEDICAL COLLEGE,PATNA,NALANDA MEDICAL COLLEGE,PATNA, Bihar, 800026",M.D. (ANAESTHESIOLOGY),ST,ST,Allotted
+778,80526,All India,"Dr.V.M.Govt.Medical College,Solapur, Maharasthtra,Infron of district court civil chowk Dr.V.M.Govt.Medical College,Solapur, Maharasthtra, Maharashtra, 413003",M.D. (FORENSIC MEDICINE),Open,SC,Allotted
+779,80564,All India,"NALANDA MEDICAL COLLEGE,PATNA,NALANDA MEDICAL COLLEGE,PATNA, Bihar, 800026",M.D. (BIOCHEMISTRY),Open,OBC,Allotted
+780,80639,All India,"University College of Medical Sciences,University College of Medical Sciences, Delhi (NCT), 110095",MD/MS (Anatomy),Open,GN,Allotted
+781,80828,All India,"Tirunelveli Medical College,Tirunelveli Medical College, Tamil Nadu, 627011",M.D. (PSYCHIATRY),ST,ST,Allotted
+782,80876,All India,"Gandhi Medical College, Bhopal,Gandhi Medical College, Bhopal, Madhya Pradesh, 462001",M.D. (FORENSIC MEDICINE),Open,GN,Allotted
+783,80882,All India,"REGIONAL CANCER CENTRE,REGIONAL CANCER CENTRE, Kerala, 695011",M.D. (Radiotherapy/ Radiation Oncology),ST,ST,Allotted
+784,80988,DNB Quota,"General Hospital, ,SECTOR-6, PANCHKULA, HARYANA-134108, Haryana, 134108",(NBEMS-DIPLOMA) Obstetrics and Gynaecology,ST,ST,Allotted
+785,81070,All India,"Karnataka Institute of Medical Sciences, Hubballi,Karnataka Institute of Medical Sciences, Hubballi, Karnataka, 580021",M.D. (FORENSIC MEDICINE),Open,GN,Allotted
+786,81194,DNB Quota,"Associated Hospital Government Medical College, ,Government Medical College Chack Sajjan Kathua, Jammu And Kashmir, 184101",(NBEMS) PHARMACOLOGY,Open,GN,Allotted
+787,81301,All India,"Vardhman Mahavir Medical College, , New Delhi,Vardhman Mahavir Medical College, , New Delhi, Delhi (NCT), 110029",M.D. (BIOCHEMISTRY),SC,SC,Allotted
+788,81414,All India,"Government Medical College, Nagpur,Government Medical College, Nagpur, Maharashtra, 440003",M.D. (FORENSIC MEDICINE),Open,GN,Allotted
+789,81419,All India,"MANDYA INSTITUTE OF MEDICAL SCIENCES,MANDYA INSTITUTE OF MEDICAL SCIENCES MANDYA, Karnataka, 571401",M.D. (BIOCHEMISTRY),Open,GN,Allotted
+790,81621,All India,"PATNA MEDICAL COLLEGE, PATNA,PATNA MEDICAL COLLEGE, PATNA, Bihar, 800004",DIPLOMA IN BACTERIOLOGY,Open,OBC,Allotted
+791,81669,All India,"Government Medical College, Surat,Government Medical College, Majuragate, Surat., Gujarat, 395001",M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE,SC,SC,Allotted
+792,81678,All India,"BELAGAVI INSTITUTE OF MEDICAL SCIENCES, BELAGAVI,BELAGAVI INSTITUTE OF MEDICAL SCIENCES, BELAGAVI, Karnataka, 590001",M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE,SC,SC,Allotted
+793,81841,All India,"B. J. MEDICAL COLLEGE,B.J. Medical College, New Civil Hospital Asarwa,Ahmedabad-380016,Gujarat,India, Gujarat, 380016",M.D. (BIOCHEMISTRY),Open,GN,Allotted
+794,81855,DNB Quota,"Government Medical College, ,LATHAMS BUNGALOW ROAD, RAMANATHAPURAM., Tamil Nadu, 623501",(NBEMS-DIPLOMA) FAMILY MEDICINE,SC,SC,Allotted
+795,81953,All India,"Sawai Man Singh Medical College, JAIPUR,Sawai Man Singh Medical College, JAIPUR, Rajasthan, 302004",M.D. (FORENSIC MEDICINE),SC,SC,Allotted
+796,82075,All India,"Kakatiya Medical College,Kakatiya Medical College, Telangana, 506007",MD/MS (Anatomy),Open,GN,Allotted
+797,82087,All India,"IPGME&R and SSKM Hospital Kolkata,IPGME&R and SSKM Hospital Kolkata, West Bengal, 700020",M.D. (ANAESTHESIOLOGY),ST,ST,Allotted
+798,82112,All India,"S.V. Medical College, Tirupathi ,S.V. Medical College, Tirupathi, Andhra Pradesh, 517507",M.D. (MICROBIOLOGY),Open,GN,Allotted
+799,82420,All India,"GANDHI MEDICAL COLLEGE,GANDHI MEDICAL COLLEGE, Telangana, 500003",M.D. (BIOCHEMISTRY),Open,GN,Allotted
+800,82597,All India,"Government Mohan Kumaramangalam Medical College, Salem,Government Mohan Kumaramangalam Medical College, Majeera Kollappatti, Steel Plant Road, Salem., Tamil Nadu, 636030",M.D. (FORENSIC MEDICINE),SC,SC,Allotted
+801,82616,All India,"Govt. Medical College, Bhavnagar,Near. S.T. Bus Stand,Jail Road, Bhavnagar-364001, Gujarat, 364001",M.D. (FORENSIC MEDICINE),Open,GN,Allotted
+802,82768,All India,"BPS Govt. Medical College for Women, Khanpur Kalan Sonepat,BPS Govt. Medical College for Women, Khanpur Kalan Sonepat, Haryana, 131305",M.D. (PATHOLOGY),ST,ST,Allotted
+803,82783,DNB Quota,"Taluka General Hospital, Karnataka,Taluka General Hospital Ramdurga, Belgaum Road, Ramdurga, Karnataka, 591123",(NBEMS-DIPLOMA) Obstetrics and Gynaecology,ST,ST,Allotted
+804,82825,All India,"MEDICAL COLLEGE, KOLKATA,MEDICAL COLLEGE, KOLKATA, West Bengal, 700073",M.D. (MICROBIOLOGY),OBC,OBC,Allotted
+805,82971,All India,"Maulana Azad Medical College,Maulana Azad Medical College, Delhi (NCT), 110002",M.D. (BIOCHEMISTRY),OBC,OBC,Allotted
+806,83028,DNB Quota,"Apollomedics Superspeciality Hospital,KBC 31, Sector B, LDA Colony, Kanpur Road, Lucknow, Uttar Pradesh, 226012",(NBEMS) MICROBIOLOGY,Open,GN,Allotted
+807,83074,All India,"Dr.V.M.Govt.Medical College,Solapur, Maharasthtra,Infron of district court civil chowk Dr.V.M.Govt.Medical College,Solapur, Maharasthtra, Maharashtra, 413003",M.D. (FORENSIC MEDICINE),OBC,OBC,Allotted
+808,83186,All India,"Gauhati Medical College, Guwahati,Gauhati Medical College, Guwahati, Assam, 781032",M.D. (FORENSIC MEDICINE),Open,GN,Allotted
+809,83231,All India,"Shaheed Hasan Khan Mewati Government Medical College,Shaheed Hasan Khan Mewati Government Medical College, Haryana, 122107",M.D. (MICROBIOLOGY),Open,GN,Allotted
+810,83239,All India,"PATNA MEDICAL COLLEGE, PATNA,PATNA MEDICAL COLLEGE, PATNA, Bihar, 800004",MD/MS (Anatomy),Open,GN,Allotted
+811,83359,DNB Quota,"Government Medical college, Mullur village, pudukkottai, Tamil Nadu- 622004,MULLUR VILLAGE, PUDUKKOTTAI PO PUDUKKOTTAI, Tamil Nadu, 622004",(NBEMS) Emergency Medicine,ST,ST,Allotted
+812,83480,All India,"Agartala Government Medical College,Agartala Government Medical College, Tripura, 799006",M.D. (BIOCHEMISTRY),Open,GN,Allotted
+813,83573,All India,"Sri Bhausaheb Hire Government Medical College,Sri Bhausaheb Hire Government Medical College, Maharashtra, 424311",M.D. (MICROBIOLOGY),Open,GN,Allotted
+814,83594,All India,"DARBHANGA MEDICAL COLLEGE,Sheetal Prasad Marg, Laheriasarai, Darbhanga, Bihar, Bihar, 846003",M.D. (FORENSIC MEDICINE),Open,OBC,Allotted
+815,83663,All India,"Government medical college patiala.,Government medical college patiala., Punjab, 147001",M.D. (ANAESTHESIOLOGY),ST,ST,Allotted
+816,83671,All India,"PGIMER, DR. RML Hospital,Post Graduate Institute of Medical Education and Research, Dr. RML Hospital, B.K.S. Marg, New Delhi",M.D. (MICROBIOLOGY),SC,SC,Allotted
+817,83830,All India,"GANDHI MEDICAL COLLEGE,GANDHI MEDICAL COLLEGE, Telangana, 500003",M.D. (PHYSIOLOGY),Open,OBC,Allotted
+818,83848,All India,"NIL RATAN SIRCAR MEDICAL COLLEGE,NIL RATAN SIRCAR MEDICAL COLLEGE, 138 AJC BOSE ROAD, KOLKATA-700014., West Bengal, 700014",M.D. (ANAESTHESIOLOGY),ST,ST,Allotted
+819,84005,All India,"Kakatiya Medical College,Kakatiya Medical College, Telangana, 506007",M.D. (PHARMACOLOGY),OBC,OBC,Allotted
+820,84157,All India,"GAJRA RAJA MEDICAL COLLEGE GWALIOR,GAJRA RAJA MEDICAL COLLEGE GWALIOR, Madhya Pradesh, 474009",M.D. (MICROBIOLOGY),OBC,OBC,Allotted
+821,84274,Delhi Universities,"Kasturba Hospital, Daryaganj,Delhi,Daryaganj,Delhi",DIP.IN GYNAE. and OBST.,SC,SC,Allotted
+822,84401,All India,"Agartala Government Medical College,Agartala Government Medical College, Tripura, 799006",M.D. (BIOCHEMISTRY),Open,GN,Allotted
+823,84809,All India,"GOA MEDICAL COLLEGE,GOA MEDICAL COLLEGE, Goa, 403202",M.D. (BIOCHEMISTRY),Open,GN,Allotted
+824,84868,All India,"Ravindra Nath Tagore Medical College, Udaipur,Ravindra Nath Tagore Medical College, Udaipur, Rajasthan, 313001",M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE,SC,SC,Allotted
+825,85023,All India,"LOKMANYA TILAK MEDICAL COLLEGE MUMBAI,LOKMANYA TILAK MEDICAL COLLEGE MUMBAI, Maharashtra, 400022",M.D. (BIOCHEMISTRY),Open,GN,Allotted
+826,85218,All India,"JAWAHAR LAL NEHRU MEDICAL COLLEGE, AJMER,NEAR PATEL STADIUM, AJMER, Rajasthan, 305001",M.D. (FORENSIC MEDICINE),Open,GN,Allotted
+827,85368,All India,"VARDHMAN INSTITUTE OF MEDICAL SCIENCES, NALANDA,VARDHMAN INSTITUTE OF MEDICAL SCIENCES, Bihar, 803115",M.D. (BIOCHEMISTRY),Open,OBC,Allotted
+828,85544,All India,"RAICHUR INSTITUTE OF MEDICAL SCIENCES,RAICHUR INSTITUTE OF MEDICAL SCIENCES, Karnataka, 584102",M.D. (MICROBIOLOGY),Open,OBC,Allotted
+829,85706,All India,"Sri Bhausaheb Hire Government Medical College,Sri Bhausaheb Hire Government Medical College, Maharashtra, 424311",M.D. (MICROBIOLOGY),Open,GN,Allotted
+830,86060,All India,"B. J. MEDICAL COLLEGE,B.J. Medical College, New Civil Hospital Asarwa,Ahmedabad-380016,Gujarat,India, Gujarat, 380016",M.D. (PHYSIOLOGY),Open,GN,Allotted
+831,86068,All India,"DARBHANGA MEDICAL COLLEGE,Sheetal Prasad Marg, Laheriasarai, Darbhanga, Bihar, Bihar, 846003",M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE,SC,SC,Allotted
+832,86078,All India,"M. P. SHAH GOVERNMENT MEDICAL COLLEGE,M. P. SHAH GOVERNMENT MEDICAL COLLEGE, Gujarat, 361008",M.D. (PHYSIOLOGY),Open,EWS,Allotted
+833,86096,All India,"Rajah Muthiah Medical College,Govt. Medical College and Hospital, Cuddalore District Erstwhile Rajah Muthiah Medical College Annam, Tamil Nadu, 608002",MD/MS (Anatomy),Open,OBC,Allotted
+834,86158,All India,"SWAMI RAMANAND TEERTH RURAL GOVERNMENT MEDICAL COLLEGE AMBAJOGAI,SWAMI RAMANAND TEERTH RURAL GOVERNMENT MEDICAL COLLEGE AMBAJOGAI, Maharashtra, 431517",M.D. (MICROBIOLOGY),Open,GN,Allotted
+835,86200,DNB Quota,"Apollomedics Superspeciality Hospital,KBC 31, Sector B, LDA Colony, Kanpur Road, Lucknow, Uttar Pradesh, 226012",(NBEMS) MICROBIOLOGY,Open,GN,Allotted
+836,86300,All India,"Gvernment Medical College,Haldwani,Gvernment Medical College,Haldwani, Uttarakhand, 263139",M.D. (FORENSIC MEDICINE),Open,OBC,Allotted
+837,86327,All India,"GOVT. MEDICAL COLLEGE, AMRITSAR,GOVT. MEDICAL COLLEGE,CIRCULAR ROAD, AMRITSAR, Punjab, 143001",M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE,SC,SC,Allotted
+838,86614,All India,"Silchar Medical College, Silchar,Silchar Medical College, Silchar P.O. Silchar Medical College, Silchar",M.D. (BIOCHEMISTRY),Open,OBC,Allotted
+839,86830,All India,"HASSAN INSTITUTE OF MEDICAL SCIENCES, HASSAN,HASSAN INSTITUTE OF MEDICAL SCIENCES, HASSAN, Karnataka, 573201",M.D. (FORENSIC MEDICINE),Open,GN,Allotted
+840,86972,All India,"HASSAN INSTITUTE OF MEDICAL SCIENCES, HASSAN,HASSAN INSTITUTE OF MEDICAL SCIENCES, HASSAN, Karnataka, 573201",M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE,SC,SC,Allotted
+841,87002,All India,"Silchar Medical College, Silchar,Silchar Medical College, Silchar P.O. Silchar Medical College, Silchar",M.D. (FORENSIC MEDICINE),OBC,OBC,Allotted
+842,87050,All India,"RAJIV GANDHI INSTITUTE OF MEDICAL SCIENCES,RAJIV GANDHI INSTITUTE OF MEDICAL SCIENCES ADILABAD -504001 TELANGANA STATE, Telangana, 504001",M.D. (FORENSIC MEDICINE),Open,GN,Allotted
+843,87130,All India,"Indira Gandhi Institute of Medical Sciences, Patna,Indira Gandhi Institute of Medical Sciences, Patna, Bihar, 800014",M.D. (MICROBIOLOGY),SC,SC,Allotted
+844,87334,All India,"DARBHANGA MEDICAL COLLEGE,Sheetal Prasad Marg, Laheriasarai, Darbhanga, Bihar, Bihar, 846003",M.D. (PHYSIOLOGY),Open,GN,Allotted
+845,87363,All India,"Indira Gandhi Medical College Shimla,Indira Gandhi Medical College Shimla, Himachal Pradesh, 171001",M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE,SC,SC,Allotted
+846,87571,All India,"SWAMI RAMANAND TEERTH RURAL GOVERNMENT MEDICAL COLLEGE AMBAJOGAI,SWAMI RAMANAND TEERTH RURAL GOVERNMENT MEDICAL COLLEGE AMBAJOGAI, Maharashtra, 431517",M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE,SC,SC,Allotted
+847,87678,All India,"Government T D Medical College, Vandanm , Alappuzha,Government T D Medical College, Vandanm , Alappuzha, Kerala, 688005",M.D. (PHARMACOLOGY),SC,SC,Allotted
+848,87737,All India,"INDIRA GANDHI GOVT.MEDICAL COLLEGE NAGPUR,INDIRA GANDHI GOVT.MEDICAL COLLEGE NAGPUR, Maharashtra, 440018",M.D. (MICROBIOLOGY),OBC,OBC,Allotted
+849,87774,All India,"Mahatma Gandhi Institute of Medical Sciences, Wardha,Mahatma Gandhi Institute of Medical Sciences, Sevagram, Wardha, Maharashtra, 442102",M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE,EWS,EWS,Allotted
+850,87832,All India,"Burdwan Medical College, West Bengal,Burdwan Medical College, West Bengal, West Bengal, 713104",M.D. (MICROBIOLOGY),OBC,OBC,Allotted
+851,87946,All India,"Moti Lal Nehru Medical College,Moti Lal Nehru Medical College, Uttar Pradesh, 211001",M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE,SC,SC,Allotted
+852,88157,All India,"Gauhati Medical College, Guwahati,Gauhati Medical College, Guwahati, Assam, 781032",DIP. IN FORENSIC MEDICINE,Open,GN,Allotted
+853,88190,All India,"Pandit Bhagwat Dayal Sharma Post Graduate Institute of Medical Sciences, Rohtak,Pandit Bhagwat Dayal Sharma Post Graduate Institute of Medical Sciences, Rohtak, Haryana, 124001",M.D. (PHYSIOLOGY),Open,GN,Allotted
+854,88239,DNB Quota,"Sri Krishna Medical College and Hospital, ,Uma Nagar Muzaffarpur Bihar 842004, Bihar, 842004",(NBEMS) BIOCHEMISTRY,Open,GN,Allotted
+855,88247,All India,"GOVT MEDICAL COLLEGE, ANANTAPURAMU,GOVT MEDICAL COLLEGE, ANANTAPURAMU, Andhra Pradesh, 515001",M.D. (MICROBIOLOGY),SC,SC,Allotted
+856,88309,All India,"Govt. Bundelkhand Medical College Sagar M.P.,Govt. Bundelkhand Medical College Sagar M.P., Madhya Pradesh, 470001",M.D. (FORENSIC MEDICINE),Open,GN,Allotted
+857,88435,DNB Quota,"Government General Hospital, ,Government General Hospital Thiruvananthapuram, Vanchiyoor PO Thiruvananthapuram Kerala, Kerala, 695035",(NBEMS) ANAESTHESIOLOGY,ST,ST,Allotted
+858,88746,All India,"M. P. SHAH GOVERNMENT MEDICAL COLLEGE,M. P. SHAH GOVERNMENT MEDICAL COLLEGE, Gujarat, 361008",M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE,SC,SC,Allotted
+859,88815,All India,"Siddhartha Medical College, Vijayawada,Siddhartha Medical College, Vijayawada, Andhra Pradesh, 520008",M.D. (MICROBIOLOGY),Open,GN,Allotted
+860,88903,All India,"Veer Chandra Singh Garhwali Govt. Institute of Medical Science & Research,Veer Chandra Singh Garhwali Govt. Institute of Medical Science and Research, Srinagar Garhwal, Uttarakhand, 246174",M.D. (FORENSIC MEDICINE),Open,GN,Allotted
+861,89002,All India,"MEDICAL COLLEGE, KOLKATA,MEDICAL COLLEGE, KOLKATA, West Bengal, 700073",DIPLOMA IN ANAESTHESIOLOGY,ST,ST,Allotted
+862,89013,All India,"INDIRA GANDHI GOVT.MEDICAL COLLEGE NAGPUR,INDIRA GANDHI GOVT.MEDICAL COLLEGE NAGPUR, Maharashtra, 440018",M.D. (FORENSIC MEDICINE),Open,GN,Allotted
+863,89346,All India,"Sawai Man Singh Medical College, JAIPUR,Sawai Man Singh Medical College, JAIPUR, Rajasthan, 302004",M.D. IN TRANSFUSION MEDICINE/ IMMUNO- HAEMATOLOGY and BLOOD TRANSFUSION,ST,ST,Allotted
+864,89489,All India,"LOKMANYA TILAK MEDICAL COLLEGE MUMBAI,LOKMANYA TILAK MEDICAL COLLEGE MUMBAI, Maharashtra, 400022",M.D. (PATHOLOGY),ST,ST,Allotted
+865,89591,All India,"Vardhman Mahavir Medical College, , New Delhi,Vardhman Mahavir Medical College, , New Delhi, Delhi (NCT), 110029",MD/MS (Anatomy),OBC,OBC,Allotted
+866,89676,All India,"Andhra Medical College,Andhra Medical College, Andhra Pradesh, 530002",M.D. (FORENSIC MEDICINE),OBC,OBC,Allotted
+867,89681,All India,"JHALAWAR MEDICAL COLLEGE,JHALAWAR MEDICAL COLLEGE, JHALAWAR, Rajasthan, 326001",M.D. (FORENSIC MEDICINE),Open,GN,Allotted
+868,89841,All India,"Govt. Medical College, Bhavnagar,Near. S.T. Bus Stand,Jail Road, Bhavnagar-364001, Gujarat, 364001",M.D. (PHYSIOLOGY),Open,GN,Allotted
+869,89997,DNB Quota,"Government Medical College, ,Gunera Wazidpur, Ujhani Road, Badaun, Uttar Pradesh, 243601",(NBEMS-DIPLOMA) PAEDIATRICS,ST,ST,Allotted
+870,90075,All India,"Siddhartha Medical College, Vijayawada,Siddhartha Medical College, Vijayawada, Andhra Pradesh, 520008",M.D. (BIOCHEMISTRY),Open,OBC,Allotted
+871,90253,All India,"Burdwan Medical College, West Bengal,Burdwan Medical College, West Bengal, West Bengal, 713104",M.D. (PHARMACOLOGY),OBC,OBC,Allotted
+872,90390,All India,"ANUGRAH NARAYAN MAGADH MEDICAL COLLEGE,ANUGRAH NARAYAN MAGADH MEDICAL COLLEGE, Bihar, 823001",MD/MS (Anatomy),Open,OBC,Allotted
+873,90399,All India,"Uttar Pradesh University of Medical Sciences, Saifai, Etawah,Uttar Pradesh University of Medical Sciences, Saifai, Etawah, Uttar Pradesh, 206130",M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE,SC,SC,Allotted
+874,90592,All India,"Govt. Doon Medical College, Dehradun,Govt. Doon Medical College Dehrakhas, Patel Nagar Dehradun 248001, Uttarakhand, 248001",M.D. (MICROBIOLOGY),OBC,OBC,Allotted
+875,90601,All India,"Mahatma Gandhi Institute of Medical Sciences, Wardha,Mahatma Gandhi Institute of Medical Sciences, Sevagram, Wardha, Maharashtra, 442102",M.D. (FORENSIC MEDICINE),Open,OBC,Allotted
+876,90603,All India,"B.J.Government Medical College, Pune,B.J.Government Medical College, Pune, Maharashtra, 411001",M.D. (PHYSIOLOGY),Open,GN,Allotted
+877,90608,All India,"Bangalore Medical College and Research Institute,Bangalore Medical College and Research Institute, Karnataka, 560002",M.D. (PATHOLOGY),ST,ST,Allotted
+878,90612,All India,"MANDYA INSTITUTE OF MEDICAL SCIENCES,MANDYA INSTITUTE OF MEDICAL SCIENCES MANDYA, Karnataka, 571401",M.D. (PHARMACOLOGY),SC,SC,Allotted
+879,90677,All India,"INDIRA GANDHI MEDICAL COLLEGE AND RESEARCH INSTITUTE, PUDUCHERRY,INDIRA GANDHI MEDICAL COLLEGE AND RESEARCH INSTITUTE, PUDUCHERRY, Puducherry, 605009",MD/MS (Anatomy),OBC,OBC,Allotted
+880,90701,All India,"DR. SHANKARRAO CHAVAN GOVERNMENT MEDICAL COLLEGE, NANDED,DR. SHANKARRAO CHAVAN GOVERNMENT MEDICAL COLLEGE, VISHNUPURI, NANDED, Maharashtra, 431606",M.D. (MICROBIOLOGY),OBC,OBC,Allotted
+881,90890,All India,"DR. SHANKARRAO CHAVAN GOVERNMENT MEDICAL COLLEGE, NANDED,DR. SHANKARRAO CHAVAN GOVERNMENT MEDICAL COLLEGE, VISHNUPURI, NANDED, Maharashtra, 431606",M.D. (FORENSIC MEDICINE),Open,GN,Allotted
+882,90995,All India,"Agartala Government Medical College,Agartala Government Medical College, Tripura, 799006",M.D. (PHYSIOLOGY),Open,GN,Allotted
+883,91041,All India,"JAWAHARLAL NEHRU MEDICAL COLLEGE, ALIGARH MUSLIM UNIVERSITY STATE UTTAR,JAWAHARLAL NEHRU MEDICAL COLLEGE, ALIGARH MUSLIM UNIVERSITY STATE UTTAR, Uttar Pradesh, 202002",M.D. (PHYSIOLOGY),OBC,OBC,Allotted
+884,91099,All India,"VARDHMAN INSTITUTE OF MEDICAL SCIENCES, NALANDA,VARDHMAN INSTITUTE OF MEDICAL SCIENCES, Bihar, 803115",M.D. (PHARMACOLOGY),OBC,OBC,Allotted
+885,91479,All India,"DR. SHANKARRAO CHAVAN GOVERNMENT MEDICAL COLLEGE, NANDED,DR. SHANKARRAO CHAVAN GOVERNMENT MEDICAL COLLEGE, VISHNUPURI, NANDED, Maharashtra, 431606",M.D. (FORENSIC MEDICINE),Open,GN,Allotted
+886,91619,All India,"Govt. Medical College, Baroda,Govt. Medical College, Baroda, Gujarat, 390001",M.D. IN TRANSFUSION MEDICINE/ IMMUNO- HAEMATOLOGY and BLOOD TRANSFUSION,ST,ST,Allotted
+887,91753,All India,"SHYAM SHAH MEDICAL COLLEGE,deanmcrewa@rediffmail.com, Madhya Pradesh, 486001",M.D. (FORENSIC MEDICINE),Open,OBC,Allotted
+888,91896,All India,"NIZAMS INSTITUTE OF MEDICAL SCIENCES,NIZAMS INSTITUTE OF MEDICAL SCIENCES PANJAGUTTA HYDERABAD, Telangana, 500082",M.D. (MICROBIOLOGY),ST,ST,Allotted
+889,91942,All India,"Dr. Sampurnanand Medical College (SNMC), JODHPUR,Dr. Sampurnanand Medical College (SNMC), JODHPUR, Rajasthan, 342001",M.D. (BIOCHEMISTRY),Open,GN,Allotted
+890,91956,All India,"Sarojini Naidu Medical College, AGRA,Sarojini Naidu Medical College, AGRA, Uttar Pradesh, 282002",MD/MS (Anatomy),Open,GN,Allotted
+891,92036,All India,"Lady Hardinge Medical College,Lady Hardinge Medical College, Delhi (NCT), 110001",MD/MS (Anatomy),OBC,OBC,Allotted
+892,92068,All India,"Agartala Government Medical College,Agartala Government Medical College, Tripura, 799006",M.D. (MICROBIOLOGY),SC,SC,Allotted
+893,92209,All India,"B. J. MEDICAL COLLEGE,B.J. Medical College, New Civil Hospital Asarwa,Ahmedabad-380016,Gujarat,India, Gujarat, 380016",M.D. (FORENSIC MEDICINE),OBC,OBC,Allotted
+894,92333,All India,"Andhra Medical College,Andhra Medical College, Andhra Pradesh, 530002",M.D. (BIOCHEMISTRY),Open,OBC,Allotted
+895,92506,All India,"Moti Lal Nehru Medical College,Moti Lal Nehru Medical College, Uttar Pradesh, 211001",M.D. (PHYSIOLOGY),Open,GN,Allotted
+896,92530,All India,"Sawai Man Singh Medical College, JAIPUR,Sawai Man Singh Medical College, JAIPUR, Rajasthan, 302004",M.D. (FORENSIC MEDICINE),OBC,OBC,Allotted
+897,92724,All India,"Late Baliram Kashyap Memorial Govt Medical Dimrapal,Late Baliram Kashyap Memorial Govt Medical Dimrapal, Chhattisgarh, 494001",M.D. (FORENSIC MEDICINE),Open,GN,Allotted
+898,92909,All India,"SWAMI RAMANAND TEERTH RURAL GOVERNMENT MEDICAL COLLEGE AMBAJOGAI,SWAMI RAMANAND TEERTH RURAL GOVERNMENT MEDICAL COLLEGE AMBAJOGAI, Maharashtra, 431517",M.D. (FORENSIC MEDICINE),Open,GN,Allotted
+899,92955,All India,"CHHATTISGARH INSTITUTE OF MEDICAL SCIENCES,CHHATTISGARH INSTITUTE OF MEDICAL SCIENCES, Chhattisgarh, 495001",M.D. (BIOCHEMISTRY),Open,GN,Allotted
+900,93085,DNB Quota,"South Eastern Railways Central Hospital, ,CENTRAL HOSPITAL SOUTH EASTERN RAILWAY 11 GARDEN REACH ROAD KOLKATA, West Bengal, 700043",(NBEMS-DIPLOMA) PAEDIATRICS,ST,ST,Allotted
+901,93116,All India,"Baba Raghav Das Medical College,Baba Raghav Das Medical College, Uttar Pradesh, 273013",M.D. (PHYSIOLOGY),Open,GN,Allotted
+902,93152,All India,"Rajendra Institute of Medical Sciences, Ranchi,Rajendra Institute of Medical Sciences, Ranchi, Jharkhand, 834009",M.D. (PHARMACOLOGY),SC,SC,Allotted
+903,93353,All India,"Rims Medical College, Ongole, ,GOVERNMENT MEDICAL COLLEGE RIMS ONGOLE, Andhra Pradesh, 523001",M.D. (MICROBIOLOGY),OBC,OBC,Allotted
+904,93422,All India,"Shrikrishna Medical College & Hospital, Muzaffarpur,Shrikrishna Medical College & Hospital, Muzaffarpur, Bihar, 842004",M.D. (PHYSIOLOGY),Open,GN,Allotted
+905,93581,All India,"NALANDA MEDICAL COLLEGE,PATNA,NALANDA MEDICAL COLLEGE,PATNA, Bihar, 800026",M.D. (FORENSIC MEDICINE),OBC,OBC,Allotted
+906,93743,All India,"Dr. Sampurnanand Medical College (SNMC), JODHPUR,Dr. Sampurnanand Medical College (SNMC), JODHPUR, Rajasthan, 342001",M.D. (PHYSIOLOGY),Open,GN,Allotted
+907,93799,All India,"Government Medical College, Nizamabad, Telangana State,Government Medical College, Nizamabad, Telangana State, Telangana, 503001",M.D. (MICROBIOLOGY),OBC,OBC,Allotted
+908,93849,All India,"Government Medical College, Aurangabad,Government Medical College, Aurangabad, Maharashtra, 431001",M.D. (MICROBIOLOGY),OBC,OBC,Allotted
+909,93929,All India,"CHHATTISGARH INSTITUTE OF MEDICAL SCIENCES,CHHATTISGARH INSTITUTE OF MEDICAL SCIENCES, Chhattisgarh, 495001",M.D. (FORENSIC MEDICINE),OBC,OBC,Allotted
+910,94050,All India,"S.V. Medical College, Tirupathi ,S.V. Medical College, Tirupathi, Andhra Pradesh, 517507",M.D. (PHYSIOLOGY),Open,GN,Allotted
+911,94188,All India,"Seth Gordhandas Sunderdas Medical College, MUMBAI,Seth Gordhandas Sunderdas Medical College, Acharya Donde Marg Parel MUMBAI, Maharashtra, 400012",M.D. (PHYSIOLOGY),Open,GN,Allotted
+912,94256,All India,"Shri Vasantrao Naik Govt Medical College Yavatmal,Shri Vasantrao Naik Govt Medical College Yavatmal, Maharashtra, 445001",M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE,EWS,EWS,Allotted
+913,94460,All India,"JAWAHAR LAL NEHRU MEDICAL COLLEGE, AJMER,NEAR PATEL STADIUM, AJMER, Rajasthan, 305001",M.D. (MICROBIOLOGY),OBC,OBC,Allotted
+914,94481,All India,"College of Medicine & Sagore Dutta Hospital,College of Medicine & Sagore Dutta Hospital, West Bengal, 700058",M.D. (PHARMACOLOGY),OBC,OBC,Allotted
+915,94705,All India,"Government Medical College Kota,Government Medical College Kota, Rajasthan, 324005",M.D. (MICROBIOLOGY),OBC,OBC,Allotted
+916,94716,All India,"SWAMI RAMANAND TEERTH RURAL GOVERNMENT MEDICAL COLLEGE AMBAJOGAI,SWAMI RAMANAND TEERTH RURAL GOVERNMENT MEDICAL COLLEGE AMBAJOGAI, Maharashtra, 431517",MD/MS (Anatomy),Open,GN,Allotted
+917,94725,All India,"Agartala Government Medical College,Agartala Government Medical College, Tripura, 799006",M.D. (FORENSIC MEDICINE),OBC,OBC,Allotted
+918,94745,All India,"Shri Vasantrao Naik Govt Medical College Yavatmal,Shri Vasantrao Naik Govt Medical College Yavatmal, Maharashtra, 445001",M.D. (FORENSIC MEDICINE),Open,GN,Allotted
+919,94900,All India,"Shrikrishna Medical College & Hospital, Muzaffarpur,Shrikrishna Medical College & Hospital, Muzaffarpur, Bihar, 842004",M.D. (PHARMACOLOGY),OBC,OBC,Allotted
+920,95030,All India,"GOA MEDICAL COLLEGE,GOA MEDICAL COLLEGE, Goa, 403202",DIP. IN FORENSIC MEDICINE,OBC,OBC,Allotted
+921,95204,All India,"SWAMI RAMANAND TEERTH RURAL GOVERNMENT MEDICAL COLLEGE AMBAJOGAI,SWAMI RAMANAND TEERTH RURAL GOVERNMENT MEDICAL COLLEGE AMBAJOGAI, Maharashtra, 431517",M.D. (MICROBIOLOGY),Open,GN,Allotted
+922,95338,All India,"ANUGRAH NARAYAN MAGADH MEDICAL COLLEGE,ANUGRAH NARAYAN MAGADH MEDICAL COLLEGE, Bihar, 823001",M.D. (PHYSIOLOGY),Open,OBC,Allotted
+923,95391,DNB Quota,"College of Medicine and JNM Hospital,,Kalyani, Silpanchal, West Bengal, 741235",(NBEMS) BIOCHEMISTRY,Open,GN,Allotted
+924,95750,All India,"College of Medicine & Sagore Dutta Hospital,College of Medicine & Sagore Dutta Hospital, West Bengal, 700058",M.D. (PATHOLOGY),ST,ST,Allotted
+925,95755,All India,"Ravindra Nath Tagore Medical College, Udaipur,Ravindra Nath Tagore Medical College, Udaipur, Rajasthan, 313001",M.D. (FORENSIC MEDICINE),OBC,OBC,Allotted
+926,95804,All India,"Mahatma Gandhi Institute of Medical Sciences, Wardha,Mahatma Gandhi Institute of Medical Sciences, Sevagram, Wardha, Maharashtra, 442102",M.D. (MICROBIOLOGY),OBC,OBC,Allotted
+927,95858,All India,"GOVT. MEDICAL COLLEGE, AMRITSAR,GOVT. MEDICAL COLLEGE,CIRCULAR ROAD, AMRITSAR, Punjab, 143001",M.D. (BIOCHEMISTRY),Open,GN,Allotted
+928,95869,All India,"GOA MEDICAL COLLEGE,GOA MEDICAL COLLEGE, Goa, 403202",M.D. (BIOCHEMISTRY),Open,SC,Allotted
+929,95870,All India,"Uttar Pradesh University of Medical Sciences, Saifai, Etawah,Uttar Pradesh University of Medical Sciences, Saifai, Etawah, Uttar Pradesh, 206130",M.D. (MICROBIOLOGY),SC,SC,Allotted
+930,96134,All India,"Rajendra Institute of Medical Sciences, Ranchi,Rajendra Institute of Medical Sciences, Ranchi, Jharkhand, 834009",M.D. (FORENSIC MEDICINE),OBC,OBC,Allotted
+931,96188,All India,"Bankura Sammilani Medical College,Bankura Sammilani Medical College, West Bengal, 722102",M.D. (MICROBIOLOGY),SC,SC,Allotted
+932,96274,All India,"Tezpur Medical College,Tezpur Medical College, Assam, 784010",M.D. (MICROBIOLOGY),SC,SC,Allotted
+933,96400,All India,"INDIRA GANDHI GOVT.MEDICAL COLLEGE NAGPUR,INDIRA GANDHI GOVT.MEDICAL COLLEGE NAGPUR, Maharashtra, 440018",M.D. (BIOCHEMISTRY),Open,GN,Allotted
+934,96755,All India,"Govt. Medical College, Bhavnagar,Near. S.T. Bus Stand,Jail Road, Bhavnagar-364001, Gujarat, 364001",M.D. (FORENSIC MEDICINE),OBC,OBC,Allotted
+935,96759,All India,"Uttar Pradesh University of Medical Sciences, Saifai, Etawah,Uttar Pradesh University of Medical Sciences, Saifai, Etawah, Uttar Pradesh, 206130",M.D. (PHARMACOLOGY),EWS,EWS,Allotted
+936,96813,All India,"BPS Govt. Medical College for Women, Khanpur Kalan Sonepat,BPS Govt. Medical College for Women, Khanpur Kalan Sonepat, Haryana, 131305",M.D. (FORENSIC MEDICINE),OBC,OBC,Allotted
+937,96922,All India,"Government medical college patiala.,Government medical college patiala., Punjab, 147001",M.D. (PHARMACOLOGY),SC,SC,Allotted
+938,97213,DNB Quota,"Associated Hospital Government Medical College, ,Government Medical College Chack Sajjan Kathua, Jammu And Kashmir, 184101",(NBEMS) PHARMACOLOGY,Open,GN,Allotted
+939,97745,DNB Quota,"Associated Hospital Government Medical College, ,Government Medical College Chack Sajjan Kathua, Jammu And Kashmir, 184101",(NBEMS) COMMUNITY MEDICINE,SC,SC,Allotted
+940,97776,All India,"Dr. Rajendra Prasad Government Medical College, Tanda,Dr. Rajendra Prasad Government Medical College, Tanda, Himachal Pradesh, 176002",M.D. (MICROBIOLOGY),SC,SC,Allotted
+941,98010,All India,"Gulbarga Institute Of Medical Sciences, Kalaburagi,VEERESH NAGAR SEDAM ROAD KALABURAGI, Karnataka, 585105",M.D. (FORENSIC MEDICINE),OBC,OBC,Allotted
+942,98244,All India,"DARBHANGA MEDICAL COLLEGE,Sheetal Prasad Marg, Laheriasarai, Darbhanga, Bihar, Bihar, 846003",M.D. (PATHOLOGY),ST,ST,Allotted
+943,98381,All India,"IPGME&R and SSKM Hospital Kolkata,IPGME&R and SSKM Hospital Kolkata, West Bengal, 700020",M.D. (PHYSIOLOGY),OBC,OBC,Allotted
+944,98628,All India,"Indira Gandhi Medical College Shimla,Indira Gandhi Medical College Shimla, Himachal Pradesh, 171001",M.D. (MICROBIOLOGY),OBC,OBC,Allotted
+945,98670,All India,"Kakatiya Medical College,Kakatiya Medical College, Telangana, 506007",M.D. (BIOCHEMISTRY),Open,GN,Allotted
+946,98888,All India,"Rajendra Institute of Medical Sciences, Ranchi,Rajendra Institute of Medical Sciences, Ranchi, Jharkhand, 834009",MD/MS (Anatomy),Open,GN,Allotted
+947,98933,All India,"Assam Medical College,Assam Medical College, Assam, 786002",M.D. (PHARMACOLOGY),SC,SC,Allotted
+948,99084,All India,"DARBHANGA MEDICAL COLLEGE,Sheetal Prasad Marg, Laheriasarai, Darbhanga, Bihar, Bihar, 846003",MD/MS (Anatomy),OBC,OBC,Allotted
+949,99158,All India,"MADRAS MEDICAL COLLEGE,EVR PERIYAR SALAI, CHENNAI-03, Tamil Nadu, 600003",M.D. (PATHOLOGY),ST,ST,Allotted
+950,99230,All India,"K.A.P.Viswanatham Government Medical College, Tiruchirapalli,K.A.P.Viswanatham Government Medical College, Tiruchirapalli, Tamil Nadu, 620001",M.D. (FORENSIC MEDICINE),SC,SC,Allotted
+951,99389,All India,"Government Medical College, Aurangabad,Government Medical College, Aurangabad, Maharashtra, 431001",M.D. (MICROBIOLOGY),OBC,OBC,Allotted
+952,99396,All India,"NALANDA MEDICAL COLLEGE,PATNA,NALANDA MEDICAL COLLEGE,PATNA, Bihar, 800026",M.D. (PHYSIOLOGY),Open,GN,Allotted
+953,99413,All India,"Government Medical College, Latur,Government Medical College, Old Railway station Near Marwadi Rajasthani High-School Latur, Maharashtra, 413512",M.D. (MICROBIOLOGY),OBC,OBC,Allotted
+954,99439,All India,"DARBHANGA MEDICAL COLLEGE,Sheetal Prasad Marg, Laheriasarai, Darbhanga, Bihar, Bihar, 846003",M.D. (PHYSIOLOGY),OBC,OBC,Allotted
+955,99532,All India,"Rajendra Institute of Medical Sciences, Ranchi,Rajendra Institute of Medical Sciences, Ranchi, Jharkhand, 834009",M.D. (FORENSIC MEDICINE),SC,SC,Allotted
+956,99593,All India,"Andhra Medical College,Andhra Medical College, Andhra Pradesh, 530002",M.D. (BIOCHEMISTRY),Open,OBC,Allotted
+957,99799,All India,"JAWAHAR LAL NEHRU MEDICAL COLLEGE, AJMER,NEAR PATEL STADIUM, AJMER, Rajasthan, 305001",M.D. (PHARMACOLOGY),SC,SC,Allotted
+958,99819,All India,"KURNOOL MEDICAL COLLEGE,KURNOOL MEDICAL COLLEGE, Andhra Pradesh, 518002",M.D. (BIOCHEMISTRY),Open,OBC,Allotted
+959,100739,All India,"Jawaharlal Institute of Medical Sciences, Manipur,Jawaharlal Nehru Institute of Medical Sciences, Porompat, Imphal -East, Manipur-795005, Manipur, 795005",M.D. (PHARMACOLOGY),OBC,OBC,Allotted
+960,100889,All India,"JHALAWAR MEDICAL COLLEGE,JHALAWAR MEDICAL COLLEGE, JHALAWAR, Rajasthan, 326001",M.D. (FORENSIC MEDICINE),OBC,OBC,Allotted
+961,101305,All India,"Mahatma Gandhi Institute of Medical Sciences, Wardha,Mahatma Gandhi Institute of Medical Sciences, Sevagram, Wardha, Maharashtra, 442102",M.D. (MICROBIOLOGY),SC,SC,Allotted
+962,101450,All India,"Osmania Medical Collge,Osmania Medical Collge, Telangana, 500095",M.D. (MICROBIOLOGY),SC,SC,Allotted
+963,101588,All India,"GADAG INSTITUTE OF MEDICAL SCIENCES GADAG,Gadag Institute of Medical Sciences Mallasamudra Gadag-582103, Karnataka, 582103",M.D. (BIOCHEMISTRY),Open,GN,Allotted
+964,101597,All India,"Karnataka Institute of Medical Sciences, Hubballi,Karnataka Institute of Medical Sciences, Hubballi, Karnataka, 580021",M.D. (PATHOLOGY),ST,ST,Allotted
+965,101754,All India,"Jawaharlal Institute of Medical Sciences, Manipur,Jawaharlal Nehru Institute of Medical Sciences, Porompat, Imphal -East, Manipur-795005, Manipur, 795005",M.D. (FORENSIC MEDICINE),OBC,OBC,Allotted
+966,101889,All India,"Govt. Doon Medical College, Dehradun,Govt. Doon Medical College Dehrakhas, Patel Nagar Dehradun 248001, Uttarakhand, 248001",M.D. (PHYSIOLOGY),Open,GN,Allotted
+967,101899,All India,"GOVT MEDICAL COLLEGE KOTTAYAM,GOVT MEDICAL COLLEGE KOTTAYAM, Kerala, 686008",M.D. (PATHOLOGY),ST,ST,Allotted
+968,102088,All India,"Mahatma Gandhi Institute of Medical Sciences, Wardha,Mahatma Gandhi Institute of Medical Sciences, Sevagram, Wardha, Maharashtra, 442102",M.D. (BIOCHEMISTRY),Open,GN,Allotted
+969,102183,All India,"MEDICAL COLLEGE, KOLKATA,MEDICAL COLLEGE, KOLKATA, West Bengal, 700073",MD/MS (Anatomy),Open,GN,Allotted
+970,102310,All India,"NETAJI SUBHASH CHANDRA BOSE MEDICAL COLLEGE, JABALPUR ,NETAJI SUBHASH CHANDRA BOSE MEDICAL COLLEGE, NAGPUR ROAD JABALPUR, Madhya Pradesh, 482003",M.D. (FORENSIC MEDICINE),OBC,OBC,Allotted
+971,102573,All India,"Mahatma Gandhi Memorial Medical College, Indore,Mahatma Gandhi Memorial Medical College, Indore, Madhya Pradesh, 452001",M.D. (FORENSIC MEDICINE),OBC,OBC,Allotted
+972,102617,All India,"Government Medical College, Nagpur,Government Medical College, Nagpur, Maharashtra, 440003",M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE,ST,ST,Allotted
+973,102751,All India,"Sardar Patel Medical College, Bikaner,Sardar Patel Medical College, Bikaner, Rajasthan, 334003",M.D. (PHYSIOLOGY),Open,GN,Allotted
+974,102764,All India,"Seth Gordhandas Sunderdas Medical College, MUMBAI,Seth Gordhandas Sunderdas Medical College, Acharya Donde Marg Parel MUMBAI, Maharashtra, 400012",M.D. (PHYSIOLOGY),Open,GN,Allotted
+975,102783,All India,"Government Medical College, Aurangabad,Government Medical College, Aurangabad, Maharashtra, 431001",MD/MS (Anatomy),Open,GN,Allotted
+976,102953,All India,"Government Medical College, Surat,Government Medical College, Majuragate, Surat., Gujarat, 395001",M.D. (BIOCHEMISTRY),OBC,OBC,Allotted
+977,103067,All India,"CALCUTTA NATIONAL MEDICAL COLLEGE,CALCUTTA NATIONAL MEDICAL COLLEGE, West Bengal, 700014",M.D. (BIOCHEMISTRY),OBC,OBC,Allotted
+978,103105,All India,"NETAJI SUBHAS NATIONAL INSTITUTE OF SPORTS, PATIALA,NETAJI SUBHAS NATIONAL INSTITUTE OF SPORTS, OLD MOTIBAGH, PATIALA, Punjab, 147001",DIP. IN SPORTS MEDICINE,ST,ST,Allotted
+979,103302,All India,"Government medical college patiala.,Government medical college patiala., Punjab, 147001",M.D. (PHYSIOLOGY),Open,GN,Allotted
+980,103499,All India,"Government Kilpauk Medical College,Government Kilpauk Medical College, Tamil Nadu, 600010",M.D. (PATHOLOGY),ST,ST,Allotted
+981,103635,All India,"Government Medical College, Mahabubnagar,Government Medical College, Yedira, Mahabubnagar, Telangana state, Telangana, 509002",M.D. (PHARMACOLOGY),OBC,OBC,Allotted
+982,103924,All India,"Rajendra Institute of Medical Sciences, Ranchi,Rajendra Institute of Medical Sciences, Ranchi, Jharkhand, 834009",MD/MS (Anatomy),OBC,OBC,Allotted
+983,103926,All India,"Sawai Man Singh Medical College, JAIPUR,Sawai Man Singh Medical College, JAIPUR, Rajasthan, 302004",MD/MS (Anatomy),Open,GN,Allotted
+984,103966,All India,"Regional Institute of Medical Sciences, Imphal,Regional Institute of Medical Sciences, Imphal, Lamphelpat, Manipur, 795004",MD/MS (Anatomy),Open,SC,Allotted
+985,104025,All India,"TOPIWALA NATIONAL MEDICAL COLLEGE,TOPIWALA NATIONAL MEDICAL COLLEGE, Maharashtra, 400008",M.D. (MICROBIOLOGY),ST,ST,Allotted
+986,104528,All India,"CHHATTISGARH INSTITUTE OF MEDICAL SCIENCES,CHHATTISGARH INSTITUTE OF MEDICAL SCIENCES, Chhattisgarh, 495001",M.D. (PHARMACOLOGY),OBC,OBC,Allotted
+987,104533,All India,"Pandit Dindayal Upadhyay Medical College, RAJKOT,Pandit Dindayal Upadhyay Medical College, RAJKOT, Gujarat, 360001",M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE,EWS,EWS,Allotted
+988,104585,All India,"Government Medical College, Aurangabad,Government Medical College, Aurangabad, Maharashtra, 431001",M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE,ST,ST,Allotted
+989,104733,All India,"Andhra Medical College,Andhra Medical College, Andhra Pradesh, 530002",M.D. (FORENSIC MEDICINE),SC,SC,Allotted
+990,104786,All India,"Pt. Jawahar Lal Nehru Memorial Medical College, RAIPUR,Pt. Jawahar Lal Nehru Memorial Medical College, RAIPUR, Chhattisgarh, 492001",M.D. (PHYSIOLOGY),Open,OBC,Allotted
+991,104857,DNB Quota,"Sher-I-Kashmir Institute of Medical Sciences, ,Principal SKIMS Medical College Hospital Bemina Srinagar, Jammu And Kashmir, 190018",(NBEMS) Anatomy,Open,GN,Allotted
+992,104858,All India,"NIL RATAN SIRCAR MEDICAL COLLEGE,NIL RATAN SIRCAR MEDICAL COLLEGE, 138 AJC BOSE ROAD, KOLKATA-700014., West Bengal, 700014",M.D. (FORENSIC MEDICINE),SC,SC,Allotted
+993,104864,DNB Quota,"MGM Govt District Hospital, ,MGM Govt District Hospital,Hanumangarh town, Rajasthan, 335513",(NBEMS-DIPLOMA) Tuberculosis and CHEST DISEASES,ST,ST,Allotted
+994,105039,All India,"Maharaja Krushna Chandra Gajapati Medical College , Brahmapur,Maharaja Krushna Chandra Gajapati Medical College , Brahmapur, Odisha, 760004",M.D. (MICROBIOLOGY),SC,SC,Allotted
+995,105080,All India,"THANJAVUR MEDICAL COLLEGE, THANJAVUR,THANJAVUR MEDICAL COLLEGE, THANJAVUR, Tamil Nadu, 613004",M.D. (PATHOLOGY),ST,ST,Allotted
+996,105105,All India,"Sardar Patel Medical College, Bikaner,Sardar Patel Medical College, Bikaner, Rajasthan, 334003",M.D. (PHARMACOLOGY),OBC,OBC,Allotted
+997,105111,All India,"S.V. Medical College, Tirupathi ,S.V. Medical College, Tirupathi, Andhra Pradesh, 517507",M.D. (FORENSIC MEDICINE),SC,SC,Allotted
+998,105183,All India,"GANDHI MEDICAL COLLEGE,GANDHI MEDICAL COLLEGE, Telangana, 500003",M.D. (FORENSIC MEDICINE),SC,SC,Allotted
+999,105249,All India,"Sardar Patel Medical College, Bikaner,Sardar Patel Medical College, Bikaner, Rajasthan, 334003",M.D. (MICROBIOLOGY),SC,SC,Allotted
+1000,105268,All India,"College of Medicine and JNM Hospital, WBUHS,Block A, Post Office Kalyani, Near Silpanchal Station, Block A2, District Nadia, West Bengal, West Bengal, 741235",MD/MS (Anatomy),Open,GN,Allotted
+1001,105381,All India,"Government Medical College Kota,Government Medical College Kota, Rajasthan, 324005",M.D. (PHYSIOLOGY),Open,GN,Allotted
+1002,105657,All India,"Mahatma Gandhi Memorial Medical College, Jamshedpur,Mahatma Gandhi Memorial Medical College, Jamshedpur, Jharkhand, 831020",MD/MS (Anatomy),Open,OBC,Allotted
+1003,105662,All India,"Government Medical College, Nizamabad, Telangana State,Government Medical College, Nizamabad, Telangana State, Telangana, 503001",M.D. (PHYSIOLOGY),Open,OBC,Allotted
+1004,105700,All India,"Siddhartha Medical College, Vijayawada,Siddhartha Medical College, Vijayawada, Andhra Pradesh, 520008",M.D. (PHYSIOLOGY),Open,ST,Allotted
+1005,105932,All India,"Government Medical College, Nagpur,Government Medical College, Nagpur, Maharashtra, 440003",M.D. (BIOCHEMISTRY),OBC,OBC,Allotted
+1006,105969,All India,"Gandhi Medical College, Bhopal,Gandhi Medical College, Bhopal, Madhya Pradesh, 462001",M.D. (PHARMACOLOGY),OBC,OBC,Allotted
+1007,106404,All India,"Guru Gobind Singh Medical College,Guru Gobind Singh Medical College, Punjab, 151203",M.D. (BIOCHEMISTRY),Open,GN,Allotted
+1008,106478,All India,"Dr.V.M.Govt.Medical College,Solapur, Maharasthtra,Infron of district court civil chowk Dr.V.M.Govt.Medical College,Solapur, Maharasthtra, Maharashtra, 413003",M.D. (MICROBIOLOGY),SC,SC,Allotted
+1009,106539,All India,"Bankura Sammilani Medical College,Bankura Sammilani Medical College, West Bengal, 722102",M.D. (PHARMACOLOGY),SC,SC,Allotted
+1010,106572,All India,"KING GEORGES MEDICAL UNIVERSITY,KING GEORGES MEDICAL UNIVERSITY, Uttar Pradesh, 226003",M.D. (PHYSIOLOGY),SC,SC,Allotted
+1011,106676,All India,"Chamarajanagar Institute of Medical Sciences, Karnataka,CHAMARAJANAGAR INSTITUTE OF MEDICAL SCIENCES, SY. NO 124, YEDAPURA VILLAGE KASABA HOBLI, CHAMARAJANA, Karnataka, 571313",M.D. (BIOCHEMISTRY),OBC,OBC,Allotted
+1012,106700,All India,"DR. SHANKARRAO CHAVAN GOVERNMENT MEDICAL COLLEGE, NANDED,DR. SHANKARRAO CHAVAN GOVERNMENT MEDICAL COLLEGE, VISHNUPURI, NANDED, Maharashtra, 431606",M.D. (BIOCHEMISTRY),Open,GN,Allotted
+1013,106744,All India,"Gandhi Medical College, Bhopal,Gandhi Medical College, Bhopal, Madhya Pradesh, 462001",M.D. (PHYSIOLOGY),Open,GN,Allotted
+1014,107056,DNB Quota,"Sher-I-Kashmir Institute of Medical Sciences, ,Principal SKIMS Medical College Hospital Bemina Srinagar, Jammu And Kashmir, 190018",(NBEMS) PHYSIOLOGY,Open,OBC,Allotted
+1015,107112,All India,"Mahatma Gandhi Memorial Medical College, Indore,Mahatma Gandhi Memorial Medical College, Indore, Madhya Pradesh, 452001",M.D. (BIOCHEMISTRY),Open,GN,Allotted
+1016,107588,All India,"Government Medical College, Surat,Government Medical College, Majuragate, Surat., Gujarat, 395001",M.D. (PHARMACOLOGY),ST,ST,Allotted
+1017,107597,All India,"TOPIWALA NATIONAL MEDICAL COLLEGE,TOPIWALA NATIONAL MEDICAL COLLEGE, Maharashtra, 400008",M.D. (MICROBIOLOGY),SC,SC,Allotted
+1018,107654,All India,"SWAMI RAMANAND TEERTH RURAL GOVERNMENT MEDICAL COLLEGE AMBAJOGAI,SWAMI RAMANAND TEERTH RURAL GOVERNMENT MEDICAL COLLEGE AMBAJOGAI, Maharashtra, 431517",M.D. (BIOCHEMISTRY),Open,GN,Allotted
+1019,107793,All India,"Mahatma Gandhi Memorial Medical College, Indore,Mahatma Gandhi Memorial Medical College, Indore, Madhya Pradesh, 452001",M.D. (FORENSIC MEDICINE),SC,SC,Allotted
+1020,107848,All India,"Government medical college patiala.,Government medical college patiala., Punjab, 147001",M.D. (BIOCHEMISTRY),Open,GN,Allotted
+1021,107885,All India,"Vallabhbhai Patel Chest Institute, Delhi,Vallabhbhai Patel Chest Institute, Delhi, Delhi (NCT), 110007",M.D. (MICROBIOLOGY),ST,ST,Allotted
+1022,107917,All India,"Sawai Man Singh Medical College, JAIPUR,Sawai Man Singh Medical College, JAIPUR, Rajasthan, 302004",M.D. (PHARMACOLOGY),SC,SC,Allotted
+1023,107943,All India,"Uttar Pradesh University of Medical Sciences, Saifai, Etawah,Uttar Pradesh University of Medical Sciences, Saifai, Etawah, Uttar Pradesh, 206130",M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE,EWS,EWS,Allotted
+1024,108018,All India,"KING GEORGES MEDICAL UNIVERSITY,KING GEORGES MEDICAL UNIVERSITY, Uttar Pradesh, 226003",M.D. (PHARMACOLOGY),SC,SC,Allotted
+1025,108302,All India,"Government Medical College, Aurangabad,Government Medical College, Aurangabad, Maharashtra, 431001",M.D. (MICROBIOLOGY),SC,SC,Allotted
+1026,108366,All India,"DR. SHANKARRAO CHAVAN GOVERNMENT MEDICAL COLLEGE, NANDED,DR. SHANKARRAO CHAVAN GOVERNMENT MEDICAL COLLEGE, VISHNUPURI, NANDED, Maharashtra, 431606",M.D. (BIOCHEMISTRY),OBC,OBC,Allotted
+1027,109048,All India,"Indira Gandhi Medical College Shimla,Indira Gandhi Medical College Shimla, Himachal Pradesh, 171001",M.D. (PHYSIOLOGY),OBC,OBC,Allotted
+1028,109241,All India,"NETAJI SUBHASH CHANDRA BOSE MEDICAL COLLEGE, JABALPUR ,NETAJI SUBHASH CHANDRA BOSE MEDICAL COLLEGE, NAGPUR ROAD JABALPUR, Madhya Pradesh, 482003",M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE,ST,ST,Allotted
+1029,109462,All India,"JHALAWAR MEDICAL COLLEGE,JHALAWAR MEDICAL COLLEGE, JHALAWAR, Rajasthan, 326001",M.D. (MICROBIOLOGY),SC,SC,Allotted
+1030,109554,All India,"Agartala Government Medical College,Agartala Government Medical College, Tripura, 799006",M.D. (PHYSIOLOGY),OBC,OBC,Allotted
+1031,109617,All India,"Tirunelveli Medical College,Tirunelveli Medical College, Tamil Nadu, 627011",M.D. (MICROBIOLOGY),SC,SC,Allotted
+1032,109667,All India,"Guru Gobind Singh Medical College,Guru Gobind Singh Medical College, Punjab, 151203",M.D. (PHARMACOLOGY),OBC,OBC,Allotted
+1033,110063,DNB Quota,"District Hospital, ,DISTRICT SUREGEON DISTRICT HOSPITAL SETOR-11 NAVANAGAR BAGALKOTE KARNATAKA, Karnataka, 587103",(NBEMS-DIPLOMA) ANAESTHESIOLOGY,ST,ST,Allotted
+1034,110093,All India,"Sawai Man Singh Medical College, JAIPUR,Sawai Man Singh Medical College, JAIPUR, Rajasthan, 302004",M.D. (PHARMACOLOGY),SC,SC,Allotted
+1035,110241,DNB Quota,"Bhavsinhji and Maharani Rupaliba General Hospital, ,Near S. T. Bus Stand, Opp. Bhutnath Temple, Hospital Road, Porbandar, Gujarat, 360575",(NBEMS-DIPLOMA) OPHTHALMOLOGY,ST,ST,Allotted
+1036,110583,All India,"Grant Medical College, Maharashtra,Grant Medical College, Maharashtra, Maharashtra, 400008",M.D. (BIOCHEMISTRY),OBC,OBC,Allotted
+1037,110587,All India,"Govt. Bundelkhand Medical College Sagar M.P.,Govt. Bundelkhand Medical College Sagar M.P., Madhya Pradesh, 470001",M.D. (MICROBIOLOGY),SC,SC,Allotted
+1038,110791,All India,"MYSORE MEDICAL COLLEGE AND RESEARCH INSTITUTE,MYSORE MEDICAL COLLEGE AND RESEARCH INSTITUTE, Karnataka, 570001",M.D. (MICROBIOLOGY),SC,SC,Allotted
+1039,111318,All India,"STANLEY MEDICAL COLLEGE,STANLEY MEDICAL COLLEGE, Tamil Nadu, 600001",M.D. (BIOCHEMISTRY),SC,SC,Allotted
+1040,111548,All India,"Chamarajanagar Institute of Medical Sciences, Karnataka,CHAMARAJANAGAR INSTITUTE OF MEDICAL SCIENCES, SY. NO 124, YEDAPURA VILLAGE KASABA HOBLI, CHAMARAJANA, Karnataka, 571313",M.D. (COMMUNITY HEALTH and ADMN.),ST,ST,Allotted
+1041,111553,All India,"GOVT. MEDICAL COLLEGE, AMRITSAR,GOVT. MEDICAL COLLEGE,CIRCULAR ROAD, AMRITSAR, Punjab, 143001",M.D. (PHARMACOLOGY),SC,SC,Allotted
+1042,111848,DNB Quota,"Autonomous State Medical College and Allied Pandit Ram Prasad Bismil Memorial Hospital, ,ASMC, JIGNERA, kant road, shahjahanpur, Uttar Pradesh, 242001",(NBEMS-DIPLOMA) FAMILY MEDICINE,ST,ST,Allotted
+1043,111989,All India,"Sardar Patel Medical College, Bikaner,Sardar Patel Medical College, Bikaner, Rajasthan, 334003",M.D. (BIOCHEMISTRY),OBC,OBC,Allotted
+1044,112164,DNB Quota,"Deben Mahato (Sadar) Hospital,,Main Road Near SP office PO Purulia Main PS Purulia Town Dist Purulia West Bengal, West Bengal, 723101",(NBEMS-DIPLOMA) OPHTHALMOLOGY,ST,ST,Allotted
+1045,112266,DNB Quota,"Mal SSH, West Bengal,Mal Super Speciality Hospital, Mal, Jalpaiguri, West Bengal, 735221",(NBEMS-DIPLOMA) OPHTHALMOLOGY,ST,ST,Allotted
+1046,112596,DNB Quota,"District Hospital, ,Old City Road Dholpur, Rajasthan, 328001",(NBEMS-DIPLOMA) OPHTHALMOLOGY,ST,ST,Allotted
+1047,113202,All India,"Government Medical College, Nizamabad, Telangana State,Government Medical College, Nizamabad, Telangana State, Telangana, 503001",M.D. (BIOCHEMISTRY),OBC,OBC,Allotted
+1048,113631,DNB Quota,"Govt. BDK hospital, govt. ,OPPOSITE ROADWAYS BUS STAND MAAN NAGAR JHUNJHUNU RAJASTHAN, Rajasthan, 333001",(NBEMS-DIPLOMA) Otorhinolaryngology (E.N.T.),ST,ST,Allotted
+1049,113635,All India,"BELAGAVI INSTITUTE OF MEDICAL SCIENCES, BELAGAVI,BELAGAVI INSTITUTE OF MEDICAL SCIENCES, BELAGAVI, Karnataka, 590001",M.D. (FORENSIC MEDICINE),SC,SC,Allotted
+1050,113647,All India,"Rajendra Institute of Medical Sciences, Ranchi,Rajendra Institute of Medical Sciences, Ranchi, Jharkhand, 834009",M.D. (BIOCHEMISTRY),ST,ST,Allotted
+1051,113851,All India,"EMPLOYEES STATE INSURANCE CORPORATION MEDICAL COLLEGE AND PGIMSR,EMPLOYEES STATE INSURANCE CORPORATION MEDICAL COLLEGE AND PGIMSR, Karnataka, 560010",M.D. (MICROBIOLOGY),SC,SC,Allotted
+1052,114053,All India,"BPS Govt. Medical College for Women, Khanpur Kalan Sonepat,BPS Govt. Medical College for Women, Khanpur Kalan Sonepat, Haryana, 131305",M.D. (PHYSIOLOGY),OBC,OBC,Allotted
+1053,114108,All India,"Government medical college patiala.,Government medical college patiala., Punjab, 147001",M.D. (FORENSIC MEDICINE),SC,SC,Allotted
+1054,114203,All India,"Burdwan Medical College, West Bengal,Burdwan Medical College, West Bengal, West Bengal, 713104",M.D. (BIOCHEMISTRY),SC,SC,Allotted
+1055,114280,DNB Quota,"District Hospital, ,DISTRICT SUREGEON DISTRICT HOSPITAL SETOR-11 NAVANAGAR BAGALKOTE KARNATAKA, Karnataka, 587103",(NBEMS-DIPLOMA) Otorhinolaryngology (E.N.T.),ST,ST,Allotted
+1056,114362,All India,"Vardhman Mahavir Medical College, , New Delhi,Vardhman Mahavir Medical College, , New Delhi, Delhi (NCT), 110029",M.D. (BIOCHEMISTRY),ST,ST,Allotted
+1057,114506,All India,"Sardar Patel Medical College, Bikaner,Sardar Patel Medical College, Bikaner, Rajasthan, 334003",M.D. (MICROBIOLOGY),SC,SC,Allotted
+1058,114557,DNB Quota,"District Hospital, ,District hospital chitradurga, B D road beside DHO office Chitradurga, Karnataka, 577501",(NBEMS-DIPLOMA) FAMILY MEDICINE,ST,ST,Allotted
+1059,114776,All India,"GOVERNMENT MEDICAL COLLEGE - KANNUR,GOVERNMENT MEDICAL COLLEGE - KANNUR, Kerala, 670503",M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE,ST,ST,Allotted
+1060,115003,All India,"Rani Durgavati Medical College, Banda ,Rani Durgavati Medical College Naraini Road Banda, Uttar Pradesh, 210001",M.D. (FORENSIC MEDICINE),SC,SC,Allotted
+1061,115392,DNB Quota,"Govt. District Civil Hospital, ,DIS GOVT HOSPITAL, SRI GANGANAGAR, Rajasthan, 335001",(NBEMS-DIPLOMA) OPHTHALMOLOGY,ST,ST,Allotted
+1062,115939,All India,"Gvernment Medical College,Haldwani,Gvernment Medical College,Haldwani, Uttarakhand, 263139",M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE,ST,ST,Allotted
+1063,116006,All India,"Sarojini Naidu Medical College, AGRA,Sarojini Naidu Medical College, AGRA, Uttar Pradesh, 282002",M.D. (PHARMACOLOGY),SC,SC,Allotted
+1064,116112,All India,"Agartala Government Medical College,Agartala Government Medical College, Tripura, 799006",M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE,ST,ST,Allotted
+1065,116158,All India,"Gauhati Medical College, Guwahati,Gauhati Medical College, Guwahati, Assam, 781032",M.D. (PHYSIOLOGY),OBC,OBC,Allotted
+1066,116179,DNB Quota,"Government Medical College, ,LATHAMS BUNGALOW ROAD, RAMANATHAPURAM., Tamil Nadu, 623501",(NBEMS-DIPLOMA) FAMILY MEDICINE,ST,ST,Allotted
+1067,116216,All India,"GANDHI MEDICAL COLLEGE,GANDHI MEDICAL COLLEGE, Telangana, 500003",MD/MS (Anatomy),OBC,OBC,Allotted
+1068,116229,All India,"STANLEY MEDICAL COLLEGE,STANLEY MEDICAL COLLEGE, Tamil Nadu, 600001",MD/MS (Anatomy),SC,SC,Allotted
+1069,116289,All India,"INDIRA GANDHI GOVT.MEDICAL COLLEGE NAGPUR,INDIRA GANDHI GOVT.MEDICAL COLLEGE NAGPUR, Maharashtra, 440018",M.D. (BIOCHEMISTRY),OBC,OBC,Allotted
+1070,116379,All India,"North Bengal Medical College,North Bengal Medical College, West Bengal, 734012",M.D. (BIOCHEMISTRY),OBC,OBC,Allotted
+1071,116600,All India,"Rani Durgavati Medical College, Banda ,Rani Durgavati Medical College Naraini Road Banda, Uttar Pradesh, 210001",M.D. (FORENSIC MEDICINE),SC,SC,Allotted
+1072,117135,All India,"GUNTUR MEDICAL COLLEGE,GUNTUR MEDICAL COLLEGE, Andhra Pradesh, 522004",M.D. (PHYSIOLOGY),OBC,OBC,Allotted
+1073,117170,All India,"B.J.Government Medical College, Pune,B.J.Government Medical College, Pune, Maharashtra, 411001",M.D. (PHYSIOLOGY),OBC,OBC,Allotted
+1074,117822,All India,"Government medical college patiala.,Government medical college patiala., Punjab, 147001",M.D. (BIOCHEMISTRY),OBC,OBC,Allotted
+1075,118061,All India,"Calcutta School Of Tropical Medicine,Calcutta School Of Tropical Medicine, West Bengal, 700073",M.D. (MICROBIOLOGY),ST,ST,Allotted
+1076,118439,All India,"Kodagu Institute of Medical Sciences, Karnataka,Kodagu Institute of Medical Sciences Madikeri Kodagu, Karnataka, 571201",M.D. (BIOCHEMISTRY),OBC,OBC,Allotted
+1077,118528,All India,"Regional Institute of Medical Sciences, Imphal,Regional Institute of Medical Sciences, Imphal, Lamphelpat, Manipur, 795004",M.D. (PHYSIOLOGY),ST,ST,Allotted
+1078,118656,All India,"Baba Raghav Das Medical College,Baba Raghav Das Medical College, Uttar Pradesh, 273013",M.D. (PHYSIOLOGY),OBC,OBC,Allotted
+1079,118755,All India,"Pt. Jawahar Lal Nehru Memorial Medical College, RAIPUR,Pt. Jawahar Lal Nehru Memorial Medical College, RAIPUR, Chhattisgarh, 492001",M.D. (BIOCHEMISTRY),OBC,OBC,Allotted
+1080,119009,All India,"PATNA MEDICAL COLLEGE, PATNA,PATNA MEDICAL COLLEGE, PATNA, Bihar, 800004",M.D. (FORENSIC MEDICINE),SC,SC,Allotted
+1081,119015,All India,"Sawai Man Singh Medical College, JAIPUR,Sawai Man Singh Medical College, JAIPUR, Rajasthan, 302004",M.D. (BIOCHEMISTRY),SC,SC,Allotted
+1082,119032,All India,"Rajarshee Chhatrapati Shahu Maharaj Government Medical College, Kolhapur,R.K. Nagar Road, Shenda Park, Kolhapur, Maharashtra, Maharashtra, 416012",M.D. (MICROBIOLOGY),ST,ST,Allotted
+1083,119062,All India,"Shaheed Hasan Khan Mewati Government Medical College,Shaheed Hasan Khan Mewati Government Medical College, Haryana, 122107",M.D. (FORENSIC MEDICINE),ST,ST,Allotted
+1084,119091,All India,"Baba Raghav Das Medical College,Baba Raghav Das Medical College, Uttar Pradesh, 273013",M.D. (PHARMACOLOGY),SC,SC,Allotted
+1085,119118,All India,"Assam Medical College,Assam Medical College, Assam, 786002",M.D. (PHARMACOLOGY),ST,ST,Allotted
+1086,119231,All India,"DARBHANGA MEDICAL COLLEGE,Sheetal Prasad Marg, Laheriasarai, Darbhanga, Bihar, Bihar, 846003",M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE,ST,ST,Allotted
+1087,119347,All India,"Sarojini Naidu Medical College, AGRA,Sarojini Naidu Medical College, AGRA, Uttar Pradesh, 282002",M.D. (PHARMACOLOGY),SC,SC,Allotted
+1088,119448,All India,"Ganesh Shankar Vidyarthi Memorial Medical College,Ganesh Shankar Vidyarthi Memorial Medical College, Uttar Pradesh, 208002",M.D. (PHYSIOLOGY),OBC,OBC,Allotted
+1089,119460,All India,"MEDICAL COLLEGE, KOLKATA,MEDICAL COLLEGE, KOLKATA, West Bengal, 700073",M.D. (PHYSIOLOGY),OBC,OBC,Allotted
+1090,119486,All India,"JHALAWAR MEDICAL COLLEGE,JHALAWAR MEDICAL COLLEGE, JHALAWAR, Rajasthan, 326001",M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE,ST,ST,Allotted
+1091,119534,DNB Quota,"Government Medical College, ,LATHAMS BUNGALOW ROAD, RAMANATHAPURAM., Tamil Nadu, 623501",(NBEMS-DIPLOMA) FAMILY MEDICINE,ST,ST,Allotted
+1092,119691,All India,"Sawai Man Singh Medical College, JAIPUR,Sawai Man Singh Medical College, JAIPUR, Rajasthan, 302004",M.D. (PHYSIOLOGY),SC,SC,Allotted
+1093,119696,All India,"College of Medicine and JNM Hospital, WBUHS,Block A, Post Office Kalyani, Near Silpanchal Station, Block A2, District Nadia, West Bengal, West Bengal, 741235",M.D. (MICROBIOLOGY),ST,ST,Allotted
+1094,120049,All India,"Dr. Sampurnanand Medical College (SNMC), JODHPUR,Dr. Sampurnanand Medical College (SNMC), JODHPUR, Rajasthan, 342001",M.D. (MICROBIOLOGY),ST,ST,Allotted
+1095,120069,All India,"Gandhi Medical College, Bhopal,Gandhi Medical College, Bhopal, Madhya Pradesh, 462001",M.D. (FORENSIC MEDICINE),SC,SC,Allotted
+1096,120246,All India,"GOVT MEDICAL COLLEGE, ANANTAPURAMU,GOVT MEDICAL COLLEGE, ANANTAPURAMU, Andhra Pradesh, 515001",M.D. (PHYSIOLOGY),OBC,OBC,Allotted
+1097,120279,All India,"LOKMANYA TILAK MEDICAL COLLEGE MUMBAI,LOKMANYA TILAK MEDICAL COLLEGE MUMBAI, Maharashtra, 400022",M.D. (FORENSIC MEDICINE),ST,ST,Allotted
+1098,120361,All India,"Lala Lajpat Rai Memorial Medical College, MEERUT,Lala Lajpat Rai Memorial Medical College, MEERUT, Uttar Pradesh, 250004",MD/MS (Anatomy),SC,SC,Allotted
+1099,121219,All India,"CHHATTISGARH INSTITUTE OF MEDICAL SCIENCES,CHHATTISGARH INSTITUTE OF MEDICAL SCIENCES, Chhattisgarh, 495001",M.D. (PHARMACOLOGY),SC,SC,Allotted
+1100,121900,All India,"Kakatiya Medical College,Kakatiya Medical College, Telangana, 506007",M.D. (FORENSIC MEDICINE),SC,SC,Allotted
+1101,122164,All India,"Government Medical College, Latur,Government Medical College, Old Railway station Near Marwadi Rajasthani High-School Latur, Maharashtra, 413512",M.D. (FORENSIC MEDICINE),SC,SC,Allotted
+1102,122290,All India,"Karnataka Institute of Medical Sciences, Hubballi,Karnataka Institute of Medical Sciences, Hubballi, Karnataka, 580021",M.D. (BIOCHEMISTRY),OBC,OBC,Allotted
+1103,122558,All India,"Government Medical College, Latur,Government Medical College, Old Railway station Near Marwadi Rajasthani High-School Latur, Maharashtra, 413512",M.D. (PHYSIOLOGY),OBC,OBC,Allotted
+1104,122937,All India,"JHALAWAR MEDICAL COLLEGE,JHALAWAR MEDICAL COLLEGE, JHALAWAR, Rajasthan, 326001",M.D. (PHYSIOLOGY),OBC,OBC,Allotted
+1105,122955,DNB Quota,"Government Head Quarters Hospital,,NO.5 RAILWAY ROAD, KANCHIPURAM., Tamil Nadu, 631501",(NBEMS-DIPLOMA) FAMILY MEDICINE,ST,ST,Allotted
+1106,122996,All India,"RUHS COLLEGE OF MEDICAL SCIENCES,RUHS COLLEGE OF MEDICAL SCIENCES, Rajasthan, 302033",M.D. (PHYSIOLOGY),OBC,OBC,Allotted
+1107,123639,All India,"Government Medical College, Aurangabad,Government Medical College, Aurangabad, Maharashtra, 431001",M.D. (MICROBIOLOGY),ST,ST,Allotted
+1108,123666,All India,"Government Medical College, Miraj,Government Medical College, Miraj, Maharashtra, 416410",M.D. (BIOCHEMISTRY),OBC,OBC,Allotted
+1109,123932,All India,"Dr. Sampurnanand Medical College (SNMC), JODHPUR,Dr. Sampurnanand Medical College (SNMC), JODHPUR, Rajasthan, 342001",M.D. (PREVENTIVE and SOCIAL MEDICINE)/ COMMUNITY MEDICINE,ST,ST,Allotted
+1110,124118,All India,"Govt. Bundelkhand Medical College Sagar M.P.,Govt. Bundelkhand Medical College Sagar M.P., Madhya Pradesh, 470001",M.D. (PHYSIOLOGY),OBC,OBC,Allotted
+1111,124269,DNB Quota,"Sri Krishna Medical College and Hospital, ,Uma Nagar Muzaffarpur Bihar 842004, Bihar, 842004",(NBEMS) FORENSIC MEDICINE,SC,SC,Allotted
+1112,124332,All India,"Shaikh-Ul-Hind Maulana Mahmood Hasan Medical College, Saharanpur,Pilkhani Ambala Road, Uttar Pradesh, 247232",MD/MS (Anatomy),OBC,OBC,Allotted
+1113,124363,All India,"CHHATTISGARH INSTITUTE OF MEDICAL SCIENCES,CHHATTISGARH INSTITUTE OF MEDICAL SCIENCES, Chhattisgarh, 495001",M.D. (PHARMACOLOGY),SC,SC,Allotted
+1114,124520,All India,"DARBHANGA MEDICAL COLLEGE,Sheetal Prasad Marg, Laheriasarai, Darbhanga, Bihar, Bihar, 846003",M.D. (PHARMACOLOGY),SC,SC,Allotted
+1115,124579,All India,"Sri Bhausaheb Hire Government Medical College,Sri Bhausaheb Hire Government Medical College, Maharashtra, 424311",M.D. (BIOCHEMISTRY),OBC,OBC,Allotted
+1116,124680,All India,"NALANDA MEDICAL COLLEGE,PATNA,NALANDA MEDICAL COLLEGE,PATNA, Bihar, 800026",MD/MS (Anatomy),SC,SC,Allotted
+1117,124876,All India,"Burdwan Medical College, West Bengal,Burdwan Medical College, West Bengal, West Bengal, 713104",M.D. (PHYSIOLOGY),SC,SC,Allotted

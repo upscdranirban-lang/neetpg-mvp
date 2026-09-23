@@ -1,0 +1,16 @@
+{
+  "document": {
+    "id": 229,
+    "content_hash": "0ee78edeeedb9a08652625c0e126bdf979821f1a4ba095950658c7930ebc82e1",
+    "title": "NOTICE FOR RESTART OF CHOICE FILLING AND REVISION OF RESULT",
+    "file_url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2023/06/2023060689-1.pdf",
+    "doc_type": "result",
+    "cycle_label": null,
+    "round_label": null
+  },
+  "reason": "unknown_layout",
+  "details": {
+    "note": "This document's table structure doesn't match the r1r2r3 or stray layouts this pipeline knows how to extract. A human needs to look at it and, if it's a new layout worth supporting, write a new extractor for it (see extract_stray_pdf.py for the simplest example to copy)."
+  },
+  "queued_at": "2026-09-23T11:04:05.780513+00:00"
+}

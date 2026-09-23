@@ -1,0 +1,22 @@
+{
+  "document": {
+    "id": 442,
+    "content_hash": "d5b13a4d0c53b9ca5d6b55b6f45efa50898315bb4deee48e883f8930969973ab",
+    "title": "FINAL RESULT CENTRAL INSTI (MEDICAL)",
+    "file_url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2022/12/2022121275.pdf",
+    "doc_type": "final_result",
+    "cycle_label": null,
+    "round_label": null
+  },
+  "reason": "validation_failed",
+  "details": {
+    "dataset_id": "autounknownunknown_round",
+    "raw_csv": "/home/runner/work/neetpg-mvp/neetpg-mvp/data/auto/autounknownunknown_round.csv",
+    "issues": [
+      "[ERROR] unexpected_category: Category 'GN' is not one of the known values ['EWS', 'OBC', 'Open', 'SC', 'ST'].",
+      "[ERROR] unexpected_category: Category 'GN' is not one of the known values ['EWS', 'OBC', 'Open', 'SC', 'ST'].",
+      "[WARNING] unexpected_round_name: provenance.round='Unknown round' doesn't match any known round name/keyword -- double-check it wasn't misread from the document title."
+    ]
+  },
+  "queued_at": "2026-09-23T11:15:54.005329+00:00"
+}
