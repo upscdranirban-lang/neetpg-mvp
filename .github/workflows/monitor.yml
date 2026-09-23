@@ -62,6 +62,11 @@ jobs:
 
       - name: Open an issue for anything queued for review
         if: always()
+        # This step notifies about documents that need a human look; it
+        # must never be able to block the site deploy below (which is what
+        # makes the custom domain + free HTTPS work), so a failure here is
+        # logged but doesn't fail the job.
+        continue-on-error: true
         run: python3 -m engine.report_review_queue
         env:
           GH_TOKEN: ${{ github.token }}
