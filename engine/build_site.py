@@ -335,6 +335,8 @@ TEMPLATE = r"""<title>NEET-PG Help</title>
   .about-block a:hover { text-decoration: underline; }
   .about-block hr { border: none; border-top: 1px solid var(--line); margin: 20px 0; }
   .about-block code { font-family: var(--font-mono); font-size: 12px; background: var(--surface-2); padding: 1px 5px; border-radius: 5px; }
+  .about-blog-links { margin: 0 0 4px; padding-left: 20px; }
+  .about-blog-links li { margin-bottom: 6px; }
   .provenance-line { font-size: 11px; color: var(--ink-faint); margin-top: 4px; font-family: var(--font-mono); }
 
   .text-link-btn {
@@ -594,6 +596,8 @@ __DATASET_OPTIONS__
       <p>Seat matrices, allotment results and cutoffs that require reading inside each PDF are added as they're validated (see the Predictor tab for what's real so far). No login is required and no personal data is collected.</p>
       <h3>About the Predictor tab</h3>
       <p>The Predictor's dropdown lets you pick between real MCC rounds we've extracted and validated (clearly labeled "Real MCC"), and a third-party estimate dataset which is not official MCC data and exists only to test the idea until enough verified rounds cover every specialty.</p>
+      <h3>From the blog</h3>
+      __ABOUT_BLOG_LINKS_HTML__
       <p class="provenance-line">Data snapshot generated: <span id="about-generated-at"></span></p>
       <hr>
       <p class="about-crosslinks">
@@ -1000,6 +1004,7 @@ def main() -> None:
     body_html = (
         TEMPLATE.replace("__DATASET_OPTIONS__", dataset_options_html)
         .replace("__BLOG_LIST_HTML__", build_blog.list_cards_html())
+        .replace("__ABOUT_BLOG_LINKS_HTML__", build_blog.about_links_html())
         .replace("__DATA_JSON__", data_json_str)
         .replace("__PREDICTOR_JSON__", predictor_json_str)
         .replace("__REAL_DATASETS_JSON__", real_datasets_json_str)
@@ -1090,6 +1095,7 @@ def main() -> None:
 <title>{seo_title}</title>
 <meta name="description" content="{seo_description}">
 <link rel="canonical" href="https://neetpghelp.com/">
+<link rel="alternate" type="application/rss+xml" title="NEET-PG Help Blog" href="https://neetpghelp.com/blog/rss.xml">
 <meta name="robots" content="index, follow">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="NEET-PG Help">

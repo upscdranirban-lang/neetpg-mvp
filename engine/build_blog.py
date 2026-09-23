@@ -15,6 +15,8 @@ Usage: python3 -m engine.build_blog
 from __future__ import annotations
 
 import html
+import json
+from datetime import datetime, timezone
 from pathlib import Path
 
 from engine.blog_posts import POSTS, BlogPost
@@ -100,6 +102,38 @@ _FOOTER = f"""
 """
 
 
+def _post_json_ld(post: BlogPost) -> str:
+    title_json = json.dumps(post.title)
+    desc_json = json.dumps(post.meta_description)
+    url_json = json.dumps(f"{SITE_URL}/blog/{post.slug}.html")
+    return f"""<script type="application/ld+json">
+{{
+  "@context": "https://schema.org",
+  "@graph": [
+    {{
+      "@type": "BlogPosting",
+      "headline": {title_json},
+      "description": {desc_json},
+      "datePublished": "{post.date}",
+      "dateModified": "{post.date}",
+      "url": {url_json},
+      "mainEntityOfPage": {url_json},
+      "author": {{"@type": "Organization", "name": "{SITE_NAME}", "url": "{SITE_URL}/"}},
+      "publisher": {{"@type": "Organization", "name": "{SITE_NAME}", "url": "{SITE_URL}/"}}
+    }},
+    {{
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {{"@type": "ListItem", "position": 1, "name": "{SITE_NAME}", "item": "{SITE_URL}/"}},
+        {{"@type": "ListItem", "position": 2, "name": "Blog", "item": "{SITE_URL}/blog/"}},
+        {{"@type": "ListItem", "position": 3, "name": {title_json}, "item": {url_json}}}
+      ]
+    }}
+  ]
+}}
+</script>"""
+
+
 def _post_page_html(post: BlogPost) -> str:
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -113,6 +147,7 @@ def _post_page_html(post: BlogPost) -> str:
 <meta property="og:description" content="{html.escape(post.meta_description)}">
 <meta property="og:type" content="article">
 <meta property="og:url" content="{SITE_URL}/blog/{post.slug}.html">
+<link rel="alternate" type="application/rss+xml" title="{SITE_NAME} Blog" href="{SITE_URL}/blog/rss.xml">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -120,6 +155,7 @@ def _post_page_html(post: BlogPost) -> str:
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,500&family=Public+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
 {_STYLE}
+{_post_json_ld(post)}
 </head>
 <body>
 <a class="top-link" href="../index.html">&larr; Back to {SITE_NAME}</a>
@@ -154,6 +190,7 @@ def _index_page_html() -> str:
 <title>Blog | {SITE_NAME}</title>
 <meta name="description" content="Plain-language explainers and data-driven round-ups on NEET-PG counselling, from {SITE_NAME}.">
 <link rel="canonical" href="{SITE_URL}/blog/">
+<link rel="alternate" type="application/rss+xml" title="{SITE_NAME} Blog" href="{SITE_URL}/blog/rss.xml">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -175,6 +212,19 @@ def _index_page_html() -> str:
 </body>
 </html>
 """
+
+
+def about_links_html() -> str:
+    """Plain <a href> links to every post, for embedding in the main site's
+    About section -- gives the homepage a real, crawlable internal link to
+    each blog post (not just the JS-rendered Blog tab), which helps search
+    engines discover and credit the posts from the site's most-linked page."""
+    if not POSTS:
+        return ""
+    items = "\n".join(
+        f'<li><a href="blog/{p.slug}.html">{html.escape(p.title)}</a></li>' for p in POSTS
+    )
+    return f'<ul class="about-blog-links">\n{items}\n</ul>'
 
 
 def list_cards_html() -> str:
@@ -223,6 +273,41 @@ def _sitemap_xml() -> str:
     return "\n".join(lines) + "\n"
 
 
+def _rss_xml() -> str:
+    """A simple RSS 2.0 feed of every post -- lets Bing/other engines and
+    any student who wants one discover new posts without re-crawling the
+    blog index, and gives us something submittable to Bing Webmaster Tools
+    alongside the sitemap."""
+
+    def rfc822(date_str: str) -> str:
+        dt = datetime.strptime(date_str, "%Y-%m-%d").replace(tzinfo=timezone.utc)
+        return dt.strftime("%a, %d %b %Y %H:%M:%S %z")
+
+    items = []
+    for post in POSTS:
+        link = f"{SITE_URL}/blog/{post.slug}.html"
+        items.append(
+            "  <item>\n"
+            f"    <title>{html.escape(post.title)}</title>\n"
+            f"    <link>{link}</link>\n"
+            f"    <guid>{link}</guid>\n"
+            f"    <pubDate>{rfc822(post.date)}</pubDate>\n"
+            f"    <description>{html.escape(post.summary)}</description>\n"
+            "  </item>"
+        )
+    build_date = rfc822(POSTS[0].date) if POSTS else rfc822(datetime.now(timezone.utc).strftime("%Y-%m-%d"))
+    return (
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<rss version="2.0"><channel>\n'
+        f"  <title>{SITE_NAME} Blog</title>\n"
+        f"  <link>{SITE_URL}/blog/</link>\n"
+        "  <description>Plain-language explainers and data-driven round-ups on NEET-PG counselling.</description>\n"
+        f"  <lastBuildDate>{build_date}</lastBuildDate>\n"
+        + "\n".join(items)
+        + "\n</channel></rss>\n"
+    )
+
+
 def main() -> None:
     BLOG_DIR.mkdir(parents=True, exist_ok=True)
     for post in POSTS:
@@ -232,6 +317,10 @@ def main() -> None:
     index_path = BLOG_DIR / "index.html"
     index_path.write_text(_index_page_html(), encoding="utf-8")
     print(f"Wrote {index_path}")
+
+    rss_path = BLOG_DIR / "rss.xml"
+    rss_path.write_text(_rss_xml(), encoding="utf-8")
+    print(f"Wrote {rss_path}")
 
     sitemap_path = ROOT / "site" / "sitemap.xml"
     sitemap_path.write_text(_sitemap_xml(), encoding="utf-8")
