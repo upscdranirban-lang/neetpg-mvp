@@ -30,6 +30,25 @@ def clean_category(raw: str) -> str:
     return raw.replace(" PwD", "").strip()
 
 
+def is_pwd_category(raw: str) -> bool:
+    """True for an allotted-category value like "OBC PwD" / "Open PwD".
+
+    PwD is a horizontal reservation: it cuts across Open/OBC/EWS/SC/ST
+    rather than being its own vertical category, and MCC's PwD relaxation
+    lets a PwD candidate get a seat at a much worse (higher) rank than a
+    non-PwD candidate in the same category could. Closing rank is defined
+    as the MAX rank allotted in a category, so a single PwD row folded
+    into its base category can badly inflate that category's closing
+    rank for everyone else -- e.g. one real case in the 2025 Round 3 data
+    made an OBC college+specialty cell's closing rank jump from 6,050 to
+    229,954, which would have told a non-PwD OBC candidate with rank
+    ~200,000 they had a shot at a seat that only a PwD candidate could
+    actually get. Callers should skip rows this returns True for when
+    aggregating opening/closing rank by category, rather than folding
+    them into the base category as this module used to do."""
+    return "PwD" in raw
+
+
 def clean_course(raw: str) -> str:
     return re.sub(r"\s+", " ", raw.replace("\n", " ")).strip()
 

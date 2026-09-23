@@ -10,7 +10,10 @@ Methodology (same rule for every dataset this produces):
   - category used is the ALLOTTED category (the seat's category), never
     the candidate's own category -- an OBC candidate can get an Open
     seat, and that seat's closing rank belongs to Open, not OBC.
-  - "Open PwD" / "OBC PwD" / etc. are folded into their base category.
+  - "Open PwD" / "OBC PwD" / etc. are EXCLUDED from their base category's
+    opening/closing rank (PwD is a horizontal reservation with much easier
+    ranks; folding it in was inflating the base category's closing rank --
+    see is_pwd_category() in mcc_cleaning.py for a real example).
   - A seat is counted whether or not the candidate ultimately "Reported"
     for admission -- MCC's own closing-rank convention is allotment-based.
 
@@ -28,9 +31,9 @@ from collections import defaultdict
 from pathlib import Path
 
 try:
-    from engine.mcc_cleaning import clean_category, clean_course, clean_institute, clean_specialty
+    from engine.mcc_cleaning import clean_category, clean_course, clean_institute, clean_specialty, is_pwd_category
 except ImportError:  # run directly as a script (python3 build_r1r2r3_closing_ranks.py ...) from engine/
-    from mcc_cleaning import clean_category, clean_course, clean_institute, clean_specialty
+    from mcc_cleaning import clean_category, clean_course, clean_institute, clean_specialty, is_pwd_category
 
 
 def build(csv_path: str, provenance_seed: dict) -> dict:
@@ -44,10 +47,16 @@ def build(csv_path: str, provenance_seed: dict) -> dict:
     institutes_by_specialty: dict[str, set[str]] = defaultdict(set)
 
     for row in r3_rows:
+        raw_category = row["r3_alloted_category"]
+        if is_pwd_category(raw_category):
+            # PwD is a horizontal reservation with a much easier rank cutoff;
+            # counting it toward the base category's MAX-rank closing rank
+            # would badly inflate what a non-PwD candidate can actually get.
+            continue
         rank = int(row["rank"])
         institute = clean_institute(row["r3_institute"])
         specialty = clean_specialty(clean_course(row["r3_course"]))
-        category = clean_category(row["r3_alloted_category"])
+        category = clean_category(raw_category)
         if not category:
             continue
 
@@ -84,8 +93,12 @@ def build(csv_path: str, provenance_seed: dict) -> dict:
             "category). Specialty labels merge M.D./M.S. wording variants "
             "of the same subject, but keep NBEMS/DNB and Diploma tracks "
             "separate from the MD/MS track, since those are different "
-            "training pathways with different closing ranks. PwD variants "
-            "folded into their base category. Not split by quota (AI/state/ "
+            "training pathways with different closing ranks. PwD-reserved "
+            "allotments (a horizontal reservation cutting across every "
+            "category, with much easier ranks) are EXCLUDED from these "
+            "figures rather than folded into their base category -- folding "
+            "them in was inflating the base category's closing rank. Not "
+            "split by quota (AI/state/ "
             "management etc.) -- most college+specialty+category cells "
             "already have very few candidates, and splitting further would "
             "fragment them past usefulness."

@@ -18,11 +18,15 @@ official" rule):
   - category used is the ALLOTTED category (the seat's category), never
     the candidate's own category -- an OBC candidate can get an Open
     seat, and that seat's closing rank belongs to Open, not OBC.
-  - "Open PwD" / "OBC PwD" / etc. are folded into their base category
-    (Open, OBC, ...) for aggregation -- PwD is a horizontal reservation
-    cutting across categories, and keeping it separate would fragment
-    already-thin per-institute samples. This simplification is recorded
-    in the output's provenance block.
+  - "Open PwD" / "OBC PwD" / etc. are EXCLUDED from their base category's
+    opening/closing rank. PwD is a horizontal reservation cutting across
+    categories with a much easier rank cutoff than the base category --
+    folding a PwD row into e.g. "OBC" made that OBC cell's closing rank
+    (MAX rank allotted) jump to whatever rank the PwD candidate had, which
+    a real OBC candidate could never actually get. One real example from
+    this exact dataset: Government Medical College Srinagar's Open
+    Obstetrics & Gynaecology closing rank jumped from 3,524 to 191,379
+    purely because of one PwD row.
   - A seat is counted whether or not the candidate ultimately "Reported"
     for admission -- MCC's own closing-rank convention is allotment-based,
     matching every third-party source checked earlier.
@@ -69,6 +73,12 @@ def clean_institute(raw: str) -> str:
 
 def clean_category(raw: str) -> str:
     return raw.replace(" PwD", "").strip()
+
+
+def is_pwd_category(raw: str) -> bool:
+    """True for an allotted-category value like "OBC PwD" / "Open PwD" --
+    see the matching helper (and its rationale) in engine/mcc_cleaning.py."""
+    return "PwD" in raw
 
 
 def clean_course(raw: str) -> str:
@@ -165,10 +175,16 @@ def main() -> None:
     institutes_by_specialty: dict[str, set[str]] = defaultdict(set)
 
     for row in r3_rows:
+        raw_category = row["r3_alloted_category"]
+        if is_pwd_category(raw_category):
+            # PwD is a horizontal reservation with a much easier rank cutoff;
+            # counting it toward the base category's MAX-rank closing rank
+            # would badly inflate what a non-PwD candidate can actually get.
+            continue
         rank = int(row["rank"])
         institute = clean_institute(row["r3_institute"])
         specialty = clean_specialty(clean_course(row["r3_course"]))
-        category = clean_category(row["r3_alloted_category"])
+        category = clean_category(raw_category)
         if not category:
             continue
 
@@ -215,8 +231,12 @@ def main() -> None:
             "category). Specialty labels merge M.D./M.S. wording variants "
             "of the same subject, but keep NBEMS/DNB and Diploma tracks "
             "separate from the MD/MS track, since those are different "
-            "training pathways with different closing ranks. PwD variants "
-            "folded into their base category. Not split by quota (AI/state/ "
+            "training pathways with different closing ranks. PwD-reserved "
+            "allotments (a horizontal reservation cutting across every "
+            "category, with much easier ranks) are EXCLUDED from these "
+            "figures rather than folded into their base category -- folding "
+            "them in was inflating the base category's closing rank. Not "
+            "split by quota (AI/state/ "
             "management etc.) -- most college+specialty+category cells "
             "already have very few candidates, and splitting further would "
             "fragment them past usefulness. See "

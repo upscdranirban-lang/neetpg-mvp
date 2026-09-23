@@ -6,8 +6,10 @@ the Round 1/2/3 layout, since a stray-round list only lists seats that
 were actually allotted in that round).
 
 Same methodology as build_r1r2r3_closing_ranks.py: opening/closing rank
-by institute + specialty + ALLOTTED category, PwD folded into base
-category, counted regardless of "Reported"/"Not Reported" status.
+by institute + specialty + ALLOTTED category, PwD-reserved allotments
+EXCLUDED from their base category (folding them in inflates the base
+category's closing rank -- see is_pwd_category() in mcc_cleaning.py),
+counted regardless of "Reported"/"Not Reported" status.
 
 Usage: python3 build_stray_closing_ranks.py <csv_path> <out_json_path> <provenance_json_path>
 """
@@ -21,9 +23,9 @@ from collections import defaultdict
 from pathlib import Path
 
 try:
-    from engine.mcc_cleaning import clean_category, clean_course, clean_institute, clean_specialty
+    from engine.mcc_cleaning import clean_category, clean_course, clean_institute, clean_specialty, is_pwd_category
 except ImportError:  # run directly as a script (python3 build_stray_closing_ranks.py ...) from engine/
-    from mcc_cleaning import clean_category, clean_course, clean_institute, clean_specialty
+    from mcc_cleaning import clean_category, clean_course, clean_institute, clean_specialty, is_pwd_category
 
 
 def build(csv_path: str, provenance_seed: dict) -> dict:
@@ -37,10 +39,16 @@ def build(csv_path: str, provenance_seed: dict) -> dict:
     for row in rows:
         if not row.get("institute") or row["institute"] == "-":
             continue
+        raw_category = row["alloted_category"]
+        if is_pwd_category(raw_category):
+            # PwD is a horizontal reservation with a much easier rank cutoff;
+            # counting it toward the base category's MAX-rank closing rank
+            # would badly inflate what a non-PwD candidate can actually get.
+            continue
         rank = int(row["rank"])
         institute = clean_institute(row["institute"])
         specialty = clean_specialty(clean_course(row["course"]))
-        category = clean_category(row["alloted_category"])
+        category = clean_category(raw_category)
         if not category:
             continue
 
@@ -77,7 +85,10 @@ def build(csv_path: str, provenance_seed: dict) -> dict:
             "ALLOTTED category (not candidate category). Specialty labels "
             "merge M.D./M.S. wording variants of the same subject, but keep "
             "NBEMS/DNB and Diploma tracks separate from the MD/MS track. "
-            "PwD variants folded into their base category. This is a single, "
+            "PwD-reserved allotments (a horizontal reservation with much "
+            "easier ranks) are EXCLUDED from these figures rather than "
+            "folded into their base category -- folding them in was "
+            "inflating the base category's closing rank. This is a single, "
             "separate round -- its ranks are not comparable to Round 3's, "
             "since stray vacancy seats are filled from a different, later "
             "pool of candidates."
