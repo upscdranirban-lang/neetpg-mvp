@@ -1,0 +1,4027 @@
+{
+  "disclaimer": "ESTIMATE ONLY -- not official MCC data. These numbers come from third-party exam-prep sites, not from MCC's own result documents. Real counselling results can differ significantly. Use this only as a rough starting point, never as a guarantee.",
+  "sources": [
+    {
+      "name": "Careers360",
+      "url": "https://medicine.careers360.com/articles/neet-pg-cut-off",
+      "used_for": "college-wise opening/closing ranks, Open category (5 specialties)"
+    },
+    {
+      "name": "Shiva Learning",
+      "url": "https://shivalearning.com/neet-pg-2025-all-india-quota-50-cut-off/",
+      "used_for": "specialty-wise closing ranks, all categories (Open/OBC/EWS/SC/ST), Round 1 & 2"
+    },
+    {
+      "name": "FindMyCollege",
+      "url": "https://articles.findmycollege.com/neet-pg-counselling-2025-cut-off/",
+      "used_for": "specialty-wise closing ranks by category, Round 1 (cross-check for Shiva Learning)"
+    }
+  ],
+  "not_used": [
+    "PW Live (pw.live) -- 'expected' forecast, not a reported result",
+    "Sartha (sartha.in) -- 'expected' forecast, not a reported result",
+    "NEET Counselling 2026 (neetcounseling2026.com) -- 'expected' forecast, not a reported result",
+    "Diginerve (diginerve.com) -- 'expected' forecast, not a reported result"
+  ],
+  "category_adjustment_note": "No source publishes college-level closing ranks by category (only Open/UR college-wise data exists). For OBC/EWS/SC/ST in the College Predictor, this demo CALCULATES an estimate: it scales each college's reported Open closing rank by the category-vs-Open gap seen at the specialty level (Round 1, from Shiva Learning). This is a derived estimate, not a reported number, and is labeled as such everywhere it's shown -- it can be significantly wrong for any individual college, since the real category gap varies by college, not just by specialty.",
+  "coverage_note": "Round 1 & Round 2: Open/OBC/EWS/SC/ST at specialty level. Round 3 / Stray: no category-wise data found on any source checked -- not available in this demo. College-level tables exist only for Open (reported); other categories shown there are calculated estimates, not reported figures -- see the 'Calculated' label on each result.",
+  "specialties": [
+    {
+      "specialty": "Nuclear Medicine",
+      "categories": {
+        "Open": {
+          "R1": 658,
+          "R2": 845
+        },
+        "OBC": {
+          "R1": 1549,
+          "R2": 2844
+        },
+        "EWS": {
+          "R1": null,
+          "R2": null
+        },
+        "SC": {
+          "R1": null,
+          "R2": null
+        },
+        "ST": {
+          "R1": null,
+          "R2": null
+        }
+      }
+    },
+    {
+      "specialty": "Dermatology",
+      "categories": {
+        "Open": {
+          "R1": 2725,
+          "R2": 6251
+        },
+        "OBC": {
+          "R1": 5653,
+          "R2": 7099
+        },
+        "EWS": {
+          "R1": 6713,
+          "R2": 9641
+        },
+        "SC": {
+          "R1": 12811,
+          "R2": 17079
+        },
+        "ST": {
+          "R1": 25808,
+          "R2": 28002
+        }
+      }
+    },
+    {
+      "specialty": "Radio-Diagnosis",
+      "categories": {
+        "Open": {
+          "R1": 2920,
+          "R2": 4137
+        },
+        "OBC": {
+          "R1": 3936,
+          "R2": 6067
+        },
+        "EWS": {
+          "R1": 4586,
+          "R2": 5998
+        },
+        "SC": {
+          "R1": 9941,
+          "R2": 12903
+        },
+        "ST": {
+          "R1": 17238,
+          "R2": 21007
+        }
+      }
+    },
+    {
+      "specialty": "General Medicine",
+      "categories": {
+        "Open": {
+          "R1": 3822,
+          "R2": 6070
+        },
+        "OBC": {
+          "R1": 6301,
+          "R2": 7991
+        },
+        "EWS": {
+          "R1": 7655,
+          "R2": 8716
+        },
+        "SC": {
+          "R1": 17908,
+          "R2": 21968
+        },
+        "ST": {
+          "R1": 33062,
+          "R2": 36729
+        }
+      }
+    },
+    {
+      "specialty": "Paediatrics",
+      "categories": {
+        "Open": {
+          "R1": 7071,
+          "R2": 9591
+        },
+        "OBC": {
+          "R1": 10534,
+          "R2": 12029
+        },
+        "EWS": {
+          "R1": 11024,
+          "R2": 14851
+        },
+        "SC": {
+          "R1": 22979,
+          "R2": 31803
+        },
+        "ST": {
+          "R1": 47281,
+          "R2": 51217
+        }
+      }
+    },
+    {
+      "specialty": "Obstetrics & Gynaecology",
+      "categories": {
+        "Open": {
+          "R1": 9714,
+          "R2": 11555
+        },
+        "OBC": {
+          "R1": 14008,
+          "R2": 15380
+        },
+        "EWS": {
+          "R1": 16826,
+          "R2": 18281
+        },
+        "SC": {
+          "R1": 31068,
+          "R2": 37930
+        },
+        "ST": {
+          "R1": 50317,
+          "R2": 58481
+        }
+      }
+    },
+    {
+      "specialty": "Respiratory Medicine",
+      "categories": {
+        "Open": {
+          "R1": 9780,
+          "R2": 11803
+        },
+        "OBC": {
+          "R1": 13828,
+          "R2": 16981
+        },
+        "EWS": {
+          "R1": 16204,
+          "R2": 17912
+        },
+        "SC": {
+          "R1": 33686,
+          "R2": 34591
+        },
+        "ST": {
+          "R1": 54653,
+          "R2": 59581
+        }
+      }
+    },
+    {
+      "specialty": "Sports Medicine",
+      "categories": {
+        "Open": {
+          "R1": 9850,
+          "R2": 15768
+        },
+        "OBC": {
+          "R1": 11747,
+          "R2": null
+        },
+        "EWS": {
+          "R1": 19596,
+          "R2": null
+        },
+        "SC": {
+          "R1": null,
+          "R2": null
+        },
+        "ST": {
+          "R1": null,
+          "R2": null
+        }
+      }
+    },
+    {
+      "specialty": "Geriatrics",
+      "categories": {
+        "Open": {
+          "R1": 10451,
+          "R2": 12219
+        },
+        "OBC": {
+          "R1": 12420,
+          "R2": null
+        },
+        "EWS": {
+          "R1": 15407,
+          "R2": null
+        },
+        "SC": {
+          "R1": 35107,
+          "R2": null
+        },
+        "ST": {
+          "R1": 55338,
+          "R2": 71481
+        }
+      }
+    },
+    {
+      "specialty": "General Surgery",
+      "categories": {
+        "Open": {
+          "R1": 11507,
+          "R2": 15331
+        },
+        "OBC": {
+          "R1": 15525,
+          "R2": 18300
+        },
+        "EWS": {
+          "R1": 17957,
+          "R2": 22784
+        },
+        "SC": {
+          "R1": 33129,
+          "R2": 39530
+        },
+        "ST": {
+          "R1": 55932,
+          "R2": 68175
+        }
+      }
+    },
+    {
+      "specialty": "Orthopaedics",
+      "categories": {
+        "Open": {
+          "R1": 12429,
+          "R2": 17062
+        },
+        "OBC": {
+          "R1": 14894,
+          "R2": 18870
+        },
+        "EWS": {
+          "R1": 19488,
+          "R2": 21623
+        },
+        "SC": {
+          "R1": 34943,
+          "R2": 39123
+        },
+        "ST": {
+          "R1": 53647,
+          "R2": 71600
+        }
+      }
+    },
+    {
+      "specialty": "Palliative Medicine",
+      "categories": {
+        "Open": {
+          "R1": 13211,
+          "R2": 16700
+        },
+        "OBC": {
+          "R1": null,
+          "R2": null
+        },
+        "EWS": {
+          "R1": 37000,
+          "R2": null
+        },
+        "SC": {
+          "R1": 40392,
+          "R2": null
+        },
+        "ST": {
+          "R1": 47230,
+          "R2": null
+        }
+      }
+    },
+    {
+      "specialty": "Emergency Medicine",
+      "categories": {
+        "Open": {
+          "R1": 13772,
+          "R2": 17208
+        },
+        "OBC": {
+          "R1": 15397,
+          "R2": 18941
+        },
+        "EWS": {
+          "R1": 23147,
+          "R2": 29384
+        },
+        "SC": {
+          "R1": 29247,
+          "R2": 39726
+        },
+        "ST": {
+          "R1": 61712,
+          "R2": 79656
+        }
+      }
+    },
+    {
+      "specialty": "Psychiatry",
+      "categories": {
+        "Open": {
+          "R1": 16458,
+          "R2": 19214
+        },
+        "OBC": {
+          "R1": 22415,
+          "R2": 17581
+        },
+        "EWS": {
+          "R1": 31680,
+          "R2": 37502
+        },
+        "SC": {
+          "R1": 37273,
+          "R2": 43493
+        },
+        "ST": {
+          "R1": 72084,
+          "R2": 87834
+        }
+      }
+    },
+    {
+      "specialty": "Ophthalmology",
+      "categories": {
+        "Open": {
+          "R1": 16969,
+          "R2": 19730
+        },
+        "OBC": {
+          "R1": 20787,
+          "R2": 26853
+        },
+        "EWS": {
+          "R1": 24222,
+          "R2": 32401
+        },
+        "SC": {
+          "R1": 38106,
+          "R2": 44789
+        },
+        "ST": {
+          "R1": 67111,
+          "R2": 81002
+        }
+      }
+    },
+    {
+      "specialty": "Radiotherapy",
+      "categories": {
+        "Open": {
+          "R1": 17190,
+          "R2": 22254
+        },
+        "OBC": {
+          "R1": 22719,
+          "R2": 28034
+        },
+        "EWS": {
+          "R1": 25863,
+          "R2": 28039
+        },
+        "SC": {
+          "R1": 39994,
+          "R2": 41933
+        },
+        "ST": {
+          "R1": null,
+          "R2": null
+        }
+      }
+    },
+    {
+      "specialty": "ENT",
+      "categories": {
+        "Open": {
+          "R1": 17851,
+          "R2": 21089
+        },
+        "OBC": {
+          "R1": 22080,
+          "R2": 29167
+        },
+        "EWS": {
+          "R1": 26569,
+          "R2": 30734
+        },
+        "SC": {
+          "R1": 39073,
+          "R2": 45819
+        },
+        "ST": {
+          "R1": 69115,
+          "R2": 71385
+        }
+      }
+    },
+    {
+      "specialty": "Anaesthesiology",
+      "categories": {
+        "Open": {
+          "R1": 19028,
+          "R2": 24796
+        },
+        "OBC": {
+          "R1": 25331,
+          "R2": 31630
+        },
+        "EWS": {
+          "R1": 27628,
+          "R2": 36435
+        },
+        "SC": {
+          "R1": 43389,
+          "R2": 49689
+        },
+        "ST": {
+          "R1": 60974,
+          "R2": 76232
+        }
+      }
+    },
+    {
+      "specialty": "PMR",
+      "categories": {
+        "Open": {
+          "R1": 23132,
+          "R2": 25038
+        },
+        "OBC": {
+          "R1": 33452,
+          "R2": null
+        },
+        "EWS": {
+          "R1": 34354,
+          "R2": null
+        },
+        "SC": {
+          "R1": 42169,
+          "R2": null
+        },
+        "ST": {
+          "R1": 68021,
+          "R2": 83766
+        }
+      }
+    },
+    {
+      "specialty": "IHBT",
+      "categories": {
+        "Open": {
+          "R1": 29147,
+          "R2": 40064
+        },
+        "OBC": {
+          "R1": 32794,
+          "R2": 50551
+        },
+        "EWS": {
+          "R1": 37846,
+          "R2": 50247
+        },
+        "SC": {
+          "R1": 53864,
+          "R2": null
+        },
+        "ST": {
+          "R1": 92108,
+          "R2": 85523
+        }
+      }
+    },
+    {
+      "specialty": "Hospital Administration",
+      "categories": {
+        "Open": {
+          "R1": 29826,
+          "R2": 36253
+        },
+        "OBC": {
+          "R1": 34882,
+          "R2": null
+        },
+        "EWS": {
+          "R1": 37125,
+          "R2": null
+        },
+        "SC": {
+          "R1": 66596,
+          "R2": null
+        },
+        "ST": {
+          "R1": null,
+          "R2": null
+        }
+      }
+    },
+    {
+      "specialty": "Pathology",
+      "categories": {
+        "Open": {
+          "R1": 36444,
+          "R2": 47475
+        },
+        "OBC": {
+          "R1": 43765,
+          "R2": 55390
+        },
+        "EWS": {
+          "R1": 62085,
+          "R2": 69470
+        },
+        "SC": {
+          "R1": 64648,
+          "R2": 83070
+        },
+        "ST": {
+          "R1": 75436,
+          "R2": 67360
+        }
+      }
+    },
+    {
+      "specialty": "PSM",
+      "categories": {
+        "Open": {
+          "R1": 54470,
+          "R2": 69799
+        },
+        "OBC": {
+          "R1": 63587,
+          "R2": 84655
+        },
+        "EWS": {
+          "R1": 102408,
+          "R2": 108389
+        },
+        "SC": {
+          "R1": 101936,
+          "R2": 114739
+        },
+        "ST": {
+          "R1": 90583,
+          "R2": 111103
+        }
+      }
+    },
+    {
+      "specialty": "Microbiology",
+      "categories": {
+        "Open": {
+          "R1": 64970,
+          "R2": 84241
+        },
+        "OBC": {
+          "R1": 81898,
+          "R2": 103039
+        },
+        "EWS": {
+          "R1": 111558,
+          "R2": 111558
+        },
+        "SC": {
+          "R1": 109539,
+          "R2": 131799
+        },
+        "ST": {
+          "R1": 99228,
+          "R2": 122647
+        }
+      }
+    },
+    {
+      "specialty": "Pharmacology",
+      "categories": {
+        "Open": {
+          "R1": 68792,
+          "R2": 88005
+        },
+        "OBC": {
+          "R1": 88974,
+          "R2": 115944
+        },
+        "EWS": {
+          "R1": 112327,
+          "R2": 111586
+        },
+        "SC": {
+          "R1": 105320,
+          "R2": 129557
+        },
+        "ST": {
+          "R1": null,
+          "R2": null
+        }
+      }
+    },
+    {
+      "specialty": "Forensic Medicine",
+      "categories": {
+        "Open": {
+          "R1": 72787,
+          "R2": 98148
+        },
+        "OBC": {
+          "R1": 85418,
+          "R2": 112342
+        },
+        "EWS": {
+          "R1": 115201,
+          "R2": 113950
+        },
+        "SC": {
+          "R1": 100985,
+          "R2": 119828
+        },
+        "ST": {
+          "R1": null,
+          "R2": null
+        }
+      }
+    },
+    {
+      "specialty": "Biochemistry",
+      "categories": {
+        "Open": {
+          "R1": 91932,
+          "R2": 115178
+        },
+        "OBC": {
+          "R1": 109052,
+          "R2": 134046
+        },
+        "EWS": {
+          "R1": 115473,
+          "R2": 112255
+        },
+        "SC": {
+          "R1": 135908,
+          "R2": 129894
+        },
+        "ST": {
+          "R1": null,
+          "R2": null
+        }
+      }
+    },
+    {
+      "specialty": "Physiology",
+      "categories": {
+        "Open": {
+          "R1": 105948,
+          "R2": 114208
+        },
+        "OBC": {
+          "R1": 127756,
+          "R2": 138605
+        },
+        "EWS": {
+          "R1": 112245,
+          "R2": 115305
+        },
+        "SC": {
+          "R1": 134723,
+          "R2": 134971
+        },
+        "ST": {
+          "R1": null,
+          "R2": null
+        }
+      }
+    },
+    {
+      "specialty": "Anatomy",
+      "categories": {
+        "Open": {
+          "R1": 110157,
+          "R2": 114364
+        },
+        "OBC": {
+          "R1": 135658,
+          "R2": 136606
+        },
+        "EWS": {
+          "R1": 115305,
+          "R2": 112763
+        },
+        "SC": {
+          "R1": 136069,
+          "R2": 136069
+        },
+        "ST": {
+          "R1": null,
+          "R2": null
+        }
+      }
+    }
+  ],
+  "colleges_by_specialty": {
+    "General Medicine": {
+      "Open": [
+        {
+          "college": "Atal Bihari Vajpayee Institute of Medical Sciences and Dr Ram Manohar Lohia Hospital, New Delhi",
+          "opening_rank": 1,
+          "closing_rank": 15,
+          "basis": "reported"
+        },
+        {
+          "college": "Nizams Institute of Medical Sciences, Hyderabad",
+          "opening_rank": 16,
+          "closing_rank": 16,
+          "basis": "reported"
+        },
+        {
+          "college": "Maulana Azad Medical College, New Delhi",
+          "opening_rank": 34,
+          "closing_rank": 62,
+          "basis": "reported"
+        },
+        {
+          "college": "Vardhman Mahavir Medical College and Safdarjung Hospital, New Delhi",
+          "opening_rank": 30,
+          "closing_rank": 74,
+          "basis": "reported"
+        },
+        {
+          "college": "Lady Hardinge Medical College for Women, New Delhi",
+          "opening_rank": 75,
+          "closing_rank": 83,
+          "basis": "reported"
+        },
+        {
+          "college": "Government Medical College and Hospital, Chandigarh",
+          "opening_rank": 107,
+          "closing_rank": 107,
+          "basis": "reported"
+        },
+        {
+          "college": "Government Medical College, Thrissur",
+          "opening_rank": 114,
+          "closing_rank": 114,
+          "basis": "reported"
+        },
+        {
+          "college": "Lokmanya Tilak Municipal Medical College, Mumbai",
+          "opening_rank": 47,
+          "closing_rank": 119,
+          "basis": "reported"
+        },
+        {
+          "college": "Seth GS Medical College (KEM), Mumbai",
+          "opening_rank": 44,
+          "closing_rank": 125,
+          "basis": "reported"
+        },
+        {
+          "college": "Government Medical College, Kozhikode",
+          "opening_rank": 2,
+          "closing_rank": 129,
+          "basis": "reported"
+        },
+        {
+          "college": "University College of Medical Sciences, Delhi",
+          "opening_rank": 164,
+          "closing_rank": 164,
+          "basis": "reported"
+        },
+        {
+          "college": "B J Medical College, Ahmedabad",
+          "opening_rank": 19,
+          "closing_rank": 170,
+          "basis": "reported"
+        },
+        {
+          "college": "Institute of Medical Sciences, BHU, Varanasi",
+          "opening_rank": 124,
+          "closing_rank": 176,
+          "basis": "reported"
+        },
+        {
+          "college": "Government Medical College, Kottayam",
+          "opening_rank": 71,
+          "closing_rank": 200,
+          "basis": "reported"
+        },
+        {
+          "college": "IPGMER, Kolkata",
+          "opening_rank": 198,
+          "closing_rank": 201,
+          "basis": "reported"
+        },
+        {
+          "college": "Bangalore Medical College and Research Institute, Bangalore",
+          "opening_rank": 8,
+          "closing_rank": 228,
+          "basis": "reported"
+        },
+        {
+          "college": "Madras Medical College, Chennai",
+          "opening_rank": 9,
+          "closing_rank": 291,
+          "basis": "reported"
+        },
+        {
+          "college": "Topiwala National Medical College (Nair), Mumbai",
+          "opening_rank": 181,
+          "closing_rank": 294,
+          "basis": "reported"
+        },
+        {
+          "college": "Government Medical College, Thiruvananthapuram",
+          "opening_rank": 183,
+          "closing_rank": 308,
+          "basis": "reported"
+        },
+        {
+          "college": "Karnataka Institute of Medical Sciences, Hubli",
+          "opening_rank": 267,
+          "closing_rank": 327,
+          "basis": "reported"
+        }
+      ],
+      "OBC": [
+        {
+          "college": "Atal Bihari Vajpayee Institute of Medical Sciences and Dr Ram Manohar Lohia Hospital, New Delhi",
+          "opening_rank": 2,
+          "closing_rank": 25,
+          "basis": "calculated"
+        },
+        {
+          "college": "Nizams Institute of Medical Sciences, Hyderabad",
+          "opening_rank": 26,
+          "closing_rank": 26,
+          "basis": "calculated"
+        },
+        {
+          "college": "Maulana Azad Medical College, New Delhi",
+          "opening_rank": 56,
+          "closing_rank": 102,
+          "basis": "calculated"
+        },
+        {
+          "college": "Vardhman Mahavir Medical College and Safdarjung Hospital, New Delhi",
+          "opening_rank": 49,
+          "closing_rank": 122,
+          "basis": "calculated"
+        },
+        {
+          "college": "Lady Hardinge Medical College for Women, New Delhi",
+          "opening_rank": 124,
+          "closing_rank": 137,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College and Hospital, Chandigarh",
+          "opening_rank": 176,
+          "closing_rank": 176,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College, Thrissur",
+          "opening_rank": 188,
+          "closing_rank": 188,
+          "basis": "calculated"
+        },
+        {
+          "college": "Lokmanya Tilak Municipal Medical College, Mumbai",
+          "opening_rank": 77,
+          "closing_rank": 196,
+          "basis": "calculated"
+        },
+        {
+          "college": "Seth GS Medical College (KEM), Mumbai",
+          "opening_rank": 73,
+          "closing_rank": 206,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College, Kozhikode",
+          "opening_rank": 3,
+          "closing_rank": 213,
+          "basis": "calculated"
+        },
+        {
+          "college": "University College of Medical Sciences, Delhi",
+          "opening_rank": 270,
+          "closing_rank": 270,
+          "basis": "calculated"
+        },
+        {
+          "college": "B J Medical College, Ahmedabad",
+          "opening_rank": 31,
+          "closing_rank": 280,
+          "basis": "calculated"
+        },
+        {
+          "college": "Institute of Medical Sciences, BHU, Varanasi",
+          "opening_rank": 204,
+          "closing_rank": 290,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College, Kottayam",
+          "opening_rank": 117,
+          "closing_rank": 330,
+          "basis": "calculated"
+        },
+        {
+          "college": "IPGMER, Kolkata",
+          "opening_rank": 326,
+          "closing_rank": 331,
+          "basis": "calculated"
+        },
+        {
+          "college": "Bangalore Medical College and Research Institute, Bangalore",
+          "opening_rank": 13,
+          "closing_rank": 376,
+          "basis": "calculated"
+        },
+        {
+          "college": "Madras Medical College, Chennai",
+          "opening_rank": 15,
+          "closing_rank": 480,
+          "basis": "calculated"
+        },
+        {
+          "college": "Topiwala National Medical College (Nair), Mumbai",
+          "opening_rank": 298,
+          "closing_rank": 485,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College, Thiruvananthapuram",
+          "opening_rank": 302,
+          "closing_rank": 508,
+          "basis": "calculated"
+        },
+        {
+          "college": "Karnataka Institute of Medical Sciences, Hubli",
+          "opening_rank": 440,
+          "closing_rank": 539,
+          "basis": "calculated"
+        }
+      ],
+      "EWS": [
+        {
+          "college": "Atal Bihari Vajpayee Institute of Medical Sciences and Dr Ram Manohar Lohia Hospital, New Delhi",
+          "opening_rank": 2,
+          "closing_rank": 30,
+          "basis": "calculated"
+        },
+        {
+          "college": "Nizams Institute of Medical Sciences, Hyderabad",
+          "opening_rank": 32,
+          "closing_rank": 32,
+          "basis": "calculated"
+        },
+        {
+          "college": "Maulana Azad Medical College, New Delhi",
+          "opening_rank": 68,
+          "closing_rank": 124,
+          "basis": "calculated"
+        },
+        {
+          "college": "Vardhman Mahavir Medical College and Safdarjung Hospital, New Delhi",
+          "opening_rank": 60,
+          "closing_rank": 148,
+          "basis": "calculated"
+        },
+        {
+          "college": "Lady Hardinge Medical College for Women, New Delhi",
+          "opening_rank": 150,
+          "closing_rank": 166,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College and Hospital, Chandigarh",
+          "opening_rank": 214,
+          "closing_rank": 214,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College, Thrissur",
+          "opening_rank": 228,
+          "closing_rank": 228,
+          "basis": "calculated"
+        },
+        {
+          "college": "Lokmanya Tilak Municipal Medical College, Mumbai",
+          "opening_rank": 94,
+          "closing_rank": 238,
+          "basis": "calculated"
+        },
+        {
+          "college": "Seth GS Medical College (KEM), Mumbai",
+          "opening_rank": 88,
+          "closing_rank": 250,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College, Kozhikode",
+          "opening_rank": 4,
+          "closing_rank": 258,
+          "basis": "calculated"
+        },
+        {
+          "college": "University College of Medical Sciences, Delhi",
+          "opening_rank": 328,
+          "closing_rank": 328,
+          "basis": "calculated"
+        },
+        {
+          "college": "B J Medical College, Ahmedabad",
+          "opening_rank": 38,
+          "closing_rank": 340,
+          "basis": "calculated"
+        },
+        {
+          "college": "Institute of Medical Sciences, BHU, Varanasi",
+          "opening_rank": 248,
+          "closing_rank": 353,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College, Kottayam",
+          "opening_rank": 142,
+          "closing_rank": 401,
+          "basis": "calculated"
+        },
+        {
+          "college": "IPGMER, Kolkata",
+          "opening_rank": 397,
+          "closing_rank": 403,
+          "basis": "calculated"
+        },
+        {
+          "college": "Bangalore Medical College and Research Institute, Bangalore",
+          "opening_rank": 16,
+          "closing_rank": 457,
+          "basis": "calculated"
+        },
+        {
+          "college": "Madras Medical College, Chennai",
+          "opening_rank": 18,
+          "closing_rank": 583,
+          "basis": "calculated"
+        },
+        {
+          "college": "Topiwala National Medical College (Nair), Mumbai",
+          "opening_rank": 363,
+          "closing_rank": 589,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College, Thiruvananthapuram",
+          "opening_rank": 367,
+          "closing_rank": 617,
+          "basis": "calculated"
+        },
+        {
+          "college": "Karnataka Institute of Medical Sciences, Hubli",
+          "opening_rank": 535,
+          "closing_rank": 655,
+          "basis": "calculated"
+        }
+      ],
+      "SC": [
+        {
+          "college": "Atal Bihari Vajpayee Institute of Medical Sciences and Dr Ram Manohar Lohia Hospital, New Delhi",
+          "opening_rank": 5,
+          "closing_rank": 70,
+          "basis": "calculated"
+        },
+        {
+          "college": "Nizams Institute of Medical Sciences, Hyderabad",
+          "opening_rank": 75,
+          "closing_rank": 75,
+          "basis": "calculated"
+        },
+        {
+          "college": "Maulana Azad Medical College, New Delhi",
+          "opening_rank": 159,
+          "closing_rank": 291,
+          "basis": "calculated"
+        },
+        {
+          "college": "Vardhman Mahavir Medical College and Safdarjung Hospital, New Delhi",
+          "opening_rank": 141,
+          "closing_rank": 347,
+          "basis": "calculated"
+        },
+        {
+          "college": "Lady Hardinge Medical College for Women, New Delhi",
+          "opening_rank": 351,
+          "closing_rank": 389,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College and Hospital, Chandigarh",
+          "opening_rank": 501,
+          "closing_rank": 501,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College, Thrissur",
+          "opening_rank": 534,
+          "closing_rank": 534,
+          "basis": "calculated"
+        },
+        {
+          "college": "Lokmanya Tilak Municipal Medical College, Mumbai",
+          "opening_rank": 220,
+          "closing_rank": 558,
+          "basis": "calculated"
+        },
+        {
+          "college": "Seth GS Medical College (KEM), Mumbai",
+          "opening_rank": 206,
+          "closing_rank": 586,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College, Kozhikode",
+          "opening_rank": 9,
+          "closing_rank": 604,
+          "basis": "calculated"
+        },
+        {
+          "college": "University College of Medical Sciences, Delhi",
+          "opening_rank": 768,
+          "closing_rank": 768,
+          "basis": "calculated"
+        },
+        {
+          "college": "B J Medical College, Ahmedabad",
+          "opening_rank": 89,
+          "closing_rank": 797,
+          "basis": "calculated"
+        },
+        {
+          "college": "Institute of Medical Sciences, BHU, Varanasi",
+          "opening_rank": 581,
+          "closing_rank": 825,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College, Kottayam",
+          "opening_rank": 333,
+          "closing_rank": 937,
+          "basis": "calculated"
+        },
+        {
+          "college": "IPGMER, Kolkata",
+          "opening_rank": 928,
+          "closing_rank": 942,
+          "basis": "calculated"
+        },
+        {
+          "college": "Bangalore Medical College and Research Institute, Bangalore",
+          "opening_rank": 37,
+          "closing_rank": 1068,
+          "basis": "calculated"
+        },
+        {
+          "college": "Madras Medical College, Chennai",
+          "opening_rank": 42,
+          "closing_rank": 1363,
+          "basis": "calculated"
+        },
+        {
+          "college": "Topiwala National Medical College (Nair), Mumbai",
+          "opening_rank": 848,
+          "closing_rank": 1378,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College, Thiruvananthapuram",
+          "opening_rank": 857,
+          "closing_rank": 1443,
+          "basis": "calculated"
+        },
+        {
+          "college": "Karnataka Institute of Medical Sciences, Hubli",
+          "opening_rank": 1251,
+          "closing_rank": 1532,
+          "basis": "calculated"
+        }
+      ],
+      "ST": [
+        {
+          "college": "Atal Bihari Vajpayee Institute of Medical Sciences and Dr Ram Manohar Lohia Hospital, New Delhi",
+          "opening_rank": 9,
+          "closing_rank": 130,
+          "basis": "calculated"
+        },
+        {
+          "college": "Nizams Institute of Medical Sciences, Hyderabad",
+          "opening_rank": 138,
+          "closing_rank": 138,
+          "basis": "calculated"
+        },
+        {
+          "college": "Maulana Azad Medical College, New Delhi",
+          "opening_rank": 294,
+          "closing_rank": 536,
+          "basis": "calculated"
+        },
+        {
+          "college": "Vardhman Mahavir Medical College and Safdarjung Hospital, New Delhi",
+          "opening_rank": 260,
+          "closing_rank": 640,
+          "basis": "calculated"
+        },
+        {
+          "college": "Lady Hardinge Medical College for Women, New Delhi",
+          "opening_rank": 649,
+          "closing_rank": 718,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College and Hospital, Chandigarh",
+          "opening_rank": 926,
+          "closing_rank": 926,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College, Thrissur",
+          "opening_rank": 986,
+          "closing_rank": 986,
+          "basis": "calculated"
+        },
+        {
+          "college": "Lokmanya Tilak Municipal Medical College, Mumbai",
+          "opening_rank": 407,
+          "closing_rank": 1029,
+          "basis": "calculated"
+        },
+        {
+          "college": "Seth GS Medical College (KEM), Mumbai",
+          "opening_rank": 381,
+          "closing_rank": 1081,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College, Kozhikode",
+          "opening_rank": 17,
+          "closing_rank": 1116,
+          "basis": "calculated"
+        },
+        {
+          "college": "University College of Medical Sciences, Delhi",
+          "opening_rank": 1419,
+          "closing_rank": 1419,
+          "basis": "calculated"
+        },
+        {
+          "college": "B J Medical College, Ahmedabad",
+          "opening_rank": 164,
+          "closing_rank": 1471,
+          "basis": "calculated"
+        },
+        {
+          "college": "Institute of Medical Sciences, BHU, Varanasi",
+          "opening_rank": 1073,
+          "closing_rank": 1522,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College, Kottayam",
+          "opening_rank": 614,
+          "closing_rank": 1730,
+          "basis": "calculated"
+        },
+        {
+          "college": "IPGMER, Kolkata",
+          "opening_rank": 1713,
+          "closing_rank": 1739,
+          "basis": "calculated"
+        },
+        {
+          "college": "Bangalore Medical College and Research Institute, Bangalore",
+          "opening_rank": 69,
+          "closing_rank": 1972,
+          "basis": "calculated"
+        },
+        {
+          "college": "Madras Medical College, Chennai",
+          "opening_rank": 78,
+          "closing_rank": 2517,
+          "basis": "calculated"
+        },
+        {
+          "college": "Topiwala National Medical College (Nair), Mumbai",
+          "opening_rank": 1566,
+          "closing_rank": 2543,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College, Thiruvananthapuram",
+          "opening_rank": 1583,
+          "closing_rank": 2664,
+          "basis": "calculated"
+        },
+        {
+          "college": "Karnataka Institute of Medical Sciences, Hubli",
+          "opening_rank": 2310,
+          "closing_rank": 2829,
+          "basis": "calculated"
+        }
+      ]
+    },
+    "Radio-Diagnosis": {
+      "Open": [
+        {
+          "college": "Vardhman Mahavir Medical College and Safdarjung Hospital, New Delhi",
+          "opening_rank": 4,
+          "closing_rank": 25,
+          "basis": "reported"
+        },
+        {
+          "college": "Government Medical College and Hospital, Chandigarh",
+          "opening_rank": 39,
+          "closing_rank": 39,
+          "basis": "reported"
+        },
+        {
+          "college": "Seth GS Medical College (KEM), Mumbai",
+          "opening_rank": 24,
+          "closing_rank": 58,
+          "basis": "reported"
+        },
+        {
+          "college": "Maulana Azad Medical College, New Delhi",
+          "opening_rank": 42,
+          "closing_rank": 60,
+          "basis": "reported"
+        },
+        {
+          "college": "Atal Bihari Vajpayee Institute of Medical Sciences and Dr Ram Manohar Lohia Hospital, New Delhi",
+          "opening_rank": 70,
+          "closing_rank": 73,
+          "basis": "reported"
+        },
+        {
+          "college": "Government Medical College, Kozhikode",
+          "opening_rank": 35,
+          "closing_rank": 79,
+          "basis": "reported"
+        },
+        {
+          "college": "Bangalore Medical College and Research Institute, Bangalore",
+          "opening_rank": 50,
+          "closing_rank": 80,
+          "basis": "reported"
+        },
+        {
+          "college": "Nizams Institute of Medical Sciences, Hyderabad",
+          "opening_rank": 90,
+          "closing_rank": 98,
+          "basis": "reported"
+        },
+        {
+          "college": "Sanjay Gandhi PGI, Lucknow",
+          "opening_rank": 100,
+          "closing_rank": 104,
+          "basis": "reported"
+        },
+        {
+          "college": "Lady Hardinge Medical College for Women, New Delhi",
+          "opening_rank": 108,
+          "closing_rank": 108,
+          "basis": "reported"
+        },
+        {
+          "college": "Government Medical College, Thiruvananthapuram",
+          "opening_rank": 101,
+          "closing_rank": 118,
+          "basis": "reported"
+        },
+        {
+          "college": "Grant Medical College and Sir JJ Hospital, Mumbai",
+          "opening_rank": 122,
+          "closing_rank": 145,
+          "basis": "reported"
+        },
+        {
+          "college": "Madras Medical College, Chennai",
+          "opening_rank": 28,
+          "closing_rank": 156,
+          "basis": "reported"
+        },
+        {
+          "college": "Institute of Medical Sciences, BHU, Varanasi",
+          "opening_rank": 120,
+          "closing_rank": 179,
+          "basis": "reported"
+        },
+        {
+          "college": "Government Medical College, Kottayam",
+          "opening_rank": 184,
+          "closing_rank": 184,
+          "basis": "reported"
+        },
+        {
+          "college": "University College of Medical Sciences, Delhi",
+          "opening_rank": 116,
+          "closing_rank": 187,
+          "basis": "reported"
+        },
+        {
+          "college": "Patna Medical College, Patna",
+          "opening_rank": 191,
+          "closing_rank": 191,
+          "basis": "reported"
+        },
+        {
+          "college": "B J Medical College, Ahmedabad",
+          "opening_rank": 17,
+          "closing_rank": 203,
+          "basis": "reported"
+        },
+        {
+          "college": "Lokmanya Tilak Municipal Medical College, Mumbai",
+          "opening_rank": 96,
+          "closing_rank": 209,
+          "basis": "reported"
+        },
+        {
+          "college": "Pt B D Sharma PGIMS, Rohtak",
+          "opening_rank": 266,
+          "closing_rank": 266,
+          "basis": "reported"
+        },
+        {
+          "college": "King George's Medical University, Lucknow",
+          "opening_rank": 236,
+          "closing_rank": 274,
+          "basis": "reported"
+        },
+        {
+          "college": "Sawai Man Singh Medical College, Jaipur",
+          "opening_rank": 18,
+          "closing_rank": 289,
+          "basis": "reported"
+        },
+        {
+          "college": "NEIGRIHMS, Shillong",
+          "opening_rank": 297,
+          "closing_rank": 297,
+          "basis": "reported"
+        },
+        {
+          "college": "IPGMER, Kolkata",
+          "opening_rank": 155,
+          "closing_rank": 309,
+          "basis": "reported"
+        },
+        {
+          "college": "Government Medical College, Kota",
+          "opening_rank": 317,
+          "closing_rank": 317,
+          "basis": "reported"
+        },
+        {
+          "college": "Jawaharlal Nehru Medical College, AMU, Aligarh",
+          "opening_rank": 113,
+          "closing_rank": 326,
+          "basis": "reported"
+        },
+        {
+          "college": "Government Medical College, Nagpur",
+          "opening_rank": 264,
+          "closing_rank": 357,
+          "basis": "reported"
+        }
+      ],
+      "OBC": [
+        {
+          "college": "Vardhman Mahavir Medical College and Safdarjung Hospital, New Delhi",
+          "opening_rank": 5,
+          "closing_rank": 34,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College and Hospital, Chandigarh",
+          "opening_rank": 53,
+          "closing_rank": 53,
+          "basis": "calculated"
+        },
+        {
+          "college": "Seth GS Medical College (KEM), Mumbai",
+          "opening_rank": 32,
+          "closing_rank": 78,
+          "basis": "calculated"
+        },
+        {
+          "college": "Maulana Azad Medical College, New Delhi",
+          "opening_rank": 57,
+          "closing_rank": 81,
+          "basis": "calculated"
+        },
+        {
+          "college": "Atal Bihari Vajpayee Institute of Medical Sciences and Dr Ram Manohar Lohia Hospital, New Delhi",
+          "opening_rank": 94,
+          "closing_rank": 98,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College, Kozhikode",
+          "opening_rank": 47,
+          "closing_rank": 106,
+          "basis": "calculated"
+        },
+        {
+          "college": "Bangalore Medical College and Research Institute, Bangalore",
+          "opening_rank": 67,
+          "closing_rank": 108,
+          "basis": "calculated"
+        },
+        {
+          "college": "Nizams Institute of Medical Sciences, Hyderabad",
+          "opening_rank": 121,
+          "closing_rank": 132,
+          "basis": "calculated"
+        },
+        {
+          "college": "Sanjay Gandhi PGI, Lucknow",
+          "opening_rank": 135,
+          "closing_rank": 140,
+          "basis": "calculated"
+        },
+        {
+          "college": "Lady Hardinge Medical College for Women, New Delhi",
+          "opening_rank": 146,
+          "closing_rank": 146,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College, Thiruvananthapuram",
+          "opening_rank": 136,
+          "closing_rank": 159,
+          "basis": "calculated"
+        },
+        {
+          "college": "Grant Medical College and Sir JJ Hospital, Mumbai",
+          "opening_rank": 164,
+          "closing_rank": 195,
+          "basis": "calculated"
+        },
+        {
+          "college": "Madras Medical College, Chennai",
+          "opening_rank": 38,
+          "closing_rank": 210,
+          "basis": "calculated"
+        },
+        {
+          "college": "Institute of Medical Sciences, BHU, Varanasi",
+          "opening_rank": 162,
+          "closing_rank": 241,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College, Kottayam",
+          "opening_rank": 248,
+          "closing_rank": 248,
+          "basis": "calculated"
+        },
+        {
+          "college": "University College of Medical Sciences, Delhi",
+          "opening_rank": 156,
+          "closing_rank": 252,
+          "basis": "calculated"
+        },
+        {
+          "college": "Patna Medical College, Patna",
+          "opening_rank": 257,
+          "closing_rank": 257,
+          "basis": "calculated"
+        },
+        {
+          "college": "B J Medical College, Ahmedabad",
+          "opening_rank": 23,
+          "closing_rank": 274,
+          "basis": "calculated"
+        },
+        {
+          "college": "Lokmanya Tilak Municipal Medical College, Mumbai",
+          "opening_rank": 129,
+          "closing_rank": 282,
+          "basis": "calculated"
+        },
+        {
+          "college": "Pt B D Sharma PGIMS, Rohtak",
+          "opening_rank": 359,
+          "closing_rank": 359,
+          "basis": "calculated"
+        },
+        {
+          "college": "King George's Medical University, Lucknow",
+          "opening_rank": 318,
+          "closing_rank": 369,
+          "basis": "calculated"
+        },
+        {
+          "college": "Sawai Man Singh Medical College, Jaipur",
+          "opening_rank": 24,
+          "closing_rank": 390,
+          "basis": "calculated"
+        },
+        {
+          "college": "NEIGRIHMS, Shillong",
+          "opening_rank": 400,
+          "closing_rank": 400,
+          "basis": "calculated"
+        },
+        {
+          "college": "IPGMER, Kolkata",
+          "opening_rank": 209,
+          "closing_rank": 417,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College, Kota",
+          "opening_rank": 427,
+          "closing_rank": 427,
+          "basis": "calculated"
+        },
+        {
+          "college": "Jawaharlal Nehru Medical College, AMU, Aligarh",
+          "opening_rank": 152,
+          "closing_rank": 439,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College, Nagpur",
+          "opening_rank": 356,
+          "closing_rank": 481,
+          "basis": "calculated"
+        }
+      ],
+      "EWS": [
+        {
+          "college": "Vardhman Mahavir Medical College and Safdarjung Hospital, New Delhi",
+          "opening_rank": 6,
+          "closing_rank": 39,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College and Hospital, Chandigarh",
+          "opening_rank": 61,
+          "closing_rank": 61,
+          "basis": "calculated"
+        },
+        {
+          "college": "Seth GS Medical College (KEM), Mumbai",
+          "opening_rank": 38,
+          "closing_rank": 91,
+          "basis": "calculated"
+        },
+        {
+          "college": "Maulana Azad Medical College, New Delhi",
+          "opening_rank": 66,
+          "closing_rank": 94,
+          "basis": "calculated"
+        },
+        {
+          "college": "Atal Bihari Vajpayee Institute of Medical Sciences and Dr Ram Manohar Lohia Hospital, New Delhi",
+          "opening_rank": 110,
+          "closing_rank": 115,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College, Kozhikode",
+          "opening_rank": 55,
+          "closing_rank": 124,
+          "basis": "calculated"
+        },
+        {
+          "college": "Bangalore Medical College and Research Institute, Bangalore",
+          "opening_rank": 79,
+          "closing_rank": 126,
+          "basis": "calculated"
+        },
+        {
+          "college": "Nizams Institute of Medical Sciences, Hyderabad",
+          "opening_rank": 141,
+          "closing_rank": 154,
+          "basis": "calculated"
+        },
+        {
+          "college": "Sanjay Gandhi PGI, Lucknow",
+          "opening_rank": 157,
+          "closing_rank": 163,
+          "basis": "calculated"
+        },
+        {
+          "college": "Lady Hardinge Medical College for Women, New Delhi",
+          "opening_rank": 170,
+          "closing_rank": 170,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College, Thiruvananthapuram",
+          "opening_rank": 159,
+          "closing_rank": 185,
+          "basis": "calculated"
+        },
+        {
+          "college": "Grant Medical College and Sir JJ Hospital, Mumbai",
+          "opening_rank": 192,
+          "closing_rank": 228,
+          "basis": "calculated"
+        },
+        {
+          "college": "Madras Medical College, Chennai",
+          "opening_rank": 44,
+          "closing_rank": 245,
+          "basis": "calculated"
+        },
+        {
+          "college": "Institute of Medical Sciences, BHU, Varanasi",
+          "opening_rank": 188,
+          "closing_rank": 281,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College, Kottayam",
+          "opening_rank": 289,
+          "closing_rank": 289,
+          "basis": "calculated"
+        },
+        {
+          "college": "University College of Medical Sciences, Delhi",
+          "opening_rank": 182,
+          "closing_rank": 294,
+          "basis": "calculated"
+        },
+        {
+          "college": "Patna Medical College, Patna",
+          "opening_rank": 300,
+          "closing_rank": 300,
+          "basis": "calculated"
+        },
+        {
+          "college": "B J Medical College, Ahmedabad",
+          "opening_rank": 27,
+          "closing_rank": 319,
+          "basis": "calculated"
+        },
+        {
+          "college": "Lokmanya Tilak Municipal Medical College, Mumbai",
+          "opening_rank": 151,
+          "closing_rank": 328,
+          "basis": "calculated"
+        },
+        {
+          "college": "Pt B D Sharma PGIMS, Rohtak",
+          "opening_rank": 418,
+          "closing_rank": 418,
+          "basis": "calculated"
+        },
+        {
+          "college": "King George's Medical University, Lucknow",
+          "opening_rank": 371,
+          "closing_rank": 430,
+          "basis": "calculated"
+        },
+        {
+          "college": "Sawai Man Singh Medical College, Jaipur",
+          "opening_rank": 28,
+          "closing_rank": 454,
+          "basis": "calculated"
+        },
+        {
+          "college": "NEIGRIHMS, Shillong",
+          "opening_rank": 466,
+          "closing_rank": 466,
+          "basis": "calculated"
+        },
+        {
+          "college": "IPGMER, Kolkata",
+          "opening_rank": 243,
+          "closing_rank": 485,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College, Kota",
+          "opening_rank": 498,
+          "closing_rank": 498,
+          "basis": "calculated"
+        },
+        {
+          "college": "Jawaharlal Nehru Medical College, AMU, Aligarh",
+          "opening_rank": 177,
+          "closing_rank": 512,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College, Nagpur",
+          "opening_rank": 415,
+          "closing_rank": 561,
+          "basis": "calculated"
+        }
+      ],
+      "SC": [
+        {
+          "college": "Vardhman Mahavir Medical College and Safdarjung Hospital, New Delhi",
+          "opening_rank": 14,
+          "closing_rank": 85,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College and Hospital, Chandigarh",
+          "opening_rank": 133,
+          "closing_rank": 133,
+          "basis": "calculated"
+        },
+        {
+          "college": "Seth GS Medical College (KEM), Mumbai",
+          "opening_rank": 82,
+          "closing_rank": 197,
+          "basis": "calculated"
+        },
+        {
+          "college": "Maulana Azad Medical College, New Delhi",
+          "opening_rank": 143,
+          "closing_rank": 204,
+          "basis": "calculated"
+        },
+        {
+          "college": "Atal Bihari Vajpayee Institute of Medical Sciences and Dr Ram Manohar Lohia Hospital, New Delhi",
+          "opening_rank": 238,
+          "closing_rank": 249,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College, Kozhikode",
+          "opening_rank": 119,
+          "closing_rank": 269,
+          "basis": "calculated"
+        },
+        {
+          "college": "Bangalore Medical College and Research Institute, Bangalore",
+          "opening_rank": 170,
+          "closing_rank": 272,
+          "basis": "calculated"
+        },
+        {
+          "college": "Nizams Institute of Medical Sciences, Hyderabad",
+          "opening_rank": 306,
+          "closing_rank": 334,
+          "basis": "calculated"
+        },
+        {
+          "college": "Sanjay Gandhi PGI, Lucknow",
+          "opening_rank": 340,
+          "closing_rank": 354,
+          "basis": "calculated"
+        },
+        {
+          "college": "Lady Hardinge Medical College for Women, New Delhi",
+          "opening_rank": 368,
+          "closing_rank": 368,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College, Thiruvananthapuram",
+          "opening_rank": 344,
+          "closing_rank": 402,
+          "basis": "calculated"
+        },
+        {
+          "college": "Grant Medical College and Sir JJ Hospital, Mumbai",
+          "opening_rank": 415,
+          "closing_rank": 494,
+          "basis": "calculated"
+        },
+        {
+          "college": "Madras Medical College, Chennai",
+          "opening_rank": 95,
+          "closing_rank": 531,
+          "basis": "calculated"
+        },
+        {
+          "college": "Institute of Medical Sciences, BHU, Varanasi",
+          "opening_rank": 409,
+          "closing_rank": 609,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College, Kottayam",
+          "opening_rank": 626,
+          "closing_rank": 626,
+          "basis": "calculated"
+        },
+        {
+          "college": "University College of Medical Sciences, Delhi",
+          "opening_rank": 395,
+          "closing_rank": 637,
+          "basis": "calculated"
+        },
+        {
+          "college": "Patna Medical College, Patna",
+          "opening_rank": 650,
+          "closing_rank": 650,
+          "basis": "calculated"
+        },
+        {
+          "college": "B J Medical College, Ahmedabad",
+          "opening_rank": 58,
+          "closing_rank": 691,
+          "basis": "calculated"
+        },
+        {
+          "college": "Lokmanya Tilak Municipal Medical College, Mumbai",
+          "opening_rank": 327,
+          "closing_rank": 712,
+          "basis": "calculated"
+        },
+        {
+          "college": "Pt B D Sharma PGIMS, Rohtak",
+          "opening_rank": 906,
+          "closing_rank": 906,
+          "basis": "calculated"
+        },
+        {
+          "college": "King George's Medical University, Lucknow",
+          "opening_rank": 803,
+          "closing_rank": 933,
+          "basis": "calculated"
+        },
+        {
+          "college": "Sawai Man Singh Medical College, Jaipur",
+          "opening_rank": 61,
+          "closing_rank": 984,
+          "basis": "calculated"
+        },
+        {
+          "college": "NEIGRIHMS, Shillong",
+          "opening_rank": 1011,
+          "closing_rank": 1011,
+          "basis": "calculated"
+        },
+        {
+          "college": "IPGMER, Kolkata",
+          "opening_rank": 528,
+          "closing_rank": 1052,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College, Kota",
+          "opening_rank": 1079,
+          "closing_rank": 1079,
+          "basis": "calculated"
+        },
+        {
+          "college": "Jawaharlal Nehru Medical College, AMU, Aligarh",
+          "opening_rank": 385,
+          "closing_rank": 1110,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College, Nagpur",
+          "opening_rank": 899,
+          "closing_rank": 1215,
+          "basis": "calculated"
+        }
+      ],
+      "ST": [
+        {
+          "college": "Vardhman Mahavir Medical College and Safdarjung Hospital, New Delhi",
+          "opening_rank": 24,
+          "closing_rank": 148,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College and Hospital, Chandigarh",
+          "opening_rank": 230,
+          "closing_rank": 230,
+          "basis": "calculated"
+        },
+        {
+          "college": "Seth GS Medical College (KEM), Mumbai",
+          "opening_rank": 142,
+          "closing_rank": 342,
+          "basis": "calculated"
+        },
+        {
+          "college": "Maulana Azad Medical College, New Delhi",
+          "opening_rank": 248,
+          "closing_rank": 354,
+          "basis": "calculated"
+        },
+        {
+          "college": "Atal Bihari Vajpayee Institute of Medical Sciences and Dr Ram Manohar Lohia Hospital, New Delhi",
+          "opening_rank": 413,
+          "closing_rank": 431,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College, Kozhikode",
+          "opening_rank": 207,
+          "closing_rank": 466,
+          "basis": "calculated"
+        },
+        {
+          "college": "Bangalore Medical College and Research Institute, Bangalore",
+          "opening_rank": 295,
+          "closing_rank": 472,
+          "basis": "calculated"
+        },
+        {
+          "college": "Nizams Institute of Medical Sciences, Hyderabad",
+          "opening_rank": 531,
+          "closing_rank": 579,
+          "basis": "calculated"
+        },
+        {
+          "college": "Sanjay Gandhi PGI, Lucknow",
+          "opening_rank": 590,
+          "closing_rank": 614,
+          "basis": "calculated"
+        },
+        {
+          "college": "Lady Hardinge Medical College for Women, New Delhi",
+          "opening_rank": 638,
+          "closing_rank": 638,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College, Thiruvananthapuram",
+          "opening_rank": 596,
+          "closing_rank": 697,
+          "basis": "calculated"
+        },
+        {
+          "college": "Grant Medical College and Sir JJ Hospital, Mumbai",
+          "opening_rank": 720,
+          "closing_rank": 856,
+          "basis": "calculated"
+        },
+        {
+          "college": "Madras Medical College, Chennai",
+          "opening_rank": 165,
+          "closing_rank": 921,
+          "basis": "calculated"
+        },
+        {
+          "college": "Institute of Medical Sciences, BHU, Varanasi",
+          "opening_rank": 708,
+          "closing_rank": 1057,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College, Kottayam",
+          "opening_rank": 1086,
+          "closing_rank": 1086,
+          "basis": "calculated"
+        },
+        {
+          "college": "University College of Medical Sciences, Delhi",
+          "opening_rank": 685,
+          "closing_rank": 1104,
+          "basis": "calculated"
+        },
+        {
+          "college": "Patna Medical College, Patna",
+          "opening_rank": 1128,
+          "closing_rank": 1128,
+          "basis": "calculated"
+        },
+        {
+          "college": "B J Medical College, Ahmedabad",
+          "opening_rank": 100,
+          "closing_rank": 1198,
+          "basis": "calculated"
+        },
+        {
+          "college": "Lokmanya Tilak Municipal Medical College, Mumbai",
+          "opening_rank": 567,
+          "closing_rank": 1234,
+          "basis": "calculated"
+        },
+        {
+          "college": "Pt B D Sharma PGIMS, Rohtak",
+          "opening_rank": 1570,
+          "closing_rank": 1570,
+          "basis": "calculated"
+        },
+        {
+          "college": "King George's Medical University, Lucknow",
+          "opening_rank": 1393,
+          "closing_rank": 1618,
+          "basis": "calculated"
+        },
+        {
+          "college": "Sawai Man Singh Medical College, Jaipur",
+          "opening_rank": 106,
+          "closing_rank": 1706,
+          "basis": "calculated"
+        },
+        {
+          "college": "NEIGRIHMS, Shillong",
+          "opening_rank": 1753,
+          "closing_rank": 1753,
+          "basis": "calculated"
+        },
+        {
+          "college": "IPGMER, Kolkata",
+          "opening_rank": 915,
+          "closing_rank": 1824,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College, Kota",
+          "opening_rank": 1871,
+          "closing_rank": 1871,
+          "basis": "calculated"
+        },
+        {
+          "college": "Jawaharlal Nehru Medical College, AMU, Aligarh",
+          "opening_rank": 667,
+          "closing_rank": 1925,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College, Nagpur",
+          "opening_rank": 1559,
+          "closing_rank": 2108,
+          "basis": "calculated"
+        }
+      ]
+    },
+    "Dermatology": {
+      "Open": [
+        {
+          "college": "Government Medical College, Kozhikode",
+          "opening_rank": 20,
+          "closing_rank": 20,
+          "basis": "reported"
+        },
+        {
+          "college": "Lokmanya Tilak Municipal Medical College, Mumbai",
+          "opening_rank": 102,
+          "closing_rank": 102,
+          "basis": "reported"
+        },
+        {
+          "college": "Vardhman Mahavir Medical College and Safdarjung Hospital, New Delhi",
+          "opening_rank": 91,
+          "closing_rank": 142,
+          "basis": "reported"
+        },
+        {
+          "college": "Grant Medical College and Sir JJ Hospital, Mumbai",
+          "opening_rank": 255,
+          "closing_rank": 255,
+          "basis": "reported"
+        },
+        {
+          "college": "Bangalore Medical College and Research Institute, Bangalore",
+          "opening_rank": 275,
+          "closing_rank": 275,
+          "basis": "reported"
+        },
+        {
+          "college": "Government Medical College, Thiruvananthapuram",
+          "opening_rank": 186,
+          "closing_rank": 282,
+          "basis": "reported"
+        },
+        {
+          "college": "Government Medical College, Kottayam",
+          "opening_rank": 302,
+          "closing_rank": 302,
+          "basis": "reported"
+        },
+        {
+          "college": "Lady Hardinge Medical College for Women, New Delhi",
+          "opening_rank": 359,
+          "closing_rank": 359,
+          "basis": "reported"
+        },
+        {
+          "college": "Atal Bihari Vajpayee Institute of Medical Sciences and Dr Ram Manohar Lohia Hospital, New Delhi",
+          "opening_rank": 29,
+          "closing_rank": 364,
+          "basis": "reported"
+        },
+        {
+          "college": "BJ Government Medical College, Pune",
+          "opening_rank": 298,
+          "closing_rank": 387,
+          "basis": "reported"
+        },
+        {
+          "college": "Institute of Medical Sciences, BHU, Varanasi",
+          "opening_rank": 371,
+          "closing_rank": 392,
+          "basis": "reported"
+        },
+        {
+          "college": "Government Medical College and Hospital, Chandigarh",
+          "opening_rank": 394,
+          "closing_rank": 394,
+          "basis": "reported"
+        },
+        {
+          "college": "Sawai Man Singh Medical College, Jaipur",
+          "opening_rank": 244,
+          "closing_rank": 398,
+          "basis": "reported"
+        },
+        {
+          "college": "Government Medical College, Thrissur",
+          "opening_rank": 422,
+          "closing_rank": 422,
+          "basis": "reported"
+        },
+        {
+          "college": "T D Medical College, Alappuzha",
+          "opening_rank": 482,
+          "closing_rank": 482,
+          "basis": "reported"
+        },
+        {
+          "college": "MKCG Medical College, Berhampur",
+          "opening_rank": 506,
+          "closing_rank": 506,
+          "basis": "reported"
+        },
+        {
+          "college": "PCMC PG Institute (YCM Hospital), Pimpri",
+          "opening_rank": 525,
+          "closing_rank": 525,
+          "basis": "reported"
+        },
+        {
+          "college": "Pt B D Sharma PGIMS, Rohtak",
+          "opening_rank": 549,
+          "closing_rank": 549,
+          "basis": "reported"
+        },
+        {
+          "college": "Jawaharlal Nehru Medical College, AMU, Aligarh",
+          "opening_rank": 557,
+          "closing_rank": 557,
+          "basis": "reported"
+        },
+        {
+          "college": "Karnataka Institute of Medical Sciences, Hubli",
+          "opening_rank": 610,
+          "closing_rank": 610,
+          "basis": "reported"
+        },
+        {
+          "college": "B J Medical College, Ahmedabad",
+          "opening_rank": 605,
+          "closing_rank": 634,
+          "basis": "reported"
+        },
+        {
+          "college": "Shivamogga Institute of Medical Sciences, Shimoga",
+          "opening_rank": 642,
+          "closing_rank": 642,
+          "basis": "reported"
+        },
+        {
+          "college": "Rabindra Nath Tagore Medical College, Udaipur",
+          "opening_rank": 233,
+          "closing_rank": 671,
+          "basis": "reported"
+        }
+      ],
+      "OBC": [
+        {
+          "college": "Government Medical College, Kozhikode",
+          "opening_rank": 41,
+          "closing_rank": 41,
+          "basis": "calculated"
+        },
+        {
+          "college": "Lokmanya Tilak Municipal Medical College, Mumbai",
+          "opening_rank": 212,
+          "closing_rank": 212,
+          "basis": "calculated"
+        },
+        {
+          "college": "Vardhman Mahavir Medical College and Safdarjung Hospital, New Delhi",
+          "opening_rank": 189,
+          "closing_rank": 295,
+          "basis": "calculated"
+        },
+        {
+          "college": "Grant Medical College and Sir JJ Hospital, Mumbai",
+          "opening_rank": 529,
+          "closing_rank": 529,
+          "basis": "calculated"
+        },
+        {
+          "college": "Bangalore Medical College and Research Institute, Bangalore",
+          "opening_rank": 570,
+          "closing_rank": 570,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College, Thiruvananthapuram",
+          "opening_rank": 386,
+          "closing_rank": 585,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College, Kottayam",
+          "opening_rank": 626,
+          "closing_rank": 626,
+          "basis": "calculated"
+        },
+        {
+          "college": "Lady Hardinge Medical College for Women, New Delhi",
+          "opening_rank": 745,
+          "closing_rank": 745,
+          "basis": "calculated"
+        },
+        {
+          "college": "Atal Bihari Vajpayee Institute of Medical Sciences and Dr Ram Manohar Lohia Hospital, New Delhi",
+          "opening_rank": 60,
+          "closing_rank": 755,
+          "basis": "calculated"
+        },
+        {
+          "college": "BJ Government Medical College, Pune",
+          "opening_rank": 618,
+          "closing_rank": 803,
+          "basis": "calculated"
+        },
+        {
+          "college": "Institute of Medical Sciences, BHU, Varanasi",
+          "opening_rank": 770,
+          "closing_rank": 813,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College and Hospital, Chandigarh",
+          "opening_rank": 817,
+          "closing_rank": 817,
+          "basis": "calculated"
+        },
+        {
+          "college": "Sawai Man Singh Medical College, Jaipur",
+          "opening_rank": 506,
+          "closing_rank": 826,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College, Thrissur",
+          "opening_rank": 875,
+          "closing_rank": 875,
+          "basis": "calculated"
+        },
+        {
+          "college": "T D Medical College, Alappuzha",
+          "opening_rank": 1000,
+          "closing_rank": 1000,
+          "basis": "calculated"
+        },
+        {
+          "college": "MKCG Medical College, Berhampur",
+          "opening_rank": 1050,
+          "closing_rank": 1050,
+          "basis": "calculated"
+        },
+        {
+          "college": "PCMC PG Institute (YCM Hospital), Pimpri",
+          "opening_rank": 1089,
+          "closing_rank": 1089,
+          "basis": "calculated"
+        },
+        {
+          "college": "Pt B D Sharma PGIMS, Rohtak",
+          "opening_rank": 1139,
+          "closing_rank": 1139,
+          "basis": "calculated"
+        },
+        {
+          "college": "Jawaharlal Nehru Medical College, AMU, Aligarh",
+          "opening_rank": 1155,
+          "closing_rank": 1155,
+          "basis": "calculated"
+        },
+        {
+          "college": "Karnataka Institute of Medical Sciences, Hubli",
+          "opening_rank": 1265,
+          "closing_rank": 1265,
+          "basis": "calculated"
+        },
+        {
+          "college": "B J Medical College, Ahmedabad",
+          "opening_rank": 1255,
+          "closing_rank": 1315,
+          "basis": "calculated"
+        },
+        {
+          "college": "Shivamogga Institute of Medical Sciences, Shimoga",
+          "opening_rank": 1332,
+          "closing_rank": 1332,
+          "basis": "calculated"
+        },
+        {
+          "college": "Rabindra Nath Tagore Medical College, Udaipur",
+          "opening_rank": 483,
+          "closing_rank": 1392,
+          "basis": "calculated"
+        }
+      ],
+      "EWS": [
+        {
+          "college": "Government Medical College, Kozhikode",
+          "opening_rank": 49,
+          "closing_rank": 49,
+          "basis": "calculated"
+        },
+        {
+          "college": "Lokmanya Tilak Municipal Medical College, Mumbai",
+          "opening_rank": 251,
+          "closing_rank": 251,
+          "basis": "calculated"
+        },
+        {
+          "college": "Vardhman Mahavir Medical College and Safdarjung Hospital, New Delhi",
+          "opening_rank": 224,
+          "closing_rank": 350,
+          "basis": "calculated"
+        },
+        {
+          "college": "Grant Medical College and Sir JJ Hospital, Mumbai",
+          "opening_rank": 628,
+          "closing_rank": 628,
+          "basis": "calculated"
+        },
+        {
+          "college": "Bangalore Medical College and Research Institute, Bangalore",
+          "opening_rank": 677,
+          "closing_rank": 677,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College, Thiruvananthapuram",
+          "opening_rank": 458,
+          "closing_rank": 695,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College, Kottayam",
+          "opening_rank": 744,
+          "closing_rank": 744,
+          "basis": "calculated"
+        },
+        {
+          "college": "Lady Hardinge Medical College for Women, New Delhi",
+          "opening_rank": 884,
+          "closing_rank": 884,
+          "basis": "calculated"
+        },
+        {
+          "college": "Atal Bihari Vajpayee Institute of Medical Sciences and Dr Ram Manohar Lohia Hospital, New Delhi",
+          "opening_rank": 71,
+          "closing_rank": 897,
+          "basis": "calculated"
+        },
+        {
+          "college": "BJ Government Medical College, Pune",
+          "opening_rank": 734,
+          "closing_rank": 953,
+          "basis": "calculated"
+        },
+        {
+          "college": "Institute of Medical Sciences, BHU, Varanasi",
+          "opening_rank": 914,
+          "closing_rank": 966,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College and Hospital, Chandigarh",
+          "opening_rank": 971,
+          "closing_rank": 971,
+          "basis": "calculated"
+        },
+        {
+          "college": "Sawai Man Singh Medical College, Jaipur",
+          "opening_rank": 601,
+          "closing_rank": 980,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College, Thrissur",
+          "opening_rank": 1040,
+          "closing_rank": 1040,
+          "basis": "calculated"
+        },
+        {
+          "college": "T D Medical College, Alappuzha",
+          "opening_rank": 1187,
+          "closing_rank": 1187,
+          "basis": "calculated"
+        },
+        {
+          "college": "MKCG Medical College, Berhampur",
+          "opening_rank": 1247,
+          "closing_rank": 1247,
+          "basis": "calculated"
+        },
+        {
+          "college": "PCMC PG Institute (YCM Hospital), Pimpri",
+          "opening_rank": 1293,
+          "closing_rank": 1293,
+          "basis": "calculated"
+        },
+        {
+          "college": "Pt B D Sharma PGIMS, Rohtak",
+          "opening_rank": 1352,
+          "closing_rank": 1352,
+          "basis": "calculated"
+        },
+        {
+          "college": "Jawaharlal Nehru Medical College, AMU, Aligarh",
+          "opening_rank": 1372,
+          "closing_rank": 1372,
+          "basis": "calculated"
+        },
+        {
+          "college": "Karnataka Institute of Medical Sciences, Hubli",
+          "opening_rank": 1503,
+          "closing_rank": 1503,
+          "basis": "calculated"
+        },
+        {
+          "college": "B J Medical College, Ahmedabad",
+          "opening_rank": 1490,
+          "closing_rank": 1562,
+          "basis": "calculated"
+        },
+        {
+          "college": "Shivamogga Institute of Medical Sciences, Shimoga",
+          "opening_rank": 1582,
+          "closing_rank": 1582,
+          "basis": "calculated"
+        },
+        {
+          "college": "Rabindra Nath Tagore Medical College, Udaipur",
+          "opening_rank": 574,
+          "closing_rank": 1653,
+          "basis": "calculated"
+        }
+      ],
+      "SC": [
+        {
+          "college": "Government Medical College, Kozhikode",
+          "opening_rank": 94,
+          "closing_rank": 94,
+          "basis": "calculated"
+        },
+        {
+          "college": "Lokmanya Tilak Municipal Medical College, Mumbai",
+          "opening_rank": 480,
+          "closing_rank": 480,
+          "basis": "calculated"
+        },
+        {
+          "college": "Vardhman Mahavir Medical College and Safdarjung Hospital, New Delhi",
+          "opening_rank": 428,
+          "closing_rank": 668,
+          "basis": "calculated"
+        },
+        {
+          "college": "Grant Medical College and Sir JJ Hospital, Mumbai",
+          "opening_rank": 1199,
+          "closing_rank": 1199,
+          "basis": "calculated"
+        },
+        {
+          "college": "Bangalore Medical College and Research Institute, Bangalore",
+          "opening_rank": 1293,
+          "closing_rank": 1293,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College, Thiruvananthapuram",
+          "opening_rank": 874,
+          "closing_rank": 1326,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College, Kottayam",
+          "opening_rank": 1420,
+          "closing_rank": 1420,
+          "basis": "calculated"
+        },
+        {
+          "college": "Lady Hardinge Medical College for Women, New Delhi",
+          "opening_rank": 1688,
+          "closing_rank": 1688,
+          "basis": "calculated"
+        },
+        {
+          "college": "Atal Bihari Vajpayee Institute of Medical Sciences and Dr Ram Manohar Lohia Hospital, New Delhi",
+          "opening_rank": 136,
+          "closing_rank": 1711,
+          "basis": "calculated"
+        },
+        {
+          "college": "BJ Government Medical College, Pune",
+          "opening_rank": 1401,
+          "closing_rank": 1819,
+          "basis": "calculated"
+        },
+        {
+          "college": "Institute of Medical Sciences, BHU, Varanasi",
+          "opening_rank": 1744,
+          "closing_rank": 1843,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College and Hospital, Chandigarh",
+          "opening_rank": 1852,
+          "closing_rank": 1852,
+          "basis": "calculated"
+        },
+        {
+          "college": "Sawai Man Singh Medical College, Jaipur",
+          "opening_rank": 1147,
+          "closing_rank": 1871,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College, Thrissur",
+          "opening_rank": 1984,
+          "closing_rank": 1984,
+          "basis": "calculated"
+        },
+        {
+          "college": "T D Medical College, Alappuzha",
+          "opening_rank": 2266,
+          "closing_rank": 2266,
+          "basis": "calculated"
+        },
+        {
+          "college": "MKCG Medical College, Berhampur",
+          "opening_rank": 2379,
+          "closing_rank": 2379,
+          "basis": "calculated"
+        },
+        {
+          "college": "PCMC PG Institute (YCM Hospital), Pimpri",
+          "opening_rank": 2468,
+          "closing_rank": 2468,
+          "basis": "calculated"
+        },
+        {
+          "college": "Pt B D Sharma PGIMS, Rohtak",
+          "opening_rank": 2581,
+          "closing_rank": 2581,
+          "basis": "calculated"
+        },
+        {
+          "college": "Jawaharlal Nehru Medical College, AMU, Aligarh",
+          "opening_rank": 2619,
+          "closing_rank": 2619,
+          "basis": "calculated"
+        },
+        {
+          "college": "Karnataka Institute of Medical Sciences, Hubli",
+          "opening_rank": 2868,
+          "closing_rank": 2868,
+          "basis": "calculated"
+        },
+        {
+          "college": "B J Medical College, Ahmedabad",
+          "opening_rank": 2844,
+          "closing_rank": 2981,
+          "basis": "calculated"
+        },
+        {
+          "college": "Shivamogga Institute of Medical Sciences, Shimoga",
+          "opening_rank": 3018,
+          "closing_rank": 3018,
+          "basis": "calculated"
+        },
+        {
+          "college": "Rabindra Nath Tagore Medical College, Udaipur",
+          "opening_rank": 1095,
+          "closing_rank": 3155,
+          "basis": "calculated"
+        }
+      ],
+      "ST": [
+        {
+          "college": "Government Medical College, Kozhikode",
+          "opening_rank": 189,
+          "closing_rank": 189,
+          "basis": "calculated"
+        },
+        {
+          "college": "Lokmanya Tilak Municipal Medical College, Mumbai",
+          "opening_rank": 966,
+          "closing_rank": 966,
+          "basis": "calculated"
+        },
+        {
+          "college": "Vardhman Mahavir Medical College and Safdarjung Hospital, New Delhi",
+          "opening_rank": 862,
+          "closing_rank": 1345,
+          "basis": "calculated"
+        },
+        {
+          "college": "Grant Medical College and Sir JJ Hospital, Mumbai",
+          "opening_rank": 2415,
+          "closing_rank": 2415,
+          "basis": "calculated"
+        },
+        {
+          "college": "Bangalore Medical College and Research Institute, Bangalore",
+          "opening_rank": 2604,
+          "closing_rank": 2604,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College, Thiruvananthapuram",
+          "opening_rank": 1762,
+          "closing_rank": 2671,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College, Kottayam",
+          "opening_rank": 2860,
+          "closing_rank": 2860,
+          "basis": "calculated"
+        },
+        {
+          "college": "Lady Hardinge Medical College for Women, New Delhi",
+          "opening_rank": 3400,
+          "closing_rank": 3400,
+          "basis": "calculated"
+        },
+        {
+          "college": "Atal Bihari Vajpayee Institute of Medical Sciences and Dr Ram Manohar Lohia Hospital, New Delhi",
+          "opening_rank": 275,
+          "closing_rank": 3447,
+          "basis": "calculated"
+        },
+        {
+          "college": "BJ Government Medical College, Pune",
+          "opening_rank": 2822,
+          "closing_rank": 3665,
+          "basis": "calculated"
+        },
+        {
+          "college": "Institute of Medical Sciences, BHU, Varanasi",
+          "opening_rank": 3514,
+          "closing_rank": 3713,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College and Hospital, Chandigarh",
+          "opening_rank": 3732,
+          "closing_rank": 3732,
+          "basis": "calculated"
+        },
+        {
+          "college": "Sawai Man Singh Medical College, Jaipur",
+          "opening_rank": 2311,
+          "closing_rank": 3769,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College, Thrissur",
+          "opening_rank": 3997,
+          "closing_rank": 3997,
+          "basis": "calculated"
+        },
+        {
+          "college": "T D Medical College, Alappuzha",
+          "opening_rank": 4565,
+          "closing_rank": 4565,
+          "basis": "calculated"
+        },
+        {
+          "college": "MKCG Medical College, Berhampur",
+          "opening_rank": 4792,
+          "closing_rank": 4792,
+          "basis": "calculated"
+        },
+        {
+          "college": "PCMC PG Institute (YCM Hospital), Pimpri",
+          "opening_rank": 4972,
+          "closing_rank": 4972,
+          "basis": "calculated"
+        },
+        {
+          "college": "Pt B D Sharma PGIMS, Rohtak",
+          "opening_rank": 5199,
+          "closing_rank": 5199,
+          "basis": "calculated"
+        },
+        {
+          "college": "Jawaharlal Nehru Medical College, AMU, Aligarh",
+          "opening_rank": 5275,
+          "closing_rank": 5275,
+          "basis": "calculated"
+        },
+        {
+          "college": "Karnataka Institute of Medical Sciences, Hubli",
+          "opening_rank": 5777,
+          "closing_rank": 5777,
+          "basis": "calculated"
+        },
+        {
+          "college": "B J Medical College, Ahmedabad",
+          "opening_rank": 5730,
+          "closing_rank": 6005,
+          "basis": "calculated"
+        },
+        {
+          "college": "Shivamogga Institute of Medical Sciences, Shimoga",
+          "opening_rank": 6080,
+          "closing_rank": 6080,
+          "basis": "calculated"
+        },
+        {
+          "college": "Rabindra Nath Tagore Medical College, Udaipur",
+          "opening_rank": 2207,
+          "closing_rank": 6355,
+          "basis": "calculated"
+        }
+      ]
+    },
+    "General Surgery": {
+      "Open": [
+        {
+          "college": "Maulana Azad Medical College, New Delhi",
+          "opening_rank": 110,
+          "closing_rank": 123,
+          "basis": "reported"
+        },
+        {
+          "college": "Vardhman Mahavir Medical College and Safdarjung Hospital, New Delhi",
+          "opening_rank": 172,
+          "closing_rank": 322,
+          "basis": "reported"
+        },
+        {
+          "college": "Atal Bihari Vajpayee Institute of Medical Sciences and Dr Ram Manohar Lohia Hospital, New Delhi",
+          "opening_rank": 52,
+          "closing_rank": 419,
+          "basis": "reported"
+        },
+        {
+          "college": "University College of Medical Sciences, Delhi",
+          "opening_rank": 456,
+          "closing_rank": 456,
+          "basis": "reported"
+        },
+        {
+          "college": "Grant Medical College and Sir JJ Hospital, Mumbai",
+          "opening_rank": 95,
+          "closing_rank": 564,
+          "basis": "reported"
+        },
+        {
+          "college": "Lady Hardinge Medical College for Women, New Delhi",
+          "opening_rank": 480,
+          "closing_rank": 732,
+          "basis": "reported"
+        },
+        {
+          "college": "Government Medical College, Kozhikode",
+          "opening_rank": 640,
+          "closing_rank": 1035,
+          "basis": "reported"
+        },
+        {
+          "college": "Institute of Medical Sciences, BHU, Varanasi",
+          "opening_rank": 964,
+          "closing_rank": 1221,
+          "basis": "reported"
+        },
+        {
+          "college": "Lokmanya Tilak Municipal Medical College, Mumbai",
+          "opening_rank": 451,
+          "closing_rank": 1257,
+          "basis": "reported"
+        },
+        {
+          "college": "BJ Government Medical College, Pune",
+          "opening_rank": 1171,
+          "closing_rank": 1295,
+          "basis": "reported"
+        },
+        {
+          "college": "Seth GS Medical College (KEM), Mumbai",
+          "opening_rank": 382,
+          "closing_rank": 1328,
+          "basis": "reported"
+        },
+        {
+          "college": "Topiwala National Medical College (Nair), Mumbai",
+          "opening_rank": 1391,
+          "closing_rank": 1777,
+          "basis": "reported"
+        },
+        {
+          "college": "B J Medical College, Ahmedabad",
+          "opening_rank": 1016,
+          "closing_rank": 1830,
+          "basis": "reported"
+        },
+        {
+          "college": "ESIC Medical College, Hyderabad",
+          "opening_rank": 1903,
+          "closing_rank": 1988,
+          "basis": "reported"
+        },
+        {
+          "college": "Stanley Medical College, Chennai",
+          "opening_rank": 1141,
+          "closing_rank": 2082,
+          "basis": "reported"
+        },
+        {
+          "college": "Government Medical College, Kottayam",
+          "opening_rank": 807,
+          "closing_rank": 2138,
+          "basis": "reported"
+        },
+        {
+          "college": "Government Medical College and Hospital, Chandigarh",
+          "opening_rank": 1310,
+          "closing_rank": 2191,
+          "basis": "reported"
+        },
+        {
+          "college": "HBT Medical College and Dr RN Cooper Hospital, Mumbai",
+          "opening_rank": 2210,
+          "closing_rank": 2210,
+          "basis": "reported"
+        },
+        {
+          "college": "Osmania Medical College, Hyderabad",
+          "opening_rank": 22,
+          "closing_rank": 2395,
+          "basis": "reported"
+        },
+        {
+          "college": "Gandhi Medical College and Hospital, Secunderabad",
+          "opening_rank": 173,
+          "closing_rank": 2436,
+          "basis": "reported"
+        },
+        {
+          "college": "Sawai Man Singh Medical College, Jaipur",
+          "opening_rank": 813,
+          "closing_rank": 2450,
+          "basis": "reported"
+        },
+        {
+          "college": "Government Medical College, Surat",
+          "opening_rank": 503,
+          "closing_rank": 2476,
+          "basis": "reported"
+        },
+        {
+          "college": "Government Medical College, Thiruvananthapuram",
+          "opening_rank": 313,
+          "closing_rank": 2540,
+          "basis": "reported"
+        }
+      ],
+      "OBC": [
+        {
+          "college": "Maulana Azad Medical College, New Delhi",
+          "opening_rank": 148,
+          "closing_rank": 166,
+          "basis": "calculated"
+        },
+        {
+          "college": "Vardhman Mahavir Medical College and Safdarjung Hospital, New Delhi",
+          "opening_rank": 232,
+          "closing_rank": 434,
+          "basis": "calculated"
+        },
+        {
+          "college": "Atal Bihari Vajpayee Institute of Medical Sciences and Dr Ram Manohar Lohia Hospital, New Delhi",
+          "opening_rank": 70,
+          "closing_rank": 565,
+          "basis": "calculated"
+        },
+        {
+          "college": "University College of Medical Sciences, Delhi",
+          "opening_rank": 615,
+          "closing_rank": 615,
+          "basis": "calculated"
+        },
+        {
+          "college": "Grant Medical College and Sir JJ Hospital, Mumbai",
+          "opening_rank": 128,
+          "closing_rank": 761,
+          "basis": "calculated"
+        },
+        {
+          "college": "Lady Hardinge Medical College for Women, New Delhi",
+          "opening_rank": 648,
+          "closing_rank": 988,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College, Kozhikode",
+          "opening_rank": 863,
+          "closing_rank": 1396,
+          "basis": "calculated"
+        },
+        {
+          "college": "Institute of Medical Sciences, BHU, Varanasi",
+          "opening_rank": 1301,
+          "closing_rank": 1647,
+          "basis": "calculated"
+        },
+        {
+          "college": "Lokmanya Tilak Municipal Medical College, Mumbai",
+          "opening_rank": 608,
+          "closing_rank": 1696,
+          "basis": "calculated"
+        },
+        {
+          "college": "BJ Government Medical College, Pune",
+          "opening_rank": 1580,
+          "closing_rank": 1747,
+          "basis": "calculated"
+        },
+        {
+          "college": "Seth GS Medical College (KEM), Mumbai",
+          "opening_rank": 515,
+          "closing_rank": 1792,
+          "basis": "calculated"
+        },
+        {
+          "college": "Topiwala National Medical College (Nair), Mumbai",
+          "opening_rank": 1877,
+          "closing_rank": 2397,
+          "basis": "calculated"
+        },
+        {
+          "college": "B J Medical College, Ahmedabad",
+          "opening_rank": 1371,
+          "closing_rank": 2469,
+          "basis": "calculated"
+        },
+        {
+          "college": "ESIC Medical College, Hyderabad",
+          "opening_rank": 2567,
+          "closing_rank": 2682,
+          "basis": "calculated"
+        },
+        {
+          "college": "Stanley Medical College, Chennai",
+          "opening_rank": 1539,
+          "closing_rank": 2809,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College, Kottayam",
+          "opening_rank": 1089,
+          "closing_rank": 2885,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College and Hospital, Chandigarh",
+          "opening_rank": 1767,
+          "closing_rank": 2956,
+          "basis": "calculated"
+        },
+        {
+          "college": "HBT Medical College and Dr RN Cooper Hospital, Mumbai",
+          "opening_rank": 2982,
+          "closing_rank": 2982,
+          "basis": "calculated"
+        },
+        {
+          "college": "Osmania Medical College, Hyderabad",
+          "opening_rank": 30,
+          "closing_rank": 3231,
+          "basis": "calculated"
+        },
+        {
+          "college": "Gandhi Medical College and Hospital, Secunderabad",
+          "opening_rank": 233,
+          "closing_rank": 3287,
+          "basis": "calculated"
+        },
+        {
+          "college": "Sawai Man Singh Medical College, Jaipur",
+          "opening_rank": 1097,
+          "closing_rank": 3305,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College, Surat",
+          "opening_rank": 679,
+          "closing_rank": 3341,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College, Thiruvananthapuram",
+          "opening_rank": 422,
+          "closing_rank": 3427,
+          "basis": "calculated"
+        }
+      ],
+      "EWS": [
+        {
+          "college": "Maulana Azad Medical College, New Delhi",
+          "opening_rank": 172,
+          "closing_rank": 192,
+          "basis": "calculated"
+        },
+        {
+          "college": "Vardhman Mahavir Medical College and Safdarjung Hospital, New Delhi",
+          "opening_rank": 268,
+          "closing_rank": 502,
+          "basis": "calculated"
+        },
+        {
+          "college": "Atal Bihari Vajpayee Institute of Medical Sciences and Dr Ram Manohar Lohia Hospital, New Delhi",
+          "opening_rank": 81,
+          "closing_rank": 654,
+          "basis": "calculated"
+        },
+        {
+          "college": "University College of Medical Sciences, Delhi",
+          "opening_rank": 712,
+          "closing_rank": 712,
+          "basis": "calculated"
+        },
+        {
+          "college": "Grant Medical College and Sir JJ Hospital, Mumbai",
+          "opening_rank": 148,
+          "closing_rank": 880,
+          "basis": "calculated"
+        },
+        {
+          "college": "Lady Hardinge Medical College for Women, New Delhi",
+          "opening_rank": 749,
+          "closing_rank": 1142,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College, Kozhikode",
+          "opening_rank": 999,
+          "closing_rank": 1615,
+          "basis": "calculated"
+        },
+        {
+          "college": "Institute of Medical Sciences, BHU, Varanasi",
+          "opening_rank": 1504,
+          "closing_rank": 1905,
+          "basis": "calculated"
+        },
+        {
+          "college": "Lokmanya Tilak Municipal Medical College, Mumbai",
+          "opening_rank": 704,
+          "closing_rank": 1962,
+          "basis": "calculated"
+        },
+        {
+          "college": "BJ Government Medical College, Pune",
+          "opening_rank": 1827,
+          "closing_rank": 2021,
+          "basis": "calculated"
+        },
+        {
+          "college": "Seth GS Medical College (KEM), Mumbai",
+          "opening_rank": 596,
+          "closing_rank": 2072,
+          "basis": "calculated"
+        },
+        {
+          "college": "Topiwala National Medical College (Nair), Mumbai",
+          "opening_rank": 2171,
+          "closing_rank": 2773,
+          "basis": "calculated"
+        },
+        {
+          "college": "B J Medical College, Ahmedabad",
+          "opening_rank": 1585,
+          "closing_rank": 2856,
+          "basis": "calculated"
+        },
+        {
+          "college": "ESIC Medical College, Hyderabad",
+          "opening_rank": 2970,
+          "closing_rank": 3102,
+          "basis": "calculated"
+        },
+        {
+          "college": "Stanley Medical College, Chennai",
+          "opening_rank": 1781,
+          "closing_rank": 3249,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College, Kottayam",
+          "opening_rank": 1259,
+          "closing_rank": 3336,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College and Hospital, Chandigarh",
+          "opening_rank": 2044,
+          "closing_rank": 3419,
+          "basis": "calculated"
+        },
+        {
+          "college": "HBT Medical College and Dr RN Cooper Hospital, Mumbai",
+          "opening_rank": 3449,
+          "closing_rank": 3449,
+          "basis": "calculated"
+        },
+        {
+          "college": "Osmania Medical College, Hyderabad",
+          "opening_rank": 34,
+          "closing_rank": 3737,
+          "basis": "calculated"
+        },
+        {
+          "college": "Gandhi Medical College and Hospital, Secunderabad",
+          "opening_rank": 270,
+          "closing_rank": 3801,
+          "basis": "calculated"
+        },
+        {
+          "college": "Sawai Man Singh Medical College, Jaipur",
+          "opening_rank": 1269,
+          "closing_rank": 3823,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College, Surat",
+          "opening_rank": 785,
+          "closing_rank": 3864,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College, Thiruvananthapuram",
+          "opening_rank": 488,
+          "closing_rank": 3964,
+          "basis": "calculated"
+        }
+      ],
+      "SC": [
+        {
+          "college": "Maulana Azad Medical College, New Delhi",
+          "opening_rank": 317,
+          "closing_rank": 354,
+          "basis": "calculated"
+        },
+        {
+          "college": "Vardhman Mahavir Medical College and Safdarjung Hospital, New Delhi",
+          "opening_rank": 495,
+          "closing_rank": 927,
+          "basis": "calculated"
+        },
+        {
+          "college": "Atal Bihari Vajpayee Institute of Medical Sciences and Dr Ram Manohar Lohia Hospital, New Delhi",
+          "opening_rank": 150,
+          "closing_rank": 1206,
+          "basis": "calculated"
+        },
+        {
+          "college": "University College of Medical Sciences, Delhi",
+          "opening_rank": 1313,
+          "closing_rank": 1313,
+          "basis": "calculated"
+        },
+        {
+          "college": "Grant Medical College and Sir JJ Hospital, Mumbai",
+          "opening_rank": 274,
+          "closing_rank": 1624,
+          "basis": "calculated"
+        },
+        {
+          "college": "Lady Hardinge Medical College for Women, New Delhi",
+          "opening_rank": 1382,
+          "closing_rank": 2107,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College, Kozhikode",
+          "opening_rank": 1843,
+          "closing_rank": 2980,
+          "basis": "calculated"
+        },
+        {
+          "college": "Institute of Medical Sciences, BHU, Varanasi",
+          "opening_rank": 2775,
+          "closing_rank": 3515,
+          "basis": "calculated"
+        },
+        {
+          "college": "Lokmanya Tilak Municipal Medical College, Mumbai",
+          "opening_rank": 1298,
+          "closing_rank": 3619,
+          "basis": "calculated"
+        },
+        {
+          "college": "BJ Government Medical College, Pune",
+          "opening_rank": 3371,
+          "closing_rank": 3728,
+          "basis": "calculated"
+        },
+        {
+          "college": "Seth GS Medical College (KEM), Mumbai",
+          "opening_rank": 1100,
+          "closing_rank": 3823,
+          "basis": "calculated"
+        },
+        {
+          "college": "Topiwala National Medical College (Nair), Mumbai",
+          "opening_rank": 4005,
+          "closing_rank": 5116,
+          "basis": "calculated"
+        },
+        {
+          "college": "B J Medical College, Ahmedabad",
+          "opening_rank": 2925,
+          "closing_rank": 5269,
+          "basis": "calculated"
+        },
+        {
+          "college": "ESIC Medical College, Hyderabad",
+          "opening_rank": 5479,
+          "closing_rank": 5724,
+          "basis": "calculated"
+        },
+        {
+          "college": "Stanley Medical College, Chennai",
+          "opening_rank": 3285,
+          "closing_rank": 5994,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College, Kottayam",
+          "opening_rank": 2323,
+          "closing_rank": 6155,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College and Hospital, Chandigarh",
+          "opening_rank": 3772,
+          "closing_rank": 6308,
+          "basis": "calculated"
+        },
+        {
+          "college": "HBT Medical College and Dr RN Cooper Hospital, Mumbai",
+          "opening_rank": 6363,
+          "closing_rank": 6363,
+          "basis": "calculated"
+        },
+        {
+          "college": "Osmania Medical College, Hyderabad",
+          "opening_rank": 63,
+          "closing_rank": 6895,
+          "basis": "calculated"
+        },
+        {
+          "college": "Gandhi Medical College and Hospital, Secunderabad",
+          "opening_rank": 498,
+          "closing_rank": 7013,
+          "basis": "calculated"
+        },
+        {
+          "college": "Sawai Man Singh Medical College, Jaipur",
+          "opening_rank": 2341,
+          "closing_rank": 7054,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College, Surat",
+          "opening_rank": 1448,
+          "closing_rank": 7128,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College, Thiruvananthapuram",
+          "opening_rank": 901,
+          "closing_rank": 7313,
+          "basis": "calculated"
+        }
+      ],
+      "ST": [
+        {
+          "college": "Maulana Azad Medical College, New Delhi",
+          "opening_rank": 535,
+          "closing_rank": 598,
+          "basis": "calculated"
+        },
+        {
+          "college": "Vardhman Mahavir Medical College and Safdarjung Hospital, New Delhi",
+          "opening_rank": 836,
+          "closing_rank": 1565,
+          "basis": "calculated"
+        },
+        {
+          "college": "Atal Bihari Vajpayee Institute of Medical Sciences and Dr Ram Manohar Lohia Hospital, New Delhi",
+          "opening_rank": 253,
+          "closing_rank": 2037,
+          "basis": "calculated"
+        },
+        {
+          "college": "University College of Medical Sciences, Delhi",
+          "opening_rank": 2216,
+          "closing_rank": 2216,
+          "basis": "calculated"
+        },
+        {
+          "college": "Grant Medical College and Sir JJ Hospital, Mumbai",
+          "opening_rank": 462,
+          "closing_rank": 2741,
+          "basis": "calculated"
+        },
+        {
+          "college": "Lady Hardinge Medical College for Women, New Delhi",
+          "opening_rank": 2333,
+          "closing_rank": 3558,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College, Kozhikode",
+          "opening_rank": 3111,
+          "closing_rank": 5031,
+          "basis": "calculated"
+        },
+        {
+          "college": "Institute of Medical Sciences, BHU, Varanasi",
+          "opening_rank": 4686,
+          "closing_rank": 5935,
+          "basis": "calculated"
+        },
+        {
+          "college": "Lokmanya Tilak Municipal Medical College, Mumbai",
+          "opening_rank": 2192,
+          "closing_rank": 6110,
+          "basis": "calculated"
+        },
+        {
+          "college": "BJ Government Medical College, Pune",
+          "opening_rank": 5692,
+          "closing_rank": 6295,
+          "basis": "calculated"
+        },
+        {
+          "college": "Seth GS Medical College (KEM), Mumbai",
+          "opening_rank": 1857,
+          "closing_rank": 6455,
+          "basis": "calculated"
+        },
+        {
+          "college": "Topiwala National Medical College (Nair), Mumbai",
+          "opening_rank": 6761,
+          "closing_rank": 8637,
+          "basis": "calculated"
+        },
+        {
+          "college": "B J Medical College, Ahmedabad",
+          "opening_rank": 4938,
+          "closing_rank": 8895,
+          "basis": "calculated"
+        },
+        {
+          "college": "ESIC Medical College, Hyderabad",
+          "opening_rank": 9250,
+          "closing_rank": 9663,
+          "basis": "calculated"
+        },
+        {
+          "college": "Stanley Medical College, Chennai",
+          "opening_rank": 5546,
+          "closing_rank": 10120,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College, Kottayam",
+          "opening_rank": 3923,
+          "closing_rank": 10392,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College and Hospital, Chandigarh",
+          "opening_rank": 6368,
+          "closing_rank": 10650,
+          "basis": "calculated"
+        },
+        {
+          "college": "HBT Medical College and Dr RN Cooper Hospital, Mumbai",
+          "opening_rank": 10742,
+          "closing_rank": 10742,
+          "basis": "calculated"
+        },
+        {
+          "college": "Osmania Medical College, Hyderabad",
+          "opening_rank": 107,
+          "closing_rank": 11641,
+          "basis": "calculated"
+        },
+        {
+          "college": "Gandhi Medical College and Hospital, Secunderabad",
+          "opening_rank": 841,
+          "closing_rank": 11841,
+          "basis": "calculated"
+        },
+        {
+          "college": "Sawai Man Singh Medical College, Jaipur",
+          "opening_rank": 3952,
+          "closing_rank": 11909,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College, Surat",
+          "opening_rank": 2445,
+          "closing_rank": 12035,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College, Thiruvananthapuram",
+          "opening_rank": 1521,
+          "closing_rank": 12346,
+          "basis": "calculated"
+        }
+      ]
+    },
+    "Obstetrics & Gynaecology": {
+      "Open": [
+        {
+          "college": "Lady Hardinge Medical College for Women, New Delhi",
+          "opening_rank": 56,
+          "closing_rank": 324,
+          "basis": "reported"
+        },
+        {
+          "college": "Vardhman Mahavir Medical College and Safdarjung Hospital, New Delhi",
+          "opening_rank": 14,
+          "closing_rank": 541,
+          "basis": "reported"
+        },
+        {
+          "college": "Maulana Azad Medical College, New Delhi",
+          "opening_rank": 490,
+          "closing_rank": 806,
+          "basis": "reported"
+        },
+        {
+          "college": "Lokmanya Tilak Municipal Medical College, Mumbai",
+          "opening_rank": 469,
+          "closing_rank": 949,
+          "basis": "reported"
+        },
+        {
+          "college": "Atal Bihari Vajpayee Institute of Medical Sciences and Dr Ram Manohar Lohia Hospital, New Delhi",
+          "opening_rank": 438,
+          "closing_rank": 1177,
+          "basis": "reported"
+        },
+        {
+          "college": "University College of Medical Sciences, Delhi",
+          "opening_rank": 1030,
+          "closing_rank": 1320,
+          "basis": "reported"
+        },
+        {
+          "college": "B J Medical College, Ahmedabad",
+          "opening_rank": 329,
+          "closing_rank": 1331,
+          "basis": "reported"
+        },
+        {
+          "college": "ESI PGIMSR, New Delhi",
+          "opening_rank": 1337,
+          "closing_rank": 1337,
+          "basis": "reported"
+        },
+        {
+          "college": "Madras Medical College, Chennai",
+          "opening_rank": 12,
+          "closing_rank": 1434,
+          "basis": "reported"
+        },
+        {
+          "college": "Sher-I-Kashmir Institute of Medical Sciences, Srinagar",
+          "opening_rank": 1482,
+          "closing_rank": 1482,
+          "basis": "reported"
+        },
+        {
+          "college": "Gandhi Medical College and Hospital, Secunderabad",
+          "opening_rank": 474,
+          "closing_rank": 1584,
+          "basis": "reported"
+        },
+        {
+          "college": "Government Medical College and Hospital, Chandigarh",
+          "opening_rank": 1588,
+          "closing_rank": 1588,
+          "basis": "reported"
+        },
+        {
+          "college": "Bangalore Medical College and Research Institute, Bangalore",
+          "opening_rank": 547,
+          "closing_rank": 1601,
+          "basis": "reported"
+        },
+        {
+          "college": "Institute of Medical Sciences, BHU, Varanasi",
+          "opening_rank": 1939,
+          "closing_rank": 1939,
+          "basis": "reported"
+        }
+      ],
+      "OBC": [
+        {
+          "college": "Lady Hardinge Medical College for Women, New Delhi",
+          "opening_rank": 81,
+          "closing_rank": 467,
+          "basis": "calculated"
+        },
+        {
+          "college": "Vardhman Mahavir Medical College and Safdarjung Hospital, New Delhi",
+          "opening_rank": 20,
+          "closing_rank": 780,
+          "basis": "calculated"
+        },
+        {
+          "college": "Maulana Azad Medical College, New Delhi",
+          "opening_rank": 707,
+          "closing_rank": 1162,
+          "basis": "calculated"
+        },
+        {
+          "college": "Lokmanya Tilak Municipal Medical College, Mumbai",
+          "opening_rank": 676,
+          "closing_rank": 1368,
+          "basis": "calculated"
+        },
+        {
+          "college": "Atal Bihari Vajpayee Institute of Medical Sciences and Dr Ram Manohar Lohia Hospital, New Delhi",
+          "opening_rank": 632,
+          "closing_rank": 1697,
+          "basis": "calculated"
+        },
+        {
+          "college": "University College of Medical Sciences, Delhi",
+          "opening_rank": 1485,
+          "closing_rank": 1903,
+          "basis": "calculated"
+        },
+        {
+          "college": "B J Medical College, Ahmedabad",
+          "opening_rank": 474,
+          "closing_rank": 1919,
+          "basis": "calculated"
+        },
+        {
+          "college": "ESI PGIMSR, New Delhi",
+          "opening_rank": 1928,
+          "closing_rank": 1928,
+          "basis": "calculated"
+        },
+        {
+          "college": "Madras Medical College, Chennai",
+          "opening_rank": 17,
+          "closing_rank": 2068,
+          "basis": "calculated"
+        },
+        {
+          "college": "Sher-I-Kashmir Institute of Medical Sciences, Srinagar",
+          "opening_rank": 2137,
+          "closing_rank": 2137,
+          "basis": "calculated"
+        },
+        {
+          "college": "Gandhi Medical College and Hospital, Secunderabad",
+          "opening_rank": 684,
+          "closing_rank": 2284,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College and Hospital, Chandigarh",
+          "opening_rank": 2290,
+          "closing_rank": 2290,
+          "basis": "calculated"
+        },
+        {
+          "college": "Bangalore Medical College and Research Institute, Bangalore",
+          "opening_rank": 789,
+          "closing_rank": 2309,
+          "basis": "calculated"
+        },
+        {
+          "college": "Institute of Medical Sciences, BHU, Varanasi",
+          "opening_rank": 2796,
+          "closing_rank": 2796,
+          "basis": "calculated"
+        }
+      ],
+      "EWS": [
+        {
+          "college": "Lady Hardinge Medical College for Women, New Delhi",
+          "opening_rank": 97,
+          "closing_rank": 561,
+          "basis": "calculated"
+        },
+        {
+          "college": "Vardhman Mahavir Medical College and Safdarjung Hospital, New Delhi",
+          "opening_rank": 24,
+          "closing_rank": 937,
+          "basis": "calculated"
+        },
+        {
+          "college": "Maulana Azad Medical College, New Delhi",
+          "opening_rank": 849,
+          "closing_rank": 1396,
+          "basis": "calculated"
+        },
+        {
+          "college": "Lokmanya Tilak Municipal Medical College, Mumbai",
+          "opening_rank": 812,
+          "closing_rank": 1644,
+          "basis": "calculated"
+        },
+        {
+          "college": "Atal Bihari Vajpayee Institute of Medical Sciences and Dr Ram Manohar Lohia Hospital, New Delhi",
+          "opening_rank": 759,
+          "closing_rank": 2039,
+          "basis": "calculated"
+        },
+        {
+          "college": "University College of Medical Sciences, Delhi",
+          "opening_rank": 1784,
+          "closing_rank": 2286,
+          "basis": "calculated"
+        },
+        {
+          "college": "B J Medical College, Ahmedabad",
+          "opening_rank": 570,
+          "closing_rank": 2305,
+          "basis": "calculated"
+        },
+        {
+          "college": "ESI PGIMSR, New Delhi",
+          "opening_rank": 2316,
+          "closing_rank": 2316,
+          "basis": "calculated"
+        },
+        {
+          "college": "Madras Medical College, Chennai",
+          "opening_rank": 21,
+          "closing_rank": 2484,
+          "basis": "calculated"
+        },
+        {
+          "college": "Sher-I-Kashmir Institute of Medical Sciences, Srinagar",
+          "opening_rank": 2567,
+          "closing_rank": 2567,
+          "basis": "calculated"
+        },
+        {
+          "college": "Gandhi Medical College and Hospital, Secunderabad",
+          "opening_rank": 821,
+          "closing_rank": 2744,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College and Hospital, Chandigarh",
+          "opening_rank": 2751,
+          "closing_rank": 2751,
+          "basis": "calculated"
+        },
+        {
+          "college": "Bangalore Medical College and Research Institute, Bangalore",
+          "opening_rank": 947,
+          "closing_rank": 2773,
+          "basis": "calculated"
+        },
+        {
+          "college": "Institute of Medical Sciences, BHU, Varanasi",
+          "opening_rank": 3359,
+          "closing_rank": 3359,
+          "basis": "calculated"
+        }
+      ],
+      "SC": [
+        {
+          "college": "Lady Hardinge Medical College for Women, New Delhi",
+          "opening_rank": 179,
+          "closing_rank": 1036,
+          "basis": "calculated"
+        },
+        {
+          "college": "Vardhman Mahavir Medical College and Safdarjung Hospital, New Delhi",
+          "opening_rank": 45,
+          "closing_rank": 1730,
+          "basis": "calculated"
+        },
+        {
+          "college": "Maulana Azad Medical College, New Delhi",
+          "opening_rank": 1567,
+          "closing_rank": 2578,
+          "basis": "calculated"
+        },
+        {
+          "college": "Lokmanya Tilak Municipal Medical College, Mumbai",
+          "opening_rank": 1500,
+          "closing_rank": 3035,
+          "basis": "calculated"
+        },
+        {
+          "college": "Atal Bihari Vajpayee Institute of Medical Sciences and Dr Ram Manohar Lohia Hospital, New Delhi",
+          "opening_rank": 1401,
+          "closing_rank": 3764,
+          "basis": "calculated"
+        },
+        {
+          "college": "University College of Medical Sciences, Delhi",
+          "opening_rank": 3294,
+          "closing_rank": 4222,
+          "basis": "calculated"
+        },
+        {
+          "college": "B J Medical College, Ahmedabad",
+          "opening_rank": 1052,
+          "closing_rank": 4257,
+          "basis": "calculated"
+        },
+        {
+          "college": "ESI PGIMSR, New Delhi",
+          "opening_rank": 4276,
+          "closing_rank": 4276,
+          "basis": "calculated"
+        },
+        {
+          "college": "Madras Medical College, Chennai",
+          "opening_rank": 38,
+          "closing_rank": 4586,
+          "basis": "calculated"
+        },
+        {
+          "college": "Sher-I-Kashmir Institute of Medical Sciences, Srinagar",
+          "opening_rank": 4740,
+          "closing_rank": 4740,
+          "basis": "calculated"
+        },
+        {
+          "college": "Gandhi Medical College and Hospital, Secunderabad",
+          "opening_rank": 1516,
+          "closing_rank": 5066,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College and Hospital, Chandigarh",
+          "opening_rank": 5079,
+          "closing_rank": 5079,
+          "basis": "calculated"
+        },
+        {
+          "college": "Bangalore Medical College and Research Institute, Bangalore",
+          "opening_rank": 1749,
+          "closing_rank": 5120,
+          "basis": "calculated"
+        },
+        {
+          "college": "Institute of Medical Sciences, BHU, Varanasi",
+          "opening_rank": 6201,
+          "closing_rank": 6201,
+          "basis": "calculated"
+        }
+      ],
+      "ST": [
+        {
+          "college": "Lady Hardinge Medical College for Women, New Delhi",
+          "opening_rank": 290,
+          "closing_rank": 1678,
+          "basis": "calculated"
+        },
+        {
+          "college": "Vardhman Mahavir Medical College and Safdarjung Hospital, New Delhi",
+          "opening_rank": 73,
+          "closing_rank": 2802,
+          "basis": "calculated"
+        },
+        {
+          "college": "Maulana Azad Medical College, New Delhi",
+          "opening_rank": 2538,
+          "closing_rank": 4175,
+          "basis": "calculated"
+        },
+        {
+          "college": "Lokmanya Tilak Municipal Medical College, Mumbai",
+          "opening_rank": 2429,
+          "closing_rank": 4916,
+          "basis": "calculated"
+        },
+        {
+          "college": "Atal Bihari Vajpayee Institute of Medical Sciences and Dr Ram Manohar Lohia Hospital, New Delhi",
+          "opening_rank": 2269,
+          "closing_rank": 6097,
+          "basis": "calculated"
+        },
+        {
+          "college": "University College of Medical Sciences, Delhi",
+          "opening_rank": 5335,
+          "closing_rank": 6837,
+          "basis": "calculated"
+        },
+        {
+          "college": "B J Medical College, Ahmedabad",
+          "opening_rank": 1704,
+          "closing_rank": 6894,
+          "basis": "calculated"
+        },
+        {
+          "college": "ESI PGIMSR, New Delhi",
+          "opening_rank": 6925,
+          "closing_rank": 6925,
+          "basis": "calculated"
+        },
+        {
+          "college": "Madras Medical College, Chennai",
+          "opening_rank": 62,
+          "closing_rank": 7428,
+          "basis": "calculated"
+        },
+        {
+          "college": "Sher-I-Kashmir Institute of Medical Sciences, Srinagar",
+          "opening_rank": 7677,
+          "closing_rank": 7677,
+          "basis": "calculated"
+        },
+        {
+          "college": "Gandhi Medical College and Hospital, Secunderabad",
+          "opening_rank": 2455,
+          "closing_rank": 8205,
+          "basis": "calculated"
+        },
+        {
+          "college": "Government Medical College and Hospital, Chandigarh",
+          "opening_rank": 8226,
+          "closing_rank": 8226,
+          "basis": "calculated"
+        },
+        {
+          "college": "Bangalore Medical College and Research Institute, Bangalore",
+          "opening_rank": 2833,
+          "closing_rank": 8293,
+          "basis": "calculated"
+        },
+        {
+          "college": "Institute of Medical Sciences, BHU, Varanasi",
+          "opening_rank": 10044,
+          "closing_rank": 10044,
+          "basis": "calculated"
+        }
+      ]
+    }
+  }
+}

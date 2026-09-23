@@ -1,0 +1,16 @@
+{
+  "datasets": [
+    {
+      "id": "real2025r3",
+      "source_file": "datasets/real2025r3.json"
+    },
+    {
+      "id": "real2025stray",
+      "source_file": "datasets/real2025stray.json"
+    },
+    {
+      "id": "real2024",
+      "source_file": "datasets/real2024.json"
+    }
+  ]
+}
