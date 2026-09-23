@@ -495,8 +495,9 @@ TEMPLATE = r"""<title>NEET-PG Help</title>
       </div>
     </div>
 
-    <div class="section-title">Latest updates</div>
+    <div class="section-title">Latest release</div>
     <div id="dash-latest-list"></div>
+    <button class="text-link-btn" data-view="updates" style="margin-top:4px;">See all updates &rarr;</button>
   </section>
 
   <!-- LATEST UPDATES -->
@@ -729,9 +730,16 @@ function docCard(d) {
     <a class="source-link" href="${d.file_url}" target="_blank" rel="noopener">Source &rarr;</a></div></div>`;
 }
 function changeCard(c) {
+  // Show the document's own MCC publication date (what "latest" should
+  // mean), not when our system happened to detect it -- see the comment in
+  // engine/export_json.py on why detected_at alone is not a reliable sort
+  // or display value here.
+  const dateLabel = c.pub_date
+    ? `${fmtDate(c.pub_date)} &middot; ${c.pub_date_basis === 'first_seen' ? 'date unclear, first seen' : c.pub_date_basis}`
+    : `Detected ${fmtDateTime(c.detected_at)}`;
   return `<div class="card"><div class="tag-row">${tagsForDoc(c)}</div>
     <div class="title"><a class="title-link" href="${c.file_url}" target="_blank" rel="noopener">${c.title}</a></div>
-    <div class="meta"><span>Detected ${fmtDateTime(c.detected_at)}</span>
+    <div class="meta"><span>${dateLabel}</span>
     <a class="source-link" href="${c.file_url}" target="_blank" rel="noopener">Source &rarr;</a></div></div>`;
 }
 
@@ -750,7 +758,11 @@ function renderDashboard() {
   document.getElementById("dash-source-count").textContent = db.sources_monitored;
   document.getElementById("dash-last-checked").textContent = fmtDateTime(db.last_checked);
   document.getElementById("dash-last-official").textContent = fmtDate(db.last_official_update);
-  const latest = DATA.changes.slice(0, 5);
+  // The dashboard shows only the single most recent MCC release -- the full
+  // history lives in the Latest Updates tab. DATA.changes is already sorted
+  // newest-official-date-first (see engine/export_json.py), so this is just
+  // the first item.
+  const latest = DATA.changes.slice(0, 1);
   document.getElementById("dash-latest-list").innerHTML = latest.length ? latest.map(changeCard).join("") : `<div class="empty-state">No updates yet.</div>`;
 }
 function renderUpdates(filterText) {

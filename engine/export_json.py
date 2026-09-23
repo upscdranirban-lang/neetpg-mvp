@@ -31,13 +31,23 @@ def export(conn) -> dict:
         )
     ]
 
+    # Ordered by the MCC document's own real publication date first (falling
+    # back to when we first retrieved it if a date couldn't be parsed), NOT
+    # by c.detected_at -- these documents were bulk-imported in one batch, so
+    # every row's detected_at is essentially the same "just now" timestamp
+    # and carries no real chronological signal. Sorting by that (as this
+    # used to do) meant the "Latest updates" list was really ordered by
+    # database insertion order, so an old MCC notice could appear above a
+    # genuinely newer one. Sorting by the document's own date is what
+    # actually makes "latest" mean "most recently published by MCC."
     changes = [
         dict(row)
         for row in conn.execute(
-            """SELECT c.*, d.title, d.doc_type, d.file_url, d.round_label, d.cycle_label
+            """SELECT c.*, d.title, d.doc_type, d.file_url, d.round_label, d.cycle_label,
+                      d.pub_date, d.pub_date_basis, d.pub_date_confidence
                FROM data_changes c
                JOIN documents d ON d.id = c.document_id
-               ORDER BY c.detected_at DESC, c.id DESC"""
+               ORDER BY COALESCE(d.pub_date, d.retrieved_at) DESC, c.detected_at DESC, c.id DESC"""
         )
     ]
 
