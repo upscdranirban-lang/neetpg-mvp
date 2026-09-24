@@ -630,9 +630,9 @@ __DATASET_OPTIONS__
   <section id="view-contact" class="view">
     <div class="about-block">
       <h3>Contact us</h3>
-      <p>Spotted an error, a missing document, or have feedback? Write to us at <a href="mailto:parivrajaka9@gmail.com">parivrajaka9@gmail.com</a>. We read every message &mdash; as a free, independently-run service we may not always be able to reply quickly, but corrections and missed documents are the fastest way to help every other candidate using this site too.</p>
-      <p>For press, partnership or data-source enquiries, the same address reaches us: <a href="mailto:parivrajaka9@gmail.com">parivrajaka9@gmail.com</a>.</p>
-      <p class="provenance-line">neetpghelp.com &middot; parivrajaka9@gmail.com</p>
+      <p>Spotted an error, a missing document, or have feedback? Write to us at <a href="mailto:helpneetpg@gmail.com">helpneetpg@gmail.com</a>. We read every message &mdash; as a free, independently-run service we may not always be able to reply quickly, but corrections and missed documents are the fastest way to help every other candidate using this site too.</p>
+      <p>For press, partnership or data-source enquiries, the same address reaches us: <a href="mailto:helpneetpg@gmail.com">helpneetpg@gmail.com</a>.</p>
+      <p class="provenance-line">neetpghelp.com &middot; helpneetpg@gmail.com</p>
       <hr>
       <p class="about-crosslinks">
         <button class="text-link-btn" data-view="about">About</button>
@@ -652,8 +652,8 @@ __DATASET_OPTIONS__
       <p><strong>Advertising.</strong> To keep this site free, we intend to show ads through Google AdSense. Google and its partners may use cookies to serve ads based on your visits here and other sites; you can control ad personalisation in your Google account settings. We will not place ads on top of official notices or in ways designed to cause accidental clicks.</p>
       <p><strong>Analytics.</strong> We may use basic, privacy-respecting analytics (e.g. aggregate page-view counts) to understand which pages are useful. This does not identify you personally.</p>
       <p><strong>Changes.</strong> If this policy changes meaningfully, we'll update this page and the date below.</p>
-      <p>Questions or requests about your privacy: <a href="mailto:parivrajaka9@gmail.com">parivrajaka9@gmail.com</a>.</p>
-      <p class="provenance-line">neetpghelp.com &middot; parivrajaka9@gmail.com &middot; Privacy policy last updated 21 Sept 2026</p>
+      <p>Questions or requests about your privacy: <a href="mailto:helpneetpg@gmail.com">helpneetpg@gmail.com</a>.</p>
+      <p class="provenance-line">neetpghelp.com &middot; helpneetpg@gmail.com &middot; Privacy policy last updated 21 Sept 2026</p>
       <hr>
       <p class="about-crosslinks">
         <button class="text-link-btn" data-view="about">About</button>
