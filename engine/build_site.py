@@ -443,8 +443,6 @@ TEMPLATE = r"""<title>NEET-PG Help</title>
   .basis-badge { font-family: var(--font-body); font-size: 9.5px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.03em; padding: 2px 7px; border-radius: 999px; }
   .basis-badge.reported { background: var(--success-tint); color: var(--success); }
   .basis-badge.calculated { background: var(--warn-tint); color: var(--warn); }
-  .predictor-sources { font-size: 11px; color: var(--ink-faint); margin-top: 18px; line-height: 1.7; }
-  .predictor-sources a { color: var(--brand); }
 </style>
 
 <header class="top">
@@ -601,7 +599,6 @@ __DATASET_OPTIONS__
     </div>
 
     <div id="predictor-results"></div>
-    <div class="predictor-sources" id="predictor-sources"></div>
   </section>
 
   <!-- ABOUT -->
@@ -930,19 +927,6 @@ function populateCollegeSpecialtyOptions() {
   select.innerHTML = names.map(n => `<option value="${n}">${n}</option>`).join("");
 }
 
-function updateSourcesFooter() {
-  const el = document.getElementById("predictor-sources");
-  const ds = REAL_DATASETS[currentDataset];
-  if (ds) {
-    const p = ds.raw.provenance;
-    el.innerHTML = `<strong>Source:</strong> ${p.title}, ${p.authority} (${p.pages} pages) &middot; ${p.round}, ${p.cycle}<br><br>${ds.raw.methodology}`;
-  } else {
-    el.innerHTML = `<strong>Sources used:</strong><br>` +
-      PREDICTOR.sources.map(s => `&bull; <a href="${s.url}" target="_blank" rel="noopener">${s.name}</a> (${s.used_for})`).join("<br>") +
-      `<br><br>${PREDICTOR.coverage_note}`;
-  }
-}
-
 function updateDatasetWarning() {
   const ds = REAL_DATASETS[currentDataset];
   document.getElementById("real-data-warning").style.display = ds ? "block" : "none";
@@ -956,7 +940,6 @@ function updateDatasetWarning() {
 
 function initPredictor() {
   populateCollegeSpecialtyOptions();
-  updateSourcesFooter();
   updateDatasetWarning();
   updateSeatTypeNote();
 
@@ -965,7 +948,6 @@ function initPredictor() {
     currentDataset = e.target.value;
     updateDatasetWarning();
     populateCollegeSpecialtyOptions();
-    updateSourcesFooter();
     updateCalculatedWarning();
     updateSeatTypeNote();
     document.getElementById("predictor-results").innerHTML = "";
