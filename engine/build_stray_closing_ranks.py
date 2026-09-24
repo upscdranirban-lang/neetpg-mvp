@@ -23,9 +23,15 @@ from collections import defaultdict
 from pathlib import Path
 
 try:
-    from engine.mcc_cleaning import clean_category, clean_course, clean_institute, clean_specialty, is_pwd_category
+    from engine.mcc_cleaning import (
+        clean_category, clean_course, clean_institute, clean_specialty,
+        is_pwd_category, is_service_bond_institute,
+    )
 except ImportError:  # run directly as a script (python3 build_stray_closing_ranks.py ...) from engine/
-    from mcc_cleaning import clean_category, clean_course, clean_institute, clean_specialty, is_pwd_category
+    from mcc_cleaning import (
+        clean_category, clean_course, clean_institute, clean_specialty,
+        is_pwd_category, is_service_bond_institute,
+    )
 
 
 def build(csv_path: str, provenance_seed: dict) -> dict:
@@ -47,6 +53,11 @@ def build(csv_path: str, provenance_seed: dict) -> dict:
             continue
         rank = int(row["rank"])
         institute = clean_institute(row["institute"])
+        if is_service_bond_institute(institute):
+            # Armed Forces/Command Hospital seats carry a mandatory service
+            # bond most civilian candidates won't take -- see
+            # is_service_bond_institute() in mcc_cleaning.py.
+            continue
         specialty = clean_specialty(clean_course(row["course"]))
         category = clean_category(raw_category)
         if not category:
@@ -88,7 +99,10 @@ def build(csv_path: str, provenance_seed: dict) -> dict:
             "PwD-reserved allotments (a horizontal reservation with much "
             "easier ranks) are EXCLUDED from these figures rather than "
             "folded into their base category -- folding them in was "
-            "inflating the base category's closing rank. This is a single, "
+            "inflating the base category's closing rank. Armed Forces/"
+            "Command Hospital seats (a mandatory service bond few civilian "
+            "candidates take) are EXCLUDED entirely -- see "
+            "is_service_bond_institute() in mcc_cleaning.py. This is a single, "
             "separate round -- its ranks are not comparable to Round 3's, "
             "since stray vacancy seats are filled from a different, later "
             "pool of candidates."

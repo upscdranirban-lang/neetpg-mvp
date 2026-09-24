@@ -49,6 +49,33 @@ def is_pwd_category(raw: str) -> bool:
     return "PwD" in raw
 
 
+_SERVICE_BOND_KEYWORDS = [
+    "COMMAND HOSPITAL", "ARMED FORCES MEDICAL COLLEGE", "ARMY HOSPITAL",
+    "INSTITUTE OF NAVAL MEDICINE", "MILITARY HOSPITAL", "AIR FORCE HOSPITAL",
+    "AIR FORCE", "INHS ", "BASE HOSPITAL",
+]
+
+
+def is_service_bond_institute(institute: str) -> bool:
+    """True for a defence/armed-forces institute (Command Hospitals, Armed
+    Forces Medical College, Institute of Naval Medicine, Air Force/Army/Base
+    Hospitals, etc.).
+
+    These seats carry a mandatory service bond (a fixed period of compulsory
+    Armed Forces service after the PG course) that most civilian NEET-PG
+    candidates are not eligible or willing to take on, so very few apply --
+    which lets their closing rank land far higher (worse) than a civilian
+    candidate should read as normal for that specialty, even in Open
+    category (e.g. a genuine Open closing rank past 100,000 for General
+    Surgery or Ophthalmology, which would be implausible at a normal
+    government medical college). This site's audience is the general
+    civilian NEET-PG candidate pool, so these seats are excluded entirely
+    from opening/closing-rank calculations rather than left to look like an
+    ordinary (and misleadingly easy-looking) government seat."""
+    name = institute.upper()
+    return any(k in name for k in _SERVICE_BOND_KEYWORDS)
+
+
 def clean_course(raw: str) -> str:
     return re.sub(r"\s+", " ", raw.replace("\n", " ")).strip()
 
@@ -83,9 +110,9 @@ def clean_specialty(course: str) -> str:
     if c.startswith("(NBEMS-DIPLOMA)"):
         track = "Diploma"
         base = c[len("(NBEMS-DIPLOMA)"):].strip()
-    elif re.match(r"^DIP\.?\s*IN\b", c, re.I):
+    elif re.match(r"^DIP(?:LOMA)?\.?\s*(?:IN\b|-)", c, re.I):
         track = "Diploma"
-        base = re.sub(r"^DIP\.?\s*IN\b", "", c, flags=re.I).strip()
+        base = re.sub(r"^DIP(?:LOMA)?\.?\s*(?:IN\b|-)", "", c, flags=re.I).strip()
     elif c.startswith("(NBEMS)"):
         track = "DNB"
         base = c[len("(NBEMS)"):].strip()
