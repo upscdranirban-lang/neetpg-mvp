@@ -23,7 +23,7 @@ import json
 import os
 import pathlib
 
-from engine import build_blog, dataset_registry
+from engine import build_blog, college_type, dataset_registry
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 
@@ -420,6 +420,19 @@ TEMPLATE = r"""<title>NEET-PG Help</title>
     cursor: pointer;
   }
   #dataset-select:focus-visible { outline: 2px solid var(--brand); outline-offset: 1px; }
+  #seat-type-select {
+    width: 100%; padding: 11px 34px 11px 13px; margin-bottom: 6px;
+    border-radius: 12px; border: 1px solid var(--line); background: var(--surface);
+    font-family: var(--font-body); font-size: 13.5px; font-weight: 600; color: var(--ink);
+    appearance: none; -webkit-appearance: none;
+    background-image: linear-gradient(45deg, transparent 50%, var(--ink-muted) 50%), linear-gradient(135deg, var(--ink-muted) 50%, transparent 50%);
+    background-position: calc(100% - 18px) calc(50% - 3px), calc(100% - 13px) calc(50% - 3px);
+    background-size: 5px 5px, 5px 5px; background-repeat: no-repeat;
+    cursor: pointer;
+  }
+  #seat-type-select:focus-visible { outline: 2px solid var(--brand); outline-offset: 1px; }
+  .seat-type-note { font-size: 11.5px; color: var(--ink-muted); line-height: 1.6; margin: 0 0 14px; }
+  .seat-type-note strong { color: var(--ink); }
   .predictor-result-card {
     background: var(--surface); border: 1px solid var(--line); border-left: 3px solid var(--accent);
     border-radius: 11px; padding: 11px 13px; margin-bottom: 8px; font-size: 13.5px;
@@ -533,6 +546,13 @@ __DATASET_OPTIONS__
       <strong>Estimate only &mdash; not MCC data</strong>
       These 2025 numbers come from third-party exam-prep websites, not MCC's own results. Real counselling can vary significantly. Use this only as a rough starting point, never as a guarantee.
     </div>
+
+    <label class="predictor-dataset-label" for="seat-type-select">Seats to include</label>
+    <select id="seat-type-select">
+      <option value="government">Government seats only</option>
+      <option value="all">All seats (govt + private/deemed + unverified)</option>
+    </select>
+    <p class="seat-type-note" id="seat-type-note"></p>
 
     <div class="predictor-mode-toggle">
       <button data-mode="branch" class="active">Branch Predictor</button>
@@ -695,6 +715,13 @@ const PREDICTOR = __PREDICTOR_JSON__;
 // passes. New rounds appear here automatically; nothing in this script
 // needs to change when one is added. See engine/dataset_registry.py.
 const REAL_DATASETS_RAW = __REAL_DATASETS_JSON__;
+// Government/Private classification for the Predictor's "Government seats
+// only" filter -- see engine/college_type.py for how and why this exists
+// and how it was built. Keyed by normalized (whitespace-collapsed,
+// lowercased) institute name; an institute NOT in this map is treated as
+// "unverified" and excluded from the Government view, never assumed to be
+// government -- see that file's docstring for the reasoning.
+const COLLEGE_TYPE = __COLLEGE_TYPE_JSON__;
 
 const DOC_TYPE_LABELS = {
   final_result: "Final Result", provisional_result: "Provisional Result", revised_result: "Revised Result",
@@ -842,6 +869,61 @@ let currentDataset = "__DEFAULT_DATASET_ID__";
 
 const ESTIMATE2025_SPECIALTY_NAMES = Object.keys(PREDICTOR.colleges_by_specialty);
 
+// ---- Government-seats-only filter (see engine/college_type.py) ----
+// Defaults to "government" so the calculator shows government medical
+// college / hospital seats unless the person explicitly asks to see
+// everything -- this is what keeps a handful of private/deemed colleges
+// and a flood of small private DNB/Diploma hospitals from inflating the
+// seat counts and closing ranks shown by default.
+let seatTypeFilter = "government";
+function normInstitute(name) { return (name || "").replace(/\s+/g, " ").trim().toLowerCase(); }
+function collegeType(name) { return COLLEGE_TYPE[normInstitute(name)] || "unverified"; }
+function passesSeatTypeFilter(name) { return seatTypeFilter === "all" || collegeType(name) === "government"; }
+
+// Real per-round datasets store one row per institute+specialty+category
+// (ds.collegeRows) plus a precomputed specialty-level rollup across EVERY
+// institute (ds.specialties) -- that rollup mixes government, private and
+// unverified-ownership institutes together, so under the Government filter
+// it has to be recomputed from just the filtered rows rather than reused.
+function filteredCollegeRows(ds) {
+  return ds.collegeRows.filter(r => passesSeatTypeFilter(r.institute));
+}
+function recomputeSpecialties(rows) {
+  const byKey = new Map();
+  rows.forEach(r => {
+    const key = r.specialty + "\u0000" + r.category;
+    let agg = byKey.get(key);
+    if (!agg) { agg = { specialty: r.specialty, category: r.category, opening_rank: r.opening_rank, closing_rank: r.closing_rank, seats_counted: 0, institutes: new Set() }; byKey.set(key, agg); }
+    agg.opening_rank = Math.min(agg.opening_rank, r.opening_rank);
+    agg.closing_rank = Math.max(agg.closing_rank, r.closing_rank);
+    agg.seats_counted += r.seats_counted;
+    agg.institutes.add(r.institute);
+  });
+  return Array.from(byKey.values()).map(a => ({
+    specialty: a.specialty, category: a.category, opening_rank: a.opening_rank, closing_rank: a.closing_rank,
+    seats_counted: a.seats_counted, institutes_counted: a.institutes.size,
+  }));
+}
+function updateSeatTypeNote() {
+  const note = document.getElementById("seat-type-note");
+  const ds = REAL_DATASETS[currentDataset];
+  if (!ds) {
+    note.innerHTML = seatTypeFilter === "government"
+      ? `This third-party estimate dataset only lists colleges directly (no per-branch ownership breakdown), so the Government filter applies to the College Predictor here, not the Branch Predictor.`
+      : ``;
+    return;
+  }
+  const total = ds.collegeRows.length, totalSeats = ds.collegeRows.reduce((s, r) => s + r.seats_counted, 0);
+  const kept = filteredCollegeRows(ds);
+  const keptSeats = kept.reduce((s, r) => s + r.seats_counted, 0);
+  if (seatTypeFilter === "government") {
+    const excluded = total - kept.length, excludedSeats = totalSeats - keptSeats;
+    note.innerHTML = `Showing <strong>${kept.length.toLocaleString('en-IN')} government-college seat-rows</strong> (${keptSeats.toLocaleString('en-IN')} seats) in ${ds.roundNote}. ${excluded.toLocaleString('en-IN')} rows (${excludedSeats.toLocaleString('en-IN')} seats) at private/deemed colleges or hospitals with unverified ownership are excluded -- switch to "All seats" to include them.`;
+  } else {
+    note.innerHTML = `Showing all ${total.toLocaleString('en-IN')} seat-rows (${totalSeats.toLocaleString('en-IN')} seats) in ${ds.roundNote}, including private/deemed colleges and DNB/Diploma hospitals of unverified ownership.`;
+  }
+}
+
 function populateCollegeSpecialtyOptions() {
   const select = document.getElementById("college-specialty");
   const names = REAL_DATASETS[currentDataset] ? REAL_DATASETS[currentDataset].specialtyNames : ESTIMATE2025_SPECIALTY_NAMES;
@@ -876,6 +958,7 @@ function initPredictor() {
   populateCollegeSpecialtyOptions();
   updateSourcesFooter();
   updateDatasetWarning();
+  updateSeatTypeNote();
 
   document.getElementById("dataset-select").value = currentDataset;
   document.getElementById("dataset-select").addEventListener("change", (e) => {
@@ -884,6 +967,14 @@ function initPredictor() {
     populateCollegeSpecialtyOptions();
     updateSourcesFooter();
     updateCalculatedWarning();
+    updateSeatTypeNote();
+    document.getElementById("predictor-results").innerHTML = "";
+  });
+
+  document.getElementById("seat-type-select").value = seatTypeFilter;
+  document.getElementById("seat-type-select").addEventListener("change", (e) => {
+    seatTypeFilter = e.target.value;
+    updateSeatTypeNote();
     document.getElementById("predictor-results").innerHTML = "";
   });
 
@@ -907,10 +998,13 @@ function initPredictor() {
 
     const ds = REAL_DATASETS[currentDataset];
     if (ds) {
-      const withData = ds.specialties.filter(s => s.category === category);
+      // Recomputed from the seat-type-filtered institute rows, not the
+      // dataset's own precomputed rollup -- see recomputeSpecialties().
+      const specialties = recomputeSpecialties(filteredCollegeRows(ds));
+      const withData = specialties.filter(s => s.category === category);
       const matches = withData.filter(s => s.closing_rank >= rank).sort((a, b) => a.closing_rank - b.closing_rank);
       if (matches.length === 0) {
-        resultsEl.innerHTML = `<div class="empty-state">No specialty's ${ds.roundNote} closing rank for ${category} reached rank ${rank.toLocaleString('en-IN')} in this data.</div>`;
+        resultsEl.innerHTML = `<div class="empty-state">No specialty's ${ds.roundNote} closing rank for ${category} reached rank ${rank.toLocaleString('en-IN')} in this data${seatTypeFilter === "government" ? " (government seats only)" : ""}.</div>`;
         return;
       }
       resultsEl.innerHTML = matches.map(s => `<div class="predictor-result-card"><div class="name">${s.specialty}<span class="basis-badge reported">Reported</span></div>
@@ -949,14 +1043,15 @@ function initPredictor() {
 
     const ds = REAL_DATASETS[currentDataset];
     if (ds) {
-      const allForCategory = ds.collegeRows.filter(r => r.specialty === specialty && r.category === category);
+      const allForCategory = filteredCollegeRows(ds).filter(r => r.specialty === specialty && r.category === category);
       const colleges = allForCategory.filter(c => c.closing_rank >= rank).sort((a, b) => a.closing_rank - b.closing_rank);
+      const seatTypeSuffix = seatTypeFilter === "government" ? " (government seats only)" : "";
       if (allForCategory.length === 0) {
-        resultsEl.innerHTML = `<div class="empty-state">No ${category} seats recorded for ${specialty} in this ${ds.roundNote} data.</div>`;
+        resultsEl.innerHTML = `<div class="empty-state">No ${category} seats recorded for ${specialty} in this ${ds.roundNote} data${seatTypeSuffix}.</div>`;
         return;
       }
       if (colleges.length === 0) {
-        resultsEl.innerHTML = `<div class="empty-state">None of the ${allForCategory.length} colleges with ${specialty} (${category}) data closed at or beyond rank ${rank.toLocaleString('en-IN')} in ${ds.roundNote}.</div>`;
+        resultsEl.innerHTML = `<div class="empty-state">None of the ${allForCategory.length} colleges with ${specialty} (${category}) data${seatTypeSuffix} closed at or beyond rank ${rank.toLocaleString('en-IN')} in ${ds.roundNote}.</div>`;
         return;
       }
       resultsEl.innerHTML = colleges.map(c => `<div class="predictor-result-card"><div class="name">${c.institute}<span class="basis-badge reported">Reported</span></div>
@@ -964,7 +1059,8 @@ function initPredictor() {
       return;
     }
 
-    const allForCategory = (PREDICTOR.colleges_by_specialty[specialty] || {})[category] || [];
+    const allForCategoryRaw = (PREDICTOR.colleges_by_specialty[specialty] || {})[category] || [];
+    const allForCategory = allForCategoryRaw.filter(c => passesSeatTypeFilter(c.college));
     const colleges = allForCategory.filter(c => c.closing_rank >= rank).sort((a, b) => a.closing_rank - b.closing_rank);
     if (allForCategory.length === 0) {
       resultsEl.innerHTML = `<div class="empty-state">No ${category} data available for ${specialty} &mdash; the specialty-level source has no ${category} figure to calculate from.</div>`;
@@ -1006,6 +1102,27 @@ def main() -> None:
     real_datasets_json_str = json.dumps(real_datasets)
     default_dataset_id = dataset_ids[0] if dataset_ids else "estimate2025"
 
+    # Government/Private classification for the Predictor's "Government
+    # seats only" filter -- see engine/college_type.py for how and why.
+    # Built once here (institute name -> "government"/"private") from every
+    # institute name that appears anywhere in the real datasets or the
+    # third-party estimate dataset; a name that doesn't appear in this map
+    # is treated by the site as "unverified" (never assumed government).
+    all_institute_names = set()
+    for ds in real_datasets.values():
+        for row in ds.get("college_specialty_category", []):
+            all_institute_names.add(row["institute"])
+    for rows in predictor_data.get("colleges_by_specialty", {}).values():
+        for cat_rows in rows.values():
+            for row in cat_rows:
+                all_institute_names.add(row["college"])
+    college_type_map = {
+        college_type._norm(name): t
+        for name in all_institute_names
+        if (t := college_type.classify(name)) != "unverified"
+    }
+    college_type_json_str = json.dumps(college_type_map)
+
     dataset_options_html = "\n".join(
         f'      <option value="{i}">{real_datasets[i]["label"]}</option>' for i in dataset_ids
     )
@@ -1020,6 +1137,7 @@ def main() -> None:
         .replace("__DATA_JSON__", data_json_str)
         .replace("__PREDICTOR_JSON__", predictor_json_str)
         .replace("__REAL_DATASETS_JSON__", real_datasets_json_str)
+        .replace("__COLLEGE_TYPE_JSON__", college_type_json_str)
         .replace("__DEFAULT_DATASET_ID__", default_dataset_id)
     )
 
