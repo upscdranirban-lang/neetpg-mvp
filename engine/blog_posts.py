@@ -171,6 +171,30 @@ _PWD_INFLATION_SVG = """
 </svg>
 """
 
+_SERVICE_BOND_SVG = """
+<svg viewBox="0 0 320 200" role="img" aria-label="Two seat cards: a government medical college with a normal closing rank of 18,200, and a Command Hospital seat with a lock icon and a closing rank of 205,105">
+  <rect x="0" y="0" width="320" height="200" fill="none"/>
+  <g transform="translate(18,26)">
+    <rect x="0" y="0" width="130" height="140" rx="14" fill="var(--surface-2)" stroke="var(--line)" stroke-width="1.5"/>
+    <circle cx="65" cy="42" r="20" fill="none" stroke="var(--brand-fill)" stroke-width="3.5"/>
+    <path d="M55 42l7 7 14-15" fill="none" stroke="var(--brand-fill)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="65" y="88" text-anchor="middle" font-family="Public Sans, sans-serif" font-size="10.5" font-weight="700" fill="var(--ink)">Govt. medical</text>
+    <text x="65" y="101" text-anchor="middle" font-family="Public Sans, sans-serif" font-size="10.5" font-weight="700" fill="var(--ink)">college</text>
+    <text x="65" y="124" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="13" font-weight="700" fill="var(--brand-fill)">18,200</text>
+  </g>
+  <g transform="translate(172,26)">
+    <rect x="0" y="0" width="130" height="140" rx="14" fill="var(--surface-2)" stroke="var(--accent)" stroke-width="2"/>
+    <rect x="45" y="26" width="40" height="30" rx="5" fill="none" stroke="var(--accent)" stroke-width="3.5"/>
+    <path d="M52 26v-6a13 13 0 0126 0v6" fill="none" stroke="var(--accent)" stroke-width="3.5"/>
+    <circle cx="65" cy="41" r="4" fill="var(--accent)"/>
+    <text x="65" y="88" text-anchor="middle" font-family="Public Sans, sans-serif" font-size="10.5" font-weight="700" fill="var(--ink)">Command</text>
+    <text x="65" y="101" text-anchor="middle" font-family="Public Sans, sans-serif" font-size="10.5" font-weight="700" fill="var(--ink)">Hospital</text>
+    <text x="65" y="124" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="13" font-weight="700" fill="var(--accent)">2,05,105</text>
+  </g>
+  <text x="160" y="192" text-anchor="middle" font-family="Public Sans, sans-serif" font-size="9" fill="var(--ink-faint)">Same category (Open), same round -- one carries a mandatory service bond</text>
+</svg>
+"""
+
 _SEAT_MATRIX_GRID_SVG = """
 <svg viewBox="0 0 320 170" role="img" aria-label="A seat matrix grid with columns for Round 1, Round 2, Round 3 and Stray Vacancy Round, and rows for colleges">
   <rect x="0" y="0" width="320" height="170" fill="none"/>
@@ -228,6 +252,128 @@ _CATEGORY_CUTOFF_SVG = """
 
 
 POSTS: list[BlogPost] = [
+    BlogPost(
+        slug="neet-pg-armed-forces-bond-seats-closing-rank",
+        title="Why Some NEET-PG \"Government Seat\" Closing Ranks Look Impossible -- Armed Forces Bond Seats, Explained",
+        meta_description=(
+            "Some NEET-PG Open-category government seats show a closing rank past "
+            "2,00,000 -- and it's not a data error. It's a Command Hospital, AFMC "
+            "or Naval Medicine seat with a mandatory service bond. Real MCC numbers "
+            "inside, and how we now handle them."
+        ),
+        date="2026-09-24",
+        summary=(
+            "A General Surgery Open seat with a closing rank of 2,10,638 isn't a "
+            "typo -- it's a military service-bond seat almost no civilian candidate "
+            "competes for. Here's the real data, and why we removed these from our "
+            "\"Government seats only\" view."
+        ),
+        hero_svg=_SERVICE_BOND_SVG,
+        body_html="""
+<p>If you've ever filtered a NEET-PG seat matrix or closing-rank list down to
+"Government seats only" and spotted an Open-category closing rank in the
+lakhs -- for a normal specialty like General Surgery, Ophthalmology or
+Anaesthesiology, at what looks like a real government institute -- you
+probably assumed it was a data error, or that the specialty was somehow
+brutally undersubscribed everywhere. It's neither. In almost every case
+we've checked, that one outlier row belongs to a <strong>Command Hospital,
+Armed Forces Medical College (AFMC), Institute of Naval Medicine, Air Force
+or Base Hospital seat</strong> -- and it carries a mandatory Armed Forces
+service bond that most civilian NEET-PG candidates are not eligible for, or
+simply won't take on.</p>
+
+<h2>What these institutes actually are</h2>
+<p>The Armed Forces Medical Services (AFMS) run their own PG training seats
+inside MCC's central counselling -- these aren't a separate exam, they show
+up in the ordinary MCC allotment list, under ordinary category labels like
+"Open," "OBC" or "SC," exactly like any civilian government college seat.
+The institutes involved include:</p>
+<ul>
+  <li>Armed Forces Medical College (AFMC), Pune</li>
+  <li>Command Hospitals (Eastern, Western, Central, Southern, Air Force, etc.)</li>
+  <li>Institute of Naval Medicine</li>
+  <li>Army, Air Force and Base Hospitals (e.g. 7 Air Force Hospital, Army
+  Hospital Research &amp; Referral)</li>
+</ul>
+<p>A seat at any of these comes with a fixed period of compulsory Armed
+Forces service after the PG course -- not a small print detail, but a real
+commitment most candidates either don't qualify for or don't want. That
+single fact is enough to push very few candidates to apply, which is exactly
+what produces the strange-looking numbers below.</p>
+
+<h2>Real numbers from the 2025 MCC allotment data</h2>
+<p>Closing rank is defined as the <em>worst (highest)</em> rank actually
+allotted a seat. With only a handful of candidates willing to take the
+service bond, that worst rank can land far higher than any ordinary
+government college seat in the same specialty and category. Here's what we
+found directly in MCC's own Round 3, 2025 allotment result, Open category:</p>
+<table>
+  <thead><tr><th>Institute</th><th>Specialty</th><th>Category</th><th>Closing rank</th></tr></thead>
+  <tbody>
+    <tr><td>Base Hospital</td><td>General Surgery (DNB)</td><td>Open</td><td>2,10,638</td></tr>
+    <tr><td>Command Hospital (Central Command)</td><td>Pathology (MD/MS)</td><td>Open</td><td>2,05,105</td></tr>
+    <tr><td>Institute of Naval Medicine</td><td>General Surgery (MD/MS)</td><td>Open</td><td>2,04,184</td></tr>
+    <tr><td>Command Hospital (Eastern Command)</td><td>General Surgery (MD/MS)</td><td>Open</td><td>2,00,328</td></tr>
+    <tr><td>7 Air Force Hospital</td><td>Anaesthesiology (DNB)</td><td>Open</td><td>1,90,254</td></tr>
+  </tbody>
+</table>
+<p>For context, an ordinary Open-category government medical college seat in
+these same specialties typically closes tens of thousands of ranks earlier.
+A candidate scanning a raw MCC PDF (or a predictor that doesn't separate
+these out) could easily read one of these rows and draw exactly the wrong
+conclusion -- either "this specialty is impossibly hard everywhere" (if they
+don't realise it's a bond seat) or, worse, miss a seat they'd have been
+genuinely eligible for at a much better rank because a bond-seat row was
+sitting in the same list, unlabelled.</p>
+
+<h2>This isn't a one-off -- it's a recurring pattern across every round</h2>
+<p>We checked all three real MCC datasets we track. Armed Forces/bond-seat
+rows showed up in every one of them, always with closing ranks well past
+what a civilian government seat shows in the same specialty and category:</p>
+<table>
+  <thead><tr><th>Dataset</th><th>Bond-seat rows found</th></tr></thead>
+  <tbody>
+    <tr><td>2025 Round 3</td><td>79</td></tr>
+    <tr><td>2025 Stray Vacancy Round</td><td>13</td></tr>
+    <tr><td>2024 Round 3</td><td>16</td></tr>
+  </tbody>
+</table>
+
+<h2>How NEET-PG Help handles this now</h2>
+<p>Our Predictor's <strong>"Government seats only"</strong> filter now
+excludes Armed Forces/Command Hospital/service-bond seats entirely from
+opening/closing-rank calculations, rather than showing them mixed in with
+ordinary civilian government colleges. This isn't about hiding real seats --
+every one of these allotments genuinely happened, and a candidate willing to
+take the bond should absolutely still look for AFMS-specific counselling
+information. It's about not letting a fundamentally different kind of seat,
+with a fundamentally different eligibility bar, distort what "a government
+college closing rank" means for the civilian candidates this site is
+actually built for. This sits alongside a similar fix we made to how
+<a href="pwd-reservation-neet-pg-closing-ranks.html">PwD-reserved allotments
+affect closing ranks</a> -- both are cases where folding a seat with a
+different, more relaxed eligibility bar into an ordinary category's numbers
+makes the numbers actively misleading rather than just imprecise.</p>
+
+<h2>What this means if you're reading any NEET-PG rank list</h2>
+<p>Whenever a closing rank in a "government seat" list looks wildly out of
+line with everything around it, check the institute name before assuming
+the data is wrong. Command Hospital, AFMC, Institute of Naval Medicine, and
+Army/Air Force/Base Hospital seats all carry a service bond -- treat their
+numbers as a separate track, not a data point about ordinary government
+medical college competitiveness. If you're actually interested in an AFMS
+seat, the bond terms and eligibility are published separately by the Armed
+Forces Medical Services and are worth reading in full before you rely on
+any closing-rank number for one of these seats.</p>
+
+<h2>Try it yourself</h2>
+<p>Open the <a href="../index.html">Predictor tab</a> on NEET-PG Help, switch
+"Seats to include" to <strong>Government seats only</strong>, and check any
+high-demand specialty at Open category -- you'll no longer see a bond-seat
+outlier sitting in the results. Every figure still links back to the exact
+official MCC document it came from.</p>
+""",
+    ),
     BlogPost(
         slug="neet-pg-college-predictor-how-it-works",
         title="NEET PG College Predictor: How It Works (and Why It Uses Real MCC Data)",
