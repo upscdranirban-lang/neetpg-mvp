@@ -251,7 +251,155 @@ _CATEGORY_CUTOFF_SVG = """
 """
 
 
+_SCAM_ALERT_SVG = """
+<svg viewBox="0 0 320 200" role="img" aria-label="A fake call demanding 50,000 rupees for a guaranteed seat, crossed out, next to a real MCC allotment shown only after logging into the official portal"
+     >
+  <rect x="0" y="0" width="320" height="200" fill="none"/>
+  <g transform="translate(16,24)">
+    <rect x="0" y="0" width="130" height="146" rx="14" fill="var(--surface-2)" stroke="var(--accent)" stroke-width="2"/>
+    <circle cx="65" cy="38" r="20" fill="none" stroke="var(--accent)" stroke-width="3.5"/>
+    <path d="M56 29a24 24 0 0118 18" fill="none" stroke="var(--accent)" stroke-width="3" stroke-linecap="round"/>
+    <path d="M50 50l30-24M50 26l30 24" stroke="var(--accent)" stroke-width="3.5" stroke-linecap="round"/>
+    <text x="65" y="90" text-anchor="middle" font-family="Public Sans, sans-serif" font-size="10" font-weight="700" fill="var(--ink)">"Pay now for a</text>
+    <text x="65" y="103" text-anchor="middle" font-family="Public Sans, sans-serif" font-size="10" font-weight="700" fill="var(--ink)">guaranteed seat"</text>
+    <text x="65" y="128" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="13" font-weight="700" fill="var(--accent)">&#8377;50,000</text>
+  </g>
+  <g transform="translate(174,24)">
+    <rect x="0" y="0" width="130" height="146" rx="14" fill="var(--brand-fill)"/>
+    <rect x="41" y="20" width="48" height="36" rx="6" fill="none" stroke="var(--on-brand-fill)" stroke-width="3"/>
+    <path d="M49 20v-7a16 16 0 0132 0v7" fill="none" stroke="var(--on-brand-fill)" stroke-width="3"/>
+    <circle cx="65" cy="38" r="4" fill="var(--on-brand-fill)"/>
+    <text x="65" y="92" text-anchor="middle" font-family="Public Sans, sans-serif" font-size="10" font-weight="700" fill="var(--on-brand-fill)">Login at</text>
+    <text x="65" y="105" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="9.5" font-weight="700" fill="var(--on-brand-fill)">mcc.nic.in</text>
+    <text x="65" y="128" text-anchor="middle" font-family="Public Sans, sans-serif" font-size="10" font-weight="700" fill="var(--on-brand-fill)">to see your seat</text>
+  </g>
+  <text x="160" y="190" text-anchor="middle" font-family="Public Sans, sans-serif" font-size="9" fill="var(--ink-faint)">No call, SMS or agent can allot a seat -- only your own login can</text>
+</svg>
+"""
+
+
 POSTS: list[BlogPost] = [
+    BlogPost(
+        slug="neet-pg-scam-call-guaranteed-seat-fraud-alert",
+        title="NEET-PG Scam Alert 2026: How to Tell a Real MCC Call From a Fraud",
+        meta_description=(
+            "NBEMS has issued a fraud alert for NEET-PG 2026 aspirants -- fake "
+            "calls, \"guaranteed seat\" agents and phishing SMS are circulating "
+            "during counselling. Here's exactly how MCC allotment really works, "
+            "so you can tell a real message from a scam in seconds."
+        ),
+        date="2026-09-27",
+        summary=(
+            "NBEMS just warned NEET-PG aspirants about fake calls, \"guaranteed "
+            "seat\" agents and phishing SMS during counselling. Here's the real "
+            "MCC allotment process, and a 5-second checklist to spot a scam."
+        ),
+        hero_svg=_SCAM_ALERT_SVG,
+        body_html="""
+<p>If you're in the middle of NEET-PG counselling right now, you are also,
+whether you know it or not, a target. In September 2026 the National Board
+of Examinations in Medical Sciences (NBEMS) issued a formal fraud alert to
+NEET-PG aspirants, warning of fake calls, phishing messages and agents
+promising a "guaranteed seat" for money. This follows an earlier, well-
+documented incident in which personal details of roughly 1.38 lakh NEET-PG
+aspirants -- names, phone numbers, email addresses, roll numbers, application
+IDs and even fathers' names -- were reportedly found for sale on a Telegram
+channel for &#8377;3,599. That combination matters: a scammer who already has
+your name, roll number and phone number can sound extremely convincing on a
+cold call. This post explains what MCC's real allotment process actually
+looks like, so you can tell the difference in seconds -- and never have to
+guess.</p>
+
+<h2>What NBEMS actually warned about</h2>
+<p>The official alert groups the risk into three categories:</p>
+<ul>
+  <li><strong>Cyber fraud</strong> -- phishing emails, fake SMS and lookalike
+  websites built to mimic the real NBEMS or MCC counselling portal, designed
+  to steal your login credentials or payment details.</li>
+  <li><strong>Fake agencies and unauthorised agents</strong> -- people or
+  "consultancies" who promise a management-quota or "guaranteed" seat in
+  exchange for money. NBEMS's own position is unambiguous: admissions are
+  strictly merit-based through your NEET-PG score and the official
+  counselling process, and no agent or middleman is authorised to allot a
+  seat, ever.</li>
+  <li><strong>Identity theft</strong> -- attempts to extract your application
+  number, login password, Aadhaar number or one-time passwords (OTPs), which
+  can then be used to tamper with your own application or impersonate you.</li>
+</ul>
+
+<h2>The 5-second check: how a real MCC allotment actually works</h2>
+<p>You don't need to memorise a long list of warning signs. You need to know
+one fact about how the real process works, because every scam breaks it the
+same way:</p>
+<p style="font-size:1.05em"><strong>A seat is only ever allotted through your
+own login on the official MCC counselling portal. Nobody can call, message
+or email you a seat.</strong> There is no phone-based confirmation step, no
+"processing fee" to unlock your result, and no agent who can see or influence
+your allotment before you do. If you can log in to mcc.nic.in yourself with
+your own credentials and see the same seat someone is calling you about, it's
+real -- because you saw it independently, not because they told you. If you
+can't find it there, nothing they say on the phone changes that.</p>
+
+<h2>What a genuine MCC/NBEMS communication looks like</h2>
+<table>
+  <thead><tr><th>Real</th><th>Never real</th></tr></thead>
+  <tbody>
+    <tr><td>You check your allotment status yourself by logging in at
+    <strong>mcc.nic.in</strong> (or your state authority's own portal)</td>
+    <td>Someone calls or messages you first to tell you that you got a seat</td></tr>
+    <tr><td>Counselling fees are paid only through the official portal's own
+    payment gateway, at the amount published in the official brochure</td>
+    <td>Any request to pay a separate "processing," "confirmation" or
+    "guarantee" fee outside the portal, especially by UPI to a personal
+    number</td></tr>
+    <tr><td>Official notices are published on <strong>mcc.nic.in</strong> or
+    <strong>natboard.edu.in</strong>, with a dated, signed circular</td>
+    <td>A screenshot, forwarded PDF or WhatsApp message claiming to be an
+    "MCC notice" with no link back to the official site</td></tr>
+    <tr><td>Every document MCC publishes carries no promise about any
+    individual candidate's outcome -- it's the same document for everyone</td>
+    <td>Anyone claiming they can personally get you into a specific college
+    or specialty for a price</td></tr>
+  </tbody>
+</table>
+
+<h2>If you've already received a suspicious call or message</h2>
+<ul>
+  <li><strong>Don't share your OTP, password, or Aadhaar number</strong> with
+  anyone over a call or message, no matter how much of your other information
+  they already seem to know -- that's exactly what a leaked database lets a
+  scammer fake.</li>
+  <li><strong>Don't pay anyone outside the official portal's payment
+  gateway</strong> for any counselling-related fee, under any name.</li>
+  <li><strong>Verify independently</strong> -- close the call, open a browser
+  yourself, and check your status directly on mcc.nic.in. Never click a link
+  sent to you in the same message that's asking you to act urgently.</li>
+  <li><strong>Report it</strong> to MCC/NBEMS through their official contact
+  channels, and to the National Cyber Crime Reporting Portal
+  (cybercrime.gov.in) if money changed hands.</li>
+</ul>
+
+<h2>Why this matters more during the stray vacancy round</h2>
+<p>Scam activity around counselling tends to spike exactly when anxiety is
+highest -- late rounds, stray vacancies, and candidates who are running out of
+rounds and are more likely to panic at an offer that sounds like a shortcut.
+If you're refreshing your allotment status anxiously during a stray round
+right now, that's precisely the moment a "guaranteed seat" call is designed
+to catch you off guard. The process doesn't change under pressure: it's still
+login-only, still merit-based, still free of any agent.</p>
+
+<h2>Where NEET-PG Help fits in</h2>
+<p>Every number on this site -- seat matrices, closing ranks, allotment
+results -- is pulled directly from an official MCC document, and we link back
+to that exact source on every page. We can't allot you a seat, verify your
+application, or take a payment on MCC's behalf, and no legitimate site can.
+If anyone contacts you claiming otherwise -- whether they mention this site,
+a "partner" of ours, or any other name -- it's not us, and it's not real.
+Use the <a href="../index.html">Predictor</a> to check what a rank in your
+category has actually gotten in past rounds, but always confirm your own
+result only on the official MCC portal.</p>
+""",
+    ),
     BlogPost(
         slug="neet-pg-armed-forces-bond-seats-closing-rank",
         title="Why Some NEET-PG \"Government Seat\" Closing Ranks Look Impossible -- Armed Forces Bond Seats, Explained",
