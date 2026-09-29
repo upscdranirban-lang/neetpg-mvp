@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T05:45:33.462404+00:00",
+  "generated_at": "2026-09-29T12:55:21.017114+00:00",
   "dashboard": {
     "current_cycle": "PG Counselling 2025",
     "rounds_seen": [
@@ -8,12 +8,32 @@
       "Round 2",
       "Round 1"
     ],
-    "last_checked": "2026-09-29T05:45:33.454223+00:00",
-    "last_official_update": "2026-09-16",
+    "last_checked": "2026-09-29T12:55:21.008450+00:00",
+    "last_official_update": "2026-09-29",
     "sources_monitored": 3,
-    "total_documents": 538
+    "total_documents": 540
   },
   "documents": [
+    {
+      "id": 539,
+      "source_id": "mcc_pg_news_events",
+      "content_hash": "085ddbc580d6fb828ff57800966c5a9074008708810ab5ac820f6f05513815c4",
+      "title": "Notice for PwD assessment for PG Round 1 2026",
+      "file_url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/09/202609291035233397.pdf",
+      "doc_type": "public_notice",
+      "doc_type_confidence": 0.9,
+      "cycle_label": null,
+      "round_label": "Round 1",
+      "pub_date": "2026-09-29",
+      "pub_date_basis": "filename",
+      "pub_date_confidence": "medium",
+      "retrieved_at": "2026-09-29T12:55:19.507094+00:00",
+      "listing_position": 0,
+      "raw_year_column": "2026",
+      "superseded_by_id": null,
+      "source_url": "https://mcc.nic.in/news-events-pg/",
+      "authority_name": "Medical Counselling Committee"
+    },
     {
       "id": 13,
       "source_id": "mcc_pg_news_events",
@@ -689,6 +709,26 @@
       "pub_date_confidence": "high",
       "retrieved_at": "2026-09-23T10:30:41.552994+00:00",
       "listing_position": 49,
+      "raw_year_column": "2025",
+      "superseded_by_id": null,
+      "source_url": "https://mcc.nic.in/archive-pg/",
+      "authority_name": "Medical Counselling Committee"
+    },
+    {
+      "id": 540,
+      "source_id": "mcc_pg_archive",
+      "content_hash": "9b775fa59cb9e1d0cf0bfa85e17a71020c7a98d6324bc135fbc557d97fd76c6c",
+      "title": "KIND ATTENTION : INSTITUTES AND CANDIDATES PG 2025",
+      "file_url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2025/12/202512121229316685.pdf",
+      "doc_type": "unclassified",
+      "doc_type_confidence": 0.3,
+      "cycle_label": "PG Counselling 2025",
+      "round_label": null,
+      "pub_date": "2025-12-12",
+      "pub_date_basis": "filename",
+      "pub_date_confidence": "medium",
+      "retrieved_at": "2026-09-29T12:55:20.721842+00:00",
+      "listing_position": 63,
       "raw_year_column": "2025",
       "superseded_by_id": null,
       "source_url": "https://mcc.nic.in/archive-pg/",
@@ -10777,6 +10817,22 @@
   ],
   "changes": [
     {
+      "id": 539,
+      "document_id": 539,
+      "change_type": "new_document",
+      "detected_at": "2026-09-29T12:55:19.507094+00:00",
+      "run_id": 116,
+      "summary": "New public notice: Notice for PwD assessment for PG Round 1 2026",
+      "title": "Notice for PwD assessment for PG Round 1 2026",
+      "doc_type": "public_notice",
+      "file_url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/09/202609291035233397.pdf",
+      "round_label": "Round 1",
+      "cycle_label": null,
+      "pub_date": "2026-09-29",
+      "pub_date_basis": "filename",
+      "pub_date_confidence": "medium"
+    },
+    {
       "id": 13,
       "document_id": 13,
       "change_type": "new_document",
@@ -11319,6 +11375,22 @@
       "pub_date": "2025-12-13",
       "pub_date_basis": "title",
       "pub_date_confidence": "high"
+    },
+    {
+      "id": 540,
+      "document_id": 540,
+      "change_type": "new_document",
+      "detected_at": "2026-09-29T12:55:20.721842+00:00",
+      "run_id": 117,
+      "summary": "New unclassified: KIND ATTENTION : INSTITUTES AND CANDIDATES PG 2025",
+      "title": "KIND ATTENTION : INSTITUTES AND CANDIDATES PG 2025",
+      "doc_type": "unclassified",
+      "file_url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2025/12/202512121229316685.pdf",
+      "round_label": null,
+      "cycle_label": "PG Counselling 2025",
+      "pub_date": "2025-12-12",
+      "pub_date_basis": "filename",
+      "pub_date_confidence": "medium"
     },
     {
       "id": 536,
@@ -19388,17 +19460,17 @@
   "sources": [
     {
       "source_id": "mcc_pg_archive",
-      "last_finished_at": "2026-09-29T05:45:33.454223+00:00",
+      "last_finished_at": "2026-09-29T12:55:21.008450+00:00",
       "status": "ok"
     },
     {
       "source_id": "mcc_pg_current_events",
-      "last_finished_at": "2026-09-29T05:45:31.734738+00:00",
+      "last_finished_at": "2026-09-29T12:55:18.285982+00:00",
       "status": "ok"
     },
     {
       "source_id": "mcc_pg_news_events",
-      "last_finished_at": "2026-09-29T05:45:32.597420+00:00",
+      "last_finished_at": "2026-09-29T12:55:19.543100+00:00",
       "status": "ok"
     }
   ]
