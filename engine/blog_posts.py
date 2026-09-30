@@ -278,7 +278,157 @@ _SCAM_ALERT_SVG = """
 """
 
 
+_RESULT_TO_REALITY_SVG = """
+<svg viewBox="0 0 320 190" role="img" aria-label="A NEET-PG 2026 scorecard with a rank number, an arrow pointing to a bar chart of real 2025 MCC closing ranks by specialty">
+  <rect x="0" y="0" width="320" height="190" fill="none"/>
+  <g transform="translate(14,20)">
+    <rect x="0" y="0" width="92" height="118" rx="12" fill="var(--surface-2)" stroke="var(--line)" stroke-width="1.5"/>
+    <text x="46" y="26" text-anchor="middle" font-family="Public Sans, sans-serif" font-size="9.5" font-weight="700" fill="var(--ink-muted)">SCORECARD</text>
+    <line x1="14" y1="38" x2="78" y2="38" stroke="var(--line)" stroke-width="1.5"/>
+    <text x="46" y="62" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="20" font-weight="700" fill="var(--ink)">Rank</text>
+    <text x="46" y="86" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="15" font-weight="700" fill="var(--brand-fill)">45,000</text>
+    <text x="46" y="106" text-anchor="middle" font-family="Public Sans, sans-serif" font-size="9" fill="var(--ink-faint)">2026 result</text>
+  </g>
+  <path d="M118 79h34" stroke="var(--ink-faint)" stroke-width="3" stroke-linecap="round"/>
+  <path d="M142 70l12 9-12 9" fill="none" stroke="var(--ink-faint)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(168,20)">
+    <rect x="0" y="0" width="138" height="118" rx="12" fill="var(--surface-2)" stroke="var(--accent)" stroke-width="1.5"/>
+    <text x="69" y="20" text-anchor="middle" font-family="Public Sans, sans-serif" font-size="9" font-weight="700" fill="var(--ink-muted)">REAL 2025 CLOSING RANKS</text>
+    <line x1="18" y1="100" x2="120" y2="100" stroke="var(--line)" stroke-width="1.5"/>
+    <rect x="24" y="46" width="16" height="54" rx="3" fill="var(--accent)"/>
+    <rect x="50" y="34" width="16" height="66" rx="3" fill="var(--accent)"/>
+    <rect x="76" y="54" width="16" height="46" rx="3" fill="var(--accent)"/>
+    <rect x="102" y="40" width="16" height="60" rx="3" fill="var(--accent)"/>
+  </g>
+  <text x="160" y="182" text-anchor="middle" font-family="Public Sans, sans-serif" font-size="9" fill="var(--ink-faint)">Real MCC allotment data, not a guessed percentile-to-rank formula</text>
+</svg>
+"""
+
+
 POSTS: list[BlogPost] = [
+    BlogPost(
+        slug="neet-pg-2026-result-out-what-your-rank-means",
+        title="NEET-PG 2026 Result Is Out: What Your Rank Actually Means for Counselling",
+        meta_description=(
+            "NEET-PG 2026 result declared 24 Sept, scorecards from 1 Oct, cutoff "
+            "262/244/226. Before you panic or celebrate over your rank, see what "
+            "similar ranks actually got in 2025 -- real MCC closing-rank data, plus "
+            "a document checklist to prep for counselling now."
+        ),
+        date="2026-09-30",
+        summary=(
+            "Result's out, scorecards land 1 Oct -- but a rank number alone tells "
+            "you almost nothing. Here's what similar ranks actually got in 2025's "
+            "real MCC data, and a document checklist to get ready for counselling "
+            "before it's announced."
+        ),
+        hero_svg=_RESULT_TO_REALITY_SVG,
+        body_html="""
+<p>NBEMS declared the NEET-PG 2026 result on 24 September, and individual
+scorecards open for download on 1 October. Around 2,65,960 candidates
+appeared this year, and the qualifying cutoff came in at <strong>262/720
+(50th percentile) for General/EWS, 244 (45th percentile) for General-PwBD,
+and 226 (40th percentile) for SC/ST/OBC including PwBD</strong>. If you
+qualified, the next question is the one no result-day article actually
+answers: <em>what does a rank like mine actually get, once counselling
+starts?</em> A percentile tells you where you stand among everyone who took
+the exam. It tells you nothing about which college or specialty that
+translates to -- for that you need real seat-by-seat allotment data, not a
+guess.</p>
+
+<h2>Your rank alone can't tell you that -- but last year's real data can</h2>
+<p>MCC hasn't announced counselling registration dates yet ("to be notified"
+is the official line right now), so nobody -- including us -- can tell you
+exactly what your 2026 rank will get before a single 2026 seat is allotted.
+What we can show you is something more useful than a guess: the
+<strong>real closing ranks MCC actually allotted in 2025</strong>, taken
+directly from the official Round 3 result PDF, not estimated from a
+percentile-to-rank formula. Use this as a calibration point, not a
+prediction -- seat counts, applicant numbers and cutoffs shift every year,
+sometimes significantly.</p>
+
+<table>
+  <thead><tr><th>Specialty (MD/MS)</th><th>Open opening rank</th><th>Open closing rank</th><th>Seats counted</th></tr></thead>
+  <tbody>
+    <tr><td>Radio-Diagnosis</td><td>6</td><td>2,24,521</td><td>353</td></tr>
+    <tr><td>Orthopaedics</td><td>54</td><td>2,29,242</td><td>461</td></tr>
+    <tr><td>Dermatology &amp; Venereology</td><td>121</td><td>2,09,076</td><td>167</td></tr>
+    <tr><td>Obstetrics &amp; Gynaecology</td><td>329</td><td>2,16,112</td><td>533</td></tr>
+    <tr><td>Paediatrics</td><td>420</td><td>2,21,936</td><td>531</td></tr>
+    <tr><td>General Surgery</td><td>451</td><td>2,20,647</td><td>635</td></tr>
+    <tr><td>Anaesthesiology</td><td>535</td><td>2,09,666</td><td>675</td></tr>
+    <tr><td>General Medicine</td><td>26</td><td>2,28,379</td><td>583</td></tr>
+    <tr><td>Psychiatry</td><td>2,079</td><td>2,12,372</td><td>119</td></tr>
+  </tbody>
+</table>
+<p>Read that table carefully: an <strong>opening rank</strong> in double or
+triple digits for almost every one of these specialties, next to a
+<strong>closing rank</strong> past 2,00,000 -- across every one of them. That
+gap is the entire point. These are large-seat-count specialties spread
+across hundreds of institutes of hugely varying reputation, so "the closing
+rank for Orthopaedics is 2,29,242" doesn't mean any random Orthopaedics seat
+is open to rank 2,29,242 -- it means the single worst-ranked candidate who
+got any Orthopaedics seat, anywhere, at any institute, happened to be at
+that rank. Your actual shot at a specific institute depends entirely on
+which one you're asking about, which is exactly why an all-India cutoff or
+percentile can't answer "what will I get" on its own.</p>
+
+<h2>Why we show real closing ranks instead of a predicted cutoff</h2>
+<p>A lot of "NEET-PG 2026 rank predictor" content published this week will
+give you a single estimated number based on last year's trend line. We do
+something narrower on purpose: every rank above comes from MCC's own Round
+3, 2025 allotment result PDF, computed institute-by-institute and
+specialty-by-specialty, not modelled. You can read exactly how that
+computation works, and its limits, in our <a
+href="neet-pg-college-predictor-how-it-works.html">predictor
+methodology post</a>, and how category cutoffs behave differently across
+Open/OBC/EWS/SC/ST in our <a
+href="neet-pg-category-wise-cutoff-explained.html">category-wise cutoff
+explainer</a>.</p>
+
+<h2>What actually happens next</h2>
+<ul>
+  <li><strong>1 October 2026</strong> -- individual scorecards become
+  downloadable from natboard.edu.in with your own login (not just the
+  qualifying-list PDF, which needs no login).</li>
+  <li><strong>MCC AIQ counselling registration</strong> -- date not yet
+  announced. Historically this follows the result by several weeks; don't
+  wait for the announcement to get your documents ready.</li>
+  <li><strong>State-quota counselling</strong> -- runs on each state's own
+  timeline, separately from MCC's All-India Quota rounds.</li>
+</ul>
+
+<h2>Get your documents ready now -- don't wait for the registration date</h2>
+<p>The single biggest avoidable stress during counselling is scrambling for
+a document the night before a reporting deadline. Pull these together now,
+while you're waiting on the registration announcement:</p>
+<ul>
+  <li>NEET-PG 2026 admit card and scorecard/rank letter</li>
+  <li>Class 10 and Class 12 certificates (proof of date of birth and
+  education)</li>
+  <li>MBBS degree certificate/provisional certificate, and internship
+  completion certificate</li>
+  <li>Permanent or provisional registration certificate from your State
+  Medical Council or the NMC</li>
+  <li>Category certificate (OBC-NCL/SC/ST/EWS), issued within the current
+  validity window, if applicable</li>
+  <li>PwBD certificate from a designated centre, if applicable</li>
+  <li>Passport-size photographs in the specification MCC's brochure will
+  ask for, and a valid photo ID (Aadhaar/passport)</li>
+  <li>NOC from your current employer, if you're in government service</li>
+</ul>
+<p>Exact requirements are published in MCC's official counselling brochure
+once registration opens -- treat this as a head start, not a final list, and
+confirm against the brochure when it's out.</p>
+
+<h2>Try it once your own scorecard is out</h2>
+<p>From 1 October, once you know your own rank, open the <a
+href="../index.html">Predictor</a> and check what similar ranks and
+categories actually reached in real 2025 data, specialty by specialty and
+college by college -- not just the headline numbers in this post. Every
+figure links back to the exact official MCC document it came from.</p>
+""",
+    ),
     BlogPost(
         slug="neet-pg-scam-call-guaranteed-seat-fraud-alert",
         title="NEET-PG Scam Alert 2026: How to Tell a Real MCC Call From a Fraud",
