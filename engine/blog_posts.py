@@ -305,7 +305,144 @@ _RESULT_TO_REALITY_SVG = """
 """
 
 
+_INICET_FORK_SVG = """
+<svg viewBox="0 0 320 200" role="img" aria-label="Two diverging paths from MBBS plus internship: NEET-PG leading to government and private medical colleges, and INI-CET leading to AIIMS, JIPMER, PGIMER, NIMHANS and SCTIMST"
+     >
+  <rect x="0" y="0" width="320" height="200" fill="none"/>
+  <g transform="translate(118,8)">
+    <rect x="0" y="0" width="84" height="38" rx="10" fill="var(--surface-2)" stroke="var(--line)" stroke-width="1.5"/>
+    <text x="42" y="17" text-anchor="middle" font-family="Public Sans, sans-serif" font-size="9.5" font-weight="700" fill="var(--ink)">MBBS +</text>
+    <text x="42" y="30" text-anchor="middle" font-family="Public Sans, sans-serif" font-size="9.5" font-weight="700" fill="var(--ink)">Internship</text>
+  </g>
+  <path d="M150 46 L70 86" fill="none" stroke="var(--ink-faint)" stroke-width="2.5"/>
+  <path d="M170 46 L250 86" fill="none" stroke="var(--ink-faint)" stroke-width="2.5"/>
+  <g transform="translate(14,88)">
+    <rect x="0" y="0" width="128" height="60" rx="10" fill="var(--brand-fill)"/>
+    <text x="64" y="24" text-anchor="middle" font-family="Public Sans, sans-serif" font-size="12" font-weight="700" fill="var(--on-brand-fill)">NEET-PG</text>
+    <text x="64" y="42" text-anchor="middle" font-family="Public Sans, sans-serif" font-size="9" fill="var(--on-brand-fill)">Govt. + private MD/MS</text>
+  </g>
+  <g transform="translate(178,88)">
+    <rect x="0" y="0" width="128" height="60" rx="10" fill="var(--accent)"/>
+    <text x="64" y="24" text-anchor="middle" font-family="Public Sans, sans-serif" font-size="12" font-weight="700" fill="var(--on-brand-fill)">INI-CET</text>
+    <text x="64" y="42" text-anchor="middle" font-family="Public Sans, sans-serif" font-size="9" fill="var(--on-brand-fill)">AIIMS / JIPMER / PGIMER</text>
+  </g>
+  <text x="160" y="178" text-anchor="middle" font-family="Public Sans, sans-serif" font-size="9.5" font-weight="600" fill="var(--ink-muted)">Two separate exams, two separate counsellings</text>
+  <text x="160" y="193" text-anchor="middle" font-family="Public Sans, sans-serif" font-size="9" fill="var(--ink-faint)">Many candidates sit both</text>
+</svg>
+"""
+
+
 POSTS: list[BlogPost] = [
+    BlogPost(
+        slug="ini-cet-explained-free-rank-college-predictor",
+        title="INI-CET Explained: The Other PG Entrance Exam (and a Free Real-Data Predictor for It)",
+        meta_description=(
+            "INI-CET is a separate exam from NEET-PG that decides admission to "
+            "AIIMS, JIPMER, PGIMER, NIMHANS and SCTIMST. Here's how it works, how "
+            "it differs from NEET-PG, and ini-cet.com -- a free rank and college "
+            "predictor built on real official closing-rank data."
+        ),
+        date="2026-10-03",
+        summary=(
+            "AIIMS, JIPMER, PGIMER, NIMHANS and SCTIMST don't use your NEET-PG "
+            "rank at all -- they run a separate exam called INI-CET. Here's how it "
+            "works, and a free tool built on real closing-rank data for it."
+        ),
+        hero_svg=_INICET_FORK_SVG,
+        body_html="""
+<p>If you've been deep in NEET-PG counselling, it's easy to assume every
+government medical college PG seat in India runs through MCC's AIQ and state
+counselling. It doesn't. <strong>AIIMS (all 19 campuses), JIPMER Puducherry,
+PGIMER Chandigarh, NIMHANS Bengaluru and SCTIMST Trivandrum</strong> -- 23
+institutes in total, among the most sought-after in the country -- sit
+outside NEET-PG counselling entirely. Admission to their MD/MS/MDS/DM/MCh
+seats runs through a completely separate exam: the <strong>Institute of
+National Importance Combined Entrance Test, or INI-CET</strong>. A lot of
+NEET-PG aspirants either don't know this exam exists, or know the name but
+not how it actually works -- which is a real gap, because INI-CET is open to
+the same candidates and worth planning for alongside NEET-PG, not instead of
+it.</p>
+
+<h2>What INI-CET actually is</h2>
+<ul>
+  <li><strong>Conducted by:</strong> AIIMS New Delhi, centrally, for seats
+  across all 23 INI institutes.</li>
+  <li><strong>Frequency:</strong> twice a year -- a session held in May
+  (for the July intake) and one held in November (for the January intake).
+  You can attempt either or both in a year.</li>
+  <li><strong>Eligibility:</strong> an MBBS degree from an NMC-recognised
+  institution, a completed rotating internship, and a minimum aggregate of
+  55% (General/OBC/EWS) or 50% (SC/ST) in MBBS -- there is no requirement to
+  have taken or qualified NEET-PG first. The two exams are entirely
+  independent of each other.</li>
+  <li><strong>Format:</strong> a computer-based test with 200 MCQs across
+  four sections of 45 minutes each. Each section locks once its time is up
+  -- you cannot go back to an earlier section once you've moved on.
+  Marking is +1 for a correct answer and -1/3 for an incorrect one.</li>
+</ul>
+<p>Because it's a separate exam with its own exam calendar, its own
+application process, and its own counselling and seat allotment -- run by
+AIIMS, not MCC -- candidates who want a shot at any of these 23 institutes
+need to register and prepare for INI-CET specifically. Qualifying NEET-PG
+does not get you into AIIMS or JIPMER, and qualifying INI-CET does not get
+you a state or AIQ government-college seat under NEET-PG.</p>
+
+<h2>The same problem NEET-PG candidates have -- just for a different exam</h2>
+<p>Once you've cleared the exam, the real question is identical to the one
+every NEET-PG candidate asks: <em>what rank actually gets me which institute
+and which specialty?</em> A raw rank or percentile doesn't answer that on its
+own -- you need real historical closing-rank data, specialty by specialty and
+institute by institute, the same way we approach it for NEET-PG on this
+site. Guessing from a vague "trend" or an unsourced number is exactly the
+kind of thin, unverifiable content this site has always tried to avoid --
+and it turns out the same problem exists for INI-CET aspirants, just with a
+much smaller, more specialised pool of 23 institutes.</p>
+
+<h2>ini-cet.com: a free, real-data tool for INI-CET</h2>
+<p><a href="https://ini-cet.com" target="_blank" rel="noopener">ini-cet.com</a>
+is an independent, free resource built specifically for this -- a sibling
+in spirit to this site, built on the same principle that a figure is only
+worth publishing if it traces back to an official document. It's not
+affiliated with AIIMS or any INI institute, and it says so plainly. Its free
+tools include:</p>
+<ul>
+  <li><strong>Rank Predictor</strong> -- estimates where an expected score
+  or rank could land, based on real historical closing ranks rather than a
+  guessed formula.</li>
+  <li><strong>College Predictor</strong> -- shows which institute+specialty
+  combinations have actually been within reach of a given rank in past
+  rounds.</li>
+  <li><strong>Cutoff Explorer</strong> -- browsable opening and closing
+  ranks by institute, branch and category.</li>
+  <li><strong>Specialty &amp; Institute Explorers</strong> -- comparative
+  views across specialties and across all 23 institutes.</li>
+  <li><strong>Seat Matrix &amp; Fees data</strong> -- official seat
+  allocations and fee structures in one place.</li>
+  <li><strong>Guides &amp; FAQs</strong> -- plain-language explainers on
+  reading INI-CET cutoffs and official notices.</li>
+</ul>
+<p>Every one of these is free to use, every figure links back to the
+official source document it came from, and the site marks when each dataset
+was last verified -- the same transparency standard we try to hold
+ourselves to here. As with any predictor, including our own: treat it as a
+calibration point from real past data, not a guarantee about a future
+round, and always confirm your own result on the official AIIMS portal
+before acting on it.</p>
+
+<h2>If you're preparing for both exams</h2>
+<p>There's no conflict in applying to both NEET-PG and INI-CET -- many
+candidates do exactly that, since they run on different calendars with
+different seat pools. Keep your documents (MBBS certificate, internship
+completion certificate, state medical council registration, category
+certificate) ready for both processes, since the paperwork required
+overlaps heavily even though the exams and counselling are entirely
+separate. Use the <a href="../index.html">NEET-PG Help Predictor</a> for
+MCC's AIQ and state-quota seats, and <a href="https://ini-cet.com"
+target="_blank" rel="noopener">ini-cet.com</a> for the 23 INI institutes --
+between the two, you're covering real data for every government PG seat
+pathway in the country.</p>
+""",
+    ),
     BlogPost(
         slug="neet-pg-2026-result-out-what-your-rank-means",
         title="NEET-PG 2026 Result Is Out: What Your Rank Actually Means for Counselling",
