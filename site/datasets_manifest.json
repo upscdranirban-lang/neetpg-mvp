@@ -1,6 +1,10 @@
 {
   "datasets": [
     {
+      "id": "auto2025r1",
+      "source_file": "datasets/auto2025r1.json"
+    },
+    {
       "id": "real2025r3",
       "source_file": "datasets/real2025r3.json"
     },
