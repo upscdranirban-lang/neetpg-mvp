@@ -1,19 +1,34 @@
 {
-  "generated_at": "2026-10-14T04:55:49.031768+00:00",
+  "generated_at": "2026-10-14T11:54:46.107649+00:00",
   "dashboard": {
-    "current_cycle": "PG Counselling 2025",
-    "rounds_seen": [
-      "Stray",
-      "Round 3",
-      "Round 2",
-      "Round 1"
-    ],
-    "last_checked": "2026-10-14T04:55:49.020297+00:00",
-    "last_official_update": "2026-09-29",
+    "current_cycle": "PG Counselling 2026",
+    "rounds_seen": [],
+    "last_checked": "2026-10-14T11:54:46.099195+00:00",
+    "last_official_update": "2026-10-14",
     "sources_monitored": 3,
-    "total_documents": 556
+    "total_documents": 557
   },
   "documents": [
+    {
+      "id": 557,
+      "source_id": "mcc_pg_current_events",
+      "content_hash": "16f6d2b1c0714b29820844bef8cc8bbe3c0c677da1b2e45c75c76c5a4cf9d9f0",
+      "title": "FINAL SEATS MATRIX DNB PG COUNSELLING 2026",
+      "file_url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/10/202610142075182543.pdf",
+      "doc_type": "unclassified",
+      "doc_type_confidence": 0.3,
+      "cycle_label": "PG Counselling 2026",
+      "round_label": null,
+      "pub_date": "2026-10-14",
+      "pub_date_basis": "filename",
+      "pub_date_confidence": "medium",
+      "retrieved_at": "2026-10-14T11:54:44.057296+00:00",
+      "listing_position": 0,
+      "raw_year_column": "2026",
+      "superseded_by_id": null,
+      "source_url": "https://mcc.nic.in/current-events-pg/",
+      "authority_name": "Medical Counselling Committee"
+    },
     {
       "id": 539,
       "source_id": "mcc_pg_news_events",
@@ -11137,6 +11152,22 @@
   ],
   "changes": [
     {
+      "id": 557,
+      "document_id": 557,
+      "change_type": "new_document",
+      "detected_at": "2026-10-14T11:54:44.057296+00:00",
+      "run_id": 256,
+      "summary": "New unclassified: FINAL SEATS MATRIX DNB PG COUNSELLING 2026",
+      "title": "FINAL SEATS MATRIX DNB PG COUNSELLING 2026",
+      "doc_type": "unclassified",
+      "file_url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/10/202610142075182543.pdf",
+      "round_label": null,
+      "cycle_label": "PG Counselling 2026",
+      "pub_date": "2026-10-14",
+      "pub_date_basis": "filename",
+      "pub_date_confidence": "medium"
+    },
+    {
       "id": 539,
       "document_id": 539,
       "change_type": "new_document",
@@ -20036,17 +20067,17 @@
   "sources": [
     {
       "source_id": "mcc_pg_archive",
-      "last_finished_at": "2026-10-14T04:55:49.020297+00:00",
+      "last_finished_at": "2026-10-14T11:54:46.099195+00:00",
       "status": "ok"
     },
     {
       "source_id": "mcc_pg_current_events",
-      "last_finished_at": "2026-10-14T04:55:47.783436+00:00",
+      "last_finished_at": "2026-10-14T11:54:44.077793+00:00",
       "status": "ok"
     },
     {
       "source_id": "mcc_pg_news_events",
-      "last_finished_at": "2026-10-14T04:55:48.118902+00:00",
+      "last_finished_at": "2026-10-14T11:54:45.142724+00:00",
       "status": "ok"
     }
   ]
