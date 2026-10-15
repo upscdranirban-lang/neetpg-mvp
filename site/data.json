@@ -1,14 +1,96 @@
 {
-  "generated_at": "2026-10-15T11:31:34.058395+00:00",
+  "generated_at": "2026-10-15T17:03:14.083403+00:00",
   "dashboard": {
     "current_cycle": "PG Counselling 2026",
-    "rounds_seen": [],
-    "last_checked": "2026-10-15T11:31:34.049853+00:00",
+    "rounds_seen": [
+      "Round 1"
+    ],
+    "last_checked": "2026-10-15T17:03:14.074084+00:00",
     "last_official_update": "2026-10-15",
     "sources_monitored": 3,
-    "total_documents": 563
+    "total_documents": 567
   },
   "documents": [
+    {
+      "id": 567,
+      "source_id": "mcc_pg_news_events",
+      "content_hash": "c8bae9651e6718aa419307dd16e004087944c7791d97514c5cf988b0b581f0e8",
+      "title": "Verification of PG Counselling 2026 Seat Matrix and Reporting of Discrepancies Before Completion of Round 1 Choice Filling",
+      "file_url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/10/202610151265361532.pdf",
+      "doc_type": "seat_matrix",
+      "doc_type_confidence": 0.9,
+      "cycle_label": "PG Counselling 2026",
+      "round_label": "Round 1",
+      "pub_date": "2026-10-15",
+      "pub_date_basis": "filename",
+      "pub_date_confidence": "medium",
+      "retrieved_at": "2026-10-15T17:03:13.099145+00:00",
+      "listing_position": 0,
+      "raw_year_column": "2026",
+      "superseded_by_id": null,
+      "source_url": "https://mcc.nic.in/news-events-pg/",
+      "authority_name": "Medical Counselling Committee"
+    },
+    {
+      "id": 566,
+      "source_id": "mcc_pg_current_events",
+      "content_hash": "1b22b9329dfbd090672043dcfa2cb064303f86daebaaff04756d99053892493d",
+      "title": "FINAL ALL INDIA QUOTA SEATS MATRIX PG 2026 COUNSELLING (MD MS)",
+      "file_url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/10/202610151676193504.pdf",
+      "doc_type": "unclassified",
+      "doc_type_confidence": 0.3,
+      "cycle_label": "PG Counselling 2026",
+      "round_label": null,
+      "pub_date": "2026-10-15",
+      "pub_date_basis": "filename",
+      "pub_date_confidence": "medium",
+      "retrieved_at": "2026-10-15T17:03:12.124161+00:00",
+      "listing_position": 3,
+      "raw_year_column": "2026",
+      "superseded_by_id": null,
+      "source_url": "https://mcc.nic.in/current-events-pg/",
+      "authority_name": "Medical Counselling Committee"
+    },
+    {
+      "id": 565,
+      "source_id": "mcc_pg_current_events",
+      "content_hash": "6fefd3d0b5a233483c0742554758030c3fd3253e73df5b4847db5c517b4dacfa",
+      "title": "FINAL DEEMED SEATS MATRIX PG COUNSELLING 2026 (MD MS)",
+      "file_url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/10/20261015907178910.pdf",
+      "doc_type": "unclassified",
+      "doc_type_confidence": 0.3,
+      "cycle_label": "PG Counselling 2026",
+      "round_label": null,
+      "pub_date": "2026-10-15",
+      "pub_date_basis": "filename",
+      "pub_date_confidence": "medium",
+      "retrieved_at": "2026-10-15T17:03:12.124161+00:00",
+      "listing_position": 2,
+      "raw_year_column": "2026",
+      "superseded_by_id": null,
+      "source_url": "https://mcc.nic.in/current-events-pg/",
+      "authority_name": "Medical Counselling Committee"
+    },
+    {
+      "id": 564,
+      "source_id": "mcc_pg_current_events",
+      "content_hash": "ba6932d12adb48ac049cc79990c6ac0506635eacb3f24e7b1f78bc7933c79c11",
+      "title": "FINAL CENTRAL INTERNAL QUOTA SEATS MATRIX PG COUNSELLING 2026 (MD MS)",
+      "file_url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/10/202610151906520168.pdf",
+      "doc_type": "unclassified",
+      "doc_type_confidence": 0.3,
+      "cycle_label": "PG Counselling 2026",
+      "round_label": null,
+      "pub_date": "2026-10-15",
+      "pub_date_basis": "filename",
+      "pub_date_confidence": "medium",
+      "retrieved_at": "2026-10-15T17:03:12.124161+00:00",
+      "listing_position": 0,
+      "raw_year_column": "2026",
+      "superseded_by_id": null,
+      "source_url": "https://mcc.nic.in/current-events-pg/",
+      "authority_name": "Medical Counselling Committee"
+    },
     {
       "id": 562,
       "source_id": "mcc_pg_news_events",
@@ -11272,6 +11354,70 @@
   ],
   "changes": [
     {
+      "id": 567,
+      "document_id": 567,
+      "change_type": "new_document",
+      "detected_at": "2026-10-15T17:03:13.099145+00:00",
+      "run_id": 272,
+      "summary": "New seat matrix: Verification of PG Counselling 2026 Seat Matrix and Reporting of Discrepancies Before Completion of Round 1 Choice Filling",
+      "title": "Verification of PG Counselling 2026 Seat Matrix and Reporting of Discrepancies Before Completion of Round 1 Choice Filling",
+      "doc_type": "seat_matrix",
+      "file_url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/10/202610151265361532.pdf",
+      "round_label": "Round 1",
+      "cycle_label": "PG Counselling 2026",
+      "pub_date": "2026-10-15",
+      "pub_date_basis": "filename",
+      "pub_date_confidence": "medium"
+    },
+    {
+      "id": 566,
+      "document_id": 566,
+      "change_type": "new_document",
+      "detected_at": "2026-10-15T17:03:12.124161+00:00",
+      "run_id": 271,
+      "summary": "New unclassified: FINAL ALL INDIA QUOTA SEATS MATRIX PG 2026 COUNSELLING (MD MS)",
+      "title": "FINAL ALL INDIA QUOTA SEATS MATRIX PG 2026 COUNSELLING (MD MS)",
+      "doc_type": "unclassified",
+      "file_url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/10/202610151676193504.pdf",
+      "round_label": null,
+      "cycle_label": "PG Counselling 2026",
+      "pub_date": "2026-10-15",
+      "pub_date_basis": "filename",
+      "pub_date_confidence": "medium"
+    },
+    {
+      "id": 565,
+      "document_id": 565,
+      "change_type": "new_document",
+      "detected_at": "2026-10-15T17:03:12.124161+00:00",
+      "run_id": 271,
+      "summary": "New unclassified: FINAL DEEMED SEATS MATRIX PG COUNSELLING 2026 (MD MS)",
+      "title": "FINAL DEEMED SEATS MATRIX PG COUNSELLING 2026 (MD MS)",
+      "doc_type": "unclassified",
+      "file_url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/10/20261015907178910.pdf",
+      "round_label": null,
+      "cycle_label": "PG Counselling 2026",
+      "pub_date": "2026-10-15",
+      "pub_date_basis": "filename",
+      "pub_date_confidence": "medium"
+    },
+    {
+      "id": 564,
+      "document_id": 564,
+      "change_type": "new_document",
+      "detected_at": "2026-10-15T17:03:12.124161+00:00",
+      "run_id": 271,
+      "summary": "New unclassified: FINAL CENTRAL INTERNAL QUOTA SEATS MATRIX PG COUNSELLING 2026 (MD MS)",
+      "title": "FINAL CENTRAL INTERNAL QUOTA SEATS MATRIX PG COUNSELLING 2026 (MD MS)",
+      "doc_type": "unclassified",
+      "file_url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/10/202610151906520168.pdf",
+      "round_label": null,
+      "cycle_label": "PG Counselling 2026",
+      "pub_date": "2026-10-15",
+      "pub_date_basis": "filename",
+      "pub_date_confidence": "medium"
+    },
+    {
       "id": 562,
       "document_id": 562,
       "change_type": "new_document",
@@ -20283,17 +20429,17 @@
   "sources": [
     {
       "source_id": "mcc_pg_archive",
-      "last_finished_at": "2026-10-15T11:31:34.049853+00:00",
+      "last_finished_at": "2026-10-15T17:03:14.074084+00:00",
       "status": "ok"
     },
     {
       "source_id": "mcc_pg_current_events",
-      "last_finished_at": "2026-10-15T11:31:28.002260+00:00",
+      "last_finished_at": "2026-10-15T17:03:12.145007+00:00",
       "status": "ok"
     },
     {
       "source_id": "mcc_pg_news_events",
-      "last_finished_at": "2026-10-15T11:31:30.373870+00:00",
+      "last_finished_at": "2026-10-15T17:03:13.133581+00:00",
       "status": "ok"
     }
   ]
