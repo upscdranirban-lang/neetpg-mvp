@@ -1,16 +1,56 @@
 {
-  "generated_at": "2026-10-23T11:41:01.638175+00:00",
+  "generated_at": "2026-10-23T17:12:56.583465+00:00",
   "dashboard": {
     "current_cycle": "PG Counselling 2026",
     "rounds_seen": [
       "Round 1"
     ],
-    "last_checked": "2026-10-23T11:41:01.632184+00:00",
-    "last_official_update": "2026-10-21",
+    "last_checked": "2026-10-23T17:12:56.575196+00:00",
+    "last_official_update": "2026-10-23",
     "sources_monitored": 3,
-    "total_documents": 568
+    "total_documents": 570
   },
   "documents": [
+    {
+      "id": 570,
+      "source_id": "mcc_pg_current_events",
+      "content_hash": "99ef02136967babb95e51e9761aecff1dfc4433f37e429fd2131e64b4f464e41",
+      "title": "Notice for Provisional Result for PG Round 1 Counselling dated 23.10.2026.",
+      "file_url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/10/202610231583158073.pdf",
+      "doc_type": "provisional_result",
+      "doc_type_confidence": 0.9,
+      "cycle_label": null,
+      "round_label": "Round 1",
+      "pub_date": "2026-10-23",
+      "pub_date_basis": "title",
+      "pub_date_confidence": "high",
+      "retrieved_at": "2026-10-23T17:08:58.006120+00:00",
+      "listing_position": 1,
+      "raw_year_column": "2026",
+      "superseded_by_id": null,
+      "source_url": "https://mcc.nic.in/current-events-pg/",
+      "authority_name": "Medical Counselling Committee"
+    },
+    {
+      "id": 569,
+      "source_id": "mcc_pg_current_events",
+      "content_hash": "883a61f4661e6fad8f9bb19176d578fb9344aaf1c3aca244f0b60e7434cbf03d",
+      "title": "Provisional Result for PG Round 1 Counselling dated 23.10.2026",
+      "file_url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/10/202610231277301968.pdf",
+      "doc_type": "provisional_result",
+      "doc_type_confidence": 0.9,
+      "cycle_label": null,
+      "round_label": "Round 1",
+      "pub_date": "2026-10-23",
+      "pub_date_basis": "title",
+      "pub_date_confidence": "high",
+      "retrieved_at": "2026-10-23T17:08:58.006120+00:00",
+      "listing_position": 0,
+      "raw_year_column": "2026",
+      "superseded_by_id": null,
+      "source_url": "https://mcc.nic.in/current-events-pg/",
+      "authority_name": "Medical Counselling Committee"
+    },
     {
       "id": 568,
       "source_id": "mcc_pg_news_events",
@@ -11374,6 +11414,38 @@
   ],
   "changes": [
     {
+      "id": 570,
+      "document_id": 570,
+      "change_type": "new_document",
+      "detected_at": "2026-10-23T17:08:58.006120+00:00",
+      "run_id": 364,
+      "summary": "New provisional result: Notice for Provisional Result for PG Round 1 Counselling dated 23.10.2026.",
+      "title": "Notice for Provisional Result for PG Round 1 Counselling dated 23.10.2026.",
+      "doc_type": "provisional_result",
+      "file_url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/10/202610231583158073.pdf",
+      "round_label": "Round 1",
+      "cycle_label": null,
+      "pub_date": "2026-10-23",
+      "pub_date_basis": "title",
+      "pub_date_confidence": "high"
+    },
+    {
+      "id": 569,
+      "document_id": 569,
+      "change_type": "new_document",
+      "detected_at": "2026-10-23T17:08:58.006120+00:00",
+      "run_id": 364,
+      "summary": "New provisional result: Provisional Result for PG Round 1 Counselling dated 23.10.2026",
+      "title": "Provisional Result for PG Round 1 Counselling dated 23.10.2026",
+      "doc_type": "provisional_result",
+      "file_url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/10/202610231277301968.pdf",
+      "round_label": "Round 1",
+      "cycle_label": null,
+      "pub_date": "2026-10-23",
+      "pub_date_basis": "title",
+      "pub_date_confidence": "high"
+    },
+    {
       "id": 568,
       "document_id": 568,
       "change_type": "new_document",
@@ -20465,17 +20537,17 @@
   "sources": [
     {
       "source_id": "mcc_pg_archive",
-      "last_finished_at": "2026-10-23T11:41:01.632184+00:00",
+      "last_finished_at": "2026-10-23T17:12:56.575196+00:00",
       "status": "ok"
     },
     {
       "source_id": "mcc_pg_current_events",
-      "last_finished_at": "2026-10-23T11:40:59.320287+00:00",
+      "last_finished_at": "2026-10-23T17:08:58.027922+00:00",
       "status": "ok"
     },
     {
       "source_id": "mcc_pg_news_events",
-      "last_finished_at": "2026-10-23T11:41:00.383261+00:00",
+      "last_finished_at": "2026-10-23T17:12:55.454103+00:00",
       "status": "ok"
     }
   ]
