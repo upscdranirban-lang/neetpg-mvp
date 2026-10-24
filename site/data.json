@@ -1,16 +1,36 @@
 {
-  "generated_at": "2026-10-24T11:03:06.697960+00:00",
+  "generated_at": "2026-10-24T16:02:25.036652+00:00",
   "dashboard": {
     "current_cycle": "PG Counselling 2026",
     "rounds_seen": [
       "Round 1"
     ],
-    "last_checked": "2026-10-24T11:03:06.687625+00:00",
-    "last_official_update": "2026-10-23",
+    "last_checked": "2026-10-24T16:02:25.028741+00:00",
+    "last_official_update": "2026-10-24",
     "sources_monitored": 3,
-    "total_documents": 570
+    "total_documents": 571
   },
   "documents": [
+    {
+      "id": 571,
+      "source_id": "mcc_pg_current_events",
+      "content_hash": "17c4a3e093ae70ffa50e1b2a5f140f43df4f3029d344f8a7c9715a07ac91691a",
+      "title": "Final Allotment Result for PG Counselling Round 1 dated 24.10.2026",
+      "file_url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/10/202610241746468472.pdf",
+      "doc_type": "result",
+      "doc_type_confidence": 0.9,
+      "cycle_label": null,
+      "round_label": "Round 1",
+      "pub_date": "2026-10-24",
+      "pub_date_basis": "title",
+      "pub_date_confidence": "high",
+      "retrieved_at": "2026-10-24T15:58:46.817207+00:00",
+      "listing_position": 0,
+      "raw_year_column": "2026",
+      "superseded_by_id": null,
+      "source_url": "https://mcc.nic.in/current-events-pg/",
+      "authority_name": "Medical Counselling Committee"
+    },
     {
       "id": 570,
       "source_id": "mcc_pg_current_events",
@@ -11414,6 +11434,22 @@
   ],
   "changes": [
     {
+      "id": 571,
+      "document_id": 571,
+      "change_type": "new_document",
+      "detected_at": "2026-10-24T15:58:46.817207+00:00",
+      "run_id": 376,
+      "summary": "New result: Final Allotment Result for PG Counselling Round 1 dated 24.10.2026",
+      "title": "Final Allotment Result for PG Counselling Round 1 dated 24.10.2026",
+      "doc_type": "result",
+      "file_url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/10/202610241746468472.pdf",
+      "round_label": "Round 1",
+      "cycle_label": null,
+      "pub_date": "2026-10-24",
+      "pub_date_basis": "title",
+      "pub_date_confidence": "high"
+    },
+    {
       "id": 570,
       "document_id": 570,
       "change_type": "new_document",
@@ -20537,17 +20573,17 @@
   "sources": [
     {
       "source_id": "mcc_pg_archive",
-      "last_finished_at": "2026-10-24T11:03:06.687625+00:00",
+      "last_finished_at": "2026-10-24T16:02:25.028741+00:00",
       "status": "ok"
     },
     {
       "source_id": "mcc_pg_current_events",
-      "last_finished_at": "2026-10-24T11:03:04.911812+00:00",
+      "last_finished_at": "2026-10-24T15:58:46.837830+00:00",
       "status": "ok"
     },
     {
       "source_id": "mcc_pg_news_events",
-      "last_finished_at": "2026-10-24T11:03:05.507663+00:00",
+      "last_finished_at": "2026-10-24T16:02:23.171532+00:00",
       "status": "ok"
     }
   ]
