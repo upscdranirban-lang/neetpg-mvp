@@ -332,7 +332,198 @@ _INICET_FORK_SVG = """
 """
 
 
+_R1_TIMELINE_SVG = """
+<svg viewBox="0 0 320 190" role="img" aria-label="Timeline: Round 1 final result on 24 October, reporting window 26 October to 2 November, data verification 3 November, Round 2 opening 6 November 2026">
+  <rect x="0" y="0" width="320" height="190" fill="none"/>
+  <text x="160" y="20" text-anchor="middle" font-family="Public Sans, sans-serif" font-size="10.5" font-weight="700" fill="var(--ink)">NEET-PG 2026: the next 3 weeks</text>
+  <line x1="36" y1="95" x2="286" y2="95" stroke="var(--line)" stroke-width="3" stroke-linecap="round"/>
+  <line x1="96" y1="95" x2="190" y2="95" stroke="var(--accent)" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="36" cy="95" r="8" fill="var(--brand-fill)"/>
+  <circle cx="96" cy="95" r="6" fill="var(--accent)" stroke="var(--surface-2)" stroke-width="2"/>
+  <circle cx="190" cy="95" r="6" fill="var(--accent)" stroke="var(--surface-2)" stroke-width="2"/>
+  <circle cx="214" cy="95" r="7" fill="var(--ink-faint)"/>
+  <circle cx="286" cy="95" r="8" fill="var(--brand-fill)"/>
+  <text x="36" y="62" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="10.5" font-weight="700" fill="var(--ink)">Oct 24</text>
+  <text x="36" y="75" text-anchor="middle" font-family="Public Sans, sans-serif" font-size="9" fill="var(--ink-muted)">Final result</text>
+  <text x="214" y="62" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="10.5" font-weight="700" fill="var(--ink)">Nov 3</text>
+  <text x="214" y="75" text-anchor="middle" font-family="Public Sans, sans-serif" font-size="9" fill="var(--ink-muted)">Data verified</text>
+  <text x="286" y="62" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="10.5" font-weight="700" fill="var(--ink)">Nov 6</text>
+  <text x="286" y="75" text-anchor="middle" font-family="Public Sans, sans-serif" font-size="9" fill="var(--ink-muted)">Round 2 opens</text>
+  <text x="96" y="122" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="10.5" font-weight="700" fill="var(--ink)">Oct 26</text>
+  <text x="190" y="122" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="10.5" font-weight="700" fill="var(--ink)">Nov 2</text>
+  <text x="143" y="145" text-anchor="middle" font-family="Public Sans, sans-serif" font-size="9.5" font-weight="700" fill="var(--accent)">8-day reporting window</text>
+  <text x="160" y="178" text-anchor="middle" font-family="Public Sans, sans-serif" font-size="9" fill="var(--ink-faint)">Per MCC's schedule as reported; Round 2 dates are tentative</text>
+</svg>
+"""
+
+
 POSTS: list[BlogPost] = [
+    BlogPost(
+        slug="neet-pg-2026-round-1-result-report-upgrade-or-wait",
+        title="NEET-PG 2026 Round 1 Result Is Out: Report, Upgrade or Wait? Dates, Documents and Real 2025 Data",
+        meta_description=(
+            "NEET-PG 2026 Round 1 final result is out. Reporting runs 26 Oct to 2 Nov "
+            "and Round 2 starts 6 Nov. Key dates, a document checklist, and real 2025 "
+            "Round 1 vs Round 3 closing ranks to help you decide."
+        ),
+        date="2026-10-24",
+        summary=(
+            "MCC released the Round 1 final allotment result on 24 Oct. You have until "
+            "2 Nov to report -- here is the full timeline, a document checklist, and "
+            "what real 2025 data shows about waiting for Round 2."
+        ),
+        hero_svg=_R1_TIMELINE_SVG,
+        body_html="""
+<p><strong>The short version:</strong> MCC published the <strong>Round 1 final
+allotment result on 24 October 2026</strong>. If you were allotted a seat, the
+reporting window runs <strong>26 October to 2 November</strong>, and MCC verifies
+joined-candidate data on <strong>3 November</strong>. Round 2 is tentatively
+scheduled to begin on <strong>6 November</strong>. Everything below is meant to
+help you use the next eight days well -- not to tell you what to do with your
+seat, because that is your call.</p>
+
+<h2>The dates that matter</h2>
+<p>The Round 1 final result is confirmed by MCC's own listing (we track it on our
+<a href="../index.html">dashboard</a>: <em>Final Allotment Result for PG
+Counselling Round 1 dated 24.10.2026</em>). The reporting window and the Round 2
+schedule below are as reported by
+<a href="https://medicine.careers360.com/articles/neet-pg-counselling" target="_blank" rel="noopener">Careers360</a>
+and
+<a href="https://www.pw.live/news/neet-pg-counselling-round-2-schedule-2026" target="_blank" rel="noopener">Physics Wallah</a>
+from MCC's published schedule. MCC calls the Round 2 dates tentative, so confirm
+them on <a href="https://mcc.nic.in" target="_blank" rel="noopener">mcc.nic.in</a>
+before you plan travel.</p>
+
+<table>
+  <thead><tr><th>Date (2026)</th><th>What happens</th></tr></thead>
+  <tbody>
+    <tr><td>23 Oct</td><td>Round 1 provisional result</td></tr>
+    <tr><td>24 Oct</td><td>Round 1 <strong>final</strong> allotment result</td></tr>
+    <tr><td>26 Oct &ndash; 2 Nov</td><td><strong>Reporting / joining at your allotted college</strong></td></tr>
+    <tr><td>3 Nov</td><td>Joined-candidate data verified by MCC</td></tr>
+    <tr><td>6 &ndash; 7 Nov</td><td>Round 2 seat matrix verification (tentative)</td></tr>
+    <tr><td>6 &ndash; 11 Nov</td><td>Round 2 registration and payment (payment closes 3 PM on 11 Nov)</td></tr>
+    <tr><td>7 &ndash; 12 Nov</td><td>Round 2 choice filling</td></tr>
+    <tr><td>14 Nov</td><td>Round 2 result</td></tr>
+    <tr><td>16 &ndash; 23 Nov</td><td>Round 2 reporting / joining</td></tr>
+    <tr><td>24 Nov</td><td>Round 2 joined-candidate data verified</td></tr>
+  </tbody>
+</table>
+
+<h2>Your document checklist (start collecting today)</h2>
+<p>Reporting day is not the day to discover a missing certificate. The list
+below is what the major counselling explainers agree on; your allotted
+institute's own list always prevails, so treat this as a starting point and
+check your allotment letter.</p>
+<ul>
+  <li>NEET-PG admit card and result scorecard</li>
+  <li>The Round 1 seat allotment letter (download it and keep a printout)</li>
+  <li>MBBS (or BDS) degree or provisional certificate, plus mark sheets of all professional exams</li>
+  <li>Internship completion certificate</li>
+  <li>NMC or State Medical Council registration certificate</li>
+  <li>Date-of-birth proof and a valid photo ID, plus passport-size photographs</li>
+  <li>Category, EWS or disability certificate, if you are using that reservation</li>
+  <li>Anything seat-specific: domicile, NRI or sponsorship papers, service-bond or fee documents, fitness certificate</li>
+</ul>
+<p>Carry originals and photocopies. If a certificate is missing, ask your
+university or council <em>now</em> -- those offices are not fast.</p>
+
+<h2>"Should I wait for Round 2?" What real 2025 data shows</h2>
+<p>This is the question flooding every aspirant group chat this week. We can't
+answer it for you -- it depends on your rank, your seat, your fees and your
+priorities -- but we can show you what actually happened last year, using real
+MCC allotment data. (2026 Round 1 figures will be added to the
+<a href="../index.html">Predictor</a> once the official PDF has been extracted and
+validated, because we don't publish a number we haven't checked.)</p>
+
+<h3>Across the country, the cutoff goes much deeper by Round 3</h3>
+<p>Here is the <strong>Open-category closing rank</strong> -- the rank of the
+last candidate allotted a seat in that specialty, anywhere in the country --
+in 2025's Round 1 versus Round 3. PwD-reserved allotments and Armed Forces
+service-bond seats are excluded, the same way as everywhere on this site.</p>
+
+<table>
+  <thead><tr><th>Specialty (MD/MS)</th><th>Round 1 closing rank</th><th>Round 3 closing rank</th><th>Stretch</th></tr></thead>
+  <tbody>
+    <tr><td>General Medicine</td><td>1,28,130</td><td>2,28,379</td><td>1.78&times;</td></tr>
+    <tr><td>Psychiatry</td><td>1,20,248</td><td>2,12,372</td><td>1.77&times;</td></tr>
+    <tr><td>Radio-Diagnosis</td><td>1,32,779</td><td>2,24,521</td><td>1.69&times;</td></tr>
+    <tr><td>General Surgery</td><td>1,30,245</td><td>2,20,647</td><td>1.69&times;</td></tr>
+    <tr><td>Orthopaedics</td><td>1,38,558</td><td>2,29,242</td><td>1.65&times;</td></tr>
+    <tr><td>Paediatrics</td><td>1,36,814</td><td>2,21,936</td><td>1.62&times;</td></tr>
+    <tr><td>Anaesthesiology</td><td>1,30,363</td><td>2,09,666</td><td>1.61&times;</td></tr>
+    <tr><td>Obstetrics &amp; Gynaecology</td><td>1,35,021</td><td>2,16,112</td><td>1.60&times;</td></tr>
+    <tr><td>Dermatology &amp; Venereology</td><td>1,34,482</td><td>2,09,076</td><td>1.55&times;</td></tr>
+  </tbody>
+</table>
+
+<p><strong>How to read this honestly:</strong> a closing rank of 2,28,379 does
+<em>not</em> mean a candidate at that rank got into a top government college.
+These numbers cover every seat in the specialty -- including deemed and private
+colleges -- so they measure how deep each round reaches, not how deep any one
+college goes. That is exactly why the next table matters more.</p>
+
+<h3>At top government colleges, the picture is very different</h3>
+<p>General Medicine, Open category, 2025 -- a few well-known colleges, Round 1
+versus Round 3:</p>
+
+<table>
+  <thead><tr><th>College</th><th>Round 1 (seats, rank range)</th><th>Round 3 (seats, rank range)</th></tr></thead>
+  <tbody>
+    <tr><td>Maulana Azad Medical College</td><td>9 seats, 34&ndash;141</td><td>No Open allotment recorded</td></tr>
+    <tr><td>University College of Medical Sciences</td><td>4 seats, 164&ndash;579</td><td>1 seat, rank 319</td></tr>
+    <tr><td>Madras Medical College</td><td>7 seats, 9&ndash;291</td><td>2 seats, 726&ndash;799</td></tr>
+    <tr><td>Stanley Medical College</td><td>6 seats, 168&ndash;602</td><td>5 seats, 834&ndash;1,083</td></tr>
+  </tbody>
+</table>
+
+<p>Three things stand out, and none of them is a promise:</p>
+<ul>
+  <li><strong>Top-college seats mostly go in Round 1.</strong> Maulana Azad had no
+  Open-category General Medicine allotment recorded in Round 3 at all.</li>
+  <li><strong>Some seats do reopen, and the ranks can move a lot.</strong> Madras
+  Medical College's Round 1 General Medicine allotments ended at rank 291; its
+  Round 3 allotments reached rank 799. For a few candidates, waiting changed the
+  outcome.</li>
+  <li><strong>The reopened seats are few.</strong> Round 3 had one seat at UCMS and
+  two at Madras Medical College. Planning around two or three possible seats is a
+  gamble, whatever your rank.</li>
+</ul>
+<p>Treat this as a pattern from <em>one</em> year, in <em>one</em> category, with
+small seat counts at the college level. Seat matrices, applicant numbers and
+cutoffs change every cycle, so 2025 describes a shape, not a forecast.</p>
+
+<h2>Three questions to answer before 26 October</h2>
+<ol>
+  <li><strong>Would I be glad to hold this seat?</strong> Check the college, the
+  specialty, the fee, any service bond and the stipend -- not just the rank
+  attached to it.</li>
+  <li><strong>What do my allotment letter and MCC's Information Bulletin say?</strong>
+  Rules on upgrading, exiting a seat, security deposits and what happens if you
+  don't report differ by quota and seat type, and they are the only authority
+  that counts. Read them before you decide, not after.</li>
+  <li><strong>Are my documents ready for the whole window?</strong> Eight days
+  sounds long until a certificate needs a signature in another city.</li>
+</ol>
+
+<h2>Before you pay anyone, read this</h2>
+<p>Every counselling season brings calls and messages promising to "upgrade your
+seat" or "guarantee a better college" for a fee. MCC does not do this. Our
+<a href="neet-pg-scam-call-guaranteed-seat-fraud-alert.html">scam-alert guide</a>
+has the 5-second checklist, and our post on
+<a href="neet-pg-2026-result-out-what-your-rank-means.html">what your rank actually means</a>
+explains how to read your position honestly. If you are also sitting INI-CET,
+see <a href="ini-cet-explained-free-rank-college-predictor.html">our INI-CET explainer</a>.</p>
+
+<p><strong>Know a batchmate who hasn't seen these dates?</strong> Forward this
+page to your group -- the reporting window is only eight days long.</p>
+
+<p><em>This page is an independent educational resource and is not MCC, NBEMS or
+any government authority. Always confirm dates and rules on
+<a href="https://mcc.nic.in" target="_blank" rel="noopener">mcc.nic.in</a>.
+Information checked on 24 October 2026.</em></p>
+""",
+    ),
     BlogPost(
         slug="ini-cet-explained-free-rank-college-predictor",
         title="INI-CET Explained: The Other PG Entrance Exam (and a Free Real-Data Predictor for It)",
