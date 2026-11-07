@@ -1,16 +1,36 @@
 {
-  "generated_at": "2026-11-07T05:59:45.985122+00:00",
+  "generated_at": "2026-11-07T13:03:39.756240+00:00",
   "dashboard": {
     "current_cycle": "PG Counselling 2026",
     "rounds_seen": [
       "Round 1"
     ],
-    "last_checked": "2026-11-07T05:59:45.977852+00:00",
-    "last_official_update": "2026-10-24",
+    "last_checked": "2026-11-07T13:03:39.747168+00:00",
+    "last_official_update": "2026-11-07",
     "sources_monitored": 3,
-    "total_documents": 571
+    "total_documents": 572
   },
   "documents": [
+    {
+      "id": 572,
+      "source_id": "mcc_pg_current_events",
+      "content_hash": "313651671c54826a43275417fdb439b21320e225011caa719c110d511617ee1b",
+      "title": "Schedule for Round-2 dated 07.11.2026.",
+      "file_url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/11/20261107776874972.pdf",
+      "doc_type": "counselling_schedule",
+      "doc_type_confidence": 0.9,
+      "cycle_label": null,
+      "round_label": "Round 2",
+      "pub_date": "2026-11-07",
+      "pub_date_basis": "title",
+      "pub_date_confidence": "high",
+      "retrieved_at": "2026-11-07T13:03:37.839436+00:00",
+      "listing_position": 0,
+      "raw_year_column": "2026",
+      "superseded_by_id": null,
+      "source_url": "https://mcc.nic.in/current-events-pg/",
+      "authority_name": "Medical Counselling Committee"
+    },
     {
       "id": 571,
       "source_id": "mcc_pg_current_events",
@@ -11434,6 +11454,22 @@
   ],
   "changes": [
     {
+      "id": 572,
+      "document_id": 572,
+      "change_type": "new_document",
+      "detected_at": "2026-11-07T13:03:37.839436+00:00",
+      "run_id": 499,
+      "summary": "New counselling schedule: Schedule for Round-2 dated 07.11.2026.",
+      "title": "Schedule for Round-2 dated 07.11.2026.",
+      "doc_type": "counselling_schedule",
+      "file_url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/11/20261107776874972.pdf",
+      "round_label": "Round 2",
+      "cycle_label": null,
+      "pub_date": "2026-11-07",
+      "pub_date_basis": "title",
+      "pub_date_confidence": "high"
+    },
+    {
       "id": 571,
       "document_id": 571,
       "change_type": "new_document",
@@ -20573,17 +20609,17 @@
   "sources": [
     {
       "source_id": "mcc_pg_archive",
-      "last_finished_at": "2026-11-07T05:59:45.977852+00:00",
+      "last_finished_at": "2026-11-07T13:03:39.747168+00:00",
       "status": "ok"
     },
     {
       "source_id": "mcc_pg_current_events",
-      "last_finished_at": "2026-11-07T05:59:45.151027+00:00",
+      "last_finished_at": "2026-11-07T13:03:37.856055+00:00",
       "status": "ok"
     },
     {
       "source_id": "mcc_pg_news_events",
-      "last_finished_at": "2026-11-07T05:59:45.309938+00:00",
+      "last_finished_at": "2026-11-07T13:03:38.886477+00:00",
       "status": "ok"
     }
   ]
