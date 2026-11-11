@@ -1,17 +1,97 @@
 {
-  "generated_at": "2026-11-11T06:24:07.223930+00:00",
+  "generated_at": "2026-11-11T19:37:01.466434+00:00",
   "dashboard": {
     "current_cycle": "PG Counselling 2026",
     "rounds_seen": [
       "Round 2",
       "Round 1"
     ],
-    "last_checked": "2026-11-11T06:24:07.215368+00:00",
+    "last_checked": "2026-11-11T19:37:01.459625+00:00",
     "last_official_update": "2026-11-11",
     "sources_monitored": 3,
-    "total_documents": 575
+    "total_documents": 579
   },
   "documents": [
+    {
+      "id": 579,
+      "source_id": "mcc_pg_news_events",
+      "content_hash": "0ee42140874e102b674372d2e0a79ffa33328469c52a4154b9c57ff8389a4f65",
+      "title": "NOTICE FOR ADDITION AND REMOVAL OF SEATS FROM ROUND 2 PG 2026 11.11.2026",
+      "file_url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/11/202611111206941992.pdf",
+      "doc_type": "public_notice",
+      "doc_type_confidence": 0.9,
+      "cycle_label": "PG Counselling 2026",
+      "round_label": "Round 2",
+      "pub_date": "2026-11-11",
+      "pub_date_basis": "title",
+      "pub_date_confidence": "high",
+      "retrieved_at": "2026-11-11T19:36:59.823978+00:00",
+      "listing_position": 0,
+      "raw_year_column": "2026",
+      "superseded_by_id": null,
+      "source_url": "https://mcc.nic.in/news-events-pg/",
+      "authority_name": "Medical Counselling Committee"
+    },
+    {
+      "id": 578,
+      "source_id": "mcc_pg_current_events",
+      "content_hash": "fdc9d0744d025e83888b05c855abca5a9cb0b2d5f2841fe9ffbfe76a72619aa3",
+      "title": "VIRTUAL VACANCY ROUND 2 (MD/MS/DNB) \u2013 PG COUNSELLING 2026",
+      "file_url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/11/202611111350590462.pdf",
+      "doc_type": "vacancy",
+      "doc_type_confidence": 0.9,
+      "cycle_label": "PG Counselling 2026",
+      "round_label": "Round 2",
+      "pub_date": "2026-11-11",
+      "pub_date_basis": "filename",
+      "pub_date_confidence": "medium",
+      "retrieved_at": "2026-11-11T19:36:59.486592+00:00",
+      "listing_position": 2,
+      "raw_year_column": "2026",
+      "superseded_by_id": null,
+      "source_url": "https://mcc.nic.in/current-events-pg/",
+      "authority_name": "Medical Counselling Committee"
+    },
+    {
+      "id": 577,
+      "source_id": "mcc_pg_current_events",
+      "content_hash": "e095a11675ecd1649726d6685ff030ffa38972c27f81e5a8394c4eb6fb2c55cd",
+      "title": "NEWLY ADDED SEATS ROUND 2 (MD/MS/DNB) \u2013 PG COUNSELLING 2026",
+      "file_url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/11/202611111088701627.pdf",
+      "doc_type": "unclassified",
+      "doc_type_confidence": 0.3,
+      "cycle_label": "PG Counselling 2026",
+      "round_label": "Round 2",
+      "pub_date": "2026-11-11",
+      "pub_date_basis": "filename",
+      "pub_date_confidence": "medium",
+      "retrieved_at": "2026-11-11T19:36:59.486592+00:00",
+      "listing_position": 1,
+      "raw_year_column": "2026",
+      "superseded_by_id": null,
+      "source_url": "https://mcc.nic.in/current-events-pg/",
+      "authority_name": "Medical Counselling Committee"
+    },
+    {
+      "id": 576,
+      "source_id": "mcc_pg_current_events",
+      "content_hash": "80bf3c22c2fa5dfe1db96f16e1cf8138e0327d2c59871878ac920554f8d223b7",
+      "title": "CLEAR VACANCY ROUND 2 (MD/MS/DNB) \u2013 PG COUNSELLING 2026",
+      "file_url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/11/20261111393380887.pdf",
+      "doc_type": "vacancy",
+      "doc_type_confidence": 0.9,
+      "cycle_label": "PG Counselling 2026",
+      "round_label": "Round 2",
+      "pub_date": "2026-11-11",
+      "pub_date_basis": "filename",
+      "pub_date_confidence": "medium",
+      "retrieved_at": "2026-11-11T19:36:59.486592+00:00",
+      "listing_position": 0,
+      "raw_year_column": "2026",
+      "superseded_by_id": null,
+      "source_url": "https://mcc.nic.in/current-events-pg/",
+      "authority_name": "Medical Counselling Committee"
+    },
     {
       "id": 575,
       "source_id": "mcc_pg_current_events",
@@ -11515,6 +11595,70 @@
   ],
   "changes": [
     {
+      "id": 579,
+      "document_id": 579,
+      "change_type": "new_document",
+      "detected_at": "2026-11-11T19:36:59.823978+00:00",
+      "run_id": 530,
+      "summary": "New public notice: NOTICE FOR ADDITION AND REMOVAL OF SEATS FROM ROUND 2 PG 2026 11.11.2026",
+      "title": "NOTICE FOR ADDITION AND REMOVAL OF SEATS FROM ROUND 2 PG 2026 11.11.2026",
+      "doc_type": "public_notice",
+      "file_url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/11/202611111206941992.pdf",
+      "round_label": "Round 2",
+      "cycle_label": "PG Counselling 2026",
+      "pub_date": "2026-11-11",
+      "pub_date_basis": "title",
+      "pub_date_confidence": "high"
+    },
+    {
+      "id": 578,
+      "document_id": 578,
+      "change_type": "new_document",
+      "detected_at": "2026-11-11T19:36:59.486592+00:00",
+      "run_id": 529,
+      "summary": "New vacancy: VIRTUAL VACANCY ROUND 2 (MD/MS/DNB) \u2013 PG COUNSELLING 2026",
+      "title": "VIRTUAL VACANCY ROUND 2 (MD/MS/DNB) \u2013 PG COUNSELLING 2026",
+      "doc_type": "vacancy",
+      "file_url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/11/202611111350590462.pdf",
+      "round_label": "Round 2",
+      "cycle_label": "PG Counselling 2026",
+      "pub_date": "2026-11-11",
+      "pub_date_basis": "filename",
+      "pub_date_confidence": "medium"
+    },
+    {
+      "id": 577,
+      "document_id": 577,
+      "change_type": "new_document",
+      "detected_at": "2026-11-11T19:36:59.486592+00:00",
+      "run_id": 529,
+      "summary": "New unclassified: NEWLY ADDED SEATS ROUND 2 (MD/MS/DNB) \u2013 PG COUNSELLING 2026",
+      "title": "NEWLY ADDED SEATS ROUND 2 (MD/MS/DNB) \u2013 PG COUNSELLING 2026",
+      "doc_type": "unclassified",
+      "file_url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/11/202611111088701627.pdf",
+      "round_label": "Round 2",
+      "cycle_label": "PG Counselling 2026",
+      "pub_date": "2026-11-11",
+      "pub_date_basis": "filename",
+      "pub_date_confidence": "medium"
+    },
+    {
+      "id": 576,
+      "document_id": 576,
+      "change_type": "new_document",
+      "detected_at": "2026-11-11T19:36:59.486592+00:00",
+      "run_id": 529,
+      "summary": "New vacancy: CLEAR VACANCY ROUND 2 (MD/MS/DNB) \u2013 PG COUNSELLING 2026",
+      "title": "CLEAR VACANCY ROUND 2 (MD/MS/DNB) \u2013 PG COUNSELLING 2026",
+      "doc_type": "vacancy",
+      "file_url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/11/20261111393380887.pdf",
+      "round_label": "Round 2",
+      "cycle_label": "PG Counselling 2026",
+      "pub_date": "2026-11-11",
+      "pub_date_basis": "filename",
+      "pub_date_confidence": "medium"
+    },
+    {
       "id": 575,
       "document_id": 575,
       "change_type": "new_document",
@@ -20718,17 +20862,17 @@
   "sources": [
     {
       "source_id": "mcc_pg_archive",
-      "last_finished_at": "2026-11-11T06:24:07.215368+00:00",
+      "last_finished_at": "2026-11-11T19:37:01.459625+00:00",
       "status": "ok"
     },
     {
       "source_id": "mcc_pg_current_events",
-      "last_finished_at": "2026-11-11T06:24:05.148556+00:00",
+      "last_finished_at": "2026-11-11T19:36:59.499296+00:00",
       "status": "ok"
     },
     {
       "source_id": "mcc_pg_news_events",
-      "last_finished_at": "2026-11-11T06:24:05.500029+00:00",
+      "last_finished_at": "2026-11-11T19:36:59.843775+00:00",
       "status": "ok"
     }
   ]
