@@ -1,17 +1,77 @@
 {
-  "generated_at": "2026-11-12T07:12:41.426767+00:00",
+  "generated_at": "2026-11-12T19:55:33.150335+00:00",
   "dashboard": {
     "current_cycle": "PG Counselling 2026",
     "rounds_seen": [
       "Round 2",
       "Round 1"
     ],
-    "last_checked": "2026-11-12T07:12:41.417216+00:00",
-    "last_official_update": "2026-11-11",
+    "last_checked": "2026-11-12T19:55:33.142291+00:00",
+    "last_official_update": "2026-11-12",
     "sources_monitored": 3,
-    "total_documents": 579
+    "total_documents": 582
   },
   "documents": [
+    {
+      "id": 582,
+      "source_id": "mcc_pg_news_events",
+      "content_hash": "8f3d0b7685852b77ede8ce298f9476f10bbd817d5716fb92844ca8e8060fb281",
+      "title": "Notice for Not Reported candidates of Round-1",
+      "file_url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/11/20261112771167544.pdf",
+      "doc_type": "public_notice",
+      "doc_type_confidence": 0.9,
+      "cycle_label": null,
+      "round_label": "Round 1",
+      "pub_date": "2026-11-12",
+      "pub_date_basis": "filename",
+      "pub_date_confidence": "medium",
+      "retrieved_at": "2026-11-12T19:55:32.143769+00:00",
+      "listing_position": 1,
+      "raw_year_column": "2026",
+      "superseded_by_id": null,
+      "source_url": "https://mcc.nic.in/news-events-pg/",
+      "authority_name": "Medical Counselling Committee"
+    },
+    {
+      "id": 581,
+      "source_id": "mcc_pg_news_events",
+      "content_hash": "dc4621b0a2bf50f7b913bd79190acc76f8394edf7875ad627ed5c114e84dc2be",
+      "title": "Notice for inclusion of option AIQ and DNB BOTH in Drop Down menu for Choice Filling",
+      "file_url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/11/202611121709642276.pdf",
+      "doc_type": "choice_filling_notice",
+      "doc_type_confidence": 0.9,
+      "cycle_label": null,
+      "round_label": null,
+      "pub_date": "2026-11-12",
+      "pub_date_basis": "filename",
+      "pub_date_confidence": "medium",
+      "retrieved_at": "2026-11-12T19:55:32.143769+00:00",
+      "listing_position": 0,
+      "raw_year_column": "2026",
+      "superseded_by_id": null,
+      "source_url": "https://mcc.nic.in/news-events-pg/",
+      "authority_name": "Medical Counselling Committee"
+    },
+    {
+      "id": 580,
+      "source_id": "mcc_pg_current_events",
+      "content_hash": "229b2c6f2e73381058d67a2c1baffa2d92f6e78a4e301dbc0bace3390cc304e1",
+      "title": "NEWLY ADDED SEATS ROUND 2 (MD/MS/DNB) \u2013 PG COUNSELLING 2026",
+      "file_url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/11/2026111214351176.pdf",
+      "doc_type": "unclassified",
+      "doc_type_confidence": 0.3,
+      "cycle_label": "PG Counselling 2026",
+      "round_label": "Round 2",
+      "pub_date": "2026-11-12",
+      "pub_date_basis": "filename",
+      "pub_date_confidence": "medium",
+      "retrieved_at": "2026-11-12T19:55:31.221383+00:00",
+      "listing_position": 1,
+      "raw_year_column": "2026",
+      "superseded_by_id": null,
+      "source_url": "https://mcc.nic.in/current-events-pg/",
+      "authority_name": "Medical Counselling Committee"
+    },
     {
       "id": 579,
       "source_id": "mcc_pg_news_events",
@@ -11595,6 +11655,54 @@
   ],
   "changes": [
     {
+      "id": 582,
+      "document_id": 582,
+      "change_type": "new_document",
+      "detected_at": "2026-11-12T19:55:32.143769+00:00",
+      "run_id": 536,
+      "summary": "New public notice: Notice for Not Reported candidates of Round-1",
+      "title": "Notice for Not Reported candidates of Round-1",
+      "doc_type": "public_notice",
+      "file_url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/11/20261112771167544.pdf",
+      "round_label": "Round 1",
+      "cycle_label": null,
+      "pub_date": "2026-11-12",
+      "pub_date_basis": "filename",
+      "pub_date_confidence": "medium"
+    },
+    {
+      "id": 581,
+      "document_id": 581,
+      "change_type": "new_document",
+      "detected_at": "2026-11-12T19:55:32.143769+00:00",
+      "run_id": 536,
+      "summary": "New choice filling notice: Notice for inclusion of option AIQ and DNB BOTH in Drop Down menu for Choice Filling",
+      "title": "Notice for inclusion of option AIQ and DNB BOTH in Drop Down menu for Choice Filling",
+      "doc_type": "choice_filling_notice",
+      "file_url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/11/202611121709642276.pdf",
+      "round_label": null,
+      "cycle_label": null,
+      "pub_date": "2026-11-12",
+      "pub_date_basis": "filename",
+      "pub_date_confidence": "medium"
+    },
+    {
+      "id": 580,
+      "document_id": 580,
+      "change_type": "new_document",
+      "detected_at": "2026-11-12T19:55:31.221383+00:00",
+      "run_id": 535,
+      "summary": "New unclassified: NEWLY ADDED SEATS ROUND 2 (MD/MS/DNB) \u2013 PG COUNSELLING 2026",
+      "title": "NEWLY ADDED SEATS ROUND 2 (MD/MS/DNB) \u2013 PG COUNSELLING 2026",
+      "doc_type": "unclassified",
+      "file_url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/11/2026111214351176.pdf",
+      "round_label": "Round 2",
+      "cycle_label": "PG Counselling 2026",
+      "pub_date": "2026-11-12",
+      "pub_date_basis": "filename",
+      "pub_date_confidence": "medium"
+    },
+    {
       "id": 579,
       "document_id": 579,
       "change_type": "new_document",
@@ -20862,17 +20970,17 @@
   "sources": [
     {
       "source_id": "mcc_pg_archive",
-      "last_finished_at": "2026-11-12T07:12:41.417216+00:00",
+      "last_finished_at": "2026-11-12T19:55:33.142291+00:00",
       "status": "ok"
     },
     {
       "source_id": "mcc_pg_current_events",
-      "last_finished_at": "2026-11-12T07:12:39.223531+00:00",
+      "last_finished_at": "2026-11-12T19:55:31.236436+00:00",
       "status": "ok"
     },
     {
       "source_id": "mcc_pg_news_events",
-      "last_finished_at": "2026-11-12T07:12:39.614224+00:00",
+      "last_finished_at": "2026-11-12T19:55:32.169103+00:00",
       "status": "ok"
     }
   ]
