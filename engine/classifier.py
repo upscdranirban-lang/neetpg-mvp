@@ -88,6 +88,15 @@ def classify(title: str) -> Classification:
         if year_match:
             cycle_label = f"PG Counselling {year_match.group(0)}"
 
+    if cycle_label is None:
+        # MCC titles often say only "... Round 1 dated 24.10.2026". A
+        # document dated Jun-Dec belongs to that calendar year's cycle.
+        # Jan-May dates are ambiguous (stray rounds of the previous
+        # cycle), so those are deliberately left unlabelled for review.
+        dm = re.search(r"dated\s+\d{1,2}[./-](\d{1,2})[./-](20\d{2})", t)
+        if dm and 6 <= int(dm.group(1)) <= 12:
+            cycle_label = f"PG Counselling {dm.group(2)}"
+
     return Classification(
         doc_type=doc_type,
         doc_type_confidence=confidence,
