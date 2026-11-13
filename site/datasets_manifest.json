@@ -1,6 +1,10 @@
 {
   "datasets": [
     {
+      "id": "auto2026r1",
+      "source_file": "datasets/auto2026r1.json"
+    },
+    {
       "id": "auto2025r1",
       "source_file": "datasets/auto2025r1.json"
     },
@@ -15,10 +19,6 @@
     {
       "id": "real2024",
       "source_file": "datasets/real2024.json"
-    },
-    {
-      "id": "autounknownr1",
-      "source_file": "datasets/autounknownr1.json"
     }
   ]
 }
