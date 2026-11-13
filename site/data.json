@@ -1,17 +1,37 @@
 {
-  "generated_at": "2026-11-12T19:55:33.150335+00:00",
+  "generated_at": "2026-11-13T06:48:14.279535+00:00",
   "dashboard": {
     "current_cycle": "PG Counselling 2026",
     "rounds_seen": [
       "Round 2",
       "Round 1"
     ],
-    "last_checked": "2026-11-12T19:55:33.142291+00:00",
-    "last_official_update": "2026-11-12",
+    "last_checked": "2026-11-13T06:48:14.270223+00:00",
+    "last_official_update": "2026-11-13",
     "sources_monitored": 3,
-    "total_documents": 582
+    "total_documents": 583
   },
   "documents": [
+    {
+      "id": 583,
+      "source_id": "mcc_pg_news_events",
+      "content_hash": "a5c7786c6e7719d7988829de7464245c37844d828335056daa9bf48221579e85",
+      "title": "Notice reg Choice filling of Round 2 being temporarily suspended",
+      "file_url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/11/202611131916783919.pdf",
+      "doc_type": "choice_filling_notice",
+      "doc_type_confidence": 0.9,
+      "cycle_label": null,
+      "round_label": "Round 2",
+      "pub_date": "2026-11-13",
+      "pub_date_basis": "filename",
+      "pub_date_confidence": "medium",
+      "retrieved_at": "2026-11-13T06:48:13.289801+00:00",
+      "listing_position": 0,
+      "raw_year_column": "2026",
+      "superseded_by_id": null,
+      "source_url": "https://mcc.nic.in/news-events-pg/",
+      "authority_name": "Medical Counselling Committee"
+    },
     {
       "id": 582,
       "source_id": "mcc_pg_news_events",
@@ -11655,6 +11675,22 @@
   ],
   "changes": [
     {
+      "id": 583,
+      "document_id": 583,
+      "change_type": "new_document",
+      "detected_at": "2026-11-13T06:48:13.289801+00:00",
+      "run_id": 539,
+      "summary": "New choice filling notice: Notice reg Choice filling of Round 2 being temporarily suspended",
+      "title": "Notice reg Choice filling of Round 2 being temporarily suspended",
+      "doc_type": "choice_filling_notice",
+      "file_url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/11/202611131916783919.pdf",
+      "round_label": "Round 2",
+      "cycle_label": null,
+      "pub_date": "2026-11-13",
+      "pub_date_basis": "filename",
+      "pub_date_confidence": "medium"
+    },
+    {
       "id": 582,
       "document_id": 582,
       "change_type": "new_document",
@@ -20970,17 +21006,17 @@
   "sources": [
     {
       "source_id": "mcc_pg_archive",
-      "last_finished_at": "2026-11-12T19:55:33.142291+00:00",
+      "last_finished_at": "2026-11-13T06:48:14.270223+00:00",
       "status": "ok"
     },
     {
       "source_id": "mcc_pg_current_events",
-      "last_finished_at": "2026-11-12T19:55:31.236436+00:00",
+      "last_finished_at": "2026-11-13T06:48:11.996741+00:00",
       "status": "ok"
     },
     {
       "source_id": "mcc_pg_news_events",
-      "last_finished_at": "2026-11-12T19:55:32.169103+00:00",
+      "last_finished_at": "2026-11-13T06:48:13.328740+00:00",
       "status": "ok"
     }
   ]
