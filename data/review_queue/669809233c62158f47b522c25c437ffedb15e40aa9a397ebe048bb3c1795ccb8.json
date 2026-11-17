@@ -1,0 +1,16 @@
+{
+  "document": {
+    "id": 588,
+    "content_hash": "669809233c62158f47b522c25c437ffedb15e40aa9a397ebe048bb3c1795ccb8",
+    "title": "Notice for result of Round-2 of PG Counselling 2026",
+    "file_url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/11/202611171047091852.pdf",
+    "doc_type": "result",
+    "cycle_label": "PG Counselling 2026",
+    "round_label": "Round 2"
+  },
+  "reason": "unknown_layout",
+  "details": {
+    "note": "This document's table structure doesn't match the r1r2r3 or stray layouts this pipeline knows how to extract. A human needs to look at it and, if it's a new layout worth supporting, write a new extractor for it (see extract_stray_pdf.py for the simplest example to copy)."
+  },
+  "queued_at": "2026-11-17T20:56:40.333333+00:00"
+}

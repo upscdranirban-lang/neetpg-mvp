@@ -1,17 +1,37 @@
 {
-  "generated_at": "2026-11-17T07:56:28.871815+00:00",
+  "generated_at": "2026-11-17T20:56:42.431040+00:00",
   "dashboard": {
     "current_cycle": "PG Counselling 2026",
     "rounds_seen": [
       "Round 2",
       "Round 1"
     ],
-    "last_checked": "2026-11-17T07:56:28.864219+00:00",
-    "last_official_update": "2026-11-14",
+    "last_checked": "2026-11-17T20:56:42.421771+00:00",
+    "last_official_update": "2026-11-17",
     "sources_monitored": 3,
-    "total_documents": 587
+    "total_documents": 588
   },
   "documents": [
+    {
+      "id": 588,
+      "source_id": "mcc_pg_current_events",
+      "content_hash": "669809233c62158f47b522c25c437ffedb15e40aa9a397ebe048bb3c1795ccb8",
+      "title": "Notice for result of Round-2 of PG Counselling 2026",
+      "file_url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/11/202611171047091852.pdf",
+      "doc_type": "result",
+      "doc_type_confidence": 0.9,
+      "cycle_label": "PG Counselling 2026",
+      "round_label": "Round 2",
+      "pub_date": "2026-11-17",
+      "pub_date_basis": "filename",
+      "pub_date_confidence": "medium",
+      "retrieved_at": "2026-11-17T20:56:39.918383+00:00",
+      "listing_position": 0,
+      "raw_year_column": "2026",
+      "superseded_by_id": null,
+      "source_url": "https://mcc.nic.in/current-events-pg/",
+      "authority_name": "Medical Counselling Committee"
+    },
     {
       "id": 587,
       "source_id": "mcc_pg_news_events",
@@ -11755,6 +11775,22 @@
   ],
   "changes": [
     {
+      "id": 588,
+      "document_id": 588,
+      "change_type": "new_document",
+      "detected_at": "2026-11-17T20:56:39.918383+00:00",
+      "run_id": 571,
+      "summary": "New result: Notice for result of Round-2 of PG Counselling 2026",
+      "title": "Notice for result of Round-2 of PG Counselling 2026",
+      "doc_type": "result",
+      "file_url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/11/202611171047091852.pdf",
+      "round_label": "Round 2",
+      "cycle_label": "PG Counselling 2026",
+      "pub_date": "2026-11-17",
+      "pub_date_basis": "filename",
+      "pub_date_confidence": "medium"
+    },
+    {
       "id": 587,
       "document_id": 587,
       "change_type": "new_document",
@@ -21150,17 +21186,17 @@
   "sources": [
     {
       "source_id": "mcc_pg_archive",
-      "last_finished_at": "2026-11-17T07:56:28.864219+00:00",
+      "last_finished_at": "2026-11-17T20:56:42.421771+00:00",
       "status": "ok"
     },
     {
       "source_id": "mcc_pg_current_events",
-      "last_finished_at": "2026-11-17T07:56:26.974173+00:00",
+      "last_finished_at": "2026-11-17T20:56:39.943819+00:00",
       "status": "ok"
     },
     {
       "source_id": "mcc_pg_news_events",
-      "last_finished_at": "2026-11-17T07:56:27.340080+00:00",
+      "last_finished_at": "2026-11-17T20:56:40.681507+00:00",
       "status": "ok"
     }
   ]
