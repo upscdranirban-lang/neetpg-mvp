@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-19T07:27:23.695749+00:00",
+  "generated_at": "2026-11-19T20:38:56.118399+00:00",
   "dashboard": {
     "current_cycle": "PG Counselling 2026",
     "rounds_seen": [
       "Round 2",
       "Round 1"
     ],
-    "last_checked": "2026-11-19T07:27:23.687692+00:00",
+    "last_checked": "2026-11-19T20:38:56.108711+00:00",
     "last_official_update": "2026-11-17",
     "sources_monitored": 3,
     "total_documents": 588
@@ -21186,17 +21186,17 @@
   "sources": [
     {
       "source_id": "mcc_pg_archive",
-      "last_finished_at": "2026-11-19T07:27:23.687692+00:00",
+      "last_finished_at": "2026-11-19T20:38:56.108711+00:00",
       "status": "ok"
     },
     {
       "source_id": "mcc_pg_current_events",
-      "last_finished_at": "2026-11-19T07:27:22.485189+00:00",
+      "last_finished_at": "2026-11-19T20:38:54.076040+00:00",
       "status": "ok"
     },
     {
       "source_id": "mcc_pg_news_events",
-      "last_finished_at": "2026-11-19T07:27:22.845935+00:00",
+      "last_finished_at": "2026-11-19T20:38:55.171731+00:00",
       "status": "ok"
     }
   ]
