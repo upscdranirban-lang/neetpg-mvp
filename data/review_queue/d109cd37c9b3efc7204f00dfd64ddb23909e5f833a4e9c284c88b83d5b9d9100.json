@@ -1,0 +1,16 @@
+{
+  "document": {
+    "id": 592,
+    "content_hash": "d109cd37c9b3efc7204f00dfd64ddb23909e5f833a4e9c284c88b83d5b9d9100",
+    "title": "Notice for provisional Allotment Result of NEET PG Round -2 2026 dated 20.11.2026.pdf",
+    "file_url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/11/202611202125598388.pdf",
+    "doc_type": "provisional_result",
+    "cycle_label": "PG Counselling 2026",
+    "round_label": "Round 2"
+  },
+  "reason": "unknown_layout",
+  "details": {
+    "note": "This document's table structure doesn't match the r1r2r3 or stray layouts this pipeline knows how to extract. A human needs to look at it and, if it's a new layout worth supporting, write a new extractor for it (see extract_stray_pdf.py for the simplest example to copy)."
+  },
+  "queued_at": "2026-11-20T20:23:07.265114+00:00"
+}

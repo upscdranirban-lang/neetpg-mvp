@@ -1,17 +1,97 @@
 {
-  "generated_at": "2026-11-20T07:18:01.909806+00:00",
+  "generated_at": "2026-11-20T20:23:07.985925+00:00",
   "dashboard": {
     "current_cycle": "PG Counselling 2026",
     "rounds_seen": [
       "Round 2",
       "Round 1"
     ],
-    "last_checked": "2026-11-20T07:18:01.902231+00:00",
+    "last_checked": "2026-11-20T20:23:07.113168+00:00",
     "last_official_update": "2026-11-20",
     "sources_monitored": 3,
-    "total_documents": 589
+    "total_documents": 593
   },
   "documents": [
+    {
+      "id": 593,
+      "source_id": "mcc_pg_archive",
+      "content_hash": "171eefd0047d8fe2cd30fd4e71141936ae675ee4c535a663e2cdd3c02b27f12a",
+      "title": "Provisional Allotment Result of NEET PG Round -2 2026",
+      "file_url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/11/202611201435793664.pdf",
+      "doc_type": "provisional_result",
+      "doc_type_confidence": 0.9,
+      "cycle_label": null,
+      "round_label": "Round 2",
+      "pub_date": "2026-11-20",
+      "pub_date_basis": "filename",
+      "pub_date_confidence": "medium",
+      "retrieved_at": "2026-11-20T20:23:06.877604+00:00",
+      "listing_position": 35,
+      "raw_year_column": "2026",
+      "superseded_by_id": null,
+      "source_url": "https://mcc.nic.in/archive-pg/",
+      "authority_name": "Medical Counselling Committee"
+    },
+    {
+      "id": 592,
+      "source_id": "mcc_pg_archive",
+      "content_hash": "d109cd37c9b3efc7204f00dfd64ddb23909e5f833a4e9c284c88b83d5b9d9100",
+      "title": "Notice for provisional Allotment Result of NEET PG Round -2 2026 dated 20.11.2026.pdf",
+      "file_url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/11/202611202125598388.pdf",
+      "doc_type": "provisional_result",
+      "doc_type_confidence": 0.9,
+      "cycle_label": "PG Counselling 2026",
+      "round_label": "Round 2",
+      "pub_date": "2026-11-20",
+      "pub_date_basis": "title",
+      "pub_date_confidence": "high",
+      "retrieved_at": "2026-11-20T20:23:06.877604+00:00",
+      "listing_position": 34,
+      "raw_year_column": "2026",
+      "superseded_by_id": null,
+      "source_url": "https://mcc.nic.in/archive-pg/",
+      "authority_name": "Medical Counselling Committee"
+    },
+    {
+      "id": 591,
+      "source_id": "mcc_pg_current_events",
+      "content_hash": "a6208f5ad4e2d893dee5de3638d581029c146880cad0c32724cf7c5727113e2b",
+      "title": "Final Allotment Result for PG 2026 Round 2",
+      "file_url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/11/202611202051238408.pdf",
+      "doc_type": "result",
+      "doc_type_confidence": 0.9,
+      "cycle_label": "PG Counselling 2026",
+      "round_label": "Round 2",
+      "pub_date": "2026-11-20",
+      "pub_date_basis": "filename",
+      "pub_date_confidence": "medium",
+      "retrieved_at": "2026-11-20T20:23:04.096730+00:00",
+      "listing_position": 1,
+      "raw_year_column": "2026",
+      "superseded_by_id": null,
+      "source_url": "https://mcc.nic.in/current-events-pg/",
+      "authority_name": "Medical Counselling Committee"
+    },
+    {
+      "id": 590,
+      "source_id": "mcc_pg_current_events",
+      "content_hash": "40a766f0705c5a6461995f140893a9523a2a804542b21acd8b812340da80184c",
+      "title": "Notice for Reporting schedule of Round 2 of PG Counselling 2026",
+      "file_url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/11/20261120750611410.pdf",
+      "doc_type": "counselling_schedule",
+      "doc_type_confidence": 0.9,
+      "cycle_label": "PG Counselling 2026",
+      "round_label": "Round 2",
+      "pub_date": "2026-11-20",
+      "pub_date_basis": "filename",
+      "pub_date_confidence": "medium",
+      "retrieved_at": "2026-11-20T20:23:04.096730+00:00",
+      "listing_position": 0,
+      "raw_year_column": "2026",
+      "superseded_by_id": null,
+      "source_url": "https://mcc.nic.in/current-events-pg/",
+      "authority_name": "Medical Counselling Committee"
+    },
     {
       "id": 589,
       "source_id": "mcc_pg_news_events",
@@ -11795,6 +11875,70 @@
   ],
   "changes": [
     {
+      "id": 593,
+      "document_id": 593,
+      "change_type": "new_document",
+      "detected_at": "2026-11-20T20:23:06.877604+00:00",
+      "run_id": 591,
+      "summary": "New provisional result: Provisional Allotment Result of NEET PG Round -2 2026",
+      "title": "Provisional Allotment Result of NEET PG Round -2 2026",
+      "doc_type": "provisional_result",
+      "file_url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/11/202611201435793664.pdf",
+      "round_label": "Round 2",
+      "cycle_label": null,
+      "pub_date": "2026-11-20",
+      "pub_date_basis": "filename",
+      "pub_date_confidence": "medium"
+    },
+    {
+      "id": 592,
+      "document_id": 592,
+      "change_type": "new_document",
+      "detected_at": "2026-11-20T20:23:06.877604+00:00",
+      "run_id": 591,
+      "summary": "New provisional result: Notice for provisional Allotment Result of NEET PG Round -2 2026 dated 20.11.2026.pdf",
+      "title": "Notice for provisional Allotment Result of NEET PG Round -2 2026 dated 20.11.2026.pdf",
+      "doc_type": "provisional_result",
+      "file_url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/11/202611202125598388.pdf",
+      "round_label": "Round 2",
+      "cycle_label": "PG Counselling 2026",
+      "pub_date": "2026-11-20",
+      "pub_date_basis": "title",
+      "pub_date_confidence": "high"
+    },
+    {
+      "id": 591,
+      "document_id": 591,
+      "change_type": "new_document",
+      "detected_at": "2026-11-20T20:23:04.096730+00:00",
+      "run_id": 589,
+      "summary": "New result: Final Allotment Result for PG 2026 Round 2",
+      "title": "Final Allotment Result for PG 2026 Round 2",
+      "doc_type": "result",
+      "file_url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/11/202611202051238408.pdf",
+      "round_label": "Round 2",
+      "cycle_label": "PG Counselling 2026",
+      "pub_date": "2026-11-20",
+      "pub_date_basis": "filename",
+      "pub_date_confidence": "medium"
+    },
+    {
+      "id": 590,
+      "document_id": 590,
+      "change_type": "new_document",
+      "detected_at": "2026-11-20T20:23:04.096730+00:00",
+      "run_id": 589,
+      "summary": "New counselling schedule: Notice for Reporting schedule of Round 2 of PG Counselling 2026",
+      "title": "Notice for Reporting schedule of Round 2 of PG Counselling 2026",
+      "doc_type": "counselling_schedule",
+      "file_url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/11/20261120750611410.pdf",
+      "round_label": "Round 2",
+      "cycle_label": "PG Counselling 2026",
+      "pub_date": "2026-11-20",
+      "pub_date_basis": "filename",
+      "pub_date_confidence": "medium"
+    },
+    {
       "id": 589,
       "document_id": 589,
       "change_type": "new_document",
@@ -21222,17 +21366,17 @@
   "sources": [
     {
       "source_id": "mcc_pg_archive",
-      "last_finished_at": "2026-11-20T07:18:01.902231+00:00",
+      "last_finished_at": "2026-11-20T20:23:07.113168+00:00",
       "status": "ok"
     },
     {
       "source_id": "mcc_pg_current_events",
-      "last_finished_at": "2026-11-20T07:18:00.797744+00:00",
+      "last_finished_at": "2026-11-20T20:23:04.112645+00:00",
       "status": "ok"
     },
     {
       "source_id": "mcc_pg_news_events",
-      "last_finished_at": "2026-11-20T07:18:01.130558+00:00",
+      "last_finished_at": "2026-11-20T20:23:05.553920+00:00",
       "status": "ok"
     }
   ]
